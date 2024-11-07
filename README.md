@@ -14,3 +14,21 @@
 
 #### Books
 - Emergent Design
+
+#### Privacy, Mobile
+- [Privacy Breakdown of Mobile Phones](https://ssd.eff.org/playlist/privacy-breakdown-mobile-phones#mobile-phones-location-tracking)
+- [Code Linaro](https://www.codelinaro.org/)
+- [CalyxOS](https://calyxos.org/)
+- [LineageOS](https://lineageos.org/)
+- [GrapheneOS](https://grapheneos.org/)
+- [Open Source Software](https://osssoftware.org/)
+- [FOSS Hub](https://www.fosshub.com/)
+- [GNU Operating System](https://www.gnu.org/)
+- [FOSS](https://www.freeopensourcesoftware.org/index.php/Main_Page)
+- [Overview of the Play Integrity API](https://developer.android.com/google/play/integrity/overview)
+- [FOSS Post](https://fosspost.org/)
+- [ProxMox](https://www.proxmox.com/en/)
+- [Open Nebula](https://opennebula.io/)
+- [Its FOSS News](https://news.itsfoss.com/)
+- []()
+- []()
