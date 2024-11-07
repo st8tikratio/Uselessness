@@ -30,5 +30,3 @@
 - [ProxMox](https://www.proxmox.com/en/)
 - [Open Nebula](https://opennebula.io/)
 - [Its FOSS News](https://news.itsfoss.com/)
-- []()
-- []()
