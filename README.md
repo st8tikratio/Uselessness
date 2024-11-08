@@ -16,8 +16,8 @@
 - Emergent Design
 
 #### Platforms
-- [Machinations - Public Profile](https://machinations.io/community/skidmarc99/profile)
-- [HackMd - All Notes](https://hackmd.io/Xn_ZlFAIRKCu-GCgAHWUjg?view)
+- [Machinations - Public Profile - Sk99](https://machinations.io/community/skidmarc99/profile)
+- [HackMd - All Notes - GH SSO](https://hackmd.io/Xn_ZlFAIRKCu-GCgAHWUjg?view)
 
 #### Privacy, Mobile
 - [Privacy Breakdown of Mobile Phones](https://ssd.eff.org/playlist/privacy-breakdown-mobile-phones#mobile-phones-location-tracking)
