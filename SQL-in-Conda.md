@@ -65,7 +65,7 @@ to run postgresql there)!
 
 ### 12. in django (Python) e.g. you open with your favorite editor:
 > nano <mysite>/settings.py
-- or instead of [nano]() your *favorite editor*!
+- or instead of [nano]() use your *favorite editor*!
 
 >     DATABASES = {
 >        'default': {
@@ -78,47 +78,32 @@ to run postgresql there)!
 >        }
 >     }
 
+### 13. and it is available for django so that you can do with the connected program these further steps
 
 
+### 14. first install psycopg2 because django requires this for handling postgresql
+> conda install -c anaconda psycopg2
 
-# and it is available for django
-# so that you can do
+### 15. then now you can do:
+> python manage.py migrate
+- to fully integreate the postgresql into your django website
 
-##############################
-# do with the connected program these further steps
-##############################
+### 16. and to be able to use the database, you also need to create a superuser
+> python manage.py createsuperuser --username name 
 
-# first install psycopg2
-# because django requires this for handling postgresql
-conda install -c anaconda psycopg2
+## Stop running the postgres instance under ubuntu
 
-# then now you can do:
-python manage.py migrate
-# to fully integreate the postgresql into your django website
+### 17. monitor whether a postgres instance/server is running or not
+> ps aux | grep postgres
 
-# and to be able to use the database, you also need to create a superuser
-python manage.py createsuperuser --username name 
+### 18. if no instance is running, you will see only one line as the answer to your query - which is from your grep search! ending with: 
+> grep --color=auto postgres
+- ignore this line!
 
-
-
-################################
-# stop running the postgres instance under ubuntu
-################################
-
-# monitor whether a postgres instance/server is running or not
-ps aux | grep postgres
-# if no instance is running, you will see only one line as the answer to your query - which is from your grep search!
-# ending with: grep --color=auto postgres
-# ignore this line!
-# if an instance of postgresql server is running, then several
-# processes are runnng
-# you can kill the server by the first number of the leading line!
-
-kill <number>
-
-# e.g. the output of `ps aux | grep postgres` was:
-
-# username  2673  0.0  0.0  14760   512 pts/11   S+   07:34   0:00 grep --color=auto postgres
+### 19. if an instance of postgresql server is running, then several # processes are runnng # you can kill the server by the first number of the leading line!
+> kill <number>
+- e.g. the output of `ps aux | grep postgres` was:
+   > username  2673  0.0  0.0  14760   512 pts/11   S+   07:34   0:00 grep --color=auto postgres
 # username 30550  0.0  0.0 179144 18996 ?        S    Jun13   0:01 /home/username/miniconda3/envs/django/bin/postgres -D mylocal_db
 # username 30552  0.0  0.0 179276  4756 ?        Ss   Jun13   0:00 postgres: checkpointer process   
 # username 30553  0.0  0.0 179144  5216 ?        Ss   Jun13   0:01 postgres: writer process   
