@@ -20,6 +20,8 @@
 - [AI Assistant for Governance: Empowering Team-Based dReps](https://projectcatalyst.io/funds/12/cardano-open-developers/ai-assistant-for-governance-empowering-team-based-dreps)
 - [Sociocratic DReps : A representation framework for Democratic Pluralism](https://projectcatalyst.io/funds/11/cardano-open-ecosystem/sociocratic-dreps-a-representation-framework-for-democratic-pluralism)
 
+### Other
+- [TxPipe](https://txpipe.io/)
 ---
 
 ## Books
