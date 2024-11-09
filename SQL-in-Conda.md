@@ -1,25 +1,44 @@
 # PostgREST and PostgreSQL in a Conda Environment
 
 1. Create your conda environment
-- `conda create -n [***your_new_environment_name***]`
-2. Activate the new conda environment
-- `conda activate [***your_new_environment_name***]`
-3. Install PostgreSQL
-- `conda install postresql`
-4. Install PostgREST
-- `conda install postgrest`
-5. Create a local database
-- `initdb -D [***your_new_db_name***]`
-6. Start the server modus / instance of postgres
-- `pg_ctl -D [***your_new_db_name***] -l logfile start`
-7. **WAIT FOR SERVER TO START**
-8. Create non-super user
-- `createuser --encrypted --pwprompt [***your_non_super_user_name***]`
-   - prompts for namer / password
-9. Create inner-database for non-super user
-- `createdb --owner=[***your_non_super_user_name***] [your_inner_db_name]`
-10. At this point you can run a program and connect to [***your_inner_db_name***]()
 
+   - `conda create -n [your_new_environment_name]`
+
+2. Activate the new conda environment
+
+   - `conda activate [your_new_environment_name]`
+
+3. Install PostgreSQL
+
+   - `conda install postresql`
+
+4. Install PostgREST
+
+   - `conda install postgrest`
+
+5. Create a local database
+
+   - `initdb -D [your_new_db_name]`
+
+6. Start the server modus / instance of postgres
+
+   - `pg_ctl -D [your_new_db_name] -l logfile start`
+
+7. **WAIT FOR SERVER TO START**
+    
+8. Create non-super user
+
+   - `createuser --encrypted --pwprompt [your_non_super_user_name]`
+   
+9. Prompts for name / password
+
+10. Create inner-database for non-super user
+   
+      - `createdb --owner=[your_non_super_user_name] [your_inner_db_name]`
+
+11. At this point you can run a program and connect to `[your_inner_db_name]()`
+
+---
 ### READ MORE BELOW ⬇️ Starting at #11
 ---
 
@@ -37,36 +56,36 @@ to run postgresql there)!
 
 
 ### 1. create conda environment
-- `conda create --name myenv`
+   `conda create --name myenv`
 
 ### 2. enter the environment
-- `conda activate myenv`
+   `conda activate myenv`
 
 ### 3. install postgresql via conda
-- `conda install -y -c conda-forge postgresql`
+   `conda install -y -c conda-forge postgresql`
 
 ### 4. create a base database locally
-- `initdb -D mylocal_db`
+   `initdb -D mylocal_db`
 
 ### 5. now start the server modus/instance of postgres
-- `pg_ctl -D mylocal_db -l logfile start`
+   `pg_ctl -D mylocal_db -l logfile start`
 
 ### 6. waiting for server to start.... done
 ### 7. server started
 ### 8. now the server is up
 
 ### 9. create a non-superuser (more safety!)
-- `createuser --encrypted --pwprompt mynonsuperuser`
+   `createuser --encrypted --pwprompt mynonsuperuser`
 -  asks for name and password
 
 ### 10. using this super user, create inner database inside the base database
-> createdb --owner=mynonsuperuser myinner_db
+   `createdb --owner=mynonsuperuser myinner_db`
 
 ### 11. in this point, if you run some program, you connect your program with this inner database
 - e.g. Django 
 
 ### 12. in django (Python) e.g. you open with your favorite editor:
-> nano <mysite>/settings.py
+   `nano <mysite>/settings.py'
 - or instead of [nano]() use your *favorite editor*!
 
 >     DATABASES = {
