@@ -1,11 +1,15 @@
 # PostgREST and PostgreSQL in a Conda Environment
 
-1. conda create -n [***your_new_environment_name***]()
-
-2. conad activate ***your_new_environment_name***
-
-3. Must create a database
-    - initdb -D ***your_new_db_name***
+1. Create your conda environment
+    - conda create -n [***your_new_environment_name***]()
+2. Activate the new conda environment
+    - conda activate [***your_new_environment_name***]()
+4. Install PostgreSQL
+    - conda install postresql
+5. Install PostgREST
+   - conda install postgrest
+6. Create a local database
+    - initdb -D [***your_new_db_name***]()
 
 
 ---
