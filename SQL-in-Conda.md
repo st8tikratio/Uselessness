@@ -1,20 +1,21 @@
 # PostgREST and PostgreSQL in a Conda Environment
 
 1. Create your conda environment
-    - conda create -n [***your_new_environment_name***]()
+   > conda create -n [***your_new_environment_name***]()
 2. Activate the new conda environment
-    - conda activate [***your_new_environment_name***]()
+   > conda activate [***your_new_environment_name***]()
 3. Install PostgreSQL
-    - conda install postresql
+   > conda install postresql
 4. Install PostgREST
-   - conda install postgrest
+   > conda install postgrest
 5. Create a local database
-    - initdb -D [***your_new_db_name***]()
+   > initdb -D [***your_new_db_name***]()
 6. Start the server modus / instance of postgres
-    - pg_ctl -D [***your_new_db_name***]() -l logfile start
+   > pg_ctl -D [***your_new_db_name***]() -l logfile start
 7. WAIT FOR SERVER TO START
-8. 
-
+8. Create non-super user
+   > createuser --encrypted --pwprompt [***your_non_super_user_name***]()
+9. Create inner-database for 
 
 ---
 
