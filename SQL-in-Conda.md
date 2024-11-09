@@ -157,7 +157,7 @@ stop non-server or server modus/instance of postgres
    - `ps aux | grep postgres`
 
 ### 23. see detailed instructions for finding the correct <process ID> under stop running postgres instance under ubuntu'! And then do:
-   - `kill <process ID>` # to stop postgres
+   - `kill <process ID#>` to stop postgres
 
 
 ### 24. Have fun with your completely locally running - more safe - postgresql❗❗❗❗❗❗
