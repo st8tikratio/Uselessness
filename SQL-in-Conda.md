@@ -4,12 +4,16 @@
     - conda create -n [***your_new_environment_name***]()
 2. Activate the new conda environment
     - conda activate [***your_new_environment_name***]()
-4. Install PostgreSQL
+3. Install PostgreSQL
     - conda install postresql
-5. Install PostgREST
+4. Install PostgREST
    - conda install postgrest
-6. Create a local database
+5. Create a local database
     - initdb -D [***your_new_db_name***]()
+6. Start the server modus / instance of postgres
+    - pg_ctl -D [***your_new_db_name***]() -l logfile start
+7. WAIT FOR SERVER TO START
+8. 
 
 
 ---
