@@ -73,6 +73,7 @@
 
 ### Database
 - [PostgreSQL](https://www.postgresql.org/)
+- [PostgREST](https://docs.postgrest.org/en/v12/) - API
 
 ### Websites
 - [Open Source Software](https://osssoftware.org/)
