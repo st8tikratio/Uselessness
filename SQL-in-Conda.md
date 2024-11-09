@@ -40,11 +40,9 @@
 
 ---
 ### READ MORE BELOW ⬇️ Starting at #11
+#### [Source](https://gist.github.com/gwangjinkim/f13bf596fefa7db7d31c22efd1627c7a)
+##### ❗ Content reformatted for legibility ❗
 ---
-
-[Source](https://gist.github.com/gwangjinkim/f13bf596fefa7db7d31c22efd1627c7a)
-
-❗ Content reformatted for legibility ❗
 
 This gist I write, because I couldn't find step by step instructions 
 how to install and start postgresql locally (using conda within a conda environment - with the result
@@ -56,36 +54,36 @@ to run postgresql there)!
 
 
 ### 1. create conda environment
-   `conda create --name myenv`
+   - `conda create --name myenv`
 
 ### 2. enter the environment
-   `conda activate myenv`
+   - `conda activate myenv`
 
 ### 3. install postgresql via conda
-   `conda install -y -c conda-forge postgresql`
+   - `conda install -y -c conda-forge postgresql`
 
 ### 4. create a base database locally
-   `initdb -D mylocal_db`
+   - `initdb -D mylocal_db`
 
 ### 5. now start the server modus/instance of postgres
-   `pg_ctl -D mylocal_db -l logfile start`
+   - `pg_ctl -D mylocal_db -l logfile start`
 
 ### 6. waiting for server to start.... done
 ### 7. server started
 ### 8. now the server is up
 
 ### 9. create a non-superuser (more safety!)
-   `createuser --encrypted --pwprompt mynonsuperuser`
--  asks for name and password
+   - `createuser --encrypted --pwprompt mynonsuperuser`
+### 10. asks for name and password
 
-### 10. using this super user, create inner database inside the base database
-   `createdb --owner=mynonsuperuser myinner_db`
+### 11. using this super user, create inner database inside the base database
+   - `createdb --owner=mynonsuperuser myinner_db`
 
 ### 11. in this point, if you run some program, you connect your program with this inner database
-- e.g. Django 
+- > e.g. Django 
 
 ### 12. in django (Python) e.g. you open with your favorite editor:
-   `nano <mysite>/settings.py'
+   - `nano <mysite>/settings.py`
 - or instead of [nano]() use your *favorite editor*!
 
 >     DATABASES = {
@@ -103,25 +101,25 @@ to run postgresql there)!
 
 
 ### 14. first install psycopg2 because django requires this for handling postgresql
-> conda install -c anaconda psycopg2
+   - `conda install -c anaconda psycopg2`
 
 ### 15. then now you can do:
-> python manage.py migrate
-- to fully integrate the postgresql into your django website
+   - `python manage.py migrate`
 
-### 16. and to be able to use the database, you also need to create a superuser
-> python manage.py createsuperuser --username name 
+### 16. to fully integrate the postgresql into your django website and to be able to use the database, you also need to create a superuser
+   - `python manage.py createsuperuser --username name`
 
 ## Stop running the postgres instance under ubuntu
 
 ### 17. monitor whether a postgres instance/server is running or not
-> ps aux | grep postgres
+   - `ps aux | grep postgres`
 
 ### 18. if no instance is running, you will see only one line as the answer to your query - which is from your grep search! ending with: 
-> grep --color=auto postgres `ignore this line`
+   - `grep --color=auto postgres`
+   - >ignore this line
 
-### 19. if an instance of postgresql server is running, then several # processes are runnng # you can kill the server by the first number of the leading line!
-> kill <number>
+### 19. if an instance of postgresql server is running, then several processes are runnng. You can kill the server by the first number of the leading line!
+   - `kill <number>`
 
 the output of `ps aux | grep postgres` was:
 
@@ -144,22 +142,22 @@ then  ***2673*** is just the `grep --color=auto postgres` so ignore
 the line ending with `postgres -D /path/to/mylocal_db` is the leading line!
 
 ### 20. take first number occuring in this line (PID - process ID number) which is 30550, therefore kill it by:
-> kill 30550
+   - `kill 30550`
 
 ## Run postgres as a non-server in the background
 
 ### 21. type the following 
-> postgres -D db_djangogirls & # runs postgres
+   - `postgres -D db_djangogirls & # runs postgres`
 
-press RET (return) to send it to background!
+   > press RET (return) to send it to background!
 
 ### 22. you can stop and switch to server mode by stop running postgres instance under ubuntu
 
 stop non-server or server modus/instance of postgres
-> ps aux | grep postgres
+   - `ps aux | grep postgres`
 
 ### 23. see detailed instructions for finding the correct <process ID> under stop running postgres instance under ubuntu'! And then do:
-> kill <process ID> # to stop postgres
+   - `kill <process ID>` # to stop postgres
 
 
 ### 24. Have fun with your completely locally running - more safe - postgresql❗❗❗❗❗❗
