@@ -15,8 +15,11 @@
 7. WAIT FOR SERVER TO START
 8. Create non-super user
    > createuser --encrypted --pwprompt [***your_non_super_user_name***]()
-9. Create inner-database for 
+9. Create inner-database for non-super user
+   > createdb --owner=[***your_non_super_user_name***]() [your_inner_db_name]()
+10. At this point you can run a program and connect to [***your_inner_db_name***]()
 
+### READ MORE BELOW ⬇️ Starting at #7
 ---
 
 [Source](https://gist.github.com/gwangjinkim/f13bf596fefa7db7d31c22efd1627c7a)
@@ -30,7 +33,7 @@ I hope, this will help especially people new to postgresql (and those who don't 
 to run postgresql there)!
 
 ####################################
-# create conda environment
+# 1. create conda environment
 ####################################
 
 conda create --name myenv
@@ -39,19 +42,19 @@ conda create --name myenv
 conda activate myenv
 
 ####################################
-# install postgresql via conda
+# 2. install postgresql via conda
 ####################################
 
 conda install -y -c conda-forge postgresql
 
 ####################################
-# create a base database locally
+# 3. create a base database locally
 ####################################
 
 initdb -D mylocal_db
 
 ##############################
-# now start the server modus/instance of postgres
+# 4. now start the server modus/instance of postgres
 ##############################
 
 pg_ctl -D mylocal_db -l logfile start
@@ -63,21 +66,21 @@ pg_ctl -D mylocal_db -l logfile start
 
 
 ####################################
-# create a non-superuser (more safety!)
+# 5. create a non-superuser (more safety!)
 ####################################
 
 createuser --encrypted --pwprompt mynonsuperuser
 # asks for name and password
 
 ####################################
-# using this super user, create inner database inside the base database
+# 6. using this super user, create inner database inside the base database
 ####################################
 
 createdb --owner=mynonsuperuser myinner_db
 
 
 ####################################
-# in this point, if you run some program,
+# 7. in this point, if you run some program,
 # you connect your program with this inner database
 # e.g. Django 
 ####################################
