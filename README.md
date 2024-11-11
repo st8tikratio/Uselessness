@@ -98,12 +98,13 @@
 # Local LLMs
 - [Everything I've learned so far about running local LLMs](https://nullprogram.com/blog/2024/11/10/)
     - see/add link for HackerNotes
+---
 
 # Cameras / Surveillance
 - DeFlock
     - [DeFlock Is Mapping License Plate Surveillance Cameras All Over the World](https://www.404media.co/email/f9af7bc1-6e13-4719-82ee-4829e5760869/)
 
-
+---
 
 
 ###### /end
