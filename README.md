@@ -88,6 +88,9 @@
 - [PostgREST Tutorial 1](https://docs.postgrest.org/en/v12/tutorials/tut1.html)
 - [Installing PostreSQL & PostgREST in Conda Environment](https://github.com/st8tikratio/Usefulness/blob/main/SQL-in-Conda.md)
 
+### Un-Googled
+- [Un-Googled Chromium](https://github.com/ungoogled-software/ungoogled-chromium)
+
 ### Websites
 - [Open Source Software](https://osssoftware.org/)
 - [FOSS Hub](https://www.fosshub.com/)
