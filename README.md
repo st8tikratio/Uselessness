@@ -24,11 +24,13 @@
 - [TxPipe](https://txpipe.io/)
 ---
 
-## Books
+## Books, Papers, Videos
 
 ### Development
 - Emergent Design
 
+### Bitcoin OS
+- [AllInCrypto - Bitcoin And Cardano Join Forces To Enable A New Complete Financial System! BitcoinOS's Edan Yago](https://m.youtube.com/watch?si=KAj1sv_CiWBliYfV&v=8ejuNxLVWLM&feature=youtu.be)
 ---
 
 ## Platforms
