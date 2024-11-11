@@ -2,7 +2,7 @@
 
 ---
 
-## Blockchain
+# Blockchain
 
 ### Gimbalabs
 - [Notion for Open Spaces](https://gimbalabs.notion.site/ff0d7c3cd1634a42bf554693c7da408c?v=f57369dfe3ae4dd6abc993ca8531d0a6)
@@ -31,16 +31,17 @@
 
 ---
 
-## Books, Papers, Videos
+# Books, Papers, Videos
 
 ### Development
 - Emergent Design
 
 ### Bitcoin OS
 - [AllInCrypto - Bitcoin And Cardano Join Forces To Enable A New Complete Financial System! BitcoinOS's Edan Yago](https://m.youtube.com/watch?si=KAj1sv_CiWBliYfV&v=8ejuNxLVWLM&feature=youtu.be)
+
 ---
 
-## Platforms
+# Platforms
 
 ### Simulation
 - [Machinations - Public Profile - Sk99](https://machinations.io/community/skidmarc99/profile)
@@ -50,7 +51,7 @@
 
 ---
 
-## Privacy
+# Privacy
 
 ### Mobile
 - [CalyxOS](https://calyxos.org/)
@@ -94,11 +95,11 @@
 
 ---
 
-## Local LLMs
+# Local LLMs
 - [Everything I've learned so far about running local LLMs](https://nullprogram.com/blog/2024/11/10/)
     - see/add link for HackerNotes
 
-## Cameras / Surveillance
+# Cameras / Surveillance
 - DeFlock
     - [DeFlock Is Mapping License Plate Surveillance Cameras All Over the World](https://www.404media.co/email/f9af7bc1-6e13-4719-82ee-4829e5760869/)
 
