@@ -33,6 +33,9 @@
 
 # Books, Papers, Videos
 
+### Book Vendors
+- [Book.io](https://book.io/)
+
 ### Development
 - Emergent Design
 
