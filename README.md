@@ -84,6 +84,8 @@
 ### Database
 - [PostgreSQL](https://www.postgresql.org/)
 - [PostgREST](https://docs.postgrest.org/en/v12/) - API
+- [PostgREST Tutorial 0](https://docs.postgrest.org/en/v12/tutorials/tut0.html)
+- [PostgREST Tutorial 1](https://docs.postgrest.org/en/v12/tutorials/tut1.html)
 - [Installing PostreSQL & PostgREST in Conda Environment](https://github.com/st8tikratio/Usefulness/blob/main/SQL-in-Conda.md)
 
 ### Websites
