@@ -2,7 +2,7 @@
 
 ---
 
-## Blockchain Communities
+## Blockchain
 
 ### Gimbalabs
 - [Notion for Open Spaces](https://gimbalabs.notion.site/ff0d7c3cd1634a42bf554693c7da408c?v=f57369dfe3ae4dd6abc993ca8531d0a6)
@@ -10,18 +10,25 @@
 - [Gimbalabs Youtube Channel](https://www.youtube.com/@gimbalabs)
 - [Gimbalabs Becoming a dRep: Positives, Negatives, and Solutions](https://gimbalabs.notion.site/Gimbalabs-Becoming-a-dRep-Positives-Negatives-and-Solutions-c6f0015dfa5249058a8e0c142d62dfc5)
 
----
-
-## Blockchain Related Businesses
-
 ### PHOTREK
 - [Kenrick Twitter](https://x.com/kenricnelson/status/1853934204498706482)
 - [Exploring Plural Voting: Photrek Leadership Circle Demonstration & Discussion](https://www.youtube.com/watch?v=IrPk_VMF_uU) - Quadratic Voting
 - [AI Assistant for Governance: Empowering Team-Based dReps](https://projectcatalyst.io/funds/12/cardano-open-developers/ai-assistant-for-governance-empowering-team-based-dreps)
 - [Sociocratic DReps : A representation framework for Democratic Pluralism](https://projectcatalyst.io/funds/11/cardano-open-ecosystem/sociocratic-dreps-a-representation-framework-for-democratic-pluralism)
 
-### Other
+### Blockchain Explorers & Analytics
+- [Cardano Explorer](https://cexplorer.io/)
+- [Cardanoscan](https://cardanoscan.io/)
+- [Pool PM](https://pool.pm/)
+
+### Dex, Pools, Farming
 - [TxPipe](https://txpipe.io/)
+- [DexHunter](https://app.dexhunter.io/trends)
+- [TapTools](https://www.taptools.io/)
+- [VyFi](https://app.vyfi.io/)
+- [Liqwid Finance](https://liqwid.finance/)
+- [Genius Yield](https://app.geniusyield.co/swap?from=asset1xdz4yj4ldwlpsz2yjgjtt9evg9uskm8jrzjwhj&to=asset1266q2ewhgul7jh3xqpvjzqarrepfjuler20akr)
+
 ---
 
 ## Books, Papers, Videos
