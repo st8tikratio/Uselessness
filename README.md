@@ -29,6 +29,11 @@
 - [Liqwid Finance](https://liqwid.finance/)
 - [Genius Yield](https://app.geniusyield.co/swap?from=asset1xdz4yj4ldwlpsz2yjgjtt9evg9uskm8jrzjwhj&to=asset1266q2ewhgul7jh3xqpvjzqarrepfjuler20akr)
 
+### Avalanche
+- [Cross Chain Applicatioon Examples](https://github.com/LimeChain/teleporter/tree/feat/create-erc721-bridge-contract/contracts/src/CrossChainApplications/examples/ERC721Bridge)
+- [Avalanche Interchain Token Transfer](https://github.com/ava-labs/avalanche-interchain-token-transfer)
+- [Avax Academy - Interchain Messaging](https://academy.avax.network/course/interchain-messaging)
+
 ---
 
 # Books, Papers, Videos
