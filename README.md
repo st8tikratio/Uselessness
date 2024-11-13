@@ -30,6 +30,7 @@
 - [VyFi](https://app.vyfi.io/)
 - [Liqwid Finance](https://liqwid.finance/)
 - [Genius Yield](https://app.geniusyield.co/swap?from=asset1xdz4yj4ldwlpsz2yjgjtt9evg9uskm8jrzjwhj&to=asset1266q2ewhgul7jh3xqpvjzqarrepfjuler20akr)
+- [Avalanche Documentation](https://docs.avax.network/)
 
 ## Avalanche
 
