@@ -38,6 +38,7 @@
 - [Avax Academy - Home Page](https://academy.avax.network/)
 - [Avax Academy - Interchain Messaging](https://academy.avax.network/course/interchain-messaging)
 - [Avax Academy - Use A Signature Scheme](https://academy.avax.network/course/interchain-messaging/08-securing-cross-chain-communication/03-use-a-signature-scheme)
+- [Open Zepplin - Contract Viewer](https://wizard.openzeppelin.com/)
 
 ---
 
