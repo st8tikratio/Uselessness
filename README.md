@@ -36,6 +36,7 @@
 - [Cross Chain Applicatioon Examples](https://github.com/LimeChain/teleporter/tree/feat/create-erc721-bridge-contract/contracts/src/CrossChainApplications/examples/ERC721Bridge)
 - [Avalanche Interchain Token Transfer](https://github.com/ava-labs/avalanche-interchain-token-transfer)
 - [Avax Academy - Interchain Messaging](https://academy.avax.network/course/interchain-messaging)
+- [Avax Academy - Use A Signature Scheme](https://academy.avax.network/course/interchain-messaging/08-securing-cross-chain-communication/03-use-a-signature-scheme)
 
 ---
 
