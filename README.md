@@ -9,7 +9,7 @@
 ### Dedium - Decentralized GPU Compute
 - [Dedium](https://dedium.io/)
 - [Dedium Node](https://dedium.io/#node)
-- [Dedium Whitepaper]() - Source [here](https://dedium.io/whitepaper.pdf)
+- [Dedium Whitepaper](https://github.com/st8tikratio/Usefulness/blob/main/Dedium_whitepaper.pdf) - Source [here](https://dedium.io/whitepaper.pdf)
 
 ### Iagon
 - [Iagon Node](https://cyclone.iagon.com/)
