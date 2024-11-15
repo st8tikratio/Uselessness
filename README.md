@@ -8,7 +8,7 @@
 
 ### Stuff.io - Digital Media
 - [Stuff.io Mainpage](https://stuff.io/)
-- [Stuff.io Whitepaper]() - Source [here](https://book-io.medium.com/stuff-io-whitepaper-1-0-9529db7cdeaf)
+- [Stuff.io Whitepaper](https://github.com/st8tikratio/Usefulness/blob/main/Stuff.io_Whitepaper_1.0_by_BOOK.io_Medium.pdf) - Source [here](https://book-io.medium.com/stuff-io-whitepaper-1-0-9529db7cdeaf)
 
 ### Dedium - Decentralized GPU Compute
 - [Dedium](https://dedium.io/)
