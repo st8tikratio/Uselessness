@@ -11,7 +11,7 @@
 - [Dedium Node](https://dedium.io/#node)
 - [Dedium Whitepaper](https://github.com/st8tikratio/Usefulness/blob/main/Dedium_whitepaper.pdf) - Source [here](https://dedium.io/whitepaper.pdf)
 
-### Iagon
+### Iagon - Decentralized Storage
 - [Iagon Node](https://cyclone.iagon.com/)
 - [Iagon Documentation](https://docs.iagon.com/)
 
