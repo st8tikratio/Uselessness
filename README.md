@@ -23,7 +23,6 @@
 - [Notion for Open Spaces](https://gimbalabs.notion.site/ff0d7c3cd1634a42bf554693c7da408c?v=f57369dfe3ae4dd6abc993ca8531d0a6)
 - [Adamio Mainpage](https://www.andamio.io/) - Education Platform
 - [Adamio Whitepaper](https://www.andamio.io/about)
-- [Andamio: "Don't Quit to your Problem-Solving Nature"](https://www.youtube.com/watch?v=zfYxVyMCxqo) - Explainer
 - [Gimbalabs Youtube Channel](https://www.youtube.com/@gimbalabs)
 - [Gimbalabs Becoming a dRep: Positives, Negatives, and Solutions](https://gimbalabs.notion.site/Gimbalabs-Becoming-a-dRep-Positives-Negatives-and-Solutions-c6f0015dfa5249058a8e0c142d62dfc5)
 
