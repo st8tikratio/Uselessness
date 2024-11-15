@@ -45,6 +45,10 @@
 - [Genius Yield](https://app.geniusyield.co/swap?from=asset1xdz4yj4ldwlpsz2yjgjtt9evg9uskm8jrzjwhj&to=asset1266q2ewhgul7jh3xqpvjzqarrepfjuler20akr)
 - [Avalanche Documentation](https://docs.avax.network/)
 
+### Community Governance & Management Tools
+- [Clarity DAO](https://www.clarity.community/)
+- 
+
 ## Avalanche
 
 ### Avalanche
