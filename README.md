@@ -7,8 +7,16 @@
 ## Cardano
 
 ### APIs
-- [TapToools.io](https://www.taptools.io/openapi/subscription) - Documentation [here](https://openapi.taptools.io/)
-- 
+- [Dandelion](https://dandelion.link/) - Documentation [here](https://developers.cardano.org/docs/get-started/dandelion-apis/)
+- [TapToools.io APIs](https://www.taptools.io/openapi/subscription) - Documentation [here](https://openapi.taptools.io/)
+- [Cardano Explorer APIs](https://cexplorer.io/devs) - Documentation [here](https://github.com/cexplorer/cexplorer.io/tree/main/doc)
+- WORK IN PROGRESS
+    - [Cardanoscan](https://cardanoscan.io/api) - Documentation [here](https://docs.cardanoscan.io/)
+
+### Developer
+- [Mesh.js](https://meshjs.dev/)
+- [Demeter](https://demeter.run/) - Documentation [here](https://docs.demeter.run/)
+
 
 ### Stuff.io - Digital Media
 - [Stuff.io Mainpage](https://stuff.io/)
@@ -24,6 +32,7 @@
 - [Iagon Documentation](https://docs.iagon.com/)
 
 ### Gimbalabs
+- [Gimbalabs Homepage](https://gimbalabs.com/gimbalgrid)
 - [Notion for Open Spaces](https://gimbalabs.notion.site/ff0d7c3cd1634a42bf554693c7da408c?v=f57369dfe3ae4dd6abc993ca8531d0a6)
 - [Adamio Mainpage](https://www.andamio.io/) - Education Platform
 - [Adamio Whitepaper](https://www.andamio.io/about)
@@ -39,7 +48,7 @@
 ### Explorers & Analytics
 - [Cardano Explorer](https://cexplorer.io/)
 - [Cardanoscan](https://cardanoscan.io/)
-- [Pool PM](https://pool.pm/)
+- [Pool PM](https://pool.pm/) - Explainer [here](https://www.youtube.com/watch?v=ya6B-XKS0Ac)
 
 ### Dex, Pools, Farming
 - [TxPipe](https://txpipe.io/)
