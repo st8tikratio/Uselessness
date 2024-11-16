@@ -17,6 +17,13 @@
 - [Mesh.js](https://meshjs.dev/)
 - [Demeter](https://demeter.run/) - Documentation [here](https://docs.demeter.run/)
 
+### Gimbalabs
+- [Gimbalabs Homepage](https://gimbalabs.com/gimbalgrid)
+- [Notion for Open Spaces](https://gimbalabs.notion.site/ff0d7c3cd1634a42bf554693c7da408c?v=f57369dfe3ae4dd6abc993ca8531d0a6)
+- [Adamio Mainpage](https://www.andamio.io/) - Education Platform
+- [Adamio Whitepaper](https://www.andamio.io/about)
+- [Gimbalabs Youtube Channel](https://www.youtube.com/@gimbalabs)
+- [Gimbalabs Becoming a dRep: Positives, Negatives, and Solutions](https://gimbalabs.notion.site/Gimbalabs-Becoming-a-dRep-Positives-Negatives-and-Solutions-c6f0015dfa5249058a8e0c142d62dfc5)
 
 ### Stuff.io - Digital Media
 - [Stuff.io Mainpage](https://stuff.io/)
@@ -30,14 +37,6 @@
 ### Iagon - Decentralized Storage
 - [Iagon Node](https://cyclone.iagon.com/)
 - [Iagon Documentation](https://docs.iagon.com/)
-
-### Gimbalabs
-- [Gimbalabs Homepage](https://gimbalabs.com/gimbalgrid)
-- [Notion for Open Spaces](https://gimbalabs.notion.site/ff0d7c3cd1634a42bf554693c7da408c?v=f57369dfe3ae4dd6abc993ca8531d0a6)
-- [Adamio Mainpage](https://www.andamio.io/) - Education Platform
-- [Adamio Whitepaper](https://www.andamio.io/about)
-- [Gimbalabs Youtube Channel](https://www.youtube.com/@gimbalabs)
-- [Gimbalabs Becoming a dRep: Positives, Negatives, and Solutions](https://gimbalabs.notion.site/Gimbalabs-Becoming-a-dRep-Positives-Negatives-and-Solutions-c6f0015dfa5249058a8e0c142d62dfc5)
 
 ### PHOTREK
 - [Kenrick Twitter](https://x.com/kenricnelson/status/1853934204498706482)
