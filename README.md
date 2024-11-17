@@ -144,6 +144,7 @@
 
 ### Database
 - [PostgreSQL](https://www.postgresql.org/)
+- [PostgreQL Documentation](https://github.com/st8tikratio/Usefulness/blob/main/postgresql-17-US.pdf) - Source [here](https://www.postgresql.org/files/documentation/pdf/17/postgresql-17-US.pdf)
 - [PostgREST](https://docs.postgrest.org/en/v12/) - API
 - [PostgREST Tutorial 0](https://docs.postgrest.org/en/v12/tutorials/tut0.html)
 - [PostgREST Tutorial 1](https://docs.postgrest.org/en/v12/tutorials/tut1.html)
