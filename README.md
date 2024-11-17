@@ -67,7 +67,6 @@
 
 ### Community Governance & Management Tools
 - [Clarity DAO](https://www.clarity.community/)
-- 
 
 ## Avalanche
 
