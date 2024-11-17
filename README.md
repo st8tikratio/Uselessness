@@ -52,7 +52,9 @@
 ### Big Blymp - DeFi
 - [Big Blymp Homepage](https://www.bigblymp.com/)
 - [Big Blymp Github](https://github.com/BigBlymp)
-- [Yamafore](https://www.yamfore.com/) - Litepaper [here](https://bigblymp.medium.com/yamfore-litepaper-77808558b071)
+- [Yamafore](https://www.yamfore.com/) - Lending/Borrowing
+- [Yamafore Litepaper](https://github.com/st8tikratio/Usefulness/blob/main/BigBlymp_Yamfore%20Litepaper_%20Medium.pdf) - Source [here](https://bigblymp.medium.com/yamfore-litepaper-77808558b071)
+- [Obymare](https://www.obymare.com/) - Stablecoin
 
 ### Dex, Pools, Farming
 - [TxPipe](https://txpipe.io/)
