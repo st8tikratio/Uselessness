@@ -49,9 +49,10 @@
 - [Cardanoscan](https://cardanoscan.io/)
 - [Pool PM](https://pool.pm/) - Explainer [here](https://www.youtube.com/watch?v=ya6B-XKS0Ac)
 
-### DeFi
-- [Big Blymp](https://www.bigblymp.com/)
-    - [Yamafore](https://www.yamfore.com/) - Litepaper [here](https://bigblymp.medium.com/yamfore-litepaper-77808558b071)
+### Big Blymp - DeFi
+- [Big Blymp Homepage](https://www.bigblymp.com/)
+- [Big Blymp Github](https://github.com/BigBlymp)
+- [Yamafore](https://www.yamfore.com/) - Litepaper [here](https://bigblymp.medium.com/yamfore-litepaper-77808558b071)
 
 ### Dex, Pools, Farming
 - [TxPipe](https://txpipe.io/)
