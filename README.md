@@ -66,7 +66,7 @@
 - [VyFi](https://app.vyfi.io/)
 - [Liqwid Finance](https://liqwid.finance/)
 - [Genius Yield](https://app.geniusyield.co/swap?from=asset1xdz4yj4ldwlpsz2yjgjtt9evg9uskm8jrzjwhj&to=asset1266q2ewhgul7jh3xqpvjzqarrepfjuler20akr)
-
+- [What is a flash loan?](https://chain.link/education-hub/flash-loans)
 
 ### Community Governance & Management Tools
 - [Clarity DAO](https://www.clarity.community/)
