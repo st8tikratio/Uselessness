@@ -92,6 +92,10 @@
 - [Baking Bad](https://bakingbad.dev/) - Builders
 - [Kukai](https://wallet.kukai.app/) - Browser Wallet, iOS App
 
+## Bitcoin
+
+- [Bitcoin OS](https://www.bitcoinos.build/)
+
 ---
 
 # Books, Papers, Videos
