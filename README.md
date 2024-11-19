@@ -83,6 +83,12 @@
 - [Open Zepplin - Smart Contract Generator](https://wizard.openzeppelin.com/)
 - [Core Wallet](https://join.core.app/)
 
+## Tezos
+
+- [TZKT](https://tzkt.io/) -- Tez explorer
+- [Baking Bad](https://bakingbad.dev/) - Builders
+- [Kukai](https://wallet.kukai.app/) - Browser Wallet, iOS App
+
 ---
 
 # Books, Papers, Videos
