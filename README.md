@@ -56,6 +56,7 @@
 - [Big Blymp Homepage](https://www.bigblymp.com/)
 - [Big Blymp Github](https://github.com/BigBlymp)
 - [Yamafore](https://www.yamfore.com/) - Lending/Borrowing
+- [Yamfore App](https://app.yamfore.com/)
 - [Yamafore Litepaper](https://github.com/st8tikratio/Usefulness/blob/main/BigBlymp_Yamfore%20Litepaper_%20Medium.pdf) - Source [here](https://bigblymp.medium.com/yamfore-litepaper-77808558b071)
 - [Obymare](https://www.obymare.com/) - Stablecoin
 
@@ -95,6 +96,7 @@
 ## Bitcoin
 
 - [Bitcoin OS](https://www.bitcoinos.build/)
+- [Bitcoin OS Whitepaper]() - Source [here]()
 
 ---
 
