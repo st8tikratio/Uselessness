@@ -133,6 +133,9 @@
 - [Overview of the Play Integrity API](https://developer.android.com/google/play/integrity/overview)
 - [Privacy Breakdown of Mobile Phones](https://ssd.eff.org/playlist/privacy-breakdown-mobile-phones#mobile-phones-location-tracking)
 
+### Telecoms
+- [Cape](https://www.cape.co/)
+
 ### Computer
 - [GNU Operating System](https://www.gnu.org/)
 
