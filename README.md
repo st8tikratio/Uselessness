@@ -1,5 +1,10 @@
 # Usefulness
 
+# Github Tips & Tricks
+![image](https://github.com/user-attachments/assets/9c91fa63-1714-47bb-95ea-0d21113c1982)
+
+$${\color{red}Welcome \space \color{lightblue}To \space \color{lightgreen}Github}$$
+
 ---
 
 # Voting and Governance Research
