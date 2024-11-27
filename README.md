@@ -103,6 +103,10 @@
     - C chain = EVM
     - at least 5 validators to spin up a blockchain
         - on Primary (c-chain) = 2000 AVAX per validator to spin up
+- ACP-77 changes the requirement to xxx L1 tokens per validator to spin up new L1 blockchain
+    - requires payment of 1.3 avax/mth per validator
+- ACP-103 gives dynamic fees to P-chain
+    - smaller validators will eventually be phased out as the validator pool increases
 - [Avalanche Documentation](https://docs.avax.network/)
 - [Etna - Reinventing Subnets - Fuji Pre-Release `via Ava-Labs Github`](https://github.com/ava-labs/avalanchego/releases/tag/v1.12.0-fuji)
 - [avax units: `i.e. nAVAX`](snowtrace.io/unitconverter)
