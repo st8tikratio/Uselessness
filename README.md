@@ -26,6 +26,9 @@
 
 ## Cardano
 
+### Research
+- [Formal Specification of the Cardano Blockchain Ledger, Mechanized in Agda `via IOG Library`](https://iohk.io/en/research/library/papers/formal-specification-of-the-cardano-blockchain-ledger-mechanized-in-agda/) - [`PDF`]()
+
 ### APIs
 - [Dandelion](https://dandelion.link/) - Documentation [here](https://developers.cardano.org/docs/get-started/dandelion-apis/)
 - [TapToools.io APIs](https://www.taptools.io/openapi/subscription) - Documentation [here](https://openapi.taptools.io/)
