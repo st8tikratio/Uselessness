@@ -104,7 +104,8 @@
     - at least 5 validators to spin up a blockchain
         - on Primary (c-chain) = 2000 AVAX per validator to spin up
 - ACP-77 changes the requirement to xxx L1 tokens per validator to spin up new L1 blockchain
-    - requires payment of 1.3 avax/mth per validator
+    - requires payment of 1.33 avax/mth per validator
+        - if no payed by validatorR
 - ACP-103 gives dynamic fees to P-chain
     - smaller validators will eventually be phased out as the validator pool increases
 - [Avalanche Documentation](https://docs.avax.network/)
@@ -198,6 +199,7 @@
 - [ProxMox](https://www.proxmox.com/en/)
 - [Open Nebula](https://opennebula.io/)
 - [Code Linaro](https://www.codelinaro.org/)
+- [Vercel](https://vercel.com/)
 
 ### Database
 - [PostgreSQL](https://www.postgresql.org/)
