@@ -103,6 +103,7 @@
     - C chain = EVM
 - [Avalanche Documentation](https://docs.avax.network/)
 - [Etna - Reinventing Subnets - Fuji Pre-Release `via Ava-Labs Github`](https://github.com/ava-labs/avalanchego/releases/tag/v1.12.0-fuji)
+- [avax units: `i.e. nAVAX`](snowtrace.io/unitconverter)
 - [Cross Chain Applicatioon Examples](https://github.com/LimeChain/teleporter/tree/feat/create-erc721-bridge-contract/contracts/src/CrossChainApplications/examples/ERC721Bridge)
 - [Avalanche Interchain Token Transfer](https://github.com/ava-labs/avalanche-interchain-token-transfer)
 - [Avax Academy - Home Page](https://academy.avax.network/)
