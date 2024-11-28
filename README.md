@@ -8,5 +8,4 @@
 5. Papers - [PDFs](papers/pdf/README.md) • [Markdown Versions](/papers/markdown_versions/README.md)
 6. [Privacy](/privacy/README.md)
 7. [Productivity](/productivity/README.md)
-8. [Open Source Software](/oss/README.md)
-9. [Voting and Governance](/voting_and_governance/README.md)
+8. [Voting and Governance](/voting_and_governance/README.md)
