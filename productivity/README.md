@@ -1,4 +1,4 @@
-# Platforms
+# Productivity Platforms
 
 ### Simulation
 - [Machinations - Public Profile - Sk99](https://machinations.io/community/skidmarc99/profile)
