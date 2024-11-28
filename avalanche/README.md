@@ -1,1 +1,24 @@
 # Avalanche Blockchain Information
+
+- Chains
+    - X / P chains = UTXO
+    - C chain = EVM
+    - at least 5 validators to spin up a blockchain
+        - on Primary (c-chain) = 2000 AVAX per validator to spin up
+- ACP-77 changes the requirement to xxx L1 tokens per validator to spin up new L1 blockchain
+    - requires payment of 1.33 avax/mth per validator
+        - if no payed by validatorR
+- ACP-103 gives dynamic fees to P-chain
+    - smaller validators will eventually be phased out as the validator pool increases
+- [Avalanche Documentation](https://docs.avax.network/)
+- [Etna - Reinventing Subnets - Fuji Pre-Release `via Ava-Labs Github`](https://github.com/ava-labs/avalanchego/releases/tag/v1.12.0-fuji)
+- [avax units: `i.e. nAVAX`](snowtrace.io/unitconverter)
+- [AXR (avax) Improvements `via Dune Analytics`](https://dune.com/axr/acp-125)
+- [AVAX Foundation Buidl Program](https://www.avax.network/infrabuidl-program)
+- [Cross Chain Applicatioon Examples](https://github.com/LimeChain/teleporter/tree/feat/create-erc721-bridge-contract/contracts/src/CrossChainApplications/examples/ERC721Bridge)
+- [Avalanche Interchain Token Transfer](https://github.com/ava-labs/avalanche-interchain-token-transfer)
+- [Avax Academy - Home Page](https://academy.avax.network/)
+- [Avax Academy - Interchain Messaging](https://academy.avax.network/course/interchain-messaging)
+- [Avax Academy - Use A Signature Scheme](https://academy.avax.network/course/interchain-messaging/08-securing-cross-chain-communication/03-use-a-signature-scheme)
+- [Open Zepplin - Smart Contract Generator](https://wizard.openzeppelin.com/)
+- [Core Wallet](https://join.core.app/)
