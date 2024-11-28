@@ -12,6 +12,18 @@
 
 ---
 
+#### PROJECT CATALYST
+
+###### submit proposals for funding
+
+##### Documentation
+
+- [Project Catalyst Documentation](https://docs.projectcatalyst.io/)
+- [Project Catalyst](https://projectcatalyst.io/)
+- [Cardano Partners Shortlist](https://docs.projectcatalyst.io/current-fund/proposal-submission/cardano-partners/cardano-partners-shortlist)
+
+---
+
 #### STAKE POOL & DEVELOPER RESOURCES
 
 ##### Support
@@ -24,6 +36,7 @@
 - [Developer Resources `via cardano.org`](https://docs.cardano.org/developer-resources/welcome/)
 - [Developer Tools `via developer.cardano.org`](https://developers.cardano.org/tools/)
 - [Community Built Dev Tools](https://www.essentialcardano.io/article/a-list-of-community-built-developer-tools-on-cardano)
+- [Cardano Project Catalyst](https://docs.projectcatalyst.io/)
 
 ##### Stake Pool Operators Resources
 
@@ -31,7 +44,7 @@
 - [Operate A Stake Pool `via developers.cardano.org`](https://developers.cardano.org/docs/operate-a-stake-pool/)
 - [SPO Telegram `ANNOUNCEMENTS` Channel](https://t.me/SPOannouncements)
 
-###### SPO Alliances
+##### SPO Alliances
 
 - [Guild Operators](https://cardano-community.github.io/guild-operators/) • [Cardano Single Pool Alliance](https://singlepoolalliance.net/) • [xSPO Alliance](https://www.xspo-alliance.org/)
 
@@ -55,5 +68,6 @@
 - [AdaStat](https://adastat.net/transactions) • [AdaTools](https://adatools.io/) • [Cardanoscan](https://cardanoscan.io/transactions) • [Cexplorer](https://cexplorer.io/) • [Cardano Assets](https://cardanoassets.com/) • [Pool.pm](https://pool.pm/tokens) • [AdaTainment](https://www.adatainment.com/index.php?page=home&lang=en) • [Cardano Pool Tool](https://pooltool.io/)
 
 ---
+
 
 
