@@ -8,7 +8,7 @@
 - <img width="603" alt="image" src="https://github.com/user-attachments/assets/b59cb56f-2148-4a21-9e90-c77fd3473d81">
 - $${\color{red}Welcome \space \color{lightblue}To \space \color{lightgreen}Github}$$
 - https://github.com/orgs/community/discussions/31570
-- **methods** do not work within the Github Apps, only in brosers
+- ❗❗ **methods** do not work within the Github Apps, only in brosers ❗❗
 
 ---
 
