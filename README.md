@@ -17,6 +17,7 @@
    - [Encryption](privacy//encryption/README.md)
    - [Resist](/privacy/README.md)
 ### Software
+   - [Developer](/software/dev/README.md)
    - [Machine Learning](software/ml/README.md)
    - [Opens Source](/software/oss/README.md)
    - [Platforms](/software/platforms/README.md)
