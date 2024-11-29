@@ -22,6 +22,9 @@
 
 ## Modeling
 
+#### Game Economies
+- [Design Pillars Of Sustainable Game Economies](/blockchain/token_engineering/design-pillars-of-sustainable-game-economies.md)
+
 #### Systems Modeling
 - [Systems Modeling, Notes and More](/blockchain/token_engineering/systems-modeling-tools-and-more.md)
 
