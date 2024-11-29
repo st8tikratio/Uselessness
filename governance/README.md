@@ -7,4 +7,4 @@
 - [Annenburg Classroom - Establishing Equality Voting Representation](https://www.annenbergclassroom.org/resource/the-pursuit-of-justice/pursuit-justice-chapter-14-establishing-equality-voting-representation/)
 
 ## [Ethics](/governance/ethics/README.md)
-- [Ethics and Values Related](governance/ethics/README.md)
+- [Ethics and Values Related](governance/ethics/ethics-and-values-related.md)
