@@ -22,4 +22,4 @@
    - [Opens Source](/software/oss/README.md)
    - [Platforms](/software/platforms/README.md)
      - [Github](/software/platforms/github/README.md)
-### [Voting and Governance](/voting_and_governance/README.md)
+### [Voting and Governance](/governance/README.md)
