@@ -12,7 +12,7 @@ title: '**How to Build Your Game Loops in Machinations**'
 3. [Notes](#notes)
 4. [Core Loops](#core-loops)
 5. [Core Loop Actions w/ Example](#explanation-of-core-loop-actions-example-based)
-6. [More Complication](https://github.com/st8tikratio/Usefulness/edit/main/papers/markdown_versions/machination_game_loops.md##More%Complicated)
+6. [More Complication](##More%Complicated)
 7. [Steps & Batch Plays](#steps-and-batch-plays)
 8. [Idle Game Loop](#idle-game-loop)
 9. [Usage](#usage)
