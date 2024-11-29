@@ -4,6 +4,7 @@ title: '**How to Build Your Game Loops in Machinations**'
 ---
 
 # **How to Build Your Game Loops in Machinations**
+🚩 **FIX THE INLINE LINKS** 🚩
 
 # Table of Contents
 1. [Date, Time, Location](#datetime--location)
