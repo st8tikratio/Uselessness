@@ -7,6 +7,7 @@
    - [Cardano](blockchain/cardano/README.md)
    - [Ethereum](/blockchain/ethereum/README.md)
    - [Tezos](blockchain//tezos/README.md)
+   - [Tools](/blockchain/tools/README.md)
 ### Papers (All)
    - [Markdown Versions](/papers/markdown_versions/README.md)
    - [Notes](papers/notes/README.md)
