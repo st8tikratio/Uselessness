@@ -4,6 +4,7 @@
 
 ## Token Engineering Fundamentals Course
 - [TE Fundamentals Course Overview](/blockchain/token_engineering/te-fundamentals-program-overview.md)
+- [Module 1 (Early Access)](/blockchain/token_engineering/tef-mod1.md)
 - [Module 1 - Introduction to Token Engineering](/blockchain/token_engineering/tef-mod1-intro-to-token-engineering.md)
 - [Module 2 - Discorver Phase](/blockchain/token_engineering/tef-mod2-discovery-phase.md)
 - [Notes & Links](/blockchain/token_engineering/notes-links-tef-course.md)
