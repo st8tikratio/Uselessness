@@ -18,7 +18,10 @@
 ## Fundamentals
 - [Back To Basics, Token Engineering Fundamentals - `NOTES`](/blockchain/token_engineering/back-to-basics_token-engineering-fundamentals.md)
 
-## Circuit Modeling
+## Modeling
+
+#### Systems Modeling
+- [Systems Modeling, Notes and More](/blockchain/token_engineering/systems-modeling-tools-and-more.md)
 
 #### Mojito
 - [Trent McConaghy](http://www.trent.st/)
