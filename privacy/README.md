@@ -1,6 +1,6 @@
 # Table of Contents
 
-### 1. [Anonymous](/privacy/anon/README.md)
+### 1. [Anonymity](/privacy/anon/README.md)
 
 
 ### 2. [Encryption](/privacy/encryption/README.md)
