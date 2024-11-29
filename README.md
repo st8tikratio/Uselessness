@@ -9,7 +9,7 @@ A little about this repo. These are a colleciton of files, PDFs, notes, links an
 
 ## TABLE OF CONTENTS
 
-### Blockchain
+### [Blockchain](/blockchain/README.md)
    - [Avalanche](/blockchain/avalanche/README.md)
    - [Bitcoin](blockchain/bitcoin/README.md)
    - [Cardano](blockchain/cardano/README.md)
@@ -20,13 +20,13 @@ A little about this repo. These are a colleciton of files, PDFs, notes, links an
    - [Token Engineering](/blockchain/token_engineering/README.md)
    - [Tools](/blockchain/tools/README.md)
 
-### Papers (All)
+### [Papers (All)](/papers.README.md)
 
    - [Markdown Versions](/papers/markdown_versions/README.md)
    - [Notes](papers/notes/README.md)
    - [PDFs](papers/pdfs/README.md)
 
-### Privacy
+### [Privacy](/privacy/README.md)
    
    - [Anon](privacy/anon/README.md)
    - [Encryption](privacy/encryption/README.md)
@@ -34,7 +34,7 @@ A little about this repo. These are a colleciton of files, PDFs, notes, links an
    - [SSI/DID](/privacy/ssi-did/README.md)
 
 
-### Software
+### [Software](/software/README.md)
    
    - [Developer](/software/dev/README.md)
       - [Markdown](/software/dev/markdown/README.md) 
