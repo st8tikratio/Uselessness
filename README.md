@@ -8,8 +8,10 @@
    - [Ethereum](/blockchain/ethereum/README.md)
    - [Tezos](blockchain//tezos/README.md)
 ### Papers (All)
-   - [PDFs](papers/pdfs/README.md)
    - [Markdown Versions](/papers/markdown_versions/README.md)
+   - [Notes](papers/notes/README.md)
+   - [PDFs](papers/pdfs/README.md)
+
 ### Privacy
    - [Anon](privacy/anon/README.md)
    - [Encryption](privacy//encryption/README.md)
