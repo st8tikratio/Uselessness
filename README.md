@@ -1,4 +1,11 @@
-# Usefulness Repo For All Interested
+# Usefulness - For All Interested
+##### 🛑🛑 THIS REPO IS AN ACTIVE REPO 🛑🛑 USE AT YOUR OWN RISK 🛑🛑 ALL FILES ARE CLEAN 🛑🛑
+
+---
+
+A little about this repo. These are a colleciton of files, PDFs, notes, links and other (un)assorted information. There may be links to other repos under this account. No warranties expressed or implied. All materials, where applicable, maintain the author's copyright.
+
+---
 
 ## TABLE OF CONTENTS
 
