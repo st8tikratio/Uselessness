@@ -9,9 +9,7 @@
 
 ## MARKDOWN
 
-### HackMD
-
-- [All Notes & Research from Personal Account](https://hackmd.io/Xn_ZlFAIRKCu-GCgAHWUjg?view)
+- [HackMD](https://hackmd.io)
 
 ## PRODUCTIVITY
 
