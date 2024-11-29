@@ -20,7 +20,7 @@ A little about this repo. These are a colleciton of files, PDFs, notes, links an
    - [Token Engineering](/blockchain/token_engineering/README.md)
    - [Tools](/blockchain/tools/README.md)
 
-### [Papers (All)](/papers.README.md)
+### [Papers (All)](/papers/README.md)
 
    - [Markdown Versions](/papers/markdown_versions/README.md)
    - [Notes](papers/notes/README.md)
