@@ -69,5 +69,7 @@
 
 ---
 
+### Community Initiatives
+- [Cardano Constitution Working Group - Gimbalabs 2022](https://github.com/st8tikratio/Constitution_WG_2022)
 
 
