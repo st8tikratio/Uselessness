@@ -9,3 +9,5 @@
  
 ## More Resources
 - [AI Models & Resources](software/ml/ai_models_resources.md)
+- [Machine Learning Sessions](/software/ml/machine-learning-sessions-part-1.md)
+
