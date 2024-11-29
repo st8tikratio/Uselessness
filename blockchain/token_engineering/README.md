@@ -10,7 +10,6 @@
 - [Notes & Links](/blockchain/token_engineering/notes-links-tef-course.md)
 - [Links From TE Fundamentals Course](/blockchain/token_engineering/links-from-te-fundamentals-course.md)
 
-
 ## Complex Systems
 - [Intro To Complex Systems Study Group `NOTES`](/blockchain/token_engineering/intro-to-complex-systems_study-group.md)
 
@@ -19,6 +18,9 @@
 
 ## Fundamentals
 - [Back To Basics, Token Engineering Fundamentals - `NOTES`](/blockchain/token_engineering/back-to-basics_token-engineering-fundamentals.md)
+
+## Study Groups
+- [Visual Learners Study Group](/blockchain/token_engineering/visual-learners-study-group.md)
 
 ## Modeling
 
