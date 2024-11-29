@@ -8,3 +8,4 @@
 - [The State of the Merge: An Update on Ethereum’s Merge to Proof of Stake in 2022](https://consensys.io/blog/the-state-of-the-merge-an-update-on-ethereums-merge-to-proof-of-stake-in-2022)
 - [The Ethereum Merge](https://www.alchemy.com/overviews/the-ethereum-merge)
 - [The Ethereum Proof-Of-Stake Merge](https://ethmerge.com/)
+- [The Merge](https://ethereum.org/en/roadmap/merge/)
