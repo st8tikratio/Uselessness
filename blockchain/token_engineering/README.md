@@ -2,6 +2,9 @@
 
 ---
 
+## Token Engineering Fundamentals Course
+- [Module 2 - Discorver Phase](/blockchain/token_engineering/tef-mod2-discovery-phase.md)
+
 ## Complex Systems
 - [Intro To Complex Systems Study Group `NOTES`](/blockchain/token_engineering/intro-to-complex-systems_study-group.md)
 
