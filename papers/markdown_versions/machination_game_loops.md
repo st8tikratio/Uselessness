@@ -1,8 +1,3 @@
----
-title: '**How to Build Your Game Loops in Machinations**'
-
----
-
 # **How to Build Your Game Loops in Machinations**
 
 # Table of Contents
