@@ -3,7 +3,7 @@
 ---
 
 ## Complex Systems
-- [Intro To Complex Systems Study Group `NOTES`](/intro-to-complex-systems_study-group.md)
+- [Intro To Complex Systems Study Group `NOTES`](blockchain/token_engineering/intro-to-complex-systems_study-group)
 
 ## Computational Social Choice (COMSOC)
 - [All Notes](/blockchain/token_engineering/comsoc/README.md)
