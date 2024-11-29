@@ -63,13 +63,22 @@
 
 ---
 
-#### BLOCKCHAIN EXPLORERS
+## BLOCKCHAIN EXPLORERS
 
 - [AdaStat](https://adastat.net/transactions) • [AdaTools](https://adatools.io/) • [Cardanoscan](https://cardanoscan.io/transactions) • [Cexplorer](https://cexplorer.io/) • [Cardano Assets](https://cardanoassets.com/) • [Pool.pm](https://pool.pm/tokens) • [AdaTainment](https://www.adatainment.com/index.php?page=home&lang=en) • [Cardano Pool Tool](https://pooltool.io/)
 
 ---
 
-### Community Initiatives
+## [PROJECT CATALYST](/blockchain/cardano/catalyst/README.md)
+- [Article 1 - Project Catalyst](/blockchain/cardano/catalyst/article1-project-catalyst.md)
+- [Catalyst Parameters - Fund 9](/blockchain/cardano/catalyst/catalyst-parameters-fund-9.md)
+- [Catalyst DRep Meeting #2](/blockchain/cardano/catalyst/drep-meeting-2.md)
+
+---
+
+## COMMUNITY
+
+#### Initiatives
 - [Cardano Constitution Working Group - Gimbalabs 2022](https://github.com/st8tikratio/Constitution_WG_2022)
 
 
