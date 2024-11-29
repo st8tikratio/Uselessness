@@ -1,31 +1,31 @@
 # Productivity Platforms
 ---
-## Simulation
+## SIMULATION
 
 #### Machinations
 
 - [Machinations - Public Profile - Sk99](https://machinations.io/community/skidmarc99/profile)
 - [Build Game Loops](https://github.com/st8tikratio/Usefulness/blob/main/papers/markdown_versions/machination_game_loops.md)
 
-## Markdown
+## MARKDOWN
 
 ### HackMD
 
 - [All Notes & Research from Personal Account](https://hackmd.io/Xn_ZlFAIRKCu-GCgAHWUjg?view)
 
-## Productivity
+## PRODUCTIVITY
 
 - [CryptPad](https://cryptpad.fr/)
 
-## Domains
+## DOMAIN
 
 - [omg.lol](https://home.omg.lol/)
 
-## Journal / Blog
+## BLOGGING
 
 - [Micro.blog](https://micro.blog/)
 
-## Quantum Resistance
+## QUANTUM RESISTANCE
 
 - [The Quantum Resistant Ledger](https://www.theqrl.org/)
 
