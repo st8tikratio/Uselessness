@@ -1,4 +1,4 @@
-# Privacy
+# Tools For Anonymity and Pseudonomy
 
 ### Mobile
 - [CalyxOS](https://calyxos.org/)
