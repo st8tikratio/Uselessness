@@ -45,5 +45,5 @@ A little about this repo. These are a colleciton of files, PDFs, notes, links an
      - [Machinations](/software/platforms/machinations/README.md)
 
 
-### Governance
+### [Governance](/governance/README.md)
    - [Ethics](/governance/ethics/README.md)
