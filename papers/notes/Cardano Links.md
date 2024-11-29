@@ -4,11 +4,6 @@ tags: [Cardano]
 
 ---
 
----
-title: Cardano Links
-tags: Cardano
----
-
 # Cardano Links
 
 ## Documentation
