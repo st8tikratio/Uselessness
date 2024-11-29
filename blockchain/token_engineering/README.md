@@ -3,6 +3,7 @@
 ---
 
 ## Token Engineering Fundamentals Course
+- [Module 1 - Introduction to Token Engineering](/blockchain/token_engineering/tef-mod1-intro-to-token-engineering.md)
 - [Module 2 - Discorver Phase](/blockchain/token_engineering/tef-mod2-discovery-phase.md)
 
 ## Complex Systems
