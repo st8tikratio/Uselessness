@@ -1,5 +1,8 @@
 # Github Tips, Tricks and Helpful Info
+---
 
+## Github Flavored Markdown
+- [Reference](https://github.github.com/gfm/#open-tag)
 ---
 
 ## Creating Colored Text
