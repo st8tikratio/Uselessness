@@ -2,6 +2,9 @@
 
 ---
 
+## Computational Social Choice (COMSOC)
+- [All Notes](/blockchain/token_engineering/comsoc/README.me)
+
 ## Fundamentals
 - [Back To Basics, Token Engineering Fundamentals - `NOTES`](/blockchain/token_engineering/back-to-basics_token-engineering-fundamentals.md)
 
