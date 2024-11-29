@@ -1,1 +1,1 @@
-# Sort files in thios directory
+# Sort files in this directory
