@@ -6,5 +6,5 @@
 - [Center For Election Science](https://electionscience.org/research-hub)
 - [Annenburg Classroom - Establishing Equality Voting Representation](https://www.annenbergclassroom.org/resource/the-pursuit-of-justice/pursuit-justice-chapter-14-establishing-equality-voting-representation/)
 
-## Ethics
+## [Ethics](/governance/ethics/README.md)
 - [Ethics and Values Related](governance/ethics/README.md)
