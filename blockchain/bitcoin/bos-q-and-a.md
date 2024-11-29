@@ -1,3 +1,4 @@
+##### [SOURCE]([blockchain/bitcoin/bos-q-and-a.md](https://x.com/BTC_OS/status/1862552059553153132))
 
 BitcoinOS
 @BTC_OS
