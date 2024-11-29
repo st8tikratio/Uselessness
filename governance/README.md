@@ -1,4 +1,4 @@
-# Governance $ Voting Research
+# Governance & Voting Research
 
 - [bternarytau **forked** Github repo](https://github.com/st8tikratio/find_vote_methods_within--bternarytau.github.io)
 - [bternarytau.github.io](https://bternarytau.github.io/)
