@@ -3,7 +3,7 @@
 ---
 
 ## Back To Basics
-- [Back To Basics NOTES](/back-to-basics_token-engineering.md)
+- [Back To Basics NOTES](/token_engineering/back-to-basics_token-engineering.md)
 
 ## Circuit Modeling
 
