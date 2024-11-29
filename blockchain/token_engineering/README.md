@@ -3,7 +3,7 @@
 ---
 
 ## Back To Basics
-- [Back To Basics NOTES](/blokchain/tools/token_engineering/back-to-basics_token-engineering.md)
+- [Back To Basics, Token Engineering Fundamentals - `NOTES`](/blokchain/tools/token_engineering/back-to-basics_token-engineering.md)
 
 ## Circuit Modeling
 
