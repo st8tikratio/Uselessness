@@ -12,9 +12,9 @@
 ### 4. [SSI & DID](/privacy/ssi-did/README.md)
 
 ### 5. Email providers
-- Mailfence
-- Soverin
-- Proton
-- MySudo
-- Guerilla Mail
-- 
+- [Mailfence](https://mailfence.com/)
+- [Soverin](https://soverin.com/)
+- [Proton](https://mail.proton.me/)
+- [My Sudo](https://anonyome.com/individuals/mysudo/)
+- [Guerilla Mail](https://www.guerrillamail.com/)
+- [Counter Mail ](https://countermail.com/)
