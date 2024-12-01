@@ -11,10 +11,18 @@
 
 ### 4. [SSI & DID](/privacy/ssi-did/README.md)
 
+---
+##  These Need a New Home / Sort
 ### 5. Email providers
-- [Mailfence](https://mailfence.com/)
 - [Soverin](https://soverin.com/)
 - [Proton](https://mail.proton.me/)
 - [My Sudo](https://anonyome.com/individuals/mysudo/)
 - [Guerilla Mail](https://www.guerrillamail.com/)
 - [Counter Mail ](https://countermail.com/)
+- [Posteo](https://posteo.de/en/)
+- [StartMail](https://www.startmail.com/)
+
+
+### 6. Other Links
+- [NitroKey](https://www.nitrokey.com/)
+- [Privacy Guides](https://www.privacyguides.org/en)
