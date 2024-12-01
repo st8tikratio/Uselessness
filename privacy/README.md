@@ -28,3 +28,4 @@
 ### 6. Other Links
 - [NitroKey](https://www.nitrokey.com/)
 - [Privacy Guides](https://www.privacyguides.org/en)
+- [I2P - The Invisible Internet Project](https://geti2p.net/en/)
