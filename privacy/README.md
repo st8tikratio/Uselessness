@@ -14,6 +14,8 @@
 ---
 ##  These Need a New Home / Sort
 ### 5. Email providers
+- [CT Templar](https://ctemplar.com/)
+- [Autistici/Inventati](https://www.autistici.org/)
 - [Soverin](https://soverin.com/)
 - [Proton](https://mail.proton.me/)
 - [My Sudo](https://anonyome.com/individuals/mysudo/)
