@@ -9,3 +9,4 @@
 - [The Ethereum Merge](https://www.alchemy.com/overviews/the-ethereum-merge)
 - [The Ethereum Proof-Of-Stake Merge](https://ethmerge.com/)
 - [The Merge](https://ethereum.org/en/roadmap/merge/)
+- [Etherum Flounders As Competition Gains Ground](https://www.bloomberg.com/news/articles/2024-11-29/crypto-s-middle-child-ethereum-flounders-as-rivals-gain-ground)
