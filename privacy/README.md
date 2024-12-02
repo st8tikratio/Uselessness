@@ -16,7 +16,7 @@
 ### 5. Email providers
 - [CT Templar](https://ctemplar.com/)
 - [Autistici/Inventati](https://www.autistici.org/)
-- [Soverin](https://soverin.com/)
+- [Soverin](https://soverin.com/) - encryption standard not mentioned
 - [Proton](https://mail.proton.me/)
 - [My Sudo](https://anonyome.com/individuals/mysudo/)
 - [Guerilla Mail](https://www.guerrillamail.com/)
