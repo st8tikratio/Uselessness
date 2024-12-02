@@ -34,3 +34,4 @@
 - [Divested OS Github Repo `by Divested Mobile`](https://github.com/Divested-Mobile)
 - [Obtanium - Andorid app updates](https://github.com/ImranR98/Obtainium#readme)
 - [F-Droid - `not recommended` - Github Repo](https://github.com/f-droid)
+- [Aurora OSS - app store](https://github.com/aurora-website)
