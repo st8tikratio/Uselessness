@@ -6,3 +6,4 @@
 ## [Notes](/papers/notes/README.md)
 - [Media List](/papers/notes/media-list.md)
 - [Other Resources](/papers/notes/other-resources.md)
+- [Coase Theorem](https://en.wikipedia.org/wiki/Coase_theorem)
