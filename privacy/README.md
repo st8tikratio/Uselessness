@@ -29,3 +29,6 @@
 - [NitroKey](https://www.nitrokey.com/)
 - [Privacy Guides](https://www.privacyguides.org/en)
 - [I2P - The Invisible Internet Project](https://geti2p.net/en/)
+- [Graphene OS Github Repo](https://github.com/GrapheneOS)
+  - [Graphene OS App Store Repo](https://github.com/GrapheneOS/AppStore)
+- [Divested OS Github Repo `by Divested Mobile`](https://github.com/Divested-Mobile)
