@@ -2,6 +2,8 @@
 
 ## Letters Written
 - [On Catalyst Swarm Requesting 500k Gimbal Token](/blockchain/cardano/gimbalabs/on-catalyst-swarm-rft-gimbal-token.md)
+
+## Other Links
 - [2024-5 Aiken PBL Course](https://www.andamio.io/course/aiken-pbl-2024) - started 03 Dec 2024
 - [Marlowe PBL]()
 - [Andamio SSOI Repo](https://github.com/Andamio-Platform/andamio-SSOI)
