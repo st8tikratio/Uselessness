@@ -24,20 +24,7 @@
 - [Posteo](https://posteo.de/en/)
 - [StartMail](https://www.startmail.com/)
 
-### 6. VPNs
-- [Mullvad](https://mullvad.net/en)
-  - [Mullvad No-Loggin Data Policy](https://mullvad.net/en/help/no-logging-data-policy)
-  - 
-
-### 7. Other Links
+### 6. Other Links
 - [NitroKey](https://www.nitrokey.com/)
 - [Privacy Guides](https://www.privacyguides.org/en)
 - [I2P - The Invisible Internet Project](https://geti2p.net/en/)
-- [Graphene OS Github Repo](https://github.com/GrapheneOS)
-  - [Graphene OS App Store Repo](https://github.com/GrapheneOS/AppStore)
-- [Divested OS Github Repo `by Divested Mobile`](https://github.com/Divested-Mobile)
-- [Obtanium - Andorid app updates](https://github.com/ImranR98/Obtainium#readme)
-- [F-Droid - `not recommended` - Github Repo](https://github.com/f-droid)
-  - [`If F-DROID is required` use F-DROID **Basic**](https://f-droid.org/en/packages/org.fdroid.basic/)
-- [Aurora OSS Website Repo](https://github.com/aurora-website)
-  - [Aurora OSS Web App Store](https://auroraoss.com/)
