@@ -24,8 +24,12 @@
 - [Posteo](https://posteo.de/en/)
 - [StartMail](https://www.startmail.com/)
 
+### 6. VPNs
+- [Mullvad](https://mullvad.net/en)
+  - [Mullvad No-Loggin Data Policy](https://mullvad.net/en/help/no-logging-data-policy)
+  - 
 
-### 6. Other Links
+### 7. Other Links
 - [NitroKey](https://www.nitrokey.com/)
 - [Privacy Guides](https://www.privacyguides.org/en)
 - [I2P - The Invisible Internet Project](https://geti2p.net/en/)
