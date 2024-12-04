@@ -48,3 +48,9 @@ A little about this repo. These are a colleciton of files, PDFs, notes, links an
 
 ### [Governance](/governance/README.md)
    - [Ethics](/governance/ethics/README.md)
+
+### SORT THESE (Temp)
+   - [Logscale Documentation](https://library.humio.com/kb/kb-standalone-selfstart.html)
+   - [Create Dashboard Through GrphQL](https://library.humio.com/kb/kb-standalone-selfstart.html)
+   - [GraphQL Postgres Metrics Dashboard with Cube](https://cube.dev/blog/graphql-postgres-metrics-dashboard-with-cube)
+   - [Intro To GraphQL](https://graphql.org/learn/)
