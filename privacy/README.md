@@ -28,3 +28,6 @@
 - [NitroKey](https://www.nitrokey.com/)
 - [Privacy Guides](https://www.privacyguides.org/en)
 - [I2P - The Invisible Internet Project](https://geti2p.net/en/)
+
+### 7. Browsers
+- **To set chrome flags in chromium based browsers**: enter ```chrome://flags``` in browser address bar
