@@ -31,3 +31,4 @@
 
 ### 7. Browsers
 - **To set chrome flags in chromium based browsers**: enter ```chrome://flags``` in browser address bar
+- [Ungoogled-Chromium Wiki](https://github.com/ungoogled-software/ungoogled-chromium-wiki)
