@@ -32,3 +32,9 @@
 ### 7. Browsers
 - **To set chrome flags in chromium based browsers**: enter ```chrome://flags``` in browser address bar
 - [Ungoogled-Chromium Wiki](https://github.com/ungoogled-software/ungoogled-chromium-wiki)
+
+### 8. Sort
+- [Molly](https://github.com/mollyim) - Signal fork
+- [Cake Labs LLC](https://github.com/cake-tech) - Multi-coin (not all) wallet
+- [Accrescent App Store](https://github.com/accrescent) - minimal apps
+- [BeauTyTxT](https://github.com/soupslurpr/BeauTyXT)
