@@ -38,3 +38,6 @@
 - [Cake Labs LLC](https://github.com/cake-tech) - Multi-coin (not all) wallet
 - [Accrescent App Store](https://github.com/accrescent) - minimal apps
 - [BeauTyTxT](https://github.com/soupslurpr/BeauTyXT)
+- [Wireguard APK](https://git.zx2c4.com/wireguard-android/about/)
+- [Wireguard Repositories](https://www.wireguard.com/repositories/)
+- []()
