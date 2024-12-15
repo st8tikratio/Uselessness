@@ -1,5 +1,15 @@
 # Motherfucking Android Notes
 
+## Apps & APKs
+- [Tutanota Github](https://github.com/tutao/tutanota)
+  - [APK - FDroid](https://f-droid.org/en/packages/de.tutao.tutanota/)
+  - [APK](https://github.com/tutao/tutanota/releases/tag/tutanota-android-release-253.241126.2)
+- [Cake Wallet APK](https://github.com/cake-tech/cake_wallet/releases)
+  - [Cupcake Wallet](https://github.com/cake-tech/cake_wallet/releases)
+  - [Monero Wallet](https://github.com/cake-tech/cake_wallet/releases)
+- [KOReader]()
+- [BitWarden APK](https://github.com/bitwarden/mobile/releases/download/v2024.10.0/com.x8bit.bitwarden.apk)
+- [Brave APK](https://github.com/brave/brave-browser/releases)
 
 ## Verifying APK Signature Hashes
 ##### [Source](https://android.stackexchange.com/questions/9312/how-can-i-verify-the-authenticity-of-an-apk-file-i-downloaded)
