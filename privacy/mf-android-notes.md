@@ -44,6 +44,9 @@
   - [formerly Loki Net - alt download](https://getsession.org/download)
   - [part of Oxen.IO now](https://oxen.io/session-lokinet)
 - [Exif Eraser](https://github.com/Tommy-Geenexus/exif-eraser/releases/tag/v6.3.0)
+- [Breezy Weather](https://github.com/breezy-weather/breezy-weather/releases/tag/v5.3.1)
+- [KeePass2Android](https://github.com/PhilippC/keepass2android/releases/tag/v1.11-r0)
+  - [Cern recommendation](https://devices.docs.cern.ch/pss/keepass2android/)
 - []()
 
 ## Verifying APK Signature Hashes
