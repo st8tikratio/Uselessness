@@ -47,6 +47,7 @@
 - [Breezy Weather](https://github.com/breezy-weather/breezy-weather/releases/tag/v5.3.1)
 - [KeePass2Android](https://github.com/PhilippC/keepass2android/releases/tag/v1.11-r0)
   - [Cern recommendation](https://devices.docs.cern.ch/pss/keepass2android/)
+- [KeePassDX Libre](https://github.com/Kunzisoft/KeePassDX/releases/tag/4.1.1)
 - []()
 
 ## Verifying APK Signature Hashes
