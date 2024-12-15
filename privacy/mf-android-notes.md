@@ -1,6 +1,6 @@
 # Motherfucking Android Notes
 
-## Apps & APKs
+## App APKs
 - [Tutanota Github](https://github.com/tutao/tutanota)
   - [APK - FDroid](https://f-droid.org/en/packages/de.tutao.tutanota/)
   - [APK](https://github.com/tutao/tutanota/releases/tag/tutanota-android-release-253.241126.2)
@@ -10,6 +10,12 @@
 - [KOReader]()
 - [BitWarden APK](https://github.com/bitwarden/mobile/releases/download/v2024.10.0/com.x8bit.bitwarden.apk)
 - [Brave APK](https://github.com/brave/brave-browser/releases)
+- [Transistor](https://codeberg.org/y20k/transistor/src/tag/v4.2.2)
+- [Karbon - XEEditor](https://github.com/Xed-Editor/Xed-Editor/releases/tag/v2.9.0)
+- [Thunderbird](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_8_2)
+- [K-9 Mail](https://github.com/thunderbird/thunderbird-android/releases/tag/K9MAIL_8_2)
+- [Organic Maps](https://github.com/organicmaps/organicmaps/releases/tag/2024.11.27-12-android)
+- [Markor](https://github.com/gsantner/markor/releases/tag/v2.13.1)
 
 ## Verifying APK Signature Hashes
 ##### [Source](https://android.stackexchange.com/questions/9312/how-can-i-verify-the-authenticity-of-an-apk-file-i-downloaded)
