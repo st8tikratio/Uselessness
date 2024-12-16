@@ -48,9 +48,22 @@
 - [KeePass2Android](https://github.com/PhilippC/keepass2android/releases/tag/v1.11-r0)
   - [Cern recommendation](https://devices.docs.cern.ch/pss/keepass2android/)
 - [KeePassDX Libre](https://github.com/Kunzisoft/KeePassDX/releases/tag/4.1.1)
+- [OpenKeychain](https://www.openkeychain.org/)
+  - [APK](https://f-droid.org/packages/org.sufficientlysecure.keychain/)
 - []()
+- []()
+- 
 
 ## Verifying APK Signature Hashes
+### Method #1
+##### [Source](https://stackoverflow.com/questions/7104624/how-do-i-verify-that-an-android-apk-is-signed-with-a-release-certificate)
+#### If Java Is Installed
+Use `keytool`
+```
+keytool -printcert -jarfile [file.apk]
+```
+
+### Method #2
 ##### [Source](https://android.stackexchange.com/questions/9312/how-can-i-verify-the-authenticity-of-an-apk-file-i-downloaded)
 #### Getting and executing apksigner
 Apksigner is a Java tool and Google provides for start-up a batch file apksigner.bat(Windows) respectively a shell script apksigner.sh (Linux, MacOS).
