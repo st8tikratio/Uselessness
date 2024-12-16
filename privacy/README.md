@@ -41,3 +41,4 @@
 - [Wireguard APK](https://git.zx2c4.com/wireguard-android/about/)
 - [Wireguard Repositories](https://www.wireguard.com/repositories/)
 - [M#%herF^cking Android Notes](https://github.com/st8tikratio/Usefulness/blob/main/privacy/mf-android-notes.md)
+- [PrivSec - Various Info](https://privsec.dev/)
