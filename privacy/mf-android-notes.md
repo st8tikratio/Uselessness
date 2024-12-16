@@ -53,6 +53,9 @@
 - []()
 - []()
 - 
+### GrapheneOS App Compatability
+- [Financial Institutions](https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/)
+---
 
 ## Verifying APK Signature Hashes
 ### Method #1
@@ -89,3 +92,5 @@ java -jar apksigner.jar verify --verbose --print-certs "Signal-website-universal
 ```
 <path to java 9+>/java -jar <path to apksigner>/apksigner.jar verify --verbose --p
 ```
+
+---
