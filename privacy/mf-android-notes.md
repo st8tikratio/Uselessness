@@ -16,12 +16,15 @@
 - [Removing Google Play Store; updating apps later](https://discuss.grapheneos.org/d/5302-removing-play-services-after-having-used-them)
 - [Financial Institutions](https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/)
 - [Syncing Password Managers](https://discuss.grapheneos.org/d/7881-use-password-manager-in-different-user-profiles/10)
-- 
+- [Android Private Spaces Functionality](https://discuss.grapheneos.org/d/16718-some-questions-regarding-the-new-private-space-feature/2)
+- []()
 
 ---
 
 ## Cross-Verified App APKs Using AppVerifier and Android Tools
 - [MollyFOSS](https://github.com/mollyim/mollyim-android/releases/tag/v7.26.1-1)
+   - [Open Collective -- MollyIM](https://opencollective.com/mollyim)
+   - [Molly IM](https://molly.im/)
 - [Tutanota Github](https://github.com/tutao/tutanota)
   - [APK - FDroid](https://f-droid.org/en/packages/de.tutao.tutanota/)
   - [APK](https://github.com/tutao/tutanota/releases/tag/tutanota-android-release-253.241126.2)
