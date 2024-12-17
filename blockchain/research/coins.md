@@ -25,7 +25,7 @@
 | Iota             | IOTA  |         |                    |         | 4,600,000,000  | [Library](https://www.iota.org/foundation/research-papers)                                                                                                                    |
 | MultiverseX      | EGLD  |         |                    |         | 31,415,926     | [Download](https://files.multiversx.com/multiversx-whitepaper.pdf)                                                                                                            |
 | Ronin            | RON   |         |                    |         | 1,000,000,000  | [Download](https://docs.roninchain.com/basics/white-paper)                                                                                                                    |
-| Core Chain       | CORE  |         |                    |         | 2,100,000,000  | [Git](https://whitepaper.coredao.org/core-white-paper-v1.0.7)                                                                                                                 |
+| **Core Chain**       | CORE  |         |                    |         | 2,100,000,000  | [Git](https://whitepaper.coredao.org/core-white-paper-v1.0.7)                                                                                                                 |
 
 
 
