@@ -1,6 +1,14 @@
 # Motherfucking Android Notes
 
-## App APKs
+---
+
+## Google Play Store & Services
+- [Removing and updating apps later](https://discuss.grapheneos.org/d/5302-removing-play-services-after-having-used-them)
+- []()
+
+---
+
+## Cross-Verified App APKs Using AppVerifier and Android Tools
 - [Tutanota Github](https://github.com/tutao/tutanota)
   - [APK - FDroid](https://f-droid.org/en/packages/de.tutao.tutanota/)
   - [APK](https://github.com/tutao/tutanota/releases/tag/tutanota-android-release-253.241126.2)
