@@ -18,7 +18,7 @@
 - [Syncing Password Managers](https://discuss.grapheneos.org/d/7881-use-password-manager-in-different-user-profiles/10)
 - [Android Private Spaces Functionality](https://discuss.grapheneos.org/d/16718-some-questions-regarding-the-new-private-space-feature/2)
 - [Owner-Only Setup or Multiple User Profiles](https://discuss.grapheneos.org/d/12611-best-practices-google-play-and-profiles/11)
-- 
+- [Best Practices: Google Play and Profiles](https://discuss.grapheneos.org/d/12611-best-practices-google-play-and-profiles)
 
 ---
 
