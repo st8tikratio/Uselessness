@@ -42,3 +42,4 @@
 - [Wireguard Repositories](https://www.wireguard.com/repositories/)
 - [M#%herF^cking Android Notes](https://github.com/st8tikratio/Usefulness/blob/main/privacy/mf-android-notes.md)
 - [PrivSec - Various Info](https://privsec.dev/)
+- [Words](https://github.com/st8tikratio/Usefulness/blob/main/privacy/eff_large_words.md)
