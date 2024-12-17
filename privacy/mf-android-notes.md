@@ -2,6 +2,15 @@
 
 ---
 
+## Requirements For Certain Apps (UNTESTED)
+1. **NEW** Google Acct for app downloads
+2. Change VPN exit nodes
+3. Create secondary Google account
+4. Repeat 2 & 3 as needed
+
+   
+---
+
 ## Relevant GrapheneOS Links
 - [User Guide](https://grapheneos.org/usage#sandboxed-google-play-installation)
 - [Removing Google Play Store; updating apps later](https://discuss.grapheneos.org/d/5302-removing-play-services-after-having-used-them)
