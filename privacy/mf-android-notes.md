@@ -25,6 +25,7 @@
 - [MollyFOSS](https://github.com/mollyim/mollyim-android/releases/tag/v7.26.1-1)
    - [Open Collective -- MollyIM](https://opencollective.com/mollyim)
    - [Molly IM](https://molly.im/)
+- [Signal](https://github.com/signalapp/Signal-Android/releases/tag/v7.28.0)
 - [Tutanota Github](https://github.com/tutao/tutanota)
   - [APK - FDroid](https://f-droid.org/en/packages/de.tutao.tutanota/)
   - [APK](https://github.com/tutao/tutanota/releases/tag/tutanota-android-release-253.241126.2)
