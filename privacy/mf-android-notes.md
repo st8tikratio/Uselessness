@@ -31,12 +31,12 @@
 - [NetGuard](https://github.com/M66B/NetGuard/releases/tag/2.330)
 - [Material Notes](https://github.com/maelchiotti/LocalMaterialNotes/releases/tag/v1.9.1)
 - [Element](https://github.com/element-hq/element-android/releases/tag/v1.6.24)
-- Currencies
+- Currencies -> No APK, must build or get from F-Droid
 - [Orbot](https://github.com/guardianproject/orbot/releases/tag/17.2.1-RC-1-tor-0.4.8.7)
 - [Firefox Focus](https://archive.mozilla.org/pub/focus/releases/133.0/android/focus-133.0-android-arm64-v8a/)
 - [Tor Browser](https://www.torproject.org/download/#android)
-- OnionShare - https://docs.onionshare.org/
-- Save - https://www.open-archive.org/save
+- OnionShare - https://docs.onionshare.org/ -> No APK
+- Save - https://www.open-archive.org/save -> No APK
 - [Open Camera](https://sourceforge.net/projects/opencamera/)
 - [OSS Weather](https://github.com/Akylas/oss-weather/releases/tag/android%2Fgithub%2F2.9.3%2F146)
 - [Stratum Auth](https://github.com/stratumauth/app/releases/tag/v1.1.0)
