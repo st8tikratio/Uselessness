@@ -2,9 +2,10 @@
 
 ---
 
-## Google Play Store & Services
+## Relevant GrapheneOS Links
+- [User Guide](https://grapheneos.org/usage#sandboxed-google-play-installation)
 - [Removing and updating apps later](https://discuss.grapheneos.org/d/5302-removing-play-services-after-having-used-them)
-- []()
+- [Financial Institutions](https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/)
 
 ---
 
@@ -61,8 +62,7 @@
 - []()
 - []()
 - 
-### GrapheneOS App Compatability
-- [Financial Institutions](https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/)
+
 ---
 
 ## Verifying APK Signature Hashes
