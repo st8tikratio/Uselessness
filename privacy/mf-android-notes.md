@@ -8,7 +8,12 @@
 3. Create secondary Google account
 4. Repeat 2 & 3 as needed
 
-   
+---
+
+## DNS
+- [Quad 9](https://quad9.net/)
+- []()
+
 ---
 
 ## Relevant GrapheneOS Links
