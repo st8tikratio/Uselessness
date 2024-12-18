@@ -22,6 +22,13 @@
 
 ---
 
+## Research These Apps (Signatures)
+- [Buttercup - website](https://buttercup.pw/)
+   - [Buttercup Github](https://github.com/buttercup)
+- [OpenVPN]
+
+---
+
 ## Cross-Verified App APKs Using AppVerifier and Android Tools
 - [MollyFOSS](https://github.com/mollyim/mollyim-android/releases/tag/v7.26.1-1)
    - [Open Collective -- MollyIM](https://opencollective.com/mollyim)
