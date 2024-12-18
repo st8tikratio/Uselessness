@@ -22,6 +22,14 @@
 
 ---
 
+## PWA Sites
+- [Cryptpad.fr](https://cryptpad.fr/index.html)
+   - [Hosted Instances](https://cryptpad.org/instances/)
+   - [Documentation](https://docs.cryptpad.org/en/)
+   - [Netherlands Host - Disroot.Org](https://cryptpad.disroot.org/)
+
+---
+
 ## Research These Apps (Signatures)
 - [Buttercup - website](https://buttercup.pw/)
    - [Buttercup Github](https://github.com/buttercup)
