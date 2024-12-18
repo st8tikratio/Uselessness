@@ -27,6 +27,11 @@
    - [Hosted Instances](https://cryptpad.org/instances/)
    - [Documentation](https://docs.cryptpad.org/en/)
    - [Netherlands Host - Disroot.Org](https://cryptpad.disroot.org/)
+- [Paste Bin - Private.Bin](https://bin.disroot.org/)
+- [Libre Translate - Text & Docs](https://translate.disroot.org/)
+- [FEDisroot](https://fe.disroot.org/)
+- [Lemmy Project - Social Link Aggregator](https://join-lemmy.org/)
+   - [Scribe by Disroot - Social Link Aggregator](https://scribe.disroot.org/)
 
 ---
 
