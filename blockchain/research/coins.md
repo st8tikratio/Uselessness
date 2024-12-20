@@ -1,3 +1,4 @@
+
 # Coins With Fixed MAX Supply
 
 | Name             | Token | Staking | Passive Returns    | Network | Max Supply     | Whitepaper                                                                                                                                                                    |
