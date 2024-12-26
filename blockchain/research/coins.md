@@ -17,7 +17,7 @@
 ---
 
 # Coins With Fixed MAX Supply
-##### Chains with `strikethrough` failed certain personal criteria 
+###### Chains with `strikethrough` failed certain personal criteria 
 
 | Name                                       | Token             | Staking                                          | Passive Returns                | Network                                                                                    | Max Supply                             | Acceptable Tokenomics                                                                                                                                | Whitepaper                                                                                                                                                                          |   Type/Notes                                                                                 |
 | ------                                     |  :-----:          | :-------:                                        | :---------------:              | :-------:                                                                                  | :----------:                           | :----------:                                                                                                                                         | :-------:                                                                                                                                                                           | -------------                                                                                |
