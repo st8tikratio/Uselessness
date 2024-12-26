@@ -1,7 +1,7 @@
 # Filtered From List Below
 ###### All whitepapers read in 2021, 2022 or 2024
 
-| Name                                      | Token    | Supply          | Stake (Y, M)   |
+| Name                                      | Token    | MAX Supply      | Stake (Y, M)   |
 | ----                                      | :------: | -----------     | :--------:     |
 | Cardano                                   | ADA      | 45,000,000,000  | Y              |
 | Avalanche                                 | AVAX     | 720,000,000     | Y              |
