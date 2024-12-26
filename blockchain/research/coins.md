@@ -14,8 +14,10 @@
 | Multiverse-X                              | EGLD     | 31,415,926      | Y              |
 | Core Chain                                | CORE     | 2,100,000,000   | Y              | 
 
+---
 
 # Coins With Fixed MAX Supply
+##### Chains with `strikethrough` failed certain personal criteria 
 
 | Name                                       | Token             | Staking                                          | Passive Returns                | Network                                                                                    | Max Supply                             | Acceptable Tokenomics                                                                                                                                | Whitepaper                                                                                                                                                                          |   Type/Notes                                                                                 |
 | ------                                     |  :-----:          | :-------:                                        | :---------------:              | :-------:                                                                                  | :----------:                           | :----------:                                                                                                                                         | :-------:                                                                                                                                                                           | -------------                                                                                |
