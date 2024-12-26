@@ -1,3 +1,20 @@
+# Filtered From List Below
+###### All whitepapers read in 2021, 2022 or 2024
+
+| Name                                      | Token    | Supply          | Stake (Y, M)   |
+| ----                                      | :------: | -----------     | :--------:     |
+| Cardano                                   | ADA      | 45,000,000,000  | Y              |
+| Avalanche                                 | AVAX     | 720,000,000     | Y              |
+| Chainlink                                 | LINK     | 1,000,000,000   | Y              |
+| Filecoin                                  | FIL      | 1,959,768,458   | Y              |
+| Sui                                       | SUI      | 10,000,000,000  | Y              |
+| Kaspa                                     | KAS      | 28,704,026,601  | M(ine)         |
+| Stellar                                   | XLM      | 50,001,786,911  | Y              |
+| Hedera                                    | HBAR     | 50,000,000,000  | Y              |
+| Multiverse-X                              | EGLD     | 31,415,926      | Y              |
+| Core Chain                                | CORE     | 2,100,000,000   | Y              | 
+
+
 # Coins With Fixed MAX Supply
 
 | Name                                       | Token             | Staking                                          | Passive Returns                | Network                                                                                    | Max Supply                             | Acceptable Tokenomics                                                                                                                                | Whitepaper                                                                                                                                                                          |   Type/Notes                                                                                 |
