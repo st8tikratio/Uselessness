@@ -1,6 +1,7 @@
 # Filtered From List Below
 ###### All whitepapers read in 2021, 2022 or 2024
 ###### Verify tokenomics for all before accepting
+###### Last updated 27 Dec 2024
 
 | Name                                      | Token      | MAX Supply      | Stake (Y, M)   |
 | ----                                      | :------:   | -----------     | :--------:     |
