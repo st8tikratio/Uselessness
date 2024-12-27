@@ -3,21 +3,21 @@
 ###### All whitepapers read in 2021, 2022 or 2024
 ###### Verify tokenomics for all before accepting, exercise your own due-diligence
 
-# Filtered From List Below
+# Filtered From List Below (Alphabetical)
 
 | Name                                      | Token      | MAX Supply      | Stake (Y, M)   |
 | ----                                      | :------:   | -----------     | :--------:     |
-| Cardano                                   | ADA        | 45,000,000,000  | Y              |
 | Avalanche                                 | AVAX       | 720,000,000     | Y              |
+| Cardano                                   | ADA        | 45,000,000,000  | Y              |
 | Chainlink                                 | LINK       | 1,000,000,000   | Y              |
-| Filecoin                                  | FIL        | 1,959,768,458   | Y              |
-| Sui                                       | SUI        | 10,000,000,000  | Y              |
-| Kaspa                                     | KAS        | 28,704,026,601  | M(ine)         |
-| Stellar                                   | XLM        | 50,001,786,911  | Y              |
-| Hedera                                    | HBAR       | 50,000,000,000  | Y              |
-| Multiverse-X                              | EGLD       | 31,415,926      | Y              |
 | Core Chain                                | CORE       | 2,100,000,000   | Y              |
+| Filecoin                                  | FIL        | 1,959,768,458   | Y              |
+| Hedera                                    | HBAR       | 50,000,000,000  | Y              |
 | IOTA                                      | IOTA, MANA | 4,600,000,000   | Y - decayed     |
+| Kaspa                                     | KAS        | 28,704,026,601  | M(ine)         |
+| Multiverse-X                              | EGLD       | 31,415,926      | Y              |
+| Stellar                                   | XLM        | 50,001,786,911  | Y              |
+| Sui                                       | SUI        | 10,000,000,000  | Y              |
 
 ---
 
