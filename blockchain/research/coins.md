@@ -1,4 +1,4 @@
-# Tokens With Fixed MAX Supply (not L2s or ERC only)
+# Tokens With Fixed MAX Supply (not L2s, ERC-only or ETH-gassed)
 ###### 🛑 Last updated 27 Dec 2024 🛑
 ###### All whitepapers read in 2021, 2022 or 2024
 ###### Verify tokenomics for all before accepting, exercise your own due-diligence
