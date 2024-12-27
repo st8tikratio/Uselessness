@@ -5,19 +5,19 @@
 
 # Filtered From List Below (Alphabetical)
 
-| Name                                      | Token      | MAX Supply      | Stake (Y, M)   |
-| ----                                      | :------:   | -----------     | :--------:     |
-| Avalanche                                 | AVAX       | 720,000,000     | Y              |
-| Cardano                                   | ADA        | 45,000,000,000  | Y              |
-| Chainlink                                 | LINK       | 1,000,000,000   | Y              |
-| Core Chain                                | CORE       | 2,100,000,000   | Y              |
-| Filecoin                                  | FIL        | 1,959,768,458   | Y              |
-| Hedera                                    | HBAR       | 50,000,000,000  | Y              |
-| IOTA                                      | IOTA, MANA | 4,600,000,000   | Y - decayed     |
-| Kaspa                                     | KAS        | 28,704,026,601  | M(ine)         |
-| Multiverse-X                              | EGLD       | 31,415,926      | Y              |
-| Stellar                                   | XLM        | 50,001,786,911  | Y              |
-| Sui                                       | SUI        | 10,000,000,000  | Y              |
+| Count  | Name                                      | Token      | MAX Supply      | Stake (Y, M)   |
+| :----: | -------                                   | :------:   | -----------     | :--------:     |
+| 1.     | Avalanche                                 | AVAX       | 720,000,000     | Y              |
+| 2.     | Cardano                                   | ADA        | 45,000,000,000  | Y              |
+| 3.     | Chainlink                                 | LINK       | 1,000,000,000   | Y              |
+| 4.     | Core Chain                                | CORE       | 2,100,000,000   | Y              |
+| 5.     | Filecoin                                  | FIL        | 1,959,768,458   | Y              |
+| 6.     | Hedera                                    | HBAR       | 50,000,000,000  | Y              |
+| 7.     | IOTA                                      | IOTA, MANA | 4,600,000,000   | Y - decayed    |
+| 8.     | Kaspa                                     | KAS        | 28,704,026,601  | M(ine)         |
+| 9.     | Multiverse-X                              | EGLD       | 31,415,926      | Y              |
+| 10.    | Stellar                                   | XLM        | 50,001,786,911  | Y              |
+| 11.    | Sui                                       | SUI        | 10,000,000,000  | Y              |
 
 ---
 
