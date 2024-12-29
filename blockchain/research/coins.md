@@ -6,7 +6,7 @@
 # Filtered From List Below (Alphabetical)
 
 | Count  | Name                                      | Token      | MAX Supply      | Stake (Y, M)   | Address Type | Ledger |
-| :----: | -------                                   | :------:   | -----------     | :--------:     | ----------   | ------ |
+| :----: | -------                                   | :------:   | -----------     | :--------:     | :--------:   | :----: |
 | 1.     | Avalanche                                 | AVAX       | 720,000,000     | Y              | Eth          | Y      |
 | 2.     | Cardano                                   | ADA        | 45,000,000,000  | Y              | Ada          | Y      |
 | 3.     | Chainlink                                 | LINK       | 1,000,000,000   | Y              | Eth          | Y      |
