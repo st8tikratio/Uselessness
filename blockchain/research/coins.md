@@ -5,19 +5,19 @@
 
 # Filtered From List Below (Alphabetical)
 
-| Count  | Name                                      | Token      | MAX Supply      | Stake (Y, M)   |
-| :----: | -------                                   | :------:   | -----------     | :--------:     |
-| 1.     | Avalanche                                 | AVAX       | 720,000,000     | Y              |
-| 2.     | Cardano                                   | ADA        | 45,000,000,000  | Y              |
-| 3.     | Chainlink                                 | LINK       | 1,000,000,000   | Y              |
-| 4.     | Core Chain                                | CORE       | 2,100,000,000   | Y              |
-| 5.     | Filecoin                                  | FIL        | 1,959,768,458   | Y              |
-| 6.     | Hedera                                    | HBAR       | 50,000,000,000  | Y              |
-| 7.     | IOTA                                      | IOTA, MANA | 4,600,000,000   | Y - decayed    |
-| 8.     | Kaspa                                     | KAS        | 28,704,026,601  | M(ine)         |
-| 9.     | Multiverse-X                              | EGLD       | 31,415,926      | Y              |
-| 10.    | Stellar                                   | XLM        | 50,001,786,911  | Y              |
-| 11.    | Sui                                       | SUI        | 10,000,000,000  | Y              |
+| Count  | Name                                      | Token      | MAX Supply      | Stake (Y, M)   | Address Type | Ledger |
+| :----: | -------                                   | :------:   | -----------     | :--------:     | ----------   | ------ |
+| 1.     | Avalanche                                 | AVAX       | 720,000,000     | Y              | Eth          | Y      |
+| 2.     | Cardano                                   | ADA        | 45,000,000,000  | Y              | Ada          | Y      |
+| 3.     | Chainlink                                 | LINK       | 1,000,000,000   | Y              | Eth          | Y      |
+| 4.     | Core Chain                                | CORE       | 2,100,000,000   | Y              | Eth          | Y      |
+| 5.     | Filecoin                                  | FIL        | 1,959,768,458   | Y              | Unk          | N      |
+| 6.     | Hedera                                    | HBAR       | 50,000,000,000  | Y              | Hbar         | ?      |
+| 7.     | IOTA                                      | IOTA, MANA | 4,600,000,000   | Y - decayed    | Eth - BSC    | Y      |
+| 8.     | Kaspa                                     | KAS        | 28,704,026,601  | M(ine)         | Eth          | Y      |
+| 9.     | Multiverse-X                              | EGLD       | 31,415,926      | Y              | Multiverse   | Y      |
+| 10.    | Stellar                                   | XLM        | 50,001,786,911  | Y              | Stellar      | Y      |
+| 11.    | Sui                                       | SUI        | 10,000,000,000  | Y              | Eth - BSC    | Y      |
 
 ---
 
