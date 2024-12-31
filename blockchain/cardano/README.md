@@ -99,6 +99,3 @@
   - [Fortuna Github](https://github.com/cardano-miners/fortuna)
 - [Elm - Cardano](https://github.com/elm-cardano/elm-cardano)
 - [State Of Cardano Developer Ecosystem](https://github.com/cardano-foundation/state-of-the-developer-ecosystem#readme)
-- [Read - Principles Of Chaos Engineering](https://principlesofchaos.org/)
-- [2018 - Chaos Engineering in PDF](https://arxiv.org/pdf/1702.05843)
-- [Dell Technologies - CHAOS ENGINEERINg: A JOURNEY INTO RESILIENCE](https://learning.dell.com/content/dam/dell-emc/documents/en-us/2023KS_Shaista-Chaos_Engineering_A_Journey_into_Resilience.pdf)
