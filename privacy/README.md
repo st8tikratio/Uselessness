@@ -1,4 +1,5 @@
 # Table of Contents
+###### NOTE: Simple branded apps have been purchased by an ad-focused entity
 
 ### 1. [Anonymity](/privacy/anon/README.md)
 
@@ -43,3 +44,4 @@
 - [M#%herF^cking Android Notes](https://github.com/st8tikratio/Usefulness/blob/main/privacy/mf-android-notes.md)
 - [PrivSec - Various Info](https://privsec.dev/)
 - [Words](https://github.com/st8tikratio/Usefulness/blob/main/privacy/eff_large_words.md)
+- [Fossify - Fork of Simple Mobile Tools](https://www.fossify.org/)
