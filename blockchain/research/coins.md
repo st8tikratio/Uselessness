@@ -10,7 +10,7 @@
 | 1.     | Avalanche                                 | AVAX       | 720,000,000     | Y              | Eth          | Y      |
 | 2.     | Cardano                                   | ADA        | 45,000,000,000  | Y              | Ada          | Y      |
 | 3.     | Chainlink                                 | LINK       | 1,000,000,000   | Y              | Eth          | Y      |
-| 4.     | Core Chain                                | CORE       | 2,100,000,000   | Y              | Eth          | Y      |
+| ~4.~   | ~Core Chain~                              | ~CORE~     | ~2,100,000,000~ | ~Y~            | ~Eth~        | ~Y~    |
 | 5.     | Filecoin                                  | FIL        | 1,959,768,458   | Y              | Unk          | N      |
 | 6.     | Hedera                                    | HBAR       | 50,000,000,000  | Y              | Hbar         | ?      |
 | 7.     | IOTA                                      | IOTA, MANA | 4,600,000,000   | Y - decayed    | Eth - BSC    | Y      |
