@@ -49,3 +49,6 @@
   - Bought by [Pango Group](https://www.pointwild.com/pango-group-merges-with-total-security-combined-company-rebranded-point-wild/)
     - Merged with Total Security to create [Point Wild](https://www.pointwild.com/)
     - Use a your own discretion 
+- Encrypted DNS providers
+  - [Quad9](https://quad9.net/service/service-addresses-and-features)
+  - [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)
