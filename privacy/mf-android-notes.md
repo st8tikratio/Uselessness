@@ -1,7 +1,7 @@
 # Motherfucking Android Notes
 
 ---
-## Using Network Wide VPN (i.e. VPN Fusion)
+## Using Network Wide VPN (i.e. Wireguard,VPN Fusion, Etc.)
 ### For GrapheneOS Users
 - `note: STB's, game consoles,etc. may not work with a network-wide VPN setup`
 - The below should only be done `potentially` when you are the network owner. It assumes you are `selecting` the devices you wnat to connect to the VPN tunnel.
