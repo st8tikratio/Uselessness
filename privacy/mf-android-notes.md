@@ -5,7 +5,14 @@
 ### For GrapheneOS Users
 - `note: STB's, game consoles,etc. may not work with a network-wide VPN setup`
 - The below should only be done `potentially` when you are the network owner. It assumes you are `selecting` the devices you wnat to connect to the VPN tunnel.
-   - GrapheneOS device under WiFi Privacy the user must select `per-network randomized MAC`
+   - GrapheneOS:
+      - log into Owner's (main) profile
+      - Click on `settings` (the cog-wheel)
+      - Navigate to `Network & Internet`
+      - Select `Internet`
+      - Select `your current active connection`
+      - Select `Privacy`
+      - Select `per-network randomized MAC`
    - Default is `per-connection Randomized MAC`
 ---
 
