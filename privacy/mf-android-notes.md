@@ -1,6 +1,13 @@
 # Motherfucking Android Notes
 
 ---
+## Using Network Wide VPN (i.e. VPN Fusion)
+### For GrapheneOS Users
+- `note: STB's, game consoles,etc. may not work with a network-wide VPN setup`
+- The below should only be done `potentially` when you are the network owner. It assumes you are `selecting` the devices you wnat to connect to the VPN tunnel.
+   - GrapheneOS device under WiFi Privacy the user must select `per-network randomized MAC`
+   - Default is `per-connection Randomized MAC`
+---
 
 ## Requirements For Certain Apps (UNTESTED)
 1. **NEW** Google Acct for app downloads
