@@ -35,7 +35,7 @@ A little about this repo. These are a colleciton of files, PDFs, notes, links an
    - [Security](privacy/security/README.md)
    - [SSI/DID](/privacy/ssi-did/README.md)
 
-### [Mac-Apple](mac-apple/README.md)
+### [Mac-Apple](/mac-apple/readme.md)
 
 ### [Software](/software/README.md)
    
