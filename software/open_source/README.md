@@ -26,6 +26,10 @@
 ### De-Googled
 - [Un-Googled Chromium](https://github.com/ungoogled-software/ungoogled-chromium)
 
+### Tools
+- [ExifTool](https://exiftool.org/)
+- [qPDF](https://qpdf.readthedocs.io/en/stable/index.html)
+
 ### Websites
 - [Open Source Software](https://osssoftware.org/)
 - [FOSS Hub](https://www.fosshub.com/)
