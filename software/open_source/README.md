@@ -27,8 +27,8 @@
 - [Un-Googled Chromium](https://github.com/ungoogled-software/ungoogled-chromium)
 
 ### Tools
-- [ExifTool](https://exiftool.org/)
-- [qPDF](https://qpdf.readthedocs.io/en/stable/index.html)
+- [ExifTool](https://exiftool.org/) - removes exif data from various file types
+- [qPDF](https://qpdf.readthedocs.io/en/stable/index.html) - removes certain aspects of pdfs
 
 ### Websites
 - [Open Source Software](https://osssoftware.org/)
