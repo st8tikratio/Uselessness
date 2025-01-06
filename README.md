@@ -35,6 +35,7 @@ A little about this repo. These are a colleciton of files, PDFs, notes, links an
    - [Security](privacy/security/README.md)
    - [SSI/DID](/privacy/ssi-did/README.md)
 
+### [Mac-Apple](mac-apple/README.md)
 
 ### [Software](/software/README.md)
    
@@ -45,7 +46,6 @@ A little about this repo. These are a colleciton of files, PDFs, notes, links an
    - [Platforms](/software/platforms/README.md)
      - [Github](/software/platforms/github/README.md)
      - [Machinations](/software/platforms/machinations/README.md)
-
 
 ### [Governance](/governance/README.md)
    - [Ethics](/governance/ethics/README.md)
