@@ -16,7 +16,7 @@
 ##  These Need a New Home / Sort
 ### 5. Email providers
 ```
-*** READ ALL PRIVACY POLICIES and TERMS AND CONDITIONS ***
+*** READ all PRIVACY POLICIES and TERMS AND CONDITIONS ***
 
 !!!! Users should stay away from Passkeys unless they are fully understood !!!!
 
