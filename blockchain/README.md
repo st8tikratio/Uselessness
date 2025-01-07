@@ -13,3 +13,6 @@
 
 ---
    - [Research](https://github.com/st8tikratio/Usefulness/blob/main/blockchain/research/coins.md)
+      - [Chains with max-supply](https://github.com/st8tikratio/Usefulness/blob/main/blockchain/research/coins.md)
+      - [Whitepapers](https://github.com/st8tikratio/Usefulness/blob/main/blockchain/research/whitepaper-list.md)
+
