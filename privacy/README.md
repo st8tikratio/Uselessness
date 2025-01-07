@@ -34,6 +34,8 @@ Email Clients should offer:
 - user encryption (GPG/PGP)
 - POP3 - mail leaves the server once pushed/pulled from client
 - IMAP - leaves messages on server, use "Delete From Server On Mail Delete" or similar
+
+BEWARE: Some email service providers have difficult to use 2/MFA and encryption.
 ```
 - [CT Templar](https://ctemplar.com/) - defunct as of 2022??
   - CTemplar Github [acct](https://github.com/CTemplar)
