@@ -15,7 +15,8 @@
 ---
 ##  These Need a New Home / Sort
 ### 5. Email providers
-- [CT Templar](https://ctemplar.com/)
+- [CT Templar](https://ctemplar.com/) - defunct as of 2022??
+  - CTemplar Github [acct](https://github.com/CTemplar)
 - [Autistici/Inventati](https://www.autistici.org/)
 - [Soverin](https://soverin.com/) - encryption standard not mentioned
 - [Proton](https://mail.proton.me/)
