@@ -77,6 +77,7 @@ BEWARE: Some email service providers have difficult to use 2/MFA and encryption.
   - [Quad9](https://quad9.net/service/service-addresses-and-features)
   - [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)
 - [Privacy International](https://privacyinternational.org)
+- FiorenMas [Revanced Apps](https://github.com/FiorenMas/Revanced-And-Revanced-Extended-Non-Root/releases) - trimmed down apps
 
 ### 9. Data Privacy
 - [Data Privacy Framework by ITA](https://www.dataprivacyframework.gov/Website-Privacy-Policy)
