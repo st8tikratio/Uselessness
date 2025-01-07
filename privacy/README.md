@@ -83,4 +83,4 @@ BEWARE: Some email service providers have difficult to use 2/MFA and encryption.
 - [CaseIQ International Privacy Laws by (certain) Countries](https://www.caseiq.com/resources/a-practical-guide-to-data-privacy-laws-by-country/)
 
 ### 10. U.S. Government - General
-- [Annual Unified Agenda](https://www.reginfo.gov/public/do/eAgendaMain) - issued every April - shows current and next fiscal actions to be taken
+- [Annual Unified Agenda](https://www.reginfo.gov/public/do/eAgendaMain) - issued every April - shows current/current+1 fiscal year's regulatory actions
