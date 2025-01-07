@@ -54,3 +54,8 @@
   - [Quad9](https://quad9.net/service/service-addresses-and-features)
   - [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)
 - [Privacy International](https://privacyinternational.org)
+
+### 9. Data Privacy
+- [Data Privacy Framework by ITA](https://www.dataprivacyframework.gov/Website-Privacy-Policy)
+- [Exemptions To U.S. Privacy Laws](https://www.ecfr.gov/current/title-28/chapter-I/part-16/subpart-E) - 40 exemptions as of 06 Jan 2025
+- [Case IQ International Privacy Laws by (certain) Countries](https://www.caseiq.com/resources/a-practical-guide-to-data-privacy-laws-by-country/)
