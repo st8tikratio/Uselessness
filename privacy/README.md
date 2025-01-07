@@ -15,6 +15,7 @@
 ---
 ##  These Need a New Home / Sort
 ### 5. Email providers
+#### Users should look for: zero-knowledge proofs, E2EE, encryption at rest, GPG/PGP capabilities, zero/minimal logging
 - [CT Templar](https://ctemplar.com/) - defunct as of 2022??
   - CTemplar Github [acct](https://github.com/CTemplar)
 - [Autistici/Inventati](https://www.autistici.org/)
