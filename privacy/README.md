@@ -28,7 +28,7 @@ Email services should offer:
 - end-to-end encryption (E2EE)
 - encryption at rest
 - Gnu-Privacy/pretty-good-protection (GPG/PGP) capabilities
-- zero/minimal logging`
+- zero/minimal logging
 
 Email Clients should offer:
 - user encryption (GPG/PGP)
