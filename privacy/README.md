@@ -67,7 +67,8 @@ BEWARE: Some email service providers have difficult to use 2/MFA and encryption.
 - [M#%herF^cking Android Notes](https://github.com/st8tikratio/Usefulness/blob/main/privacy/mf-android-notes.md)
 - [PrivSec - Various Info](https://privsec.dev/)
 - [Words](https://github.com/st8tikratio/Usefulness/blob/main/privacy/eff_large_words.md)
-- [Fossify - Fork of Simple Mobile Tools](https://www.fossify.org/)
+- [Fossify - Fork of Simple Mobile Tools](https://www.fossify.org/) - could not locate Signature for repo Calendar apk
+  - Unknown legitimacy outside of primary App Stores
 - [OVPN - NOT OpenVPN](https://openvpn.net/)
   - Bought by [Pango Group](https://www.pointwild.com/pango-group-merges-with-total-security-combined-company-rebranded-point-wild/)
     - Merged with Total Security to create [Point Wild](https://www.pointwild.com/)
