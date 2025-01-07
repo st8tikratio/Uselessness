@@ -22,6 +22,7 @@ All should be open-source, audited, offer canary reports (maily service provider
 
 Email services should offer:
 - two/multi-factor authentication (2FA, MFA)
+  - users should stay away from Passkeys unless they are fully understood
 - zero-knowledge proofs (ZKP)
 - end-toend encryption (E2EE)
 - encryption at rest
