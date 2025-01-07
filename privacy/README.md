@@ -52,3 +52,4 @@
 - Encrypted DNS providers
   - [Quad9](https://quad9.net/service/service-addresses-and-features)
   - [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)
+- [Privacy International](https://privacyinternational.org)
