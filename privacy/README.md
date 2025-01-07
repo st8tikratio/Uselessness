@@ -16,7 +16,10 @@
 ##  These Need a New Home / Sort
 ### 5. Email providers
 ```
+*** READ ALL PRIVACY POLICIES and TERMS AND CONDITIONS ***
+
 All should be open-source, audited, offer canary reports (maily service providers).
+
 Email services should offer:
 - two/multi-factor authentication (2FA, MFA)
 - zero-knowledge proofs (ZKP)
@@ -29,8 +32,6 @@ Email Clients should offer:
 - user encryption (GPG/PGP)
 - POP3 - mail leaves the server once pushed/pulled from client
 - IMAP - leaves messages on server, use "Delete From Server On Mail Delete" or similar
-
-*** READ ALL PRIVACY POLICIES and TERMS AND CONDITIONS ***
 ```
 - [CT Templar](https://ctemplar.com/) - defunct as of 2022??
   - CTemplar Github [acct](https://github.com/CTemplar)
