@@ -81,3 +81,6 @@ BEWARE: Some email service providers have difficult to use 2/MFA and encryption.
 - [Data Privacy Framework by ITA](https://www.dataprivacyframework.gov/Website-Privacy-Policy)
 - [Exemptions To U.S. Privacy Laws - Code of Federal Regulations(CFR)](https://www.ecfr.gov/current/title-28/chapter-I/part-16/subpart-E) - 40 exemptions as of today `06 Jan 2025`
 - [CaseIQ International Privacy Laws by (certain) Countries](https://www.caseiq.com/resources/a-practical-guide-to-data-privacy-laws-by-country/)
+
+### 10. U.S. Government - General
+- [Annual Unified Agenda](https://www.reginfo.gov/public/do/eAgendaMain) - issued every April - shows current and next fiscal actions to be taken
