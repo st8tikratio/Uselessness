@@ -31,6 +31,7 @@
 - [qPDF](https://qpdf.readthedocs.io/en/stable/index.html) - removes certain aspects of pdfs
 
 ### Websites
+- [Fossify](https://www.fossify.org/apps/) - Forked Simple apps after Simple's buyout
 - [Open Source Software](https://osssoftware.org/)
 - [FOSS Hub](https://www.fosshub.com/)
 - [FOSS](https://www.freeopensourcesoftware.org/index.php/Main_Page)
