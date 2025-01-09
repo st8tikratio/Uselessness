@@ -10,7 +10,12 @@
 - [Other Resources](/papers/notes/other-resources.md)
 
 ## SORT
-
 - [Read - Principles Of Chaos Engineering](https://principlesofchaos.org/)
 - [2018 - Chaos Engineering in PDF](https://arxiv.org/pdf/1702.05843)
 - [Dell Technologies - CHAOS ENGINEERINg: A JOURNEY INTO RESILIENCE](https://learning.dell.com/content/dam/dell-emc/documents/en-us/2023KS_Shaista-Chaos_Engineering_A_Journey_into_Resilience.pdf)
+
+## Online Only
+- [Practical Guide To Sociocracy 3.0](https://patterns.sociocracy30.org/)
+  - Specific:
+    - [Describe Organizational Drivers](https://patterns.sociocracy30.org/describe-organizational-drivers.html)
+    - [Driver Mapping](https://patterns.sociocracy30.org/driver-mapping.html)
