@@ -13,4 +13,4 @@
 
       gpg-connect-agent --hex "scd apdu 00 f1 00 00" /bye
       ```
-    - Check Yubikey RSA encryption level - [here](https://www.yubico.com/ca/store/compare/)
+  - Check Yubikey RSA encryption capabilities - [here](https://www.yubico.com/ca/store/compare/)
