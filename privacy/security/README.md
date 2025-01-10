@@ -5,7 +5,7 @@
 
 # GPG Key Import
 - [Yubikey](https://developers.yubico.com/PGP/Importing_keys.html)
-  - Certain keys are fully compatible with RSA-4096; adjust above instructions accordingly
+  - Certain keys are fully compatible with RSA-4096; adjust linked instructions accordingly
   - Check Yubikey RSA encryption capabilities - [here](https://www.yubico.com/ca/store/compare/)
   - Pre-requiites
     - GnuPG version 2.0.22 or later 
