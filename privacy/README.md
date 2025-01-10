@@ -1,3 +1,7 @@
+###### THIS ENTIRE SECTION AND ITS SUB-SECS NEEDS REWOKING
+
+---
+
 # Table of Contents
 ###### NOTE: Simple branded apps have been purchased by an ad-focused entity
 
