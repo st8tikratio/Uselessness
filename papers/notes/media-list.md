@@ -1,9 +1,5 @@
----
-title: Media List
 
----
-
-# Media List
+# Old Media List (2021 - 2022)
 
 ## Literature
 
