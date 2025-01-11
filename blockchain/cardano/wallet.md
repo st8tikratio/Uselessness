@@ -102,19 +102,10 @@ Full Node -> IPC -> Cardano Wallet -> Wallet UI
 ### Goal
 - People in Cardano should ***`host their own infrastructure`***
 
+---
 
-
-
-
-
-
-
-
-
-
-
-
-@@ Queestions:
+### Questions
+```
 - Midnight:
   - do SPOs run Midnight alongside infra or separate nodes?
     - built-into Cardano code base? 
@@ -124,7 +115,7 @@ Full Node -> IPC -> Cardano Wallet -> Wallet UI
   - who determines certification criteria?
   - what makes them the certifying authority?
   - should this be voted on? 
-
+```
 
 
 
