@@ -10,5 +10,5 @@
 ```
 Full Node -> IPC -> Cardano Wallet -> Wallet UI
                                    ^
-json RPC, Rest, GraphQL    _/ 
+      json RPC, Rest, GraphQL    _/ 
 ```
