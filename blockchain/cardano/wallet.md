@@ -84,7 +84,11 @@ Full Node -> IPC -> Cardano Wallet -> Wallet UI
 - ***`Super-Nodes`***
   - run Cardano infra + partner chain networks + other L1 chains
  
+---
 
+### Tie-in ???
+- NVidia [Digits](https://www.nvidia.com/en-us/project-digits/) - ITX sized AI super-computer
+- Iagon Pre-built Cyclone QS [Full Node](https://cyclone.iagon.com/) - Online storage
 
 
 
