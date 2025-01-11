@@ -13,6 +13,7 @@
 - [Read - Principles Of Chaos Engineering](https://principlesofchaos.org/)
 - [2018 - Chaos Engineering in PDF](https://arxiv.org/pdf/1702.05843)
 - [Dell Technologies - CHAOS ENGINEERINg: A JOURNEY INTO RESILIENCE](https://learning.dell.com/content/dam/dell-emc/documents/en-us/2023KS_Shaista-Chaos_Engineering_A_Journey_into_Resilience.pdf)
+- [Agents](https://x.com/Padierfind/status/1878096025556046330/photo/1)
 
 ## Online Only
 - [Practical Guide To Sociocracy 3.0](https://patterns.sociocracy30.org/)
