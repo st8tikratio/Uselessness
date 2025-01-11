@@ -3,7 +3,7 @@
 ###### A Non-Definitive Guide
 ---
 
-## Discussions
+## DISCUSSIONS
 - 10 Jan 2025 - Charles discussing [nodes, modules, future Cardano stuff](https://github.com/st8tikratio/Usefulness/blob/main/blockchain/cardano/wallet.md)
 
 
