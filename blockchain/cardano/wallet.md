@@ -39,5 +39,9 @@ Full Node -> IPC -> Cardano Wallet -> Wallet UI
 ---
 
 ### Discussions
-- W/ ***TxPipe*** representing Pragma
+- w/ ***TxPipe*** representing Pragma
   - discussed creating a working group between Intersect and Pragma to discuss `what a test suite could entail?`
+  - any of the `full-node wallet builders` are welcome to participate
+- the idea is to reach consensus on a Certification Concept
+  - people can then `self-certify` (like "we" did)
+    - `WE` refers to [Intersect, IOHK ??) wallet, `Mantis` being certified on Ethereum
