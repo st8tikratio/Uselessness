@@ -67,5 +67,5 @@ Full Node -> IPC -> Cardano Wallet -> Wallet UI
 
 ### Nodes
 - Full-Nodes
-- **__Super-Nodes__**
+- _**Super-Nodes**_
   - run Cardano infra + partner chain networks + other L1 chains 
