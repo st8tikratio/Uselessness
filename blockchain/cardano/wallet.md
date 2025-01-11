@@ -88,7 +88,19 @@ Full Node -> IPC -> Cardano Wallet -> Wallet UI
 
 ### Tie-in ???
 - NVidia [Digits](https://www.nvidia.com/en-us/project-digits/) - ITX sized AI super-computer
-- Iagon Pre-built Cyclone QS [Full Node](https://cyclone.iagon.com/) - Online storage
+  - super good at doing `Zero Knowledge Proofs (ZKPs)` with code-optimization
+    - Midnight will provide the Cardano Proof Layer
+  - install a full-node and self-host by running:
+    - remotely through backend or app
+    - locally
+  - leave it running to run in a completely trustless environment 
+- Iagon Pre-built Cyclone QS [Full Node](https://cyclone.iagon.com/) - Data-storage node
+  - **Pro** version can be run as full-node and as `full-wallet`
+
+---
+
+### Goal
+- People in Cardano should ***`host their own infrastructure`***
 
 
 
@@ -102,7 +114,16 @@ Full Node -> IPC -> Cardano Wallet -> Wallet UI
 
 
 
-
+@@ Queestions:
+- Midnight:
+  - do SPOs run Midnight alongside infra or separate nodes?
+    - built-into Cardano code base? 
+  - does Midnight have a separate Tx fee?
+    - where does this fee go?
+- Certification:
+  - who determines certification criteria?
+  - what makes them the certifying authority?
+  - should this be voted on? 
 
 
 
