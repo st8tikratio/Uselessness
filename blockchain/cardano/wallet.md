@@ -104,7 +104,7 @@ Full Node -> IPC -> Cardano Wallet -> Wallet UI
 
 ---
 
-### Questions
+### Questions & Observations
 ```
 - Midnight:
   - do SPOs run Midnight alongside infra or separate nodes?
@@ -114,7 +114,9 @@ Full Node -> IPC -> Cardano Wallet -> Wallet UI
 - Certification:
   - who determines certification criteria?
   - what makes them the certifying authority?
-  - should this be voted on? 
+  - should this be voted on?
+- Centralization
+  - concerning if IMBO or Triad are THE certifying authorities
 ```
 
 
