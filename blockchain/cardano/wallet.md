@@ -70,7 +70,13 @@ Full Node -> IPC -> Cardano Wallet -> Wallet UI
     - relay Tx + Blocks <- `if not doing the validation`
     - whole specification on how this works
     - could be `more sophisticated things` contributed
-   
+- Data-Difusion-Layer on Cardano is above and beyond what `just the ptotocols have`
+  - currently being handled in a fragmented and ad-hoc way 
+- Hardware Wallet MultiSig
+  - not directly stated as "improvement"
+  - ridiculously hard to compromise 3/5 or 5/7 multisig wallets
+    - C.H. does not beleive it has ever been done without social-engineering
+     
 ---
 
 ### Clients & Nodes
@@ -101,14 +107,31 @@ Full Node -> IPC -> Cardano Wallet -> Wallet UI
 
 ### Goal
 - People in Cardano should ***`host their own infrastructure`***
+- User should decide:
+  - what backend they want to run
+  - what hardware they want to run for that backend
+  - what services they want the hardware to provide
+- Making it simple so it becomes part of your stack
+- Stop using remotes servers so client is completely in control of ***`entire world`***
+- Believes there is a path to "do this now that we have Intersect and Pragma in this working group"
+  - certification `can be discussed` between ***`the two sides`***
+- Mithril Standard must be dragged int othe Full-Node World
+  - interfaces discussed
+  - discussions of cryptography
+  - standardize how various modules plugin
+  - inter-wallet interoperability
 
 ---
 
 ### Future
+
 #### Daedelus Wallet
+
 - 6-9 months Daedelus will be depricated from the I/O perspective
   - will be transferred over to a ***`community-led open-source project`***
+
 #### Lace Wallet
+
 - I/O will work on the Lace-side building an open-standard for `how one connects a node to wallets`
   - **`try to`** work with Vespir, Eternl and other people in Cardano ecosystem and see if they will `extend` as well
 - **`Dream is`** to make it really simple to download a full Mithril node and run it in their system-tray (background process) `like BitTorrent`
@@ -124,8 +147,36 @@ Full Node -> IPC -> Cardano Wallet -> Wallet UI
     ```
     multi-node World
     ```
-  -   
+- will have a desktop mode that will superior to Daedelus full-node experience
+- Full sync with same security features (***`"relatively speaking"`***):
+  - Mithril Desktop Node - benchmarked at under an hour
+  - Daedelus Full Node - takes about 3 days give or take- WTF???, 3 days?
+- Dedicated team in Argentina to setup Mobile-Clients for Android and iOS
+  - centralize and incentivize
+- dApp store still on roadmap
+- ***WILL ALWAYS LIVE IN THE BROWSER*** and needs to be on edge-devices also
+
+#### Example Modules
+- Wallet scripts - allows user to, similar to a bash/shell script, against a wallet
+  - Can chain a bunch of Tx together [sounds like GCScript]
+  - Ex: payroll script - hundreds of Tx at the same time
+
+#### About Standards (near direct quote)
+- It makes absolutely no sense to solve [the issues within this doc] for Lace. It makes sense to make standards for use across the ecosystem so that other wallet providers can benefit from it and not spend a lot of money or effort. Suddenly they can offer their user-base a self-host opportunity. Users should not have to migrate to get better security or something. You should have the ability to do that. Our goal is to make sure everyone is using the experience everyone likes. [Uses Nami as example feature set people enjoyed and was introduced into Lace. Nami code is very Beta. Migration ongoing.] 
+
+#### dApp Store
+- final and pivotal component of ***`Bitcoin DeFi`*** experience
+  - massive competitive differentiator
+  - a component theme of "all of these"
+
+---
      
+### Budgeting Process
+- when alternative nodes get funding (??) part of the funding can be funding for certification against the standard
+- people in Cardano have become accustom to formal methods, peer review and high-quality, high-assurance software <- we should never lose that
+  - understand this is not FREE
+- when alternative nodes are constructed, to ensure they have an equivalent level of quality over what the haskell node has been providing
+  - user gets to decide which ONE makes more sense
 
 ---
 
@@ -140,8 +191,15 @@ Full Node -> IPC -> Cardano Wallet -> Wallet UI
   - who determines certification criteria?
   - what makes them the certifying authority?
   - should this be voted on?
+- Two Sides:
+  - referring to IMBO and Pragma, IMBO and community builders, ...? Who?
 - Centralization
   - concerning if IMBO or Triad are THE certifying authorities
+- DREQ or DREC? What is it?
+---
+
+Typescript allows more features to be brought into the browser
+
 ```
 
 
