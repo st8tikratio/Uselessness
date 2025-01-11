@@ -1,10 +1,13 @@
 # Cardano Wallet Info
-###### From C.H. video on 10 Jan 2025
+###### From C.H. video on 10 Jan 2025 - [source](https://x.com/IOHK_Charles/status/1877887901956292760)
+###### Note: Full-client v. full-node are different systems
 
 ### "States of Maturity"
-  - Blinklabs - Go based walelt
-  - TxPipe - RUST based wallet
-  - Harmonic - Typescipt
+
+#### Current Wallet Builders (mentioned)
+- Blinklabs - Go based walelt
+- TxPipe - RUST based wallet
+- Harmonic - Typescipt
 - Reference - Haskell
 
 ```
@@ -17,11 +20,13 @@ Full Node -> IPC -> Cardano Wallet -> Wallet UI
 ---
 
 ### Become More Like Ethereum
+
 - Cardano become more like Ethereum with wallet testing protocols
   - See their [Tests](https://github.com/ethereum/tests) repo
   - Regardless of backend the dev can insure the client works as intended 
 
 #### Cardano Test Suite
+
 - Test Suite should include Blueprints
   - Blueprints = Formal Specs (incomplete ATM)
 - Some combination allows dev to validate full-client
@@ -40,6 +45,7 @@ Full Node -> IPC -> Cardano Wallet -> Wallet UI
 ---
 
 ### Discussions
+
 - w/ ***TxPipe*** representing Pragma
   - discussed creating a working group between Intersect and Pragma to discuss `what a test suite could entail?`
   - any of the `full-node wallet builders` are welcome to participate
@@ -50,12 +56,14 @@ Full Node -> IPC -> Cardano Wallet -> Wallet UI
 ---
 
 ### Idea
+
 - any wallet user can deccide if they want to run a remote-node or self-host
 - the wallet would then download chosen option accordingly
 
 ---
 
 ### Things That Must Be Improved
+
 - Already:
   - parallel workstream -> Mithril FastSync
   - network contribution -> exists on Peer-to-Peer (P2P) side
@@ -65,7 +73,46 @@ Full Node -> IPC -> Cardano Wallet -> Wallet UI
    
 ---
 
-### Nodes
-- Full-Nodes
-- ___**Super-Nodes**___
-  - run Cardano infra + partner chain networks + other L1 chains 
+### Clients & Nodes
+
+- Full-Clients
+  - provide service modules:
+    - `Hydra`
+    - `Proof-Server` - provides trusted execution environment
+    - etc.
+    - etc.
+- ***`Super-Nodes`***
+  - run Cardano infra + partner chain networks + other L1 chains
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
