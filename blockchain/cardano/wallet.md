@@ -120,8 +120,10 @@ Full Node -> IPC -> Cardano Wallet -> Wallet UI
 - the above will be on the ***`Lace Roadmap for 2025`***
 - taking an ecosystem-wide standards-driven approach
   - once solve for Lace ***`it is solved for everybody`***
-  - creates a practical path to a
-    | multi-node World
+  - creates a practical path to a:
+    ```
+    multi-node World
+    ```
   -   
      
 
