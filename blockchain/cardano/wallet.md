@@ -32,7 +32,8 @@ Full Node -> IPC -> Cardano Wallet -> Wallet UI
       - this can run on BlockFrost, Maestro, etc. etc.
     - self-hosted via a menu of options that are all certified against a standard
       - Haskell node
-      - No Node
+      - Go Node
+      - etc.
 - Certifying node options are within the `Validate Your Full-Client`
   - Certified against the Test Suite
 
@@ -45,3 +46,26 @@ Full Node -> IPC -> Cardano Wallet -> Wallet UI
 - the idea is to reach consensus on a Certification Concept
   - people can then `self-certify` (like "we" did)
     - `WE` refers to [Intersect, IOHK ??) wallet, `Mantis` being certified on Ethereum
+
+---
+
+### Idea
+- any wallet user can deccide if they want to run a remote-node or self-host
+- the wallet would then download chosen option accordingly
+
+---
+
+### Things That Must Be Improved
+- Already:
+  - parallel workstream -> Mithril FastSync
+  - network contribution -> exists on Peer-to-Peer (P2P) side
+    - relay Tx + Blocks <- `if not doing the validation`
+    - whole specification on how this works
+    - could be `more sophisticated things` contributed
+   
+---
+
+### Nodes
+- Full-Nodes
+- **_Super-Nodes_**
+  - run Cardano infra + partner chain networks + other L1 chains 
