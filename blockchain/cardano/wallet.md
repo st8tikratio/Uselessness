@@ -104,6 +104,29 @@ Full Node -> IPC -> Cardano Wallet -> Wallet UI
 
 ---
 
+### Future
+#### Daedelus Wallet
+- 6-9 months Daedelus will be depricated from the I/O perspective
+  - will be transferred over to a ***`community-led open-source project`***
+#### Lace Wallet
+- I/O will work on the Lace-side building an open-standard for `how one connects a node to wallets`
+  - **`try to`** work with Vespir, Eternl and other people in Cardano ecosystem and see if they will `extend` as well
+- **`Dream is`** to make it really simple to download a full Mithril node and run it in their system-tray (background process) `like BitTorrent`
+  - at the very least it would provide network resources
+  - over time, make it easy for people to build in modules/extension to full-node for:
+    - indexing
+    - running Hydra
+    - or whatever they so choose
+- the above will be on the ***`Lace Roadmap for 2025`***
+- taking an ecosystem-wide standards-driven approach
+  - once solve for Lace ***`it is solved for everybody`***
+  - creates a practical path to a
+    | multi-node World
+  -   
+     
+
+---
+
 ### Questions & Observations
 ```
 - Midnight:
