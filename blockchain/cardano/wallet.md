@@ -21,7 +21,7 @@ Full Node -> IPC -> Cardano Wallet -> Wallet UI
   - See their [Tests](https://github.com/ethereum/tests) repo
   - Regardless of backend the dev can insure the client works as intended 
 
-### Cardano Test Suite
+#### Cardano Test Suite
 - Test Suite should include Blueprints
   - Blueprints = Formal Specs (incomplete ATM)
 - Some combination allows dev to validate full-client
@@ -35,6 +35,8 @@ Full Node -> IPC -> Cardano Wallet -> Wallet UI
       - No Node
 - Certifying node options are within the `Validate Your Full-Client`
   - Certified against the Test Suite
+
+---
 
 ### Discussions
 - W/ ***TxPipe*** representing Pragma
