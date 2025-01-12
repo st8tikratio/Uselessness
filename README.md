@@ -1,4 +1,4 @@
-# Usefulness - For All Interested
+# Uselessness - For All Interested
 ##### 🛑🛑 THIS REPO IS AN ACTIVE REPO 🛑🛑 USE AT YOUR OWN RISK 🛑🛑 ALL FILES ARE CLEAN 🛑🛑
 
 ---
