@@ -21,7 +21,7 @@
 | 1.     | Avalanche                                 | AVAX       | 720,000,000     | Y              | Eth          | Y      | 0s ?? finality           | 2000 AVAX = $74k         |
 | 2.     | Cardano                                   | ADA        | 45,000,000,000  | Y              | Ada          | Y      | 2m finality (30day)      | 500 ADA ~=~ $1k          |
 | 3.     | Chainlink                                 | LINK       | 1,000,000,000   | Y              | Eth          | Y      |                          | ??                       |
-| ~4.~   | ~Core Chain~                              | ~CORE~     | ~2,100,000,000~ | ~Y~            | ~Eth~        | ~Y~    | HTX/Tencent Heavy <br> J.Sun Majority holder Huobi??|  |
+| ~4.~   | ~Core Chain~                              | ~CORE~     | ~2,100,000,000~ | ~Y~            | ~Eth~        | ~Y~    | HTX/Tencent Heavy <br> J.Sun Majority holder Huobi??| ------------- |
 | 5.     | Filecoin                                  | FIL        | 1,959,768,458   | Y              | Unk          | N      | fast finality coming soon| 650 FIL / dedicated 100TiB|
 | 6.     | Hedera                                    | HBAR       | 50,000,000,000  | Y              | Hbar         | Y      | 7s finality (30day)      | Looks like Council only  | 
 | 7.     | IOTA                                      | IOTA, MANA | 4,600,000,000   | Y - decayed    | Eth - BSC    | Y      |                          | 2mil IOTA staked <br> crazy node reqs|
