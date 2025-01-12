@@ -16,6 +16,9 @@
 
 - [CryptPad](https://cryptpad.fr/)
 
+## COMMUNITY
+- [Setup Matrix Server](https://github.com/spantaleev/matrix-docker-ansible-deploy)
+
 ## DOMAIN
 
 - [omg.lol](https://home.omg.lol/)
