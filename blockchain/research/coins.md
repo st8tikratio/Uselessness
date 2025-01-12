@@ -5,8 +5,9 @@
 ###### Sources used: [CoinGecko](ttps://www.coingecko.com/) & [Chainspect](https://chainspect.app/)
 
 # Other `Fast Finality` Chains To Consider
-- Tarax - TARA - 12B Max - sub 1-min Finality - DAG - [website](https://taraxa.io/)
-- Concordium - CCD - 13,726,199,327 Max - sub 1-min Finality - [Whitepaper](https://developer.concordium.software/governance/whitepaper/Concordium%20White%20Paper.pdf) - [Tokenomics](https://go.concordium.com/hubfs/Scientific%20papers%20-%20rwr/Concordium%20Tokenomics%20v3.0.pdf) - [Idenitty Layer](https://cdn.prod.website-files.com/64f060f3fc95f9d2081781db/6672b3813cc851c780874451_Concordium%20ID.pdf) - [Smart Contracts](https://cdn.prod.website-files.com/64f060f3fc95f9d2081781db/64f9b61483a9f4b86714f6a6_Smart_Contracts.pdf)
+###### Need to read the whitepapers
+- Tarax - TARA - 12B Max - 3.7s finality (30day) - DAG - [website](https://taraxa.io/)
+- Concordium - CCD - 13,726,199,327 Max - 4s finality (30day) - [Whitepaper](https://developer.concordium.software/governance/whitepaper/Concordium%20White%20Paper.pdf) - [Tokenomics](https://go.concordium.com/hubfs/Scientific%20papers%20-%20rwr/Concordium%20Tokenomics%20v3.0.pdf) - [Idenitty Layer](https://cdn.prod.website-files.com/64f060f3fc95f9d2081781db/6672b3813cc851c780874451_Concordium%20ID.pdf) - [Smart Contracts](https://cdn.prod.website-files.com/64f060f3fc95f9d2081781db/64f9b61483a9f4b86714f6a6_Smart_Contracts.pdf)
 - Wanchain - WAN - 210,000,000 Max - sub 1-min Finality - [website](https://wanchain.org/) - [whitepaper](https://www.wanchain.org/_files/ugd/9296c5_0d623032c67b4e2380e14452ec02a9e4.pdf) - [yellowpaper](https://www.wanchain.org/_files/ugd/9296c5_6adcc58cec124dff8889ca013c2f34b9.pdf) - [consensus paper](https://www.wanchain.org/_files/ugd/9296c5_5205d584ee594e879d4b8b58048b6fac.pdf)
 - Crust - CRU - 34,302,155 Max - 1-min Finality - [whitepaper](https://ipfsgw.live/ipfs/QmP9WqDYhreSuv5KJWzWVKZXJ4hc7y9fUdwC4u23SmqL6t) - [econ paper](https://ipfsgw.live/ipfs/Qmdf4CrSjVPpfLEi822FxTPpUbXHoBC1xJP8myqGvKWnFc) - [token metrics](https://medium.com/crustnetwork/crust-token-metrics-economics-84592efc6d1f) 
 
@@ -15,20 +16,20 @@
 
 # Filtered From List Below (Alphabetical)
 
-| Count  | Name                                      | Token      | MAX Supply      | Stake (Y, M)   | Address Type | Ledger | Additions to Below|
-| :----: | -------                                   | :------:   | -----------     | :--------:     | :--------:   | :----: | :--------:        |
-| 1.     | Avalanche                                 | AVAX       | 720,000,000     | Y              | Eth          | Y      |                   |
-| 2.     | Cardano                                   | ADA        | 45,000,000,000  | Y              | Ada          | Y      |                   |
-| 3.     | Chainlink                                 | LINK       | 1,000,000,000   | Y              | Eth          | Y      |                   |
-| ~4.~   | ~Core Chain~                              | ~CORE~     | ~2,100,000,000~ | ~Y~            | ~Eth~        | ~Y~    | HTX/Tencent Heavy <br> J.Sun Majority holder Huobi??|
-| 5.     | Filecoin                                  | FIL        | 1,959,768,458   | Y              | Unk          | N      | Claim Fast Finality Coming |
-| 6.     | Hedera                                    | HBAR       | 50,000,000,000  | Y              | Hbar         | ?      |                   |
-| 7.     | IOTA                                      | IOTA, MANA | 4,600,000,000   | Y - decayed    | Eth - BSC    | Y      | sub 1-min finality |
-| 8.     | Kaspa                                     | KAS        | 28,704,026,601  | M(ine)         | Eth          | Y      |                   |
-| 9.     | Multiverse-X                              | EGLD       | 31,415,926      | Y              | Multiverse   | Y      | sub 1-min finality |
-| 10.    | Stellar                                   | XLM        | 50,001,786,911  | Y              | Stellar      | Y      | sub 1-min finality |
-| 11.    | Sei                                       | SEI        | 10,000,000,000  | Y              | Sei          | Y      | sub 1-min finality |
-| 11.    | Sui                                       | SUI        | 10,000,000,000  | Y              | Eth - BSC    | Y      |                   |
+| Count  | Name                                      | Token      | MAX Supply      | Stake (Y, M)   | Address Type | Ledger | Additions to Below       | Required To Be Validator |
+| :----: | -------                                   | :------:   | -----------     | :--------:     | :--------:   | :----: | :--------:               | :-------------------:    |
+| 1.     | Avalanche                                 | AVAX       | 720,000,000     | Y              | Eth          | Y      | 0s ?? finality           | 2000 AVAX = $74k         |
+| 2.     | Cardano                                   | ADA        | 45,000,000,000  | Y              | Ada          | Y      | 2m finality (30day)      | 500 ADA ~=~ $1k          |
+| 3.     | Chainlink                                 | LINK       | 1,000,000,000   | Y              | Eth          | Y      |                          | ??                       |
+| ~4.~   | ~Core Chain~                              | ~CORE~     | ~2,100,000,000~ | ~Y~            | ~Eth~        | ~Y~    | HTX/Tencent Heavy <br> J.Sun Majority holder Huobi??|  |
+| 5.     | Filecoin                                  | FIL        | 1,959,768,458   | Y              | Unk          | N      | fast finality coming soon| 650 FIL / dedicated 100TiB|
+| 6.     | Hedera                                    | HBAR       | 50,000,000,000  | Y              | Hbar         | Y      | 7s finality (30day)      | Looks like Council only  | 
+| 7.     | IOTA                                      | IOTA, MANA | 4,600,000,000   | Y - decayed    | Eth - BSC    | Y      |                          | 2mil IOTA staked <br> crazy node reqs|
+| 8.     | Kaspa                                     | KAS        | 28,704,026,601  | M(ine)         | Eth          | Y      |                          | System only              |
+| 9.     | MultiversX                                | EGLD       | 31,415,926      | Y              | Multiverse   | Y      | 6s finality (30day)      | 2500 EGLD ~=~ $85k       |
+| 10.    | Stellar                                   | XLM        | 50,001,786,911  | Y              | Stellar      | Y      | 6s finality (30day)      | ??                       |
+| 11.    | Sei                                       | SEI        | 10,000,000,000  | Y              | Sei          | Y      | sub 1-min finality       | None, but higher get bonded|
+| 12.    | Sui                                       | SUI        | 10,000,000,000  | Y              | Eth - BSC    | Y      |                          | More research            |
 
 ---
 
