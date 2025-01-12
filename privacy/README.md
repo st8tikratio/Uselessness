@@ -45,7 +45,7 @@ BEWARE: Some email service providers have difficult to use 2/MFA and encryption.
   - CTemplar Github [acct](https://github.com/CTemplar)
 - [Autistici/Inventati](https://www.autistici.org/)
 - [Soverin](https://soverin.com/) - encryption standard not mentioned
-- [Proton](https://mail.proton.me/)
+- [Proton](https://mail.proton.me/) - Free Account cannot be used with 3rd party or backup logins
 - [My Sudo](https://anonyome.com/individuals/mysudo/)
 - [Guerilla Mail](https://www.guerrillamail.com/)
 - [Counter Mail ](https://countermail.com/)
