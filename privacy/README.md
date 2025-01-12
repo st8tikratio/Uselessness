@@ -62,6 +62,7 @@ BEWARE: Some email service providers have difficult to use 2/MFA and encryption.
 - [Ungoogled-Chromium Wiki](https://github.com/ungoogled-software/ungoogled-chromium-wiki)
 
 ### 8. Sort
+- [NotesNook](https://github.com/streetwriters/notesnook) - Free to $10/mth
 - [Molly](https://github.com/mollyim) - Signal fork
 - [Cake Labs LLC](https://github.com/cake-tech) - Multi-coin (not all) wallet
 - [Accrescent App Store](https://github.com/accrescent) - minimal apps
