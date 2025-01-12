@@ -17,6 +17,7 @@
 - [CryptPad](https://cryptpad.fr/)
 
 ## COMMUNITY
+- [Alternative Platform Discussions](https://discuss.techlore.tech/t/totally-private-self-hosted-discord-slack-alternative/7264/9)
 - [Setup Matrix Server](https://github.com/spantaleev/matrix-docker-ansible-deploy)
 
 ## DOMAIN
