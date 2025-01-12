@@ -1,7 +1,16 @@
 # Tokens With Fixed MAX Supply (not L2s, ERC-only or ETH-gassed)
-###### 🛑 Last updated 27 Dec 2024 🛑
+###### 🛑 Last updated 11 Jan 2025 🛑
 ###### All whitepapers read in 2021, 2022 or 2024
 ###### Verify tokenomics for all before accepting, exercise your own due-diligence
+
+# Other Chains To Consider
+- Tarax - TARA - 12B Max - Fast Finality - DAG[website](https://taraxa.io/)
+- Concordium - CCD - 13,726,199,327 Max - Fast Finality - [Whitepaper](https://developer.concordium.software/governance/whitepaper/Concordium%20White%20Paper.pdf) - [Tokenomics](https://go.concordium.com/hubfs/Scientific%20papers%20-%20rwr/Concordium%20Tokenomics%20v3.0.pdf) - [Idenitty Layer](https://cdn.prod.website-files.com/64f060f3fc95f9d2081781db/6672b3813cc851c780874451_Concordium%20ID.pdf) - [Smart Contracts](https://cdn.prod.website-files.com/64f060f3fc95f9d2081781db/64f9b61483a9f4b86714f6a6_Smart_Contracts.pdf)
+- Wanchain - WAN - 210,000,000 Max - Fast Finality - [website](https://wanchain.org/) - [whitepaper](https://www.wanchain.org/_files/ugd/9296c5_0d623032c67b4e2380e14452ec02a9e4.pdf) - [yellowpaper](https://www.wanchain.org/_files/ugd/9296c5_6adcc58cec124dff8889ca013c2f34b9.pdf) - [consensus paper](https://www.wanchain.org/_files/ugd/9296c5_5205d584ee594e879d4b8b58048b6fac.pdf)
+- Crust - CRU - 
+
+
+
 
 # Filtered From List Below (Alphabetical)
 
@@ -11,12 +20,12 @@
 | 2.     | Cardano                                   | ADA        | 45,000,000,000  | Y              | Ada          | Y      |                  |
 | 3.     | Chainlink                                 | LINK       | 1,000,000,000   | Y              | Eth          | Y      |                  |
 | ~4.~   | ~Core Chain~                              | ~CORE~     | ~2,100,000,000~ | ~Y~            | ~Eth~        | ~Y~    | HTX/Tencent Heavy <br> J.Sun Majority holder Huobi??|
-| 5.     | Filecoin                                  | FIL        | 1,959,768,458   | Y              | Unk          | N      |                  |
+| 5.     | Filecoin                                  | FIL        | 1,959,768,458   | Y              | Unk          | N      | Claim Fast Finality Coming |
 | 6.     | Hedera                                    | HBAR       | 50,000,000,000  | Y              | Hbar         | ?      |                  |
-| 7.     | IOTA                                      | IOTA, MANA | 4,600,000,000   | Y - decayed    | Eth - BSC    | Y      |                  |
+| 7.     | IOTA                                      | IOTA, MANA | 4,600,000,000   | Y - decayed    | Eth - BSC    | Y      | Fast finality    |
 | 8.     | Kaspa                                     | KAS        | 28,704,026,601  | M(ine)         | Eth          | Y      |                  |
-| 9.     | Multiverse-X                              | EGLD       | 31,415,926      | Y              | Multiverse   | Y      |                  |
-| 10.    | Stellar                                   | XLM        | 50,001,786,911  | Y              | Stellar      | Y      |                  |
+| 9.     | Multiverse-X                              | EGLD       | 31,415,926      | Y              | Multiverse   | Y      | Fast finality    |
+| 10.    | Stellar                                   | XLM        | 50,001,786,911  | Y              | Stellar      | Y      | Fast finality    |
 | 11.    | Sui                                       | SUI        | 10,000,000,000  | Y              | Eth - BSC    | Y      |                  |
 
 ---
