@@ -32,7 +32,7 @@
 - [Fediverse - Codeberg](https://codeberg.org/fediverse)
   - [Portals/Servers](https://fediverse.party/en/portal/servers/)
   - [All Apps](https://fediverse.party/en/miscellaneous/)
-- 
+- [Zulip](https://zulip.com/plans/#self-hosted) - self-host link
 
 ## DOMAIN
 
