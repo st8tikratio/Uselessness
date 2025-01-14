@@ -20,4 +20,5 @@
     - No solution -- `CMD + TAB` while navigating open apps
     - Solved -- `CMD + TAB` will cycle browser tabs. 
 
-#### More shit comming
+#### Send Mac In For Service
+- [Erasing All Content and Settings](https://support.apple.com/en-us/102664)
