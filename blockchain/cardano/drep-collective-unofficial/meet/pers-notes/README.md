@@ -64,8 +64,7 @@ Examples of asset names:
 | 222              | GiveYouUp          | 000de140            | 47697665596f755570    | 000de14047697665596f755570   |
 ```
 #### 333 FT Standard
-```
-**Note** Since `version >= 1`
+`**Note** Since `version >= 1``
 
 The second introduced standard is the `333` FT standard with the registered `asset_name_label` prefix value
 
