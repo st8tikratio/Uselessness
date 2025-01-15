@@ -9,6 +9,9 @@
     - Paper [shared](https://cdn.discordapp.com/attachments/1329040236222746661/1329123396935487528/boydsrealooda_loop.pdf) - direct download
     - Example of website template style - [I Side With](https://www.isidewith.com)
 
+---
+# Other Topics
+
 ## Metadata Standards
 
 ### [CIP-10](https://github.com/cardano-foundation/CIPs/edit/master/CIP-0010/README.md) - Reserved Metadatum Values
