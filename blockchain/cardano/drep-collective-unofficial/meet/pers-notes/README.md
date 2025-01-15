@@ -7,7 +7,16 @@
 #### Topics of interest:
 
 #### NFT Related Metadata
-- CIP-25 - Media Token Metadata Standard
+- CIP-10 - Reserved Metadatum Values
+
+These are the reserved `transaction_metadatum_label` values
+
+`transaction_metadatum_label` | description
+----------------------------  | -----------------------
+0 - 15                        | reserved\*
+65536 - 131071                | reserved - private use
+
+- CIP-25 - [Media Token Metadata Standard `aka 721`]()
 ```
       {
       "721": {
