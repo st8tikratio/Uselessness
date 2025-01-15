@@ -9,8 +9,7 @@
 
 ## Metadata Standards
 
-### CIP-10 - Reserved Metadatum Values
-- CIP [link](https://github.com/cardano-foundation/CIPs/edit/master/CIP-0010/README.md)
+### CIP-10 - Reserved Metadatum Values - [link](https://github.com/cardano-foundation/CIPs/edit/master/CIP-0010/README.md)
 
 These are the reserved `transaction_metadatum_label` values
 
@@ -19,10 +18,8 @@ These are the reserved `transaction_metadatum_label` values
 0 - 15                        | reserved\*
 65536 - 131071                | reserved - private use
 
----
 
-### CIP-25 - Media Token Metadata Standard `aka 721`
-- CIP [link](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0025)
+### CIP-25 - Media Token Metadata Standard `aka 721` - [link](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0025)
 ```
       {
       "721": {
@@ -49,10 +46,8 @@ These are the reserved `transaction_metadatum_label` values
       }
     }
 ```
----
 
-### CIP-68 - Datum Metadata Standard
-- CIP [link](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0068)
+### CIP-68 - Datum Metadata Standard - [link](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0068)
 ```
 Each asset name must be prefixed by a label. The intent of this label is to identify the purpose of the token. For
 example, a reference NFT is identified by the label 100 and so every token considered a reference NFT should start its
