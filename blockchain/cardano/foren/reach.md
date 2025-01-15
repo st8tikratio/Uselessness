@@ -5,7 +5,11 @@
 ### Useful Code:
   - [topo.json](https://github.com/st8tikratio/Uselessness/blob/main/blockchain/cardano/foren/topo.json)
   - [wallet.service.js](https://github.com/st8tikratio/Uselessness/blob/main/blockchain/cardano/foren/wallet.service.js)
- 
+
+### Forum Posts:
+- [How to pull data from the Cardano blockchain?](https://forum.cardano.org/t/how-to-pull-data-from-the-cardano-blockchain/45096/)
+- []
+
 ### Other Links:
 - [Developer Docs](https://developers.cardano.org/) - cardano.org
 - [The Cardano Operations Book](https://book.play.dev.cardano.org) - [repo](https://github.com/input-output-hk/cardano-playground) - IOHK repo
