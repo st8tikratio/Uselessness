@@ -19,7 +19,7 @@ These are the reserved `transaction_metadatum_label` values
 65536 - 131071                | reserved - private use
 
 
-### CIP-25 - Media Token Metadata Standard `aka 721` - [link](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0025)
+### [CIP-25](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0025) - Media Token Metadata Standard `aka 721`
 ```
       {
       "721": {
