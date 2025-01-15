@@ -14,7 +14,7 @@
 # Other Topics
 
 ## Wallet Architecture
-- [Open Wallet/credo-ts](https://github.com/openwallet-foundation/credo-ts/discussions/722)
+- Open Wallet/credo-ts - [Architecture Update](https://github.com/openwallet-foundation/credo-ts/discussions/722)
 
 ## Cardano Metadata Standards (needs updating)
 
