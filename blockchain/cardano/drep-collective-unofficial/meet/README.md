@@ -48,7 +48,7 @@ transaction_metadata =
 
 
 
-### [CIP-25](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0025) - Media Token Metadata Standard `label 721`
+### [CIP-25](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0025) - Media Token Metadata Standard `CBOR tag 721`
 ```
       {
       "721": {
