@@ -10,6 +10,22 @@
 ## Metadata Standards
 
 ### [CIP-10](https://github.com/cardano-foundation/CIPs/edit/master/CIP-0010/README.md) - Reserved Metadatum Values
+#### Terminology
+`Transaction metadata refers to an optional CBOR object in every transaction since the start of the Shelley era. It is defined as the follow CDDL data structure`
+```
+transaction_metadatum =
+    { * transaction_metadatum => transaction_metadatum }
+  / [ * transaction_metadatum ]
+  / int
+  / bytes .size (0..64)
+  / text .size (0..64)
+
+transaction_metadatum_label = uint
+
+transaction_metadata =
+  { * transaction_metadatum_label => transaction_metadatum }
+```
+
 
 These are the reserved `transaction_metadatum_label` values
 
@@ -47,7 +63,7 @@ These are the reserved `transaction_metadatum_label` values
 ```
 
 ### [CIP-68](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0068) - Datum Metadata Standard
-#### This CIP needs summarization
+#### Considerations
 ```
 The basic idea is to have two assets issued, where one references the other. We call these two a `reference NFT` and
 an `user token`, where the `user token` can be an NFT, FT or any other asset class that is transferable and represents
