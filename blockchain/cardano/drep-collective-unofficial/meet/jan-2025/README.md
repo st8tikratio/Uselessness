@@ -1,11 +1,13 @@
 ##### This is a personal file and does not reflect all meeting content
+##### NOTE: Any CIP data listed below is NOT COMPELTE. Please see CIP itself, link provided
 
 # Meeting Minutes
-
-## 15 Jan 2025
-- Collective Discord [server](https://discord.gg/sKdmXtsWYe)
-
----
+- 15 Jan 2025
+- Links Provided
+    - Collective Discord [server](https://discord.gg/sKdmXtsWYe)
+    - DRep mapping & metadata discussion on [Cardano Forum](https://forum.cardano.org/t/human-interoperability-metadata-standards-and-ecosystem-maps-do-we-need-a-set-of-metadata-standards-and-definitions-for-defining-ecosystem-roles-relationships-and-sectors/135155) 
+    - Paper [shared](https://cdn.discordapp.com/attachments/1329040236222746661/1329123396935487528/boydsrealooda_loop.pdf) - direct download
+    - Example of website template style - [I Side With](https://www.isidewith.com)
 
 ## Metadata Standards
 
@@ -65,8 +67,8 @@ transaction_metadata =
     }
 ```
 
-### [CIP-68](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0068) - Datum Metadata Standard
-- ***Allow [* bounded_bytes] for images***
+### [CIP-68](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0068) - Datum Metadata Standard - ***Allow [* bounded_bytes] for images***
+
 #### Considerations
 ```
 The basic idea is to have two assets issued, where one references the other. We call these two a `reference NFT` and
