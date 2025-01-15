@@ -5,9 +5,11 @@
 ## 15 Jan 2025
 - Collective Discord [server](https://discord.gg/sKdmXtsWYe)
 
-### NFT Related Metadata
+---
 
-##### CIP-10 - Reserved Metadatum Values
+## Metadata Standards
+
+### CIP-10 - Reserved Metadatum Values
 - CIP [link](https://github.com/cardano-foundation/CIPs/edit/master/CIP-0010/README.md)
 
 These are the reserved `transaction_metadatum_label` values
@@ -17,7 +19,9 @@ These are the reserved `transaction_metadatum_label` values
 0 - 15                        | reserved\*
 65536 - 131071                | reserved - private use
 
-##### CIP-25 - Media Token Metadata Standard `aka 721`
+---
+
+### CIP-25 - Media Token Metadata Standard `aka 721`
 - CIP [link](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0025)
 ```
       {
@@ -45,8 +49,9 @@ These are the reserved `transaction_metadatum_label` values
       }
     }
 ```
+---
 
-##### CIP-68 - Datum Metadata Standard
+### CIP-68 - Datum Metadata Standard
 - CIP [link](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0068)
 ```
 Each asset name must be prefixed by a label. The intent of this label is to identify the purpose of the token. For
@@ -64,6 +69,8 @@ Examples of asset names:
 | 222              | GiveYouUp          | 000de140            | 47697665596f755570    | 000de14047697665596f755570   |
 ```
 
-##### CIP-60 - Music Token Metadata
+---
+
+### CIP-60 - Music Token Metadata
 - CIP [link](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0060)
 - Extension of CIP-25 & CIP-68
