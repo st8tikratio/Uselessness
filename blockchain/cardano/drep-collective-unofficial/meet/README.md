@@ -18,6 +18,8 @@
 
 ## Cardano Metadata Standards (needs updating)
 
+### [All CIPs](https://github.com/cardano-foundation/CIPs/tree/master)
+
 ### [CIP-10](https://github.com/cardano-foundation/CIPs/edit/master/CIP-0010/README.md) - Reserved Metadatum Values
 
 #### Terminology
