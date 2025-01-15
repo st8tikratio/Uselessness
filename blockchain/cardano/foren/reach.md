@@ -6,7 +6,39 @@
 - [Analytics - Cexplorer.io](https://cexplorer.io/groups) - links is to **Groups**, navigate on left menu
   - [Instances](https://github.com/cardanians/cexplorer.io/blob/main/doc/instances.md)
   - [Dev Info](https://github.com/cexplorer/cexplorer.io/blob/main/doc/welcome_devs.md)
-  - [SPO Info](https://github.com/cexplorer/cexplorer.io/tree/main/doc)
+  - [Sign Post (index)](https://github.com/cexplorer/cexplorer.io/tree/main/doc)
 - [BETA - Cardano Explorer `by CF`](https://beta.explorer.cardano.org/en/micar) - [repo](https://github.com/cardano-foundation/cf-explorer) - archived 10 Dec 2024
-
-
+- From https://book.world.dev.cardano.org/environments/mainnet/topology.json
+```
+{
+  "bootstrapPeers": [
+    {
+      "address": "backbone.cardano.iog.io",
+      "port": 3001
+    },
+    {
+      "address": "backbone.mainnet.cardanofoundation.org",
+      "port": 3001
+    },
+    {
+      "address": "backbone.mainnet.emurgornd.com",
+      "port": 3001
+    }
+  ],
+  "localRoots": [
+    {
+      "accessPoints": [],
+      "advertise": false,
+      "trustable": false,
+      "valency": 1
+    }
+  ],
+  "publicRoots": [
+    {
+      "accessPoints": [],
+      "advertise": false
+    }
+  ],
+  "useLedgerAfterSlot": 128908821
+}
+```
