@@ -3,8 +3,6 @@
 ## Links To Sort - Determine Usage
 
 ### Check Here First:
-- [BigQuery](need link)
-  - [IOHK post](https://iohk.io/en/blog/posts/2022/07/01/cardano-data-on-bigquery/) 
 - [How to get started with Metadata on Cardano](https://medium.com/cardanorss/how-to-get-started-with-metadata-on-cardano-8380bbe25103)
 - [Retrieving you metadata](https://developers.cardano.org/docs/transaction-metadata/retrieving-metadata/)
 - [Cardano DBSync - Google reliant](https://github.com/IntersectMBO/cardano-db-sync#cardano-db-sync)
@@ -22,9 +20,10 @@
 - [Config files found here](https://book.play.dev.cardano.org/env-mainnet.html)
 
 
-### Forum Posts:
+### Forum/Article Posts:
 - [How to pull data from the Cardano blockchain?](https://forum.cardano.org/t/how-to-pull-data-from-the-cardano-blockchain/45096/)
 - [Error: File topology.json for version 8.9.1 of Cardano Node](https://forum.cardano.org/t/error-file-topology-json-for-version-8-9-1-of-cardano-node/130538)
+- [Big Query - IOHK post](https://iohk.io/en/blog/posts/2022/07/01/cardano-data-on-bigquery/) 
 
 
 ### Other Links:
