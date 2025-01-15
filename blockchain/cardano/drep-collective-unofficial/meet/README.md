@@ -12,7 +12,7 @@
 ---
 # Other Topics
 
-## Metadata Standards
+## Metadata Standards (needs updating)
 
 ### [CIP-10](https://github.com/cardano-foundation/CIPs/edit/master/CIP-0010/README.md) - Reserved Metadatum Values
 
