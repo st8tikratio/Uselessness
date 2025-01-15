@@ -47,6 +47,7 @@ These are the reserved `transaction_metadatum_label` values
 ```
 
 ### [CIP-68](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0068) - Datum Metadata Standard
+- Brief  
 ```
 Each asset name must be prefixed by a label. The intent of this label is to identify the purpose of the token. For
 example, a reference NFT is identified by the label 100 and so every token considered a reference NFT should start its
@@ -62,6 +63,29 @@ Examples of asset names:
 | 100              | NeverGonna         | 000643b0            | 4e65766572476f6e6e61  | 000643b04e65766572476f6e6e61 |
 | 222              | GiveYouUp          | 000de140            | 47697665596f755570    | 000de14047697665596f755570   |
 ```
+- ***333 FT Standard***
+```
+**Note** Since `version >= 1`
+
+The second introduced standard is the `333` FT standard with the registered `asset_name_label` prefix value
+
+| asset_name_label | class | description                                                                                      |
+|------------------|-------|--------------------------------------------------------------------------------------------------|
+| 333              | FT    | FT hold by the user's wallet making use of Cardano foundation off-chain registry inner structure |
+
+**Class**
+
+The `user token` is an FT (fungible token).
+
+**Pattern**
+
+The `user token` and `reference NFT` MUST have an identical name, preceded by the `asset_name_label` prefix.
+
+Example:\
+`user token`: `(333)Test123`\
+`reference NFT`: `(100)Test123`
+```
+
 
 ### [CIP-60](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0060) - Music Token Metadata
 - Extension of CIP-25 & CIP-68
