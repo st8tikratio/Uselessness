@@ -9,7 +9,8 @@
   - [Sign Post (index)](https://github.com/cexplorer/cexplorer.io/tree/main/doc)
 - [BETA - Cardano Explorer `by CF`](https://beta.explorer.cardano.org/en/micar) - [repo](https://github.com/cardano-foundation/cf-explorer) - archived 10 Dec 2024
 ```
-- From https://book.world.dev.cardano.org/environments/mainnet/topology.json
+From https://book.world.dev.cardano.org/environments/mainnet/topology.json
+SEEMS inaccurate - verify!
 
 {
   "bootstrapPeers": [
@@ -43,3 +44,7 @@
   "useLedgerAfterSlot": 128908821
 }
 ```
+- [Cardano Course](https://cardano-course.gitbook.io/cardano-course) - [repo](https://github.com/carloslodelar/cardano-course/blob/main/README.md)
+  - [List of all query instances](https://github.com/search?q=repo%3Acarloslodelar%2Fcardano-course+query&type=code)
+- [Code examples for querying info](https://github.com/CodingOnChain/lift-wallet/blob/0.2.0/src/services/wallet.service.js#L333)
+-  
