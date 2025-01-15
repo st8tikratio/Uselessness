@@ -7,7 +7,7 @@
     - Collective [Discord server](https://discord.gg/sKdmXtsWYe)
     - DRep distribution by [Tempo.Vote](https://tempo.vote/dreps) 
     - DRep mapping & metadata discussion on [Cardano Forum](https://forum.cardano.org/t/human-interoperability-metadata-standards-and-ecosystem-maps-do-we-need-a-set-of-metadata-standards-and-definitions-for-defining-ecosystem-roles-relationships-and-sectors/135155) 
-    - Paper [shared](https://github.com/st8tikratio/Uselessness/blob/main/blockchain/cardano/drep-collective-unofficial/docs/boyds-real-ooda-loop.pdf) - direct download
+    - Boyds Real OODA Loop (It's Not What It Seems) - [PDF](https://github.com/st8tikratio/Uselessness/blob/main/blockchain/cardano/drep-collective-unofficial/docs/boyds-real-ooda-loop.pdf) 
     - Example of website template style - [I Side With](https://www.isidewith.com)
 
 ---
