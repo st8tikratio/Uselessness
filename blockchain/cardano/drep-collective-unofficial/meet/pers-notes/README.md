@@ -47,7 +47,7 @@ These are the reserved `transaction_metadatum_label` values
 ```
 
 ### [CIP-68](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0068) - Datum Metadata Standard
-- Brief  
+#### Brief  
 ```
 Each asset name must be prefixed by a label. The intent of this label is to identify the purpose of the token. For
 example, a reference NFT is identified by the label 100 and so every token considered a reference NFT should start its
@@ -63,7 +63,7 @@ Examples of asset names:
 | 100              | NeverGonna         | 000643b0            | 4e65766572476f6e6e61  | 000643b04e65766572476f6e6e61 |
 | 222              | GiveYouUp          | 000de140            | 47697665596f755570    | 000de14047697665596f755570   |
 ```
-- ***333 FT Standard***
+#### 333 FT Standard
 ```
 **Note** Since `version >= 1`
 
