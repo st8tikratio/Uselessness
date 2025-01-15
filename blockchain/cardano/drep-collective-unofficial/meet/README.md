@@ -13,7 +13,10 @@
 ---
 # Other Topics
 
-## Metadata Standards (needs updating)
+## Wallet Architecture
+- [Open Wallet/credo-ts](https://github.com/openwallet-foundation/credo-ts/discussions/722)
+
+## Cardano Metadata Standards (needs updating)
 
 ### [CIP-10](https://github.com/cardano-foundation/CIPs/edit/master/CIP-0010/README.md) - Reserved Metadatum Values
 
