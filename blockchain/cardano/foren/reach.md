@@ -9,7 +9,7 @@
 - Big Query - [archived repo](https://github.com/input-output-hk/data-analytics-bigquery/wiki#querytableschemas) - [private repo](https://github.com/Blockchain-Data-Analytics/Cardano_on_BigQuery/wiki)
 - [Blockfrost](https://blockfrost.io/#introduction)
 - [Scrolls](https://github.com/txpipe/scrolls#readme)
-- [Looker Studio (formerly Google Data Studio)](https://lookerstudio.google.com/overview)
+- [Looker Studio](https://lookerstudio.google.com/overview) - formerly Google Data Studio
 
 ### Useful Code:
   - [topo.json](https://github.com/st8tikratio/Uselessness/blob/main/blockchain/cardano/foren/topo.json)
