@@ -47,43 +47,31 @@ These are the reserved `transaction_metadatum_label` values
 ```
 
 ### [CIP-68](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0068) - Datum Metadata Standard
-#### Brief  
+#### This CIP needs summarization
 ```
-Each asset name must be prefixed by a label. The intent of this label is to identify the purpose of the token. For
-example, a reference NFT is identified by the label 100 and so every token considered a reference NFT should start its
-asset name with the hex `000643b0`. This is
-following [CIP-0067](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0067), which specifies how the label
-prefix should be formatted.
+The basic idea is to have two assets issued, where one references the other. We call these two a `reference NFT` and
+an `user token`, where the `user token` can be an NFT, FT or any other asset class that is transferable and represents
+any value. So, the `user token` is the actual asset that lives in a user's wallet.
 
-Examples of asset names:
+To find the metadata for the `user token` you need to look for the output, where the `reference NFT` is locked in. How
+this is done concretely will become clear below. Moreover, this output contains a datum, which holds the metadata. The
+advantage of this approach is that the issuer of the assets can decide how the transaction output with
+the `reference NFT` is locked and further handled. If the issuer wants complete immutable metadata, the `reference NFT`
+can be locked at the address of an unspendable script. Similarly, if the issuer wants the NFTs/FTs to evolve or wants a
+mechanism to update the metadata, the `reference NFT` can be locked at the address of a script with arbitrary logic that
+the issuer decides.
 
-| asset_name_label | asset_name_content | resulting_label_hex | resulting_content_hex | resulting_asset_name_hex     |
-|------------------|--------------------|---------------------|-----------------------|------------------------------|
-| 100              | GenToken           | 000643b0            | 47656e546f6b656e      | 000643b047656e546f6b656e     |
-| 100              | NeverGonna         | 000643b0            | 4e65766572476f6e6e61  | 000643b04e65766572476f6e6e61 |
-| 222              | GiveYouUp          | 000de140            | 47697665596f755570    | 000de14047697665596f755570   |
+Lastly and most importantly, with this construction, the metadata can be used by a Plutus V2 script with the use of
+reference inputs [CIP-0031](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0031). This will drive further
+innovation in the token space.
 ```
-#### 333 FT Standard
-**`Note:`** Since `version >= 1`
-
-The second introduced standard is the `333` FT standard with the registered `asset_name_label` prefix value
-
-| asset_name_label | class | description                                                                                      |
-|------------------|-------|--------------------------------------------------------------------------------------------------|
-| 333              | FT    | FT hold by the user's wallet making use of Cardano foundation off-chain registry inner structure |
-
-**Class**
-
-The `user token` is an FT (fungible token).
-
-**_Pattern_**
-
-The `user token` and `reference NFT` MUST have an identical name, preceded by the `asset_name_label` prefix.
-
-Example:\
-`user token`: `(333)Test123`\
-`reference NFT`: `(100)Test123`
-```
+#### 4 new label types
+| asset_name_label | class | description                                                                                                                                     |
+|------------------|-------|-------------------------------------------------------                                                                                          |
+| 100              | NFT   | Reference NFT locked at a script containing the datum                                                                                           |
+| 222              | NFT   | NFT held by the user's wallet making use of CIP-0025 inner structure                                                                            |
+| 333              | FT    | FT hold by the user's wallet making use of Cardano foundation off-chain registry inner structure                                                |
+| 444              | RFT   | RFT hold by the user's wallet making use of the union of CIP-0025 inner structure AND the Cardano foundation off-chain registry inner structure |
 
 
 ### [CIP-60](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0060) - Music Token Metadata
