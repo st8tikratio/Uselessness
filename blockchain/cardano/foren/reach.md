@@ -7,7 +7,11 @@
   - [IOHK post](https://iohk.io/en/blog/posts/2022/07/01/cardano-data-on-bigquery/) 
 - [How to get started with Metadata on Cardano](https://medium.com/cardanorss/how-to-get-started-with-metadata-on-cardano-8380bbe25103)
 - [Retrieving you metadata](https://developers.cardano.org/docs/transaction-metadata/retrieving-metadata/)
-- [Cardano DBSync](need link)
+- [Cardano DBSync - Google reliant](https://github.com/IntersectMBO/cardano-db-sync#cardano-db-sync)
+- Big Query - [archived repo](https://github.com/input-output-hk/data-analytics-bigquery/wiki#querytableschemas) - [private repo](https://github.com/Blockchain-Data-Analytics/Cardano_on_BigQuery/wiki)
+- [Blockfrost](https://blockfrost.io/#introduction)
+- [Scrolls](https://github.com/txpipe/scrolls#readme)
+- [Looker Studio (formerly Google Data Studio)](https://lookerstudio.google.com/overview)
 
 ### Useful Code:
   - [topo.json](https://github.com/st8tikratio/Uselessness/blob/main/blockchain/cardano/foren/topo.json)
