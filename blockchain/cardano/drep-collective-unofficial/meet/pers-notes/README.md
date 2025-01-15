@@ -76,7 +76,7 @@ The second introduced standard is the `333` FT standard with the registered `ass
 
 The `user token` is an FT (fungible token).
 
-**Pattern**
+**_Pattern_**
 
 The `user token` and `reference NFT` MUST have an identical name, preceded by the `asset_name_label` prefix.
 
