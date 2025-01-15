@@ -8,7 +8,7 @@
 
 #### NFT Related Metadata
 - CIP-25 - Media Token Metadata Standard
-  - ```
+```
       {
       "721": {
         "<policy_id>": {
@@ -33,5 +33,6 @@
         "version": <version_id>
       }
     }
-- Music Token Metadata - CIP-60 - [Extension Of CIP-25 & CIP-68 Metadata](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0060)
-    - 
+```
+- CIP-60 - [Music Token Metadata](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0060) - Extension Of CIP-25 & CIP-68 Metadata
+
