@@ -1,9 +1,12 @@
 # Researching Cardano Chain Forensics
 
 ## Links To Sort - Determine Usage
-- Maybe useful code:
+
+### Useful Code:
   - [topo.json](https://github.com/st8tikratio/Uselessness/blob/main/blockchain/cardano/foren/topo.json)
-  - [wallet.service.js](https://github.com/st8tikratio/Uselessness/blob/main/blockchain/cardano/foren/wallet.service.js)   
+  - [wallet.service.js](https://github.com/st8tikratio/Uselessness/blob/main/blockchain/cardano/foren/wallet.service.js)
+ 
+### Other Links:
 - [Developer Docs](https://developers.cardano.org/) - cardano.org
 - [The Cardano Operations Book](https://book.play.dev.cardano.org) - [repo](https://github.com/input-output-hk/cardano-playground) - IOHK repo
 - [Analytics - Cexplorer.io](https://cexplorer.io/groups) - links is to **Groups**, navigate on left menu
