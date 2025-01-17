@@ -76,7 +76,7 @@ transaction_metadata =
     }
 ```
 
-### [CIP-27](https://github.com/cardano-foundation/CIPs/tree/72d499ffa0d6116c41b46276946bb5dc03f53165/CIP-0027) - Community Royalties
+### [CIP-27](https://github.com/cardano-foundation/CIPs/tree/72d499ffa0d6116c41b46276946bb5dc03f53165/CIP-0027) - Community Royalties - `tag 777`
 
 ### [CIP-68](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0068) - Datum Metadata Standard - ***Allow [* bounded_bytes] for images***
 
