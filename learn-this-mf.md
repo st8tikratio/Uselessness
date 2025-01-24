@@ -1,4 +1,5 @@
-# Learning Resources & Guides
+# Resources, Learning, Guides & Stuff
+##### 24 Jan 2025
 
 ## On GitHub
 - Bunch Of Good Shit - Curated - Useful? - [here](https://github.com/collections)
