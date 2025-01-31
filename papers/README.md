@@ -20,3 +20,4 @@
   - Specific:
     - [Describe Organizational Drivers](https://patterns.sociocracy30.org/describe-organizational-drivers.html)
     - [Driver Mapping](https://patterns.sociocracy30.org/driver-mapping.html)
+- VISA [library](https://usa.visa.com/solutions/crypto.html#3)
