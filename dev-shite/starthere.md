@@ -24,3 +24,7 @@
 - https://www.geeksforgeeks.org/
 - https://www.geeksforgeeks.org/web-development/?ref=gcse_outind
 - 
+
+# Languages/Frameworks
+- [Discover R](https://github.com/profandyfield/discovr)
+- 
