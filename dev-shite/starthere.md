@@ -25,12 +25,36 @@
 - https://www.geeksforgeeks.org/web-development/?ref=gcse_outind
 - 
 
-# Languages/Frameworks
+## Languages/Frameworks
 - [Discover R](https://github.com/profandyfield/discovr)
-- 
+- [JQuery Radmenu Plugin - Notes](https://github.com/nirvanatikku/jQuery-Radmenu-Plugin/issues/5)  
 
-# UI/UX
+## UI/UX
 - [PenPot](https://penpot.app/pricing)
 - [Alva](https://github.com/meetalva) - Archived 01-Feb-2024
 - [Akira](https://github.com/akiraux/Akira)
+
+# Database
+
+## Visualization Frameworks
+###### [SOURCE](https://www.geeksforgeeks.org/top-15-data-visualization-frameworks/)
+- [Bokeh](https://bokeh.org/)
+- [ggplot2](https://ggplot2.tidyverse.org/)
 - 
+
+## Integration
+- [Description](https://www.datastackhub.com/what-is-data-integration/)
+
+## Mapping
+- [Various Types and Functions](https://www.datastackhub.com/top-tools/open-source-data-mapping-tools/)
+- Notes
+  - Offload local processing onto servers for data tariffed countries??
+  - Condensed dbase for data-tariffed countries; remove graphics, use local lightwieght LLM to parse data locally 
+
+### Tools
+- 
+
+
+### DBases
+- 
+
