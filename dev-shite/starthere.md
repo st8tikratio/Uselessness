@@ -20,7 +20,7 @@
 ### Searches
 - serverless "local AI" agent and modelling
 
-# Web Dev
+# Web and Mobile Fornt-End Development
 - https://www.geeksforgeeks.org/
 - https://www.geeksforgeeks.org/web-development/?ref=gcse_outind
 - 
@@ -30,6 +30,7 @@
 - [JQuery Radmenu Plugin - Notes](https://github.com/nirvanatikku/jQuery-Radmenu-Plugin/issues/5)  
 
 ## UI/UX
+###### [Geeks For Geeks - Top UI/UX Design Tools](https://www.geeksforgeeks.org/best-ui-ux-design-tools/)
 - [PenPot](https://penpot.app/pricing)
 - [Alva](https://github.com/meetalva) - Archived 01-Feb-2024
 - [Akira](https://github.com/akiraux/Akira)
