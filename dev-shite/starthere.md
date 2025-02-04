@@ -37,10 +37,25 @@
 # Database
 
 ## Visualization Frameworks
-###### [SOURCE](https://www.geeksforgeeks.org/top-15-data-visualization-frameworks/)
+###### [SOURCE - Top 15 Data Visualization Frameworks](https://www.geeksforgeeks.org/top-15-data-visualization-frameworks/)
+###### [SOURCE 2 - Dataviz Ecosystem 2021](https://cube.dev/blog/dataviz-ecosystem-2021)
 - [Bokeh](https://bokeh.org/)
 - [ggplot2](https://ggplot2.tidyverse.org/)
-- 
+- [Graphana](https://grafana.com/)
+- [Chart.pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
+- [D3.js](https://d3js.org/)
+- [Victory](https://commerce.nearform.com/open-source/victory/) -[GitHub](https://github.com/FormidableLabs/victory)
+- [React.vis](https://uber.github.io/react-vis/) - [GitHub](https://github.com/uber/react-vis)
+- [C3.js](https://c3js.org/)
+- [Semiotic](https://semiotic.nteract.io/)
+- []()
+
+
+### Libraries
+- [Js - Tutorials](https://www.w3schools.com/Js/)
+- [MatplotLib](https://matplotlib.org/)
+- [Seaborn](https://seaborn.pydata.org/)
+- [Plotly](https://plotly.com/python/)
 
 ## Integration
 - [Description](https://www.datastackhub.com/what-is-data-integration/)
@@ -49,7 +64,8 @@
 - [Various Types and Functions](https://www.datastackhub.com/top-tools/open-source-data-mapping-tools/)
 - Notes
   - Offload local processing onto servers for data tariffed countries??
-  - Condensed dbase for data-tariffed countries; remove graphics, use local lightwieght LLM to parse data locally 
+  - Condensed dbase for data-tariffed countries; remove graphics, use local lightwieght LLM to parse data locally
+- [GIS mapping frontend comparison](https://insights.1904labs.com/blog/2020-10-13-comparing-front-end-mapping-frameworks-for-geospatial-data) 
 
 ### Tools
 - 
