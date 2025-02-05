@@ -26,7 +26,10 @@
 - 
 
 ## Languages/Frameworks
-- [Discover R](https://github.com/profandyfield/discovr)
+- [R Language](https://www.r-project.org/about.html) - statisitcal, data rep
+  - [Learn R](https://learn-r.org/) 
+  - [Discover R](https://github.com/profandyfield/discovr)
+  - [Learn R For Absolute Beginners and Data Scientist](https://www.learn-r.org/r-tutor-online.php)
 - [JQuery Radmenu Plugin - Notes](https://github.com/nirvanatikku/jQuery-Radmenu-Plugin/issues/5)  
 
 ## UI/UX
