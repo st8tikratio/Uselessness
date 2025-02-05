@@ -33,7 +33,7 @@
   - [Discover R](https://github.com/profandyfield/discovr)
   - [Learn R For Absolute Beginners and Data Scientist](https://www.learn-r.org/r-tutor-online.php)
   - [R Documentation](https://cran.r-project.org/manuals.html)
-  - Install R in Conda
+  - [Install](https://anaconda.org/conda-forge/rstudio-desktop) R and R-Studio in Conda
     ```
     conda create --name rstudio
     conad activate rstudio
