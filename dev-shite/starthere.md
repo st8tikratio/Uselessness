@@ -64,6 +64,7 @@
 - [Graphana](https://grafana.com/)
 - [Chart.pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
 - [D3.js](https://d3js.org/)
+  - [D3 Example Gallery](https://observablehq.com/@d3/gallery) 
 - [Victory](https://commerce.nearform.com/open-source/victory/) -[GitHub](https://github.com/FormidableLabs/victory)
 - [React.vis](https://uber.github.io/react-vis/) - [GitHub](https://github.com/uber/react-vis)
 - [C3.js](https://c3js.org/)
