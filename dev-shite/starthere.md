@@ -20,6 +20,8 @@
 ### Searches
 - serverless "local AI" agent and modelling
 
+---
+
 # Web and Mobile Fornt-End Development
 - https://www.geeksforgeeks.org/
 - https://www.geeksforgeeks.org/web-development/?ref=gcse_outind
@@ -50,6 +52,8 @@
 - [Alva](https://github.com/meetalva) - Archived 01-Feb-2024
 - [Akira](https://github.com/akiraux/Akira)
 
+---
+
 # Database
 
 ## Visualization Frameworks
@@ -65,7 +69,6 @@
 - [C3.js](https://c3js.org/)
 - [Semiotic](https://semiotic.nteract.io/)
 - [Django](https://docs.djangoproject.com/) - backend server-side, python
-
 
 ### Libraries
 - [Js - Tutorials](https://www.w3schools.com/Js/)
