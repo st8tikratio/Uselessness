@@ -57,10 +57,16 @@
 # Database
 
 ## Visualization Frameworks
-###### [SOURCE - Top 15 Data Visualization Frameworks](https://www.geeksforgeeks.org/top-15-data-visualization-frameworks/)
-###### [SOURCE 2 - Dataviz Ecosystem 2021](https://cube.dev/blog/dataviz-ecosystem-2021)
+#### Sources:
+- [Types of Data Visualization](https://online.hbs.edu/blog/post/data-visualization-techniques)
+- [SOURCE - Top 15 Data Visualization Frameworks](https://www.geeksforgeeks.org/top-15-data-visualization-frameworks/)
+- [SOURCE 2 - Dataviz Ecosystem 2021](https://cube.dev/blog/dataviz-ecosystem-2021)
+### Frameworks
 - [Bokeh](https://bokeh.org/)
 - [ggplot2](https://ggplot2.tidyverse.org/)
+  - [community gallery](https://exts.ggplot2.tidyverse.org/gallery/)
+    - [network map](https://github.com/briatte/ggnetwork)
+    - [word cloud](https://lepennec.github.io/ggwordcloud/)
 - [Graphana](https://grafana.com/)
 - [Chart.pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
 - [D3.js](https://d3js.org/)
