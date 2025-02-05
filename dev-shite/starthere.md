@@ -49,7 +49,7 @@
 - [React.vis](https://uber.github.io/react-vis/) - [GitHub](https://github.com/uber/react-vis)
 - [C3.js](https://c3js.org/)
 - [Semiotic](https://semiotic.nteract.io/)
-- [Django]() - backend server-side, python
+- [Django](https://docs.djangoproject.com/) - backend server-side, python
 
 
 ### Libraries
