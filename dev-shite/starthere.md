@@ -31,6 +31,17 @@
   - [Discover R](https://github.com/profandyfield/discovr)
   - [Learn R For Absolute Beginners and Data Scientist](https://www.learn-r.org/r-tutor-online.php)
   - [R Documentation](https://cran.r-project.org/manuals.html)
+  - Install R in Conda
+    ```
+    conda create --name rstudio
+    conad activate rstudio
+    conda install python r-essentials r-base
+
+    OR ? maybe just ?
+
+    conda install conda-forge::rstudio-desktop
+    ```
+
 - [JQuery Radmenu Plugin - Notes](https://github.com/nirvanatikku/jQuery-Radmenu-Plugin/issues/5)  
 
 ## UI/UX
