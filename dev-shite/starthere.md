@@ -67,11 +67,11 @@
   - [community gallery](https://exts.ggplot2.tidyverse.org/gallery/)
     - [network map](https://github.com/briatte/ggnetwork)
     - [word cloud](https://lepennec.github.io/ggwordcloud/)
-- [Graphana](https://grafana.com/)
-- [Chart.pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
+- [Graphana](https://grafana.com/) - **NO**
+- [Chart.pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html) - **NO NETWORK MAPPING seen**
 - [D3.js](https://d3js.org/)
   - [D3 Example Gallery](https://observablehq.com/@d3/gallery) 
-- [Victory](https://commerce.nearform.com/open-source/victory/) - [GitHub](https://github.com/FormidableLabs/victory)
+- [Victory](https://commerce.nearform.com/open-source/victory/) - [GitHub](https://github.com/FormidableLabs/victory) - **NO**
 - [React.vis](https://uber.github.io/react-vis/) - [GitHub](https://github.com/uber/react-vis)
 - [C3.js](https://c3js.org/)
 - [Semiotic](https://semiotic.nteract.io/)
