@@ -41,7 +41,7 @@
 
     conda install conda-forge::rstudio-desktop
     ```
-
+  - check open-sourceness [here](https://posit.co/downloads/)
 - [JQuery Radmenu Plugin - Notes](https://github.com/nirvanatikku/jQuery-Radmenu-Plugin/issues/5)  
 
 ## UI/UX
