@@ -56,6 +56,15 @@
 
 # Database
 
+## Metadata Mapping
+#### the Collective
+- typesafe js
+- chakraui
+- fastify - web framework typescript
+- mongodb arranges in json
+- mongodb compass
+- typescript
+
 ## Visualization Frameworks
 #### Sources:
 - [Types of Data Visualization](https://online.hbs.edu/blog/post/data-visualization-techniques)
