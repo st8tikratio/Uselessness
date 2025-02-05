@@ -72,9 +72,9 @@
 - [D3.js](https://d3js.org/)
   - [D3 Example Gallery](https://observablehq.com/@d3/gallery) 
 - [Victory](https://commerce.nearform.com/open-source/victory/) - [GitHub](https://github.com/FormidableLabs/victory) - **NO**
-- [React.vis](https://uber.github.io/react-vis/) - [GitHub](https://github.com/uber/react-vis)
-- [C3.js](https://c3js.org/)
-- [Semiotic](https://semiotic.nteract.io/)
+- [React.vis](https://uber.github.io/react-vis/) - [GitHub](https://github.com/uber/react-vis) - **NO NETWORK MAPPING seen**
+- [C3.js](https://c3js.org/) - **NO NETWORK MAPPING seen**
+- [Semiotic](https://semiotic.nteract.io/) - **NO NETWORK MAPPING seen**
 - [Django](https://docs.djangoproject.com/) - backend server-side, python
 
 ### Libraries
