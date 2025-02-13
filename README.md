@@ -56,3 +56,4 @@ A little about this repo. These are a colleciton of files, PDFs, notes, links an
    - [GraphQL Postgres Metrics Dashboard with Cube](https://cube.dev/blog/graphql-postgres-metrics-dashboard-with-cube)
    - [Intro To GraphQL](https://graphql.org/learn/)
    - [Wasennaar Agreement](https://www.wassenaar.org/) - On Export Controls for Conventional Arms and Dual-Use Goods and Technologies
+   - [ORCID](https://orcid.org/) - Researcher ID
