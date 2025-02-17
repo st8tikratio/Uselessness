@@ -2,9 +2,13 @@
 
 `Incentive Formula` -> $f=(\alpha,z,\sigma,\lambda) = \frac{1}{1+\alpha} (\sigma+\alpha\lambda \frac{\sigma-\lambda\frac{z-\sigma}{z}}{z} ) $
 
+`Rewritten per paper` -> $f=(\alpha,z,\sigma,\lambda) = \frac{1}{1+\alpha}\sigma + \frac{1}{1+\alpha} [ \sigma \frac{\lambda}{z} + \sigma (\frac{\lambda}{z})^2 - z (\frac{\lambda}{z})^2 ] $
+
 `Saturation Level` -> $z = \frac{S}{k}$
 
 `Pool x with stake(x)` -> $\sigma = \frac{stake^x}{S} $
+
+`Pledge as a Fraction of the Stake  of the Pool` -> $\lambda\textsubscript{%} = \frac{\lambda}{z} $
 
 **Where:**
 - $\alpha$ = $a_0$
@@ -21,6 +25,9 @@
 ##### Article - [here](https://www.cardanofoundation.org/blog/deep-dive-cardano-economic-parameters)
 ##### Whitepaper - [add PDF to end of downloaded file](https://ucarecdn.com/dc66cfa9-03a8-4247-acaa-55bc69a0e956/) - [PDF](https://github.com/st8tikratio/Uselessness/blob/main/papers/pdfs/Cardano%20Economic%20Parameters%20Morini.pdf)
 ##### Additional Markdown Notes - [here](https://github.com/st8tikratio/Uselessness/blob/main/md-spec-char.md)
+##### LaTeX and Markdown Helper - [here](https://en.wikibooks.org/wiki/LaTeX/Mathematics)
+##### Another Cheat Sheet - [here](https://www.upyesp.org/posts/makrdown-vscode-math-notation/)
+##### Jupyter Cheat Sheet - [here](https://jupyterbook.org/en/stable/content/math.html)
 
 ## Helpful Formula Creation Notes
 
@@ -34,6 +41,7 @@
 | alpha <br> beta                                  |               | $\alpha$ <br> $\beta$  | \alpha <br> \beta                                                             |
 | Alpha <br> Beta                                  |               | $A$ <br> $B$           | A <br> B                                                                      |
 | gamma <br> Gamma                                 |               | $\gamma$ <br> $\Gamma$ | \gamma <br> \Gamma                                                            |
+| Infinity                                         |               | $\infty$               | \infty                                                                        |
 | mu                                               |               | $\mu$                  | \mu                                                                           |
 | phi <br> Phi                                     |               | $\phi$ <br> $\Phi$     | \phi <br> \Phi                                                                |
 | pi <br> Pi                                       |               | $\pi$ <br> $\Pi$       | \pi <br> \Pi                                                                  |
