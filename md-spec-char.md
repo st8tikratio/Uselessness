@@ -21,6 +21,7 @@
     - [Latex homepage](http://www.latex-project.org/)
     - [Wiki LaTeX/Mathematics](https://en.wikibooks.org/wiki/LaTeX/Mathematics)
     - [GitHub flavored markdown](https://help.github.com/articles/github-flavored-markdown/)
+
 ### Map (MacOS)
 
 | Key(s)                  | Results using $$ Bookends | Without Bookends | 
@@ -81,4 +82,26 @@
 | Opt + Shft + '          | $Æ$                       | Æ                |
 | Opt + Shft + v          | $◊$                       | ◊                |
 | Opt + Shft + ,          | $¯$                       | ¯                |
+
+### More Symbols, Greeks, Etc.
+###### Working on this
+
+| Name                                             | Meaning       |  To get this           | Type this statement <br> Enclosed in `$` w/o spaces <br> i.e. `$ Statement $` |
+| ---------------                                  | ------------- |  :----------:          | ----------------------------------------------------------------------------- |
+| For All <br> Subset                              |               | $\forall x$            | \forall x                                                                     |
+| In <br> Subset                                   |               | $\in x$ <br> $\subset x$ | \in x <br> \subset x                                                        |
+| There exists                                     |               | $\quad \exists y$      | \quad \exists y                                                               |
+| Less than, equal to <br> Greater than, equal to  |               | $\leq$ <br> $\geq$     | \leq <br> \geq                                                                |
+| Epsilon                                          |               | $\epsilon$             | \epsilon                                                                      |
+| alpha <br> beta                                  |               | $\alpha$ <br> $\beta$  | \alpha <br> \beta                                                             |
+| Alpha <br> Beta                                  |               | $A$ <br> $B$           | A <br> B                                                                      |
+| gamma <br> Gamma                                 |               | $\gamma$ <br> $\Gamma$ | \gamma <br> \Gamma                                                            |
+| mu                                               |               | $\mu$                  | \mu                                                                           |
+| phi <br> Phi                                     |               | $\phi$ <br> $\Phi$     | \phi <br> \Phi                                                                |
+| pi <br> Pi                                       |               | $\pi$ <br> $\Pi$       | \pi <br> \Pi                                                                  |
+| sigma <br> Sigma                                 |               | $\sigma$ <br> $\Sigma$ | \sigma <br> \Sigma                                                            |
+| tau                                              |               | $\tau$                 | \tau                                                                          |
+| Therefore                                        |               | $\therefore$           | \therefore                                                                    |
+| theta <br> Theta                                 |               | $\theta$ <br> $\Theta$ | \theta <br> \Theta                                                            |
+| varPhi                                           |               | $\varphi$              | \varphi                                                                       |
 
