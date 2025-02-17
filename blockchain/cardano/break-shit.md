@@ -8,7 +8,9 @@
 
 `Pool x with stake(x)` -> $\sigma = \frac{stake^x}{S} $
 
-`Pledge as a Fraction of the Stake  of the Pool` -> $\lambda\textsubscript{%} = \frac{\lambda}{z} $
+`Pledge as a Fraction of the Stake  of the Pool` -> $\lambda_{percent} = \frac{\lambda}{z} $
+
+`Stake of the Pool as a Fraction of the Stake at Saturation` -> $\sigma_{percent} = \frac{\sigma}{z} $
 
 **Where:**
 - $\alpha$ = $a_0$
