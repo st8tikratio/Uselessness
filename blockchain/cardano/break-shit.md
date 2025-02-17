@@ -19,9 +19,18 @@
 - $S$ = total stake
 - $z$ = saturation level 
 
+#### EXAMPLES:
+- Stake saturation = $70M = \lambda_{percent} = \frac{1.4M}{7M} = 0.20$ = 20%
+- Stake of our pool = $7M = \sigma_{percent} = \frac{7M}{70M}  = 0.10$ = 10%
+- Pledge = 1.4M = $\lambda$
 
-
-
+#### METRICS
+- Epoch 300 - 470
+  - average stake = 6,893,338 - 7,950,258
+  - average pledge = 1,186,745 - 1,657,484
+  - circulating supply = 34B - 37B
+  - k = 500
+  - size of saturated pool = 70M
 
 # GATHERING DATA ON CARDANO POS PARAMTERS FOR MODEL INPUT
 ##### Article - [here](https://www.cardanofoundation.org/blog/deep-dive-cardano-economic-parameters)
