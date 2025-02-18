@@ -1,36 +1,43 @@
-#### FORMULAS:
+### FORMULAS:
+- `Incentive Formula`
+  - $f=(\alpha,z,\sigma,\lambda) = \frac{1}{1+\alpha} (\sigma+\alpha\lambda \frac{\sigma-\lambda\frac{z-\sigma}{z}}{z} ) $
 
-`Incentive Formula` -> $f=(\alpha,z,\sigma,\lambda) = \frac{1}{1+\alpha} (\sigma+\alpha\lambda \frac{\sigma-\lambda\frac{z-\sigma}{z}}{z} ) $
+- `Expanding the original`
+  - $f=(\alpha,z,\sigma,\lambda) = \frac{1}{1+\alpha}\sigma + \frac{1}{1+\alpha} [ \sigma \frac{\lambda}{z} + \sigma (\frac{\lambda}{z})^2 - z (\frac{\lambda}{z})^2 ] $
 
-`Rewritten per paper` -> $f=(\alpha,z,\sigma,\lambda) = \frac{1}{1+\alpha}\sigma + \frac{1}{1+\alpha} [ \sigma \frac{\lambda}{z} + \sigma (\frac{\lambda}{z})^2 - z (\frac{\lambda}{z})^2 ] $
+- `Saturation Level`
+  - $z = \frac{S}{k}$
 
-`Saturation Level` -> $z = \frac{S}{k}$
+- `Pool x with stake(x)`
+  - $\sigma = \frac{stake^x}{S} $
 
-`Pool x with stake(x)` -> $\sigma = \frac{stake^x}{S} $
+- `Pledge as a Fraction of the Stake  of the Pool`
+  - $\lambda_{percent} = \frac{\lambda}{\sigma} $
 
-`Pledge as a Fraction of the Stake  of the Pool` -> $\lambda_{percent} = \frac{\lambda}{z} $
+- `Stake of the Pool as a Fraction of the Stake at Saturation`
+  - $\sigma_{percent} = \frac{\sigma}{z} $
 
-`Stake of the Pool as a Fraction of the Stake at Saturation` -> $\sigma_{percent} = \frac{\sigma}{z} $
-
-**Where:**
+#### Where:
 - $\alpha = a_0$
 - $\sigma = active Stake$
 - $\lambda = pledge$
 - $S = total Stake$
 - $z = saturation Level$
+- $k = desired NumberOfPools$
 
 #### EXAMPLES:
 - Stake saturation = $70M = \lambda_{percent} = \frac{1.4M}{7M} = 0.20$ = 20%
 - Stake of our pool = $7M = \sigma_{percent} = \frac{7M}{70M}  = 0.10$ = 10%
-- Pledge = 1.4M = $\lambda$
+- Pledge = $1.4M = \lambda$
 
-#### METRICS
-- Epoch 300 - 470
-  - average stake $= 6,893,338 - 7,950,258$
-  - average pledge $= 1,186,745 - 1,657,484$
-  - circulating supply $= 34B -> 37B$
-  - k $= 500$
-  - size of saturated pool $= 70M$
+#### METRICS (whitepaper)
+| Item                                 | Epoch 300 - 470 <br> (whitepaper)| Epoch 539 <br> (18-Feb-2025)      | Epoch 539 less `Abandoned Pools` <br> (18-FEb-2025)  |
+| -----                                | :---------------:             | :-------:          | :----------------------------:    |
+| $\sigma$ <br> active stake           | $6,893,338 - 7,950,258$       | $7,425,094.86$     | $8,996,305.09$                    |
+| $\lambda_{range}$ <br> pledge range  | $1,186,745 - 1,657,484$       | $1,199,677.30$     | $576,574.02$                      |
+| circulating supply <br> `from > to`  | $34B > 37B$                   | $36,018,816,731.97$| $36,018,816,731.97$               |
+| $k$                                  | $500$                         | $500$              | $500$                             |                 
+| $z$ <br> size of saturated pool      | $70M$                         | $70M$              | $70M$                             |
 
 #### CURRENT VALUES
 - a_0 = 70M ??
