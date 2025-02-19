@@ -109,3 +109,4 @@
   - [Iagon Community Links - Linktr](https://linktr.ee/iagon)
   - [Custom Node](https://cyclone.iagon.com/)
   - [Iagon Docs](https://docs.iagon.com/updated-page)
+- [Guild Operators - Node Builder](https://cardano-community.github.io/guild-operators/build/)
