@@ -28,24 +28,30 @@
 
   - $f_{percent}(\alpha,z,\sigma_{percent},\lambda_{percent}) = \frac {f(\alpha, z, \sigma_{percent}, \lambda_{percent}}{z} = (\frac {1}{1+\alpha}\sigma_{percent}+\frac {\alpha}{1+\alpha}[\sigma^2_{percent}\lambda^2_{percent} - \sigma^2{percent}\lambda^2_{percent} + \sigma^3_{percent}\lambda^2_{percent}])          $ 
 
-      - `PLEDGE` $= 0$`%`
+    - `PLEDGE` $= 0$`%`
 
-        - `max-rewards for` $\sigma_{0percent}$ = $f_{percent}$ `is` $\frac {1}{1+\alpha}\sigma_{percent}$
+      - `max-rewards for` $\sigma_{0percent}$ = $f_{percent}$ `is` $\frac {1}{1+\alpha}\sigma_{percent}$
 
-      - `PLEDGE` $= 10$`%`
+    - `PLEDGE` $= 10$`%`
 
-        - `rewards POTENTIALLY reduced for` $\sigma_{10percent}$ `by a factor of` $\frac {1}{1+\alpha} \approx 0.77 $
-        - $0.1 * 0.77 = 0.077 = 7.7$% `of the rewards of the optimal pool`
-     
-      - `The second biggest term of` $order-3$ overall
- 
-        - $\frac {\alpha}{1+\alpha} \sigma^2_{percent}\lambda_{percent} $
+      - `rewards POTENTIALLY reduced for` $\sigma_{10percent}$ `by a factor of` $\frac {1}{1+\alpha} \approx 0.77 $
+      - $0.1 * 0.77 = 0.077 = 7.7$% `of the rewards of the optimal pool`
+   
+    - `The second biggest term of` $order$ $3$ overall
 
-        - `With current` $\alpha = 0.3$
+      - $\frac {\alpha}{1+\alpha} \sigma^2_{percent}\lambda_{percent} $
 
-          - $\frac {\alpha}{1+\alpha} \sigma^2_{percent} \lambda_{percent} = 0.23 * 0.1^2 * 0.2 = 0.00046 = 0.046$ %
+      - `With current` $\alpha = 0.3$
 
-  - `The next term is smaller and negative`
+        - $\frac {\alpha}{1+\alpha} \sigma^2_{percent} \lambda_{percent} = 0.23 * 0.1^2 * 0.2 = 0.00046 = 0.046$ %
+
+    - `The next term is smaller and negative`
+
+      - $-\frac {\alpha}{1 + \alpha}\sigma^2_{percent}\lambda^2_{percent} = - 0.23 * 10$% $* 10$% $* 10$% $* 20$% $* 20$% $= - 0.0009$%
+
+    - `The last term is even higher order and smaller in absolute value`
+
+      -  $\frac {\alpha}{1 + \alpha}\sigma^3_{percent}\lambda^2_{percent} = 0.23 * 0.1^3 * 0.2^2 = 0.0009$%
 
 
 
