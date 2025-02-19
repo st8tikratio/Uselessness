@@ -1,21 +1,61 @@
 ### FORMULAS:
 - `Incentive Formula`
   - $f=(\alpha,z,\sigma,\lambda) = \frac{1}{1+\alpha} (\sigma+\alpha\lambda \frac{\sigma-\lambda\frac{z-\sigma}{z}}{z} ) $
-  
-- `Expanded Incentive Formula`
-  - $f=(\alpha,z,\sigma,\lambda) = \frac{1}{1+\alpha}\sigma + \frac{1}{1+\alpha} [ \sigma \frac{\lambda}{z} + \sigma (\frac{\lambda}{z})^2 - z (\frac{\lambda}{z})^2 ] $
 
 - `Saturation Level`
   - $z = \frac{S}{k}$
 
 - `Pool x with stake(x)`
   - $\sigma = \frac{stake^x}{S} $
+  
+- `Expanded Incentive Formula`
+  - $f=(\alpha,z,\sigma,\lambda) = \frac{1}{1+\alpha}\sigma + \frac{1}{1+\alpha} [ \sigma \frac{\lambda}{z} + \sigma (\frac{\lambda}{z})^2 - z (\frac{\lambda}{z})^2 ] $
 
 - `Pledge as a Fraction of the Stake of the Pool`
   - $\lambda_{percent} = \frac{\lambda}{\sigma} $
 
 - `Stake of the Pool as a Fraction of the Stake at Saturation`
   - $\sigma_{percent} = \frac{\sigma}{z} $ 
+
+- `Plugging in` $\lambda_{percent}$ `and` $\sigma_{percent}$
+  - $f=(\alpha,z,\sigma_{percent},\lambda_{percent}) = (\frac {1}{1+\alpha} \sigma_{percent} + \frac {\alpha}{1+\alpha} [\sigma^2_{percent} \lambda_{percent} - \sigma^2_{percent}\lambda^2{percent} + \sigma^3_{percent}\lambda^2_{percent} ]) z        $
+
+- `Rewards of a pool as a fraction of the rewards of the desired or optimal pool, which is fully pledged and saturated`
+  - `size` $z = 1/k $
+  - `receives` $z = 1/k$ `of total available rewards`
+
+- `Further refined`
+
+  - $f_{percent}(\alpha,z,\sigma_{percent},\lambda_{percent}) = \frac {f(\alpha, z, \sigma_{percent}, \lambda_{percent}}{z} = (\frac {1}{1+\alpha}\sigma_{percent}+\frac {\alpha}{1+\alpha}[\sigma^2_{percent}\lambda^2_{percent} - \sigma^2{percent}\lambda^2_{percent} + \sigma^3_{percent}\lambda^2_{percent}])          $ 
+
+    - `PLEDGE` $= 0$`%`
+
+      - `max-rewards for` $\sigma_{0percent}$ = $f_{percent}$ `is` $\frac {1}{1+\alpha}\sigma_{percent}$
+
+    - `PLEDGE` $= 10$`%`
+
+      - `rewards POTENTIALLY reduced for` $\sigma_{10percent}$ `by a factor of` $\frac {1}{1+\alpha} \approx 0.77 $
+      - $0.1 * 0.77 = 0.077 = 7.7$% `of the rewards of the optimal pool`
+     
+  - `The second biggest term of` $order-3$ overall
+ 
+    - $\frac {\alpha}{1+\alpha} \sigma^2_{percent}\lambda_{percent} $
+
+      - `With current` $\alpha = 0.3$
+
+        - $\frac {\alpha}{1+\alpha} \sigma^2_{percent} \lambda_{percent} = 0.23 * 0.1^2 * 0.2 = 0.00046 = 0.046$ %
+
+
+
+
+
+
+- RELEVANT NOTE:
+
+  - `When small fractions are multiplied or raised to powers, their values decrease further`
+
+
+
 
 #### WHERE:
 - $\alpha = a_0$
@@ -24,6 +64,7 @@
 - $S = CirculatingSupply$ `aka total Stake`
 - $z = saturation Level$
 - $k = desired NumberOfPools$
+- 
 
 #### EXAMPLE POOL:
 - Stake saturation = $70M = \lambda_{percent} = \frac{1.4M}{7M} = 0.20$ = 20%
