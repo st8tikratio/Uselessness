@@ -17,14 +17,34 @@
 - `Stake of the Pool as a Fraction of the Stake at Saturation`
   - $\sigma_{percent} = \frac{\sigma}{z} $ 
 
-- `Plugging in` $\lambda_{percent}$ `and` $\sigma_{percent}$
+---
+
+### NUMERICAL EXAMPLE
+
+- `given values`
+  - `saturation level` -> $z = 70M$
+
+  - `stake` -> $\sigma = 7M$
+
+  - `pledge` -> $\lambda = 1.4M$
+
+  - $stake_{percent} = \sigma_{percent} = \frac {stake}{saturation-level} = \frac {7}{70} = 0.10$%
+
+  - $pledge_{percent} = \lambda_{percent} = \frac {pledge}{stake} = \frac {1.4}{7} = 0.20$%
+
+  - $k = 500$ 
+
+- `INCENTIVE FORMAULA -> Plugging in` $\lambda_{percent}$ `and` $\sigma_{percent}$
+
   - $f=(\alpha,z,\sigma_{percent},\lambda_{percent}) = (\frac {1}{1+\alpha} \sigma_{percent} + \frac {\alpha}{1+\alpha} [\sigma^2_{percent} \lambda_{percent} - \sigma^2_{percent}\lambda^2{percent} + \sigma^3_{percent}\lambda^2_{percent} ]) z        $
 
 - `Rewards of a pool as a fraction of the rewards of the desired or optimal pool, which is fully pledged and saturated`
+
   - `size` $z = 1/k $
+
   - `receives` $z = 1/k$ `of total available rewards`
 
-- `Further refined`
+- `Further Refined`
 
   - $f_{percent}(\alpha,z,\sigma_{percent},\lambda_{percent}) = \frac {f(\alpha, z, \sigma_{percent}, \lambda_{percent}}{z} = (\frac {1}{1+\alpha}\sigma_{percent}+\frac {\alpha}{1+\alpha}[\sigma^2_{percent}\lambda^2_{percent} - \sigma^2{percent}\lambda^2_{percent} + \sigma^3_{percent}\lambda^2_{percent}])          $ 
 
@@ -35,7 +55,8 @@
     - `PLEDGE` $= 10$`%`
 
       - `rewards POTENTIALLY reduced for` $\sigma_{10percent}$ `by a factor of` $\frac {1}{1+\alpha} \approx 0.77 $
-      - $0.1 * 0.77 = 0.077 = 7.7$% `of the rewards of the optimal pool`
+
+        - $0.1 * 0.77 = 0.077 = 7.7$% `of the rewards of the optimal pool`
    
     - `The second biggest term of` $order$ $3$ overall
 
@@ -52,8 +73,11 @@
     - `The last term is even higher order and smaller in absolute value`
 
       -  $\frac {\alpha}{1 + \alpha}\sigma^3_{percent}\lambda^2_{percent} = 0.23 * 0.1^3 * 0.2^2 = 0.0009$%
+     
+    - `The contribution of 20% of own stake movers rewards from 7.7% of the rewards of a saturated pool to 7.73%, a 0.03% addition`
+      - `less pledge or stake, than the 20%, would have less relevant impact on rewards`
 
-
+---
 
 
 
@@ -62,7 +86,7 @@
   - `When small fractions are multiplied or raised to powers, their values decrease further`
 
 
-
+---
 
 #### WHERE:
 - $\alpha = a_0$
