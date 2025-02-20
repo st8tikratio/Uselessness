@@ -9,6 +9,8 @@
 
 - $a_0 =$ `parameter deciding the effect of the pledge on rewards`
 
+  - `aka Pool Pledge Influence` (pg 5)
+
   - `pledge` - `stake provided by pool operators (SPOs)`
 
     - `benefit of the pledge is extremely reduced for small and medium pools compared to very large ones`
@@ -16,6 +18,12 @@
     - `smaller pools, having a larger pledge, at equal stake, can even reduce rewards slightly`
 
       - `disappears only for pools with a size of at least half of saturation`
+
+  - `if` $a_0 = 0$  `the pool reward is proportional to the pool's fraction` $\frac {\sigma}{S}$ `of the total possible stake` $[S]$ `up to saturation` $z$
+
+  - `for larger` $a_0$ `values pledge becomes more important`
+
+  - `as` $\sigma$ `approaches` $z$ `then` $a_0$ `becomes more influential`
 
 - $k =$ `desired Number Of Pools`
 
@@ -53,6 +61,8 @@
 
 - $S =$ `Circulating Supply`
 
+  - `aka Total Possible Stake`
+
   - `used as a measure of total stake for rewards`
  
 - `Active stake` - `amount of circulating supply that is actively staked (? & pledged ?)`
@@ -74,6 +84,35 @@ a fraction between `$30$%` and `$35$%
 
 - `the proportion between the growth of Treasury and the Rewards, that could be expected to be` $\frac {\tau}{1-\tau} = 25$%`, has often been more than` $50$%
 
+---
+
+- `Validation reward systems have at least two goals:`
+  
+  - `making validation sustainable and economically competitive`
+  
+  - `incentivize commitment to network security in a decentralized way`
+
+- `General description of the parameters is given in` [`Cardano Documentation`](https://docs.cardano.org/about-cardano/explore-more/parameter-guide#types-of-protocol-parameters-on-cardano)
+
+- `in the reward system smaller pools are implicitly incentivized to increase their stake by increasing first delegated stake, rather than own stake`
+
+- `Pools with no pledge are penalized by considering only a fraction of their share of the stake for the purpose of reward computation`
+
+  - $\frac {1}{1+a_0}$
+
+    - `Currently` $a_0 = 0.3$
+   
+  - $\frac {1}{1+0.3} = \frac {1}{1.3} = 0.7692 \approx 0.77$%
+
+- `Pool with a stake that:`
+
+  - `Is ` $10$% $\leq z \approx 7.7$% `of available rewards rather than` $10$% `even if pledge` $100$%
+
+  - `Aapproaches` $50$% `saturation the pledge impact increases gradually`
+
+  - `Is greater than` $50$% `the pledge becomes beneficial in any amount`
+
+  - `Is fully-saturated can reach full rewards` $\frac {1}{k}$ `by increasing pledge to` $100$%
 
 ---
 
