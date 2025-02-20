@@ -112,3 +112,6 @@
 - [Guild Operators - Node Builder](https://cardano-community.github.io/guild-operators/build/)
 - [Balance Analytics - sample JSON](https://www.balanceanalytics.io/api/groupdata.json)
   - [balance analytics](https://www.balanceanalytics.io/)
+- [Dingo - Go Lang Node](https://github.com/blinklabs-io/dingo)
+- [Amaru - Rust Node Cardano](https://github.com/pragma-org/amaru)
+- [Windows Subsystem for Linux installation tutorial - Mike Hornan](https://www.youtube.com/watch?v=0AET17qG1UE)
