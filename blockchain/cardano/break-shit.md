@@ -1,3 +1,82 @@
+# CARDANO ECONOMIC PARAMETERS
+###### Article - [here](https://www.cardanofoundation.org/blog/deep-dive-cardano-economic-parameters) • Whitepaper - [needs .pdf extension](https://ucarecdn.com/dc66cfa9-03a8-4247-acaa-55bc69a0e956/) • PDF - [here](https://github.com/st8tikratio/Uselessness/blob/main/papers/pdfs/Cardano%20Economic%20Parameters%20Morini.pdf)
+###### Markdown Assitance - [here](https://github.com/st8tikratio/Uselessness/blob/main/md-spec-char.md) • [LaTeX and Markdown Helper](https://en.wikibooks.org/wiki/LaTeX/Mathematics) • [Another Cheat Sheet](https://www.upyesp.org/posts/makrdown-vscode-math-notation/) • [Jupyter Cheat Sheet](https://jupyterbook.org/en/stable/content/math.html)
+
+---
+
+## SUMMARY AND ROADMAP
+###### pages 1 - 4
+
+- $a_0 =$ `parameter deciding the effect of the pledge on rewards`
+
+  - `pledge` - `stake provided by pool operators (SPOs)`
+
+    - `benefit of the pledge is extremely reduced for small and medium pools compared to very large ones`
+
+    - `smaller pools, having a larger pledge, at equal stake, can even reduce rewards slightly`
+
+      - `disappears only for pools with a size of at least half of saturation`
+
+- $k =$ `desired Number Of Pools`
+
+  - `helps determine saturation level -` $[z]$
+
+- $z =$ `size of saturated stake/pool (or saturation level)`
+  
+  - `saturation level` - `stake amount above which no additional rewards are paid`
+
+  - `In 2024 ->` $z = 70M$
+
+    - $saturationLEVEL = \frac {circulatingSupply}{desiredNumberOfPools} = z =  \frac {S}{k} = \frac {37B}{500} = 70M $
+
+- $\sigma =$ `amount active stake`
+
+  - `the incentive to small pools is to increase the stake, first by delegation rather than by pledge`
+
+  - `large pools have a clear reward increase if they consist of own stake rather than delegated capital`
+
+    - `discourages large owners from trying to game the system by splitting their stake into many pools`
+
+    - `rewards the security value of large commitments of own money`
+
+    - PROS & CONS:
+
+      - `can increase security and efficiency`
+
+      - `negative effect on inclusion and decentralization`
+
+      - `reduces the rewards of small pool operators, and of delegators of all pools`
+     
+- $f =$ `staking incentive parameter`
+
+- $p =$ `ratio between active stake and circulating supply`
+
+- $S =$ `Circulating Supply`
+
+  - `used as a measure of total stake for rewards`
+ 
+- `Active stake` - `amount of circulating supply that is actively staked (? & pledged ?)`
+
+  - `used as an aggregate measure for consensus` 
+
+- $\rho =$ `monetary expansion parameter` - $[rho]$
+
+  - $\rho = 0.3$%
+
+  - `due to the fraction which is retained from Rewards distribution, mostly as an incentive to grow stake and pledge or to rescale rewards by the active stake, the actual release has been between 0.165% and 0.185% rather than 0.3%`
+ 
+- $\tau =$ `treasury expansion parameter` - $[tau]$
+
+  - $\tau = 20$%
+
+  - `Rewards should receive` $1−\tau = 80$% `of the release, they actually got just between` $65$% `and` $70$%`, with Treasury taking
+a fraction between `$30$%` and `$35$% 
+
+- `the proportion between the growth of Treasury and the Rewards, that could be expected to be` $\frac {\tau}{1-\tau} = 25$%`, has often been more than` $50$%
+
+
+---
+
 ### FORMULAS:
 - `Incentive Formula`
   - $f=(\alpha,z,\sigma,\lambda) = \frac{1}{1+\alpha} (\sigma+\alpha\lambda \frac{\sigma-\lambda\frac{z-\sigma}{z}}{z} ) $
@@ -88,72 +167,6 @@
 
 ---
 
-#### WHERE (in order presented):
-
-- $a_0 =$ `parameter deciding the effect of the pledge on rewards`
-
-  - `pledge` - `stake provided by pool operators (SPOs)`
-
-    - `benefit of the pledge is extremely reduced for small and medium pools compared to very large ones`
-
-    - `smaller pools, having a larger pledge, at equal stake, can even reduce rewards slightly`
-
-      - `disappears only for pools with a size of at least half of saturation`
-
-- $k =$ `desired Number Of Pools`
-
-  - `helps determine saturation level -` $[z]$
-
-- $z =$ `size of saturated stake/pool (or saturation level)`
-  
-  - `saturation level` - `stake amount above which no additional rewards are paid`
-
-  - `In 2024 ->` $z = 70M$
-
-    - $saturationLEVEL = \frac {circulatingSupply}{desiredNumberOfPools} = z =  \frac {S}{k} = \frac {37B}{500} = 70M $
-
-- $\sigma =$ `amount active stake`
-
-  - `the incentive to small pools is to increase the stake, first by delegation rather than by pledge`
-
-  - `large pools have a clear reward increase if they consist of own stake rather than delegated capital`
-
-    - `discourages large owners from trying to game the system by splitting their stake into many pools`
-
-    - `rewards the security value of large commitments of own money`
-
-    - PROS & CONS:
-
-      - `can increase security and efficiency`
-
-      - `negative effect on inclusion and decentralization`
-
-      - `reduces the rewards of small pool operators, and of delegators of all pools`
-     
-- $f =$ `staking incentive parameter`
-
-- $p =$ `ratio between active stake and circulating supply`
-
-- $S =$ `Circulating Supply`
-
-  - `used as a measure of total stake for rewards`
- 
-- `Active stake` - `amount of circulating supply that is actively staked (? & pledged ?)`
-
-  - `used as an aggregate measure for consensus` 
-
-- $\rho =$ `monetary expansion parameter` - $[rho]$
-
-  - $\rho = 0.3$%
-
-  - `due to the fraction which is retained from Rewards distribution, mostly as an incentive to grow stake and pledge or to rescale rewards by the active stake, the actual release has been between 0.165% and 0.185% rather than 0.3%`
- 
-- $\tau =$ `treasury expansion parameter` - $[tau]$
-
-  - $\tau = 20$%
-
-  - `Rewards should receive` $1−\tau = 80$% `of the release, they actually got just between` $65$% `and` $70$%`, with Treasury taking
-a fraction between `$30$%` and `$35$% 
 
 
 
