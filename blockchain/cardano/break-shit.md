@@ -37,6 +37,7 @@
 
     - $saturationLEVEL = \frac {circulatingSupply}{desiredNumberOfPools} = z =  \frac {S}{k} = \frac {37B}{500} = 70M $
 
+---
 - $\sigma =$ `amount active stake`
 
   - `the incentive to small pools is to increase the stake, first by delegation rather than by pledge`
@@ -54,7 +55,8 @@
       - `negative effect on inclusion and decentralization`
 
       - `reduces the rewards of small pool operators, and of delegators of all pools`
-     
+---
+
 - $f =$ `staking incentive parameter`
 
 - $p =$ `ratio between active stake and circulating supply`
@@ -84,7 +86,7 @@ a fraction between `$30$%` and `$35$%
 
 - `the proportion between the growth of Treasury and the Rewards, that could be expected to be` $\frac {\tau}{1-\tau} = 25$%`, has often been more than` $50$%
 
----
+###### pages 5 - 8
 
 - `Validation reward systems have at least two goals:`
   
@@ -114,7 +116,67 @@ a fraction between `$30$%` and `$35$%
 
   - `Is fully-saturated can reach full rewards` $\frac {1}{k}$ `by increasing pledge to` $100$%
 
+- $maxRewards = \frac {1}{k} $
+
+- $stakeAsFractionOfSaturationLevel = \frac {S}{k} = z $
+
+- $pledgeAsAFractionOfStake = \frac {\sigma}{S}$ `pg 7, Fig 1.1`
+
+- `The level of the two parameters` $a_0$ `and` $k$ `have to be determined jointly to balance these different aspects` - (pg 7-8)
+
+###### pages 8 - 
+
+- `incentive formaula`
+
+  - $f=(\alpha,z,\sigma,\lambda) = \frac{1}{1+\alpha} (\sigma+\alpha\lambda \frac{\sigma-\lambda\frac{z-\sigma}{z}}{z} ) $
+
+  - assumption is that all pools are not saturated
+
+  - $\alpha = a_0$
+ 
+  - $\sigma =$ `active stake` - `[fraction of ciruclating supply - `$S$`]`
+ 
+  - $\lambda =$ `pledge` - `[fraction of circulating supply - `$S$`]` 
+
+  - $S =$ `circulating supply` or `total stake`
+
+  - $z = \frac {S}{k} =$ `saturation level`
+ 
+- `Pool x`
+
+  - `with a `$stake^x$ `ADA` $\therefore$
+
+  - $\sigma = \frac{stake^x}{S}$ = `fraction of the total available rewards the pool will receive` (pg 8)
+
+
+
+
+
+
 ---
+---
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### FORMULAS:
 - `Incentive Formula`
