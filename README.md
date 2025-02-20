@@ -58,3 +58,4 @@ A little about this repo. These are a colleciton of files, PDFs, notes, links an
    - [Wasennaar Agreement](https://www.wassenaar.org/) - On Export Controls for Conventional Arms and Dual-Use Goods and Technologies
    - [ORCID](https://orcid.org/) - Researcher ID
    - [Markdown Special Character Mapping](https://github.com/st8tikratio/Uselessness/blob/main/md-spec-char.md)
+   - [Red Fusion]()
