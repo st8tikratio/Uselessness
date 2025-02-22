@@ -142,16 +142,74 @@ a fraction between `$30$%` and `$35$%
 
   - $z = \frac {S}{k} =$ `saturation level`
  
-- `Pool x`
+- `EXAMPLE`
 
-  - `with a `$stake^x$ `ADA` $\therefore$
+  - `Pool x`
 
-  - $\sigma = \frac{stake^x}{S}$ = `fraction of the total available rewards the pool will receive` (pg 8)
+    - `with a `$stake^x$ `ADA` $\therefore$
+  
+    - $\sigma = \frac{stake^x}{S}$ = `fraction of the total available rewards the pool will receive` (pg 8)
+ 
+  - `Showing how the variables defining the composition of the pool,` $\sigma$ `and` $\lambda$, `appear in this function at different orders (or powers)
+
+    - $f=(\alpha,z,\sigma,\lambda) = \frac{1}{1+\alpha}\sigma + \frac{1}{1+\alpha} [ \sigma \frac{\lambda}{z} + \sigma (\frac{\lambda}{z})^2 - z (\frac{\lambda}{z})^2 ] $
+
+    - `redefine`
+        
+        - `pledge as a fractions of the stake pool` - $\lambda_{percent} = \frac {\lambda}{sigma}$
+
+        - `stake of the pool as a fraction of the stake at saturation` = $\sigma_{percent} = \frac {\sigma}{z}$
+     
+  - `A NUMERICAL EXAMPLE`
+ 
+    - `stake at saturation` $= 70M$
+   
+    - `stake of the pool` $= 7M$
+   
+    - `pledge` $= 1.4M$
+   
+    - $stake_{percent} = \sigma_{percent} = \frac {stake}{saturation-level} = \frac {7}{70} = 0.10$%
+
+    - $pledge_{percent} = \lambda_{percent} = \frac {pledge}{stake} = \frac {1.4}{7} = 0.20$%
+
+  - `WITH NEW VARIABLES`
+ 
+    - $f=(\alpha,z,\sigma_{percent},\lambda_{percent}) = (\frac {1}{1+\alpha} \sigma_{percent} + \frac {\alpha}{1+\alpha} [\sigma^2_{percent} \lambda_{percent} - \sigma^2_{percent}\lambda^2{percent} + \sigma^3_{percent}\lambda^2_{percent} ]) z  $
+
+    - `Size OF Fully Pledged And Saturated Pool` - $z = \frac{1}{k} $
+   
+    - `Rewards Of Fully Pledged And Saturated Pool` - $z = \frac{1}{k}$
+   
+  - `FURTHER DEFINED`
+ 
+    - $f_{percent}(\alpha,z,\sigma_{percent},\lambda_{percent}) = \frac {f(\alpha, z, \sigma_{percent}, \lambda_{percent}}{z} = (\frac {1}{1+\alpha}\sigma_{percent}+\frac {\alpha}{1+\alpha}[\sigma^2_{percent}\lambda^2_{percent} - \sigma^2{percent}\lambda^2_{percent} + \sigma^3_{percent}\lambda^2_{percent}])          $
+   
+      - `makes it easier to understand how rewards depend on parameters`
+     
+      - `Reward For A Pool With Zero Pledge`
+
+        - $f_{percent} = \frac {1}{1+\alpha}\sigma_{percent} $
+     
+     - `Pool With` $\sigma = 10$% `Pledge`
+   
+       - `Rewards are reduced by a factor of` $\frac {1}{1+\alpha} \approx 0.77$
+
+       - `For a total of reduction of` $0.1 * 0.77 = 0.077 = 7.7$% `of the rewards of an optimal pool`
 
 
 
 
-
+#### PROVIDED PARAMETERS & VALUES (whitepaper) + CURRENT
+| Item                                 | Epoch 300 - 470 <br> (whitepaper)| Epoch 539(1) <br> (18-Feb-2025)            | Epoch 539(2) less `Abandoned Pools` <br> (18-FEb-2025)  |
+| -----                                | :---------------:             | :-------:                                  | :----------------------------:    |
+| $\sigma$ <br> active stake           | $6,893,338 - 7,950,258$       |                                            |                                   |
+| $\sigma_{avg}$ <br> avg active stake | $7,421,798$                   | $7,425,095$                                | $8,996,305$                       |
+| $\lambda$ <br> pledge range          | $1,186,745 - 1,657,484$       |                                            |                                   |
+| $\lambda_{avg}$ <br> avg pledge      | $1,422,115$                   | $1,199,677$                                | $576,574$                         |
+| $S$ <br> circulating supply range    | $34B > 37B$                   | $36,018,816,732$                           | $36,018,816,732$                  |
+| $k$ <br> desired numPools            | $500$                         | $500$                                      | $500$                             |              
+| $z$ <br> size of saturated pool      | $70M$                         | $72,037,633$ <br> $= 36,018,816,732 / 500$ | $72,037,633$ <br> $= 36,018,816,732 / 500 $ |   |
+| $a_0$ <br> pledge influence factor  | ?                             | ?                                          | ?                                  |             
 
 ---
 ---
@@ -257,6 +315,8 @@ a fraction between `$30$%` and `$35$%
     - `The contribution of 20% of own stake movers rewards from 7.7% of the rewards of a saturated pool to 7.73%, a 0.03% addition`
       - `less pledge or stake, than the 20%, would have less relevant impact on rewards`
 
+
+
 ---
 
 
@@ -286,17 +346,6 @@ a fraction between `$30$%` and `$35$%
 - Stake of our pool = $7M = \sigma_{percent} = \frac{7M}{70M}  = 0.10$ = 10%
 - Pledge = $1.4M = \lambda$
 
-#### METRICS (whitepaper) + CURRENT
-| Item                                 | Epoch 300 - 470 <br> (whitepaper)| Epoch 539(1) <br> (18-Feb-2025)            | Epoch 539(2) less `Abandoned Pools` <br> (18-FEb-2025)  |
-| -----                                | :---------------:             | :-------:                                  | :----------------------------:    |
-| $\sigma$ <br> active stake           | $6,893,338 - 7,950,258$       |                                            |                                   |
-| $\sigma_{avg}$ <br> avg active stake | $7,421,798$                   | $7,425,095$                                | $8,996,305$                       |
-| $\lambda$ <br> pledge range          | $1,186,745 - 1,657,484$       |                                            |                                   |
-| $\lambda_{avg}$ <br> avg pledge      | $1,422,115$                   | $1,199,677$                                | $576,574$                         |
-| $S$ <br> circulating supply range    | $34B > 37B$                   | $36,018,816,732$                           | $36,018,816,732$                  |
-| $k$ <br> desired numPools            | $500$                         | $500$                                      | $500$                             |              
-| $z$ <br> size of saturated pool      | $70M$                         | $72,037,633$ <br> $= 36,018,816,732 / 500$ | $72,037,633$ <br> $= 36,018,816,732 / 500 $ |   |
-| $a_0$ <br> pledge influence factor  | ?                             | ?                                          | ?                                  |             
 
 
 
