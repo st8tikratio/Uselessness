@@ -120,7 +120,7 @@ a fraction between `$30$%` and `$35$%
 
 - $stakeAsFractionOfSaturationLevel = \frac {S}{k} = z $
 
-- $pledgeAsAFractionOfStake = \frac {\sigma}{S}$ `pg 7, Fig 1.1`
+- $pledgeAsAFractionOfStake = \frac {\sigma}{S}$ - (pg 7, Fig 1.1)
 
 - `The level of the two parameters` $a_0$ `and` $k$ `have to be determined jointly to balance these different aspects` - (pg 7-8)
 
@@ -130,7 +130,7 @@ a fraction between `$30$%` and `$35$%
 
   - $f=(\alpha,z,\sigma,\lambda) = \frac{1}{1+\alpha} (\sigma+\alpha\lambda \frac{\sigma-\lambda\frac{z-\sigma}{z}}{z} ) $
 
-  - assumption is that all pools are not saturated
+  - `assumption is that all pools are not saturated`
 
   - $\alpha = a_0$
  
