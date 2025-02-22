@@ -141,7 +141,9 @@ a fraction between `$30$%` and `$35$%
   - $S =$ `circulating supply` or `total stake`
 
   - $z = \frac {S}{k} =$ `saturation level`
- 
+
+---
+
 - `EXAMPLE`
 
   - `Pool x`
@@ -186,11 +188,11 @@ a fraction between `$30$%` and `$35$%
    
       - `makes it easier to understand how rewards depend on parameters`
      
-      - `Reward For A Pool With Zero Pledge`
+    - `Reward For A Pool With Zero Pledge`
 
         - $f_{percent} = \frac {1}{1+\alpha}\sigma_{percent} $
      
-     - `Pool With` $\sigma = 10$% `Pledge`
+    - `Pool With` $\sigma = 10$% `Pledge`
    
        - `Rewards are reduced by a factor of` $\frac {1}{1+\alpha} \approx 0.77$
 
@@ -198,6 +200,9 @@ a fraction between `$30$%` and `$35$%
 
 
 
+
+
+---
 
 #### PROVIDED PARAMETERS & VALUES (whitepaper) + CURRENT
 | Item                                 | Epoch 300 - 470 <br> (whitepaper)| Epoch 539(1) <br> (18-Feb-2025)            | Epoch 539(2) less `Abandoned Pools` <br> (18-FEb-2025)  |
