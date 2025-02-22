@@ -162,7 +162,7 @@ a fraction between `$30$%` and `$35$%
 
         - `stake of the pool as a fraction of the stake at saturation` = $\sigma_{percent} = \frac {\sigma}{z}$
      
-  - `A NUMERICAL EXAMPLE`
+  ###### `A NUMERICAL EXAMPLE` pg 8
  
     - `stake at saturation` $= 70M$
    
@@ -174,37 +174,71 @@ a fraction between `$30$%` and `$35$%
 
     - $pledge_{percent} = \lambda_{percent} = \frac {pledge}{stake} = \frac {1.4}{7} = 0.20$%
 
-  - `WITH NEW VARIABLES`
- 
-    - $f=(\alpha,z,\sigma_{percent},\lambda_{percent}) = (\frac {1}{1+\alpha} \sigma_{percent} + \frac {\alpha}{1+\alpha} [\sigma^2_{percent} \lambda_{percent} - \sigma^2_{percent}\lambda^2{percent} + \sigma^3_{percent}\lambda^2_{percent} ]) z  $
-
-    - `Size OF Fully Pledged And Saturated Pool` - $z = \frac{1}{k} $
+    - `WITH NEW VARIABLES` (pg 9)
    
-    - `Rewards Of Fully Pledged And Saturated Pool` - $z = \frac{1}{k}$
-   
-  - `FURTHER DEFINED`
- 
-    - $f_{percent}(\alpha,z,\sigma_{percent},\lambda_{percent}) = \frac {f(\alpha, z, \sigma_{percent}, \lambda_{percent}}{z} = (\frac {1}{1+\alpha}\sigma_{percent}+\frac {\alpha}{1+\alpha}[\sigma^2_{percent}\lambda^2_{percent} - \sigma^2{percent}\lambda^2_{percent} + \sigma^3_{percent}\lambda^2_{percent}])          $
-   
-      - `makes it easier to understand how rewards depend on parameters`
+      - $f=(\alpha,z,\sigma_{percent},\lambda_{percent}) = (\frac {1}{1+\alpha} \sigma_{percent} + \frac {\alpha}{1+\alpha} [\sigma^2_{percent} \lambda_{percent} - \sigma^2_{percent}\lambda^2_{percent} + \sigma^3_{percent}\lambda^2_{percent} ]) z  $
+  
+      - `Size OF Fully Pledged And Saturated Pool` - $z = \frac{1}{k} $
      
-    - `Reward For A Pool With Zero Pledge`
-
-        - $f_{percent} = \frac {1}{1+\alpha}\sigma_{percent} $
+      - `Rewards Of Fully Pledged And Saturated Pool` - $z = \frac{1}{k}$
      
-    - `Pool With` $\sigma = 10$% `Pledge`
+    - `FURTHER DEFINED`
    
-       - `Rewards are reduced by a factor of` $\frac {1}{1+\alpha} \approx 0.77$
+      - $f_{percent}(\alpha,z,\sigma_{percent},\lambda_{percent}) = \frac {f(\alpha, z, \sigma_{percent}, \lambda_{percent})}{z} = (\frac {1}{1+\alpha}\sigma_{percent}+\frac {\alpha}{1+\alpha}[\sigma^2_{percent}\lambda^2_{percent} - \sigma^2_{percent}\lambda^2_{percent} + \sigma^3_{percent}\lambda^2_{percent}])          $
+     
+        - `makes it easier to understand how rewards depend on parameters`
+       
+      - `Reward For A Pool With Zero Pledge`
+  
+          - $f_{percent} = \frac {1}{1+\alpha}\sigma_{percent} $
+       
+      - `Pool With` $\sigma = 10$% `Pledge`
+     
+         - `Rewards are reduced by a factor of` $\frac {1}{1+\alpha} \approx 0.77$
+  
+         - `For a total of reduction of` $0.1 * 0.77 = 0.077 = 7.7$% `of the rewards of an optimal pool`
 
-       - `For a total of reduction of` $0.1 * 0.77 = 0.077 = 7.7$% `of the rewards of an optimal pool`
+      - `Having a higher pledge fraction WOULD NOT HELP so much at this size of the pool since the follwoing terms are of larger order overall:`
 
+        - $\sigma_{percent} $
+       
+        - $\lambda_{percent} $
 
+        - `When small fractions are multiplied or raised to powers, their values decrease further`
 
+      - `The second biggest term, of order 3 overall:`
+     
+        - $\frac {\alpha}{1+\alpha} \sigma^2_{percent} \lambda_{percent}$
+       
+        - `With current` $\alpha = 0.3$ `we get:`
+       
+          - $\frac {\alpha}{1+\alpha}\sigma^_{percent}\lambda_{percent} = 0.23 * 0.1^2 * 0.2 = 0.00046 = 0.046$%
+         
+            - `this term is already very small compared to the leading term`
+           
+      - `The next term is smaller and negative:`
+     
+        - $- \frac {alpha}{1+\alpha}\sigma^2{percent}\lambda^2_{percent} = - 0.23 * 10$% $*10$% $*20$% $*20$% = -0.0009$%
+       
+      - `The last term is of even higher order and even smaller:`
+     
+        - $\frac {1}{1+\alpha}\sigma^3{percent}\lambda^2{percent} = 0.23 * 0.1^3 * 0.2^2 = 0.0009$%
+       
+    - `THUS THE CONTRIBUTIOM OF THE 20% PLEDGE IN A 100% SATURATED POOL`
+   
+      - `moves rewards from` $7.7$% `to` $7.73$% `rewards for a saturated pool`
+     
+      - `if stake or pledge were less than the average ??? the effect of the pledge would be less relevant since all non-leading terms would be near zero` - (pg 10)
 
+##### LARGE POOLS pg 10
+
+- For large pools `pledge becomes irrelevant`
+
+- It is not until stake $\sigma_{percent}$ approaches $50$% of the stake of a saturated pool that increasing the pledge has a significant effet
 
 ---
 
-#### PROVIDED PARAMETERS & VALUES (whitepaper) + CURRENT
+#### PROVIDED PARAMETERS & VALUES (whitepaper pg 9) + CURRENT
 | Item                                 | Epoch 300 - 470 <br> (whitepaper)| Epoch 539(1) <br> (18-Feb-2025)            | Epoch 539(2) less `Abandoned Pools` <br> (18-FEb-2025)  |
 | -----                                | :---------------:             | :-------:                                  | :----------------------------:    |
 | $\sigma$ <br> active stake           | $6,893,338 - 7,950,258$       |                                            |                                   |
