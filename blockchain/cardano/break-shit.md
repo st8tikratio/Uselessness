@@ -1,6 +1,7 @@
 # CARDANO ECONOMIC PARAMETERS
 ###### Article - [here](https://www.cardanofoundation.org/blog/deep-dive-cardano-economic-parameters) • Whitepaper - [needs .pdf extension](https://ucarecdn.com/dc66cfa9-03a8-4247-acaa-55bc69a0e956/) • PDF - [here](https://github.com/st8tikratio/Uselessness/blob/main/papers/pdfs/Cardano%20Economic%20Parameters%20Morini.pdf)
 ###### Markdown Assitance - [here](https://github.com/st8tikratio/Uselessness/blob/main/md-spec-char.md) • [LaTeX and Markdown Helper](https://en.wikibooks.org/wiki/LaTeX/Mathematics) • [Another Cheat Sheet](https://www.upyesp.org/posts/makrdown-vscode-math-notation/) • [Jupyter Cheat Sheet](https://jupyterbook.org/en/stable/content/math.html)
+###### [Math Expressions in Markdown Using MathJax and Jekyll](https://mantejjosan.github.io/math-made-easy/tut/)
 
 ---
 
@@ -38,6 +39,7 @@
     - $saturationLEVEL = \frac {circulatingSupply}{desiredNumberOfPools} = z =  \frac {S}{k} = \frac {37B}{500} = 70M $
 
 ---
+
 - $\sigma =$ `amount active stake`
 
   - `the incentive to small pools is to increase the stake, first by delegation rather than by pledge`
@@ -55,6 +57,7 @@
       - `negative effect on inclusion and decentralization`
 
       - `reduces the rewards of small pool operators, and of delegators of all pools`
+
 ---
 
 - $f =$ `staking incentive parameter`
@@ -236,6 +239,8 @@ a fraction between `$30$%` and `$35$%
 
 - It is not until stake $\sigma_{percent}$ approaches $50$% of the stake of a saturated pool that increasing the pledge has a significant effet
 
+- 
+
 ---
 
 #### PROVIDED PARAMETERS & VALUES (whitepaper pg 9) + CURRENT
@@ -248,7 +253,8 @@ a fraction between `$30$%` and `$35$%
 | $S$ <br> circulating supply range    | $34B > 37B$                   | $36,018,816,732$                           | $36,018,816,732$                  |
 | $k$ <br> desired numPools            | $500$                         | $500$                                      | $500$                             |              
 | $z$ <br> size of saturated pool      | $70M$                         | $72,037,633$ <br> $= 36,018,816,732 / 500$ | $72,037,633$ <br> $= 36,018,816,732 / 500 $ |   |
-| $a_0$ <br> pledge influence factor  | ?                             | ?                                          | ?                                  |             
+| $a_0$ <br> pledge influence factor  | ?                             | ?                                          | ?                                  |             |
+| $\tau$ <br> Tau
 
 ---
 ---
