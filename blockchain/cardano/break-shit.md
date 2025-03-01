@@ -1,5 +1,5 @@
 # CARDANO ECONOMIC PARAMETERS
-## Calculator Can Be Found [Here](https://cardano.org/calculator/) and The Repo [Here](https://github.com/cardano-foundation/cardano-reward-calculator)
+## Calculator Can Be Found [Here](https://cardano.org/calculator/) and The Repo [Here](https://github.com/cardano-foundation/cardano-reward-calculator) and The Youtube Video [Here](https://www.youtube.com/live/CH8B7Z5bK9g)
 ###### Article - [here](https://www.cardanofoundation.org/blog/deep-dive-cardano-economic-parameters) • Whitepaper - [needs .pdf extension](https://ucarecdn.com/dc66cfa9-03a8-4247-acaa-55bc69a0e956/) • PDF - [here](https://github.com/st8tikratio/Uselessness/blob/main/papers/pdfs/Cardano%20Economic%20Parameters%20Morini.pdf)
 ###### Markdown Assitance - [here](https://github.com/st8tikratio/Uselessness/blob/main/md-spec-char.md) • [LaTeX and Markdown Helper](https://en.wikibooks.org/wiki/LaTeX/Mathematics) • [Another Cheat Sheet](https://www.upyesp.org/posts/makrdown-vscode-math-notation/) • [Jupyter Cheat Sheet](https://jupyterbook.org/en/stable/content/math.html)
 ###### [Math Expressions in Markdown Using MathJax and Jekyll](https://mantejjosan.github.io/math-made-easy/tut/)
