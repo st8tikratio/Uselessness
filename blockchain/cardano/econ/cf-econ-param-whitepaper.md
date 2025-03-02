@@ -1,4 +1,3 @@
-###### Images not imported
 
 # Cardano Economic Parameters
 
