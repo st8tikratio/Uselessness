@@ -19,14 +19,14 @@
 | Count  | Name                                      | Token      | MAX Supply      | Stake (Y, M)   | Address Type | Ledger | Additions to Below       | Required To Be Validator |
 | :----: | -------                                   | :------:   | -----------     | :--------:     | :--------:   | :----: | :--------:               | :-------------------:    |
 | 1.     | Avalanche                                 | AVAX       | 720,000,000     | Y              | Eth          | Y      | 0s ?? finality           | 2000 AVAX = $74k         |
-| 2.     | Cardano                                   | ADA        | 45,000,000,000  | Y              | Ada          | Y      | 2m finality (30day)      | 500 ADA ~=~ $1k          |
+| 2.     | Cardano                                   | ADA        | 45,000,000,000  | Y              | Ada          | Y      | 2m finality (30day)      | 500 ADA $\approx$ $1k          |
 | 3.     | Chainlink                                 | LINK       | 1,000,000,000   | Y              | Eth          | Y      |                          | ??                       |
 | ~4.~   | ~Core Chain~                              | ~CORE~     | ~2,100,000,000~ | ~Y~            | ~Eth~        | ~Y~    | HTX/Tencent Heavy <br> J.Sun Majority holder Huobi??| ------------- |
 | 5.     | Filecoin                                  | FIL        | 1,959,768,458   | Y              | Unk          | N      | fast finality coming soon| 650 FIL / dedicated 100TiB|
 | 6.     | Hedera                                    | HBAR       | 50,000,000,000  | Y              | Hbar         | Y      | 7s finality (30day)      | Looks like Council only  | 
 | 7.     | IOTA                                      | IOTA, MANA | 4,600,000,000   | Y - decayed    | Eth - BSC    | Y      |                          | 2mil IOTA staked <br> crazy node reqs|
 | 8.     | Kaspa                                     | KAS        | 28,704,026,601  | M(ine)         | Eth          | Y      |                          | System only              |
-| 9.     | MultiversX                                | EGLD       | 31,415,926      | Y              | Multiverse   | Y      | 6s finality (30day)      | 2500 EGLD ~=~ $85k       |
+| 9.     | MultiversX                                | EGLD       | 31,415,926      | Y              | Multiverse   | Y      | 6s finality (30day)      | 2500 EGLD $\approx$ $85k       |
 | 10.    | Stellar                                   | XLM        | 50,001,786,911  | Y              | Stellar      | Y      | 6s finality (30day)      | ??                       |
 | 11.    | Sei                                       | SEI        | 10,000,000,000  | Y              | Sei          | Y      | sub 1-min finality       | None, but higher get bonded|
 | 12.    | Sui                                       | SUI        | 10,000,000,000  | Y              | Eth - BSC    | Y      |                          | More research            |
