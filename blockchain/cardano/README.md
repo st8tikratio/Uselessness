@@ -93,6 +93,7 @@
 ---
 
 ## OTHER LINKS
+- [Cardano Models - CIP related via BlinkLabs](https://github.com/blinklabs-io/cardano-models) - helps desrialize data from CIP related blockchain metadata.
 - [Sort #1](/blockchain/cardano/sort.md)
 - [Sort #2](/blockchain/cardano/sort2.md)
 - [Mu Graph](https://mugraph.dev/)
