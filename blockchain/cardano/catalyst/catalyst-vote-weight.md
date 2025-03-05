@@ -1,5 +1,6 @@
 # Catalyst Voting Weight For ALL VOTERS
 ###### by Ratio, 05 Mar 2025
+###### HAS NOT BEEN MODELED AGAINST PRIOR FUNDING ROUNDS
 
 ## Summary
 - Catalyst voters are allowed to vote on as many propsals as they like. THe weight of the registered wallet, amount of ADA, is aggregated amongst all voters for every proposal. There are no limits on the number of proposals a voter may vote YES to. This allows for gaming the current system by large wallet holders, sybil actors and other possible rogue, not necessarily bad, actors.
@@ -17,21 +18,21 @@
 - Voting is completed within the Catalyst Voting app.
 
 ## Defintions
-- Voter - anyone with a registered wallet.
+- Voter - anyone with a registered wallet and participating in Project Catalyst.
 - Category - one of the broad areas described at the beginning of each fund. Each category receives a bucket of funds.
 
 ## Description Of Problem
-- Voting on proposals is extremely time consuming
-- Some votes may be considered spam
-- Whales and other influential entities have proportional impacts on funding outcomes across all of Catalyst
+- Voting on proposals is extremely time consuming.
+- Some votes may be considered spam.
+- Whales and other influential entities have proportional impacts on funding outcomes across all of Catalyst.
 
 ## Suggested Changes
 - Instead of voters being able to vote on every proposal in every category, voters would be limited on the number of proposals they may submit votes on.
 
 ## Details
 - For each Catalyst category the voter is only allowed to vote on a `max number of proposals per category` ($M_vpc$). Much of this is based on the `requested funding per proposal` which we call $pf_{max}$.
-- In each category there is a maximum amount of available funding, $C_f$
-- Max Votes per Category = Category funding total - (requested funding per proposal * $n$ proposals)
+- In each category there is a maximum amount of available funding, $C_f$.
+- Max Votes per Category = Category funding total - (requested funding per proposal * $n$ proposals).
 
 ## In Practice
 - The voter has registered his/her wallet with the Catalyst Voting app.
@@ -45,11 +46,12 @@
   - Proposal 5, $P_5$, funding = 350,000
 
 ## Math
-- The voter has voted yes to proposals that amount to 1,550,000 ADA
-- Sum of voted proposals, $SP_v$, is $P_1+...+P_5 = 1,550,000$
-- The voter has voted yes on proposals in the same category that could not be accomodated by the category's available funding, $C_f$ = 1,500,000
-- $C_f - SP_v = -50,000$
-- The system provides a warning: You have over-allocated the category budget by 50,000 ADA. Please adjust your voting
+- The voter has voted yes to proposals that amount to 1,550,000 ADA.
+- Sum of voted proposals, $SP_v$, is $P_1+...+P_5 = 1,550,000$.
+- The voter has voted yes on proposals in the same category that could not be accomodated by the category's available funding, $C_f$ = 1,500,000.
+- $C_f - SP_v = -50,000$.
+- The system provides a warning: You have over-allocated the category budget by 50,000 ADA. Please adjust your voting.
+- This is repeated for each category.
 
 ## Objective
 - Removes irrelevant votes. Yes everyone deserves a chance to be funded but voting on proposals that would over-allocate the budget gives false metrics and allows for gaming the system in a sense.
