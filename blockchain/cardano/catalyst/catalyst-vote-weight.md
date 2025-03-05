@@ -47,7 +47,7 @@
 ## Math
 - The voter has voted yes to proposals that amount to 1,550,000 ADA
 - Sum of voted proposals, $SP_v$, is $P_1+...+P_5 = 1,550,000$
-- The voter has voted yes on proposals that could not be accomodated by the category's allocated funding, $C_f$ = 1,500,000
+- The voter has voted yes on proposals in the same category that could not be accomodated by the category's available funding, $C_f$ = 1,500,000
 - $SP_v - C_f = -50,000$
 - The system provides a warning: You have over-allocated the category budget by 50,000 ADA. Please adjust your voting
 
