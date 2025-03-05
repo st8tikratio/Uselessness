@@ -1,4 +1,4 @@
-# Catalyst Voting Weight For ALL VOTERS
+# CATEGORY BASED VOTING CAPACITY FOR VOTERS IN PROJECT CATALYST
 ###### by Ratio, 05 Mar 2025
 ###### HAS NOT BEEN MODELED AGAINST PRIOR FUNDING ROUNDS
 
@@ -13,7 +13,7 @@
 - Project Catalyst still requires voters to register the wallets in order to participate in proposal voting.
 - Project Catalyst still has categories that have been funds to be allocated.
 - Category funding is static; no changes can be made to the total available ada distribution for that category.
-- Voters votes are weighted by teh amount of ADA they hold within their wallets.
+- Voters votes are weighted by the amount of ADA they hold within their wallets.
 - Voters can vote on as many proposals as they choose to.
 - Voting is completed within the Catalyst Voting app.
 
