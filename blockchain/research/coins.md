@@ -18,7 +18,7 @@
 
 | Count  | Name                                      | Token      | MAX Supply      | Stake (Y, M)   | Address Type | Ledger | Additions to Below       | Required To Be Validator |
 | :----: | -------                                   | :------:   | -----------     | :--------:     | :--------:   | :----: | :--------:               | :-------------------:    |
-| 1.     | Avalanche                                 | AVAX       | 720,000,000     | Y              | Eth          | Y      | 0s ?? finality           | 2000 AVAX = $74k         |
+| 1.     | Avalanche                                 | AVAX       | 720,000,000     | Y              | Eth          | Y      | 0s ?? finality           | 2000 AVAX $\approx$ $74k         |
 | 2.     | Cardano                                   | ADA        | 45,000,000,000  | Y              | Ada          | Y      | 2m finality (30day)      | 500 ADA $\approx$ $1k          |
 | 3.     | Chainlink                                 | LINK       | 1,000,000,000   | Y              | Eth          | Y      |                          | ??                       |
 | ~4.~   | ~Core Chain~                              | ~CORE~     | ~2,100,000,000~ | ~Y~            | ~Eth~        | ~Y~    | HTX/Tencent Heavy <br> J.Sun Majority holder Huobi??| ------------- |
