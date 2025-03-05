@@ -31,7 +31,7 @@
 ## Details
 - For each Catalyst category the voter is only allowed to vote on a `max number of proposals per category` ($M_vpc$). Much of this is based on the `requested funding per proposal` which we call $pf_{max}$.
 - In each category there is a maximum amount of available funding, $C_f$
-- Max Votes per Category = Category funding total - requested funding per proposal
+- Max Votes per Category = Category funding total - (requested funding per proposal * $n$)
 
 ## In Practice
 - The voter has registered his/her wallet with the Catalyst Voting app.
