@@ -59,3 +59,4 @@ A little about this repo. These are a colleciton of files, PDFs, notes, links an
    - [ORCID](https://orcid.org/) - Researcher ID
    - [Markdown Special Character Mapping](https://github.com/st8tikratio/Uselessness/blob/main/md-spec-char.md)
    - [Red Fusion]()
+   - [Liminal Web](https://www.joelightfoot.org/post/the-liminal-web-mapping-an-emergent-subculture-of-sensemakers-meta-theorists-systems-poets)
