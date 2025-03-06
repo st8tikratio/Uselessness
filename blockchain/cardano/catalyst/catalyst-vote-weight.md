@@ -30,7 +30,7 @@
 - Instead of voters being able to vote on every proposal in every category, voters would be limited on the number of proposals they may submit votes on.
 
 ## Details
-- For each Catalyst category the voter is only allowed to vote on a `max number of proposals per category` ($M_vpc$). Much of this is based on the `requested funding per proposal;.`
+- For each Catalyst category the voter is only allowed to vote on a `max number of proposals per category` ($M_vpc$). Much of this is based on the `requested funding per proposal.`
 - In each category there is a maximum amount of available funding, $C_f$.
 - Max Votes per Category = Category funding total - (requested funding per proposal * $n$ proposals).
 
