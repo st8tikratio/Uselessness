@@ -34,7 +34,7 @@
 - In each category there is a maximum amount of available funding, $C_f$.
 - Max Votes per Category = Category funding total - (requested funding per proposal * $n$ proposals).
 
-## In Practice
+## In Practice (an example)
 - The voter has registered his/her wallet with the Catalyst Voting app.
 - The voter reviews proposals in the `Ecosystem` category.
 - There are 5 proposals that interest the voter. Below are the amount of funding being requested per proposal and the total funding available for the category
