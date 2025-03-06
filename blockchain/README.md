@@ -12,6 +12,9 @@
    - [Tools](/blockchain/tools/README.md)
 
 ---
-   - [Research](https://github.com/st8tikratio/Usefulness/blob/main/blockchain/research/readme.md)
+- [Research](https://github.com/st8tikratio/Usefulness/blob/main/blockchain/research/readme.md)
 
+## Interesting
+- [DePINSIM](https://docs.depinsim.com/) - ID SIM on TON
+- 
 
