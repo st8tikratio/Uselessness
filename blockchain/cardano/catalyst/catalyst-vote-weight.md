@@ -1,6 +1,13 @@
 # CATEGORY BASED VOTING CAPACITY FOR VOTERS IN PROJECT CATALYST
 ###### by Ratio, 05 Mar 2025
 ###### HAS NOT BEEN MODELED AGAINST PRIOR FUNDING ROUNDS
+###### Thank you to ladyOfAda & Bruno for the input
+
+## Objective
+- Remove irrelevant votes.
+- Reduce impact of large wallet holders.
+- Increase voter thoughtfulness.
+- Remove false metrics created by allowing `theoretical` category funding over-allocations.
 
 ## Summary
 - Catalyst voters are allowed to vote on as many propsals as they like. THe weight of the registered wallet, amount of ADA, is aggregated amongst all voters for every proposal. There are no limits on the number of proposals a voter may vote YES to. This allows for gaming the current system by large wallet holders, sybil actors and other possible rogue, not necessarily bad, actors.
@@ -8,6 +15,14 @@
 - As the voter approaches this maximum they are provided a warning by the voting app. If they are over the app will not allow them to submit the last vote and they must adjust accordingly by removing proposals or adjusting their current selections.
 - This carries on throughout the entire process until the voter has exhausted all voting capacity. Their `voted on proposals` can never add up to more than the available Category funding for which those proposals belong.
 
+## Description Of Problem
+- Application of crticial thinking skills is not required when voting.
+- Some votes may be considered spam.
+- Whales and other influential entities have proportional impacts on funding outcomes across all of Catalyst.
+- Many votes prop up certain builders presenting potentially leading to false appearance of team capabilities.
+
+## Suggested Changes
+- Instead of voters being able to vote on every proposal in every category, voters would be limited on the number of proposals they may submit votes on.
 
 ## Assumptions
 - Project Catalyst still requires voters to register the wallets in order to participate in proposal voting.
@@ -20,14 +35,6 @@
 ## Defintions
 - Voter - anyone with a registered wallet and participating in Project Catalyst.
 - Category - one of the broad areas described at the beginning of each fund. Each category receives a bucket of funds.
-
-## Description Of Problem
-- Voting on proposals is extremely time consuming.
-- Some votes may be considered spam.
-- Whales and other influential entities have proportional impacts on funding outcomes across all of Catalyst.
-
-## Suggested Changes
-- Instead of voters being able to vote on every proposal in every category, voters would be limited on the number of proposals they may submit votes on.
 
 ## Details
 - For each Catalyst category the voter is only allowed to vote on a `max number of proposals per category` ($M_vpc$). Much of this is based on the `requested funding per proposal.`
@@ -52,9 +59,6 @@
 - $C_f - SP_v = -50,000$.
 - The system provides a warning: You have over-allocated the category budget by 50,000 ADA. Please adjust your voting.
 - This is repeated for each category.
-
-## Objective
-- Removes irrelevant votes. Yes everyone deserves a chance to be funded but voting on proposals that would over-allocate the budget gives false metrics and allows for gaming the system in a sense.
 
 ## Alternatives
 - This can be applied to every category and holds even if there is one category.
