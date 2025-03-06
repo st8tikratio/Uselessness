@@ -6,7 +6,7 @@
 - Catalyst voters are allowed to vote on as many propsals as they like. THe weight of the registered wallet, amount of ADA, is aggregated amongst all voters for every proposal. There are no limits on the number of proposals a voter may vote YES to. This allows for gaming the current system by large wallet holders, sybil actors and other possible rogue, not necessarily bad, actors.
 - To remove these issues, it is suggested that voters be limited to the number of proposals they may vote YES to within any category. The limit is based on the total category funding and the proposal budget requests. As a voter submits their votes the category's proposal amounts are added up. Once the voter's `voted on proposals` total the available funding for the category the voter `can no longer vote` within that category.
 - As the voter approaches this maximum they are provided a warning by the voting app. If they are over the app will not allow them to submit the last vote and they must adjust accordingly by removing proposals or adjusting their current selections.
-- This carries through throughout the entire process until the voter has exhausted all voting capacity. Their voted proposals can never add up to more than the available Category funding.
+- This carries on throughout the entire process until the voter has exhausted all voting capacity. Their voted proposals can never add up to more than the available Category funding.
 
 
 ## Assumptions
