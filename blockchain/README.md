@@ -16,5 +16,5 @@
 
 ## Interesting
 - [DePINSIM](https://docs.depinsim.com/) - ID SIM on TON
-- 
+- [DePIN Deep Dive](https://github.com/st8tikratio/Uselessness/blob/main/papers/pdfs/DePIN-deep-dive.pdf)
 
