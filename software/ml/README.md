@@ -11,3 +11,7 @@
 - [AI Models & Resources](software/ml/ai_models_resources.md)
 - [Machine Learning Sessions](/software/ml/machine-learning-sessions-part-1.md)
 
+## Local Models
+- [Using GPT4ALL](https://medium.com/@anandmali/running-gpt4all-llm-locally-no-internet-needed-just-a-few-lines-of-code-e134ccef6974)
+    - [GPT4ALL Documentation](https://docs.gpt4all.io/)
+- [Repo - Awesome Local AI](https://github.com/janhq/awesome-local-ai)
