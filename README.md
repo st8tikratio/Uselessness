@@ -3,7 +3,7 @@
 
 ---
 
-A little about this repo. These are a colleciton of files, PDFs, notes, links and other (un)assorted information. There may be links to other repos under this account. No warranties expressed or implied. All materials, where applicable, maintain the author's copyright.
+A little about this repo. These are a colleciton of files, PDFs, notes, links and other (un)assorted information. There may be links to other repos under this account. No warranties expressed or implied. All materials, where applicable, maintain the author's rights.
 
 ---
 
