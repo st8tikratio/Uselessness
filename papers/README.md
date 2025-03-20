@@ -21,3 +21,7 @@
     - [Describe Organizational Drivers](https://patterns.sociocracy30.org/describe-organizational-drivers.html)
     - [Driver Mapping](https://patterns.sociocracy30.org/driver-mapping.html)
 - VISA [library](https://usa.visa.com/solutions/crypto.html#3)
+
+
+## Others
+- [New programmable token design proves Cardano's freeze-and-seize capabilities](https://iohk.io/en/blog/posts/2025/03/12/new-programmable-token-design-proves-cardanos-freeze-and-seize-capabilities/)
