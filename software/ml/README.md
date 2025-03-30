@@ -8,7 +8,7 @@
     - see/add link for HackerNotes
 - [Using GPT4ALL](https://medium.com/@anandmali/running-gpt4all-llm-locally-no-internet-needed-just-a-few-lines-of-code-e134ccef6974)
     - [GPT4ALL Documentation](https://docs.gpt4all.io/)
-- [](https://github.com/coleam00/local-ai-packaged)
+- [Local AI packaged](https://github.com/coleam00/local-ai-packaged)
 - [PrivateAI:How To RUn Your Own Virtual Assitant Locally](https://medium.com/@sbunciak/private-ai-how-to-run-your-own-virtual-assistant-locally-f18b1863809b)
 - [Local AI](https://github.com/mudler/LocalAI) - [Docs](https://localai.io/basics/getting_started/)
 - 
