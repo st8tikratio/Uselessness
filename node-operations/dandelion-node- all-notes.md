@@ -48,6 +48,13 @@
 
 ---
 
+## M2TEK MODS
+### in progress
+- [Cardano GraphQL without metadata](https://github.com/M2tec/cardano-graphql/tree/feat/no_Meta)
+  - [discord discussion](https://discord.com/channels/912354788795109396/1359910909459566814)
+
+---
+
 ## TIPS, TRICKS, USEFUL CMDs
 
 ### install git
