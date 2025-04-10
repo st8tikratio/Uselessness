@@ -289,6 +289,21 @@
       ```
   - might need to `re-ENABLE` onboard NIC in BIOS to see in `lshw`
 
+---
 
-
-
+## NAS, RAID and OTHERs
+- [FreeNAS](https://www.truenas.com/freenas/)
+  - absorbed by TrueNAS and renamed TrueNAS Core
+  - current as of `Time Of Writing (TOW)`
+  	- [direct download - stable (current)](https://download-core.sys.truenas.net/13.0/STABLE/U6.7/x64/TrueNAS-13.0-U6.7.iso)
+  	- [upgrading trueNAS Core - documentation](https://www.truenas.com/docs/core/coretutorials/updatingtruenas/updatingcore/)
+  	- [download manual update - current `ATOW`](https://download-core.sys.truenas.net/13.0/STABLE/U6.7/TrueNAS-13.0-U6.7-manual-update.tar)
+  		- [sha256 download for update](https://download-core.sys.truenas.net/13.0/STABLE/U6.7/TrueNAS-13.0-U6.7-manual-update.tar.sha256)
+     		- ```
+	          273af10a43e7a382807b281540e6f9f47d40c72da6c4503507904e4e1efcb57d
+	          ```
+- [OpenMedia Vault](https://www.openmediavault.org/)
+  - open network attached storage 
+- [Ceph](https://ceph.com/en)
+  - Ceph is an open-source, distributed storage system
+  - [documentation](https://docs.ceph.com/en/latest/releases/)
