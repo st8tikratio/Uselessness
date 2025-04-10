@@ -16,7 +16,7 @@
 
 ---
 
-## M2TEK MODS
+## M2TEC MODS
 ### in progress
 - Cardano GraphQL without metadata
   - ```
