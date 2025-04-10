@@ -16,6 +16,22 @@
 
 ---
 
+## M2TEK MODS
+### in progress
+- Cardano GraphQL without metadata
+  - ```
+    https://github.com/M2tec/cardano-graphql/tree/feat/no_Meta)
+    ```
+  - Discord discussion
+    - ```
+      https://discord.com/channels/912354788795109396/1359910909459566814)
+      ```
+
+### completed
+- typically rolled into the most updated dandelion node instructions
+
+---
+
 ## DANDELION
 
 ### general dandelion syncing specs
@@ -45,13 +61,6 @@
   - ```
     2025-04-08 09:01:10 (0:00:12) - CRITICAL on CPU_IOWAIT (Min:3.3 Mean:4.9 Max:7.4): cardano-node, java, conmon
     ```
-
----
-
-## M2TEK MODS
-### in progress
-- [Cardano GraphQL without metadata](https://github.com/M2tec/cardano-graphql/tree/feat/no_Meta)
-  - [discord discussion](https://discord.com/channels/912354788795109396/1359910909459566814)
 
 ---
 
