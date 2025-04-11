@@ -173,7 +173,7 @@
     ```
 - to monitor, display and update sensors at 1 second intervals
   - ```
-    sudo watch -n 1 -d sensor
+    sudo watch -n 1 -d sensors
     ```
   - change the `1` to any number to monitor for that interval period
     - ```
@@ -282,6 +282,7 @@
     https://cateee.net/lkddb/
     ```
 - Realtek Driver For Onboard NIC for `Aorus 870E Elite Wifi 7`
+  - Device Name: `Realtek RTL8125 2.5GbE`
   - realtek driver website
     - ```
       https://www.realtek.com/Download/Index?cate_id=194&menu_id=297
@@ -292,7 +293,7 @@
       ```
   - linux kernel driver
     - ```
-      rtw89_8922ae
+      rtl8125
       ```
       - internet claims this is the wifi NIC
 	- specific linux github directory
