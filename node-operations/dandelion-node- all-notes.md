@@ -281,6 +281,7 @@
   - ```
     https://cateee.net/lkddb/
     ```
+<!--
 - Realtek Driver For Onboard NIC for `Aorus 870E Elite Wifi 7`
   - Device Name: `Realtek RTL8125 2.5GbE`
   - realtek driver website
@@ -305,7 +306,7 @@
       10EC:8922
       ```
   - might need to `re-ENABLE` onboard NIC in BIOS to see in `lshw`
-
+-->
 ---
 
 ## NAS, RAID and OTHERs
