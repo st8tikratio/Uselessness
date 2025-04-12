@@ -7,16 +7,19 @@
 ---
 
 # LINUX
+```
+This section will contain all things Linux. From requirements, to utilities, to general and useful commands
+```
 
-### ISOs
+## ISOs
 | **LINUX TYPE**   |  **VERSION**  |  **LINK** | **DATE**  |
 | ----             |    ------     |  -------- | -------   |
 | Server [LTS]     | 24.04         | [click here](https://ubuntu.com/download/server/thank-you?version=24.04.2&architecture=amd64&lts=true)  | 12 April 2025 |
-| Desktop - [LTS]  | 24.04         | [click here](https://ubuntu.com/download/desktop/thank-you?version=24.04.2&architecture=amd64&lts=true) | 12 April 2025 |
+| Desktop [LTS]  | 24.04         | [click here](https://ubuntu.com/download/desktop/thank-you?version=24.04.2&architecture=amd64&lts=true) | 12 April 2025 |
 
 ---
 
-### UTILITIES
+## UTILITIES
 | **APP or SERVICE**                    | **REQUIRED**   | **USE**  | **INSTALL** | **COMMANDS**  |
 | --------                              | :---------:      | :-------:  |  ---------------    | -------------  |
 | `git`                                 | YES            | git <br> functionality  | ``` sudo apt install git ``` | [see here]()  |
@@ -27,22 +30,56 @@
 | `gpw`                                 | SUGGESTED      | random <br> character <br> generator | ```sudo apt install gpw```  | [see here]()  |
 | `inxi`                                | SUGGESTED      | pretty <br> system <br> information  | ```sudo apt install inxi``` | [see here]()  |
 
+---
+
+## TERMINAL COMMANDS (CLI)
+```
+Useful commands to help navigate the Linux operating system and Dandelion node directories
+```
+1. [Updates and Package Search]()
+2. [General]()
+3. [Command Flags]()
+
+### UPDATES & PACKAGE MANAGEMENT
+```
+Requires root privilege - `sudo` - for full usage
+
+EXAMPLE: sudo apt search sensors
+```
+
+| **COMMAND**	| **ACTION**							| **OUTPUT**	|
+| ---------	| --------							| -------	|
+| ```apt update```	| see which systems & apps need updating 		| provides list of updateable items |
+| ```apt upgrade``` | upgrades upgradeable systems & apps			| **note:** may need to press 'Y' <br> shows upgrade progress |
+| ```apt search [pkg name]``` | search apt packages for specific app by text	| provides list of matches if found	|
+| ```apt info [pkg name]``` | get information on a package			| limited output, 10-20 lines of info	|
+|```apt remove [pkg name]```	| remove packages				| may request input <br> returns to prompt	|
+
+### GENERAL
+| **COMMAND**	| **ACTION**				 | **EXAMPLES**		| **OUTPUT**	|
+| ---------	| --------				 | --------  		| -------	|
+| ```pwd```	| see present working directory (folder) | 			||
+| ```ls```	| show files within current directory 	 |			||
+| ```cd [namme-of-directory```	| change directory 	 | ```cd home/dev``` 	||
+| ```cd ..```	| go back one directory level		 |	  	        ||
+| ```cd```	| go back to home directory	         |		        ||
+| ```lshw```	| list hardware			      	 | ```lshw --short``` 	||
+| ```which```	| which [app name]			 | ```which nano```	| shows path	|
+
+### COMMAND FLAGS
+```
+Flags can be different between the operating system (Linux) and applications. The flags below are general Linux flags
+
+NOTE: For python use `--version`
+```
+| **FLAG**			| **ACTION**				 | **EXAMPLES**		| **OUTPUT**	|
+| ---------			| --------				 | --------  		| -------	|
+| `--help` <br> `-h`		| help					 | `python3 -h`		| provides usage and options	|
+| `--version <br> `-v`		| version				 | `python3 --version`  | `Python 3.12.3`	|
+
+---
 
 
-
-- server - LTS
-  
-
-
-## LINUX ISOs
-- server [current LTS]
-  ```
-  https://ubuntu.com/download/server/thank-you?version=24.04.2&architecture=amd64&lts=true
-  ```
-- desktop [current LTS]
-  ```
-  https://ubuntu.com/download/desktop/thank-you?version=24.04.2&architecture=amd64&lts=true
-  ```
 
 ---
 
