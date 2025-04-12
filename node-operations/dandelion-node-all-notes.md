@@ -6,29 +6,29 @@
 
 ## LINUX ISOs
 - server [current LTS]
-  - ```
-    https://ubuntu.com/download/server/thank-you?version=24.04.2&architecture=amd64&lts=true
-    ```
+  ```
+  https://ubuntu.com/download/server/thank-you?version=24.04.2&architecture=amd64&lts=true
+  ```
 - desktop [current LTS]
-  - ```
-    https://ubuntu.com/download/desktop/thank-you?version=24.04.2&architecture=amd64&lts=true
-    ```
+  ```
+  https://ubuntu.com/download/desktop/thank-you?version=24.04.2&architecture=amd64&lts=true
+  ```
 
 ---
 
 ## M2TEC MODS
 ### in progress
 - Cardano GraphQL without metadata
-  - ```
-    https://github.com/M2tec/cardano-graphql/tree/feat/no_Meta)
-    ```
+  ```
+  https://github.com/M2tec/cardano-graphql/tree/feat/no_Meta)
+  ```
   - Discord discussion
-    - ```
-      https://discord.com/channels/912354788795109396/1359910909459566814)
-      ```
+    ```
+    https://discord.com/channels/912354788795109396/1359910909459566814)
+    ```
 
 ### completed
-- typically rolled into the most updated dandelion node instructions
+- typically rolled into the most up-to-date dandelion node container and instructions
 
 ---
 
@@ -36,17 +36,17 @@
 
 ### general dandelion syncing specs
 - **Uptime: 2 days, 0:41:56**
-  - ```  
-    27.4% swap space; of 40G swap space
-    45.3% of memory: of 128G
-    25.3% CPU; 16-Core
-    682G of drive space; of 1 TB
-    22.8ms max CPU_IOWAIT by postgres, postgres, postgres
-    ```
+  ```  
+  27.4% swap space; of 40G swap space
+  45.3% of memory: of 128G
+  25.3% CPU; 16-Core
+  682G of drive space; of 1 TB
+  22.8ms max CPU_IOWAIT by postgres, postgres, postgres
+  ```
 ### swap file resizing
 - change swap file size from 8G to 40G
   - use `docker compose down` if applicable
-  - ```
+    ```
     swapon --show
     sudo swapoff -v /swap.img 
     sudo rm -rf /swap.img
@@ -58,19 +58,53 @@
     ```
 ### common errors when syncing Cardano
 - CPU_IOWAIT
-  - ```
-    2025-04-08 09:01:10 (0:00:12) - CRITICAL on CPU_IOWAIT (Min:3.3 Mean:4.9 Max:7.4): cardano-node, java, conmon
-    ```
+  ```
+  2025-04-08 09:01:10 (0:00:12) - CRITICAL on CPU_IOWAIT (Min:3.3 Mean:4.9 Max:7.4): cardano-node, java, conmon
+  ```
 
 ---
 
-## TIPS, TRICKS, USEFUL CMDs
+## REQUIRED LINUX INSTALLS
 
 ### install git
 - install git
-  - ```
-    sudo apt install git
-    ```
+  ```
+  sudo apt install git
+  ```
+
+### inline file editor
+- for `nano`
+  ```
+  which nano
+  ```
+  **IF NOT OUTPUT**
+  ```
+  sudo apt install nano
+  ```
+- to edit file inline
+  ```
+  nano [filneame]
+  ```
+  **example**
+  ```
+  nano .env
+  ```
+- save changes to file and exit
+  ```
+  CTRL + S
+  CTRL + X
+  ```
+- exit **without** saving
+  ```
+  CTRL + X
+  n(o)
+  ```
+- `VIM` is another inline editor; just replace `vim` for `nano`
+
+## SUGGESTED LINUX INSTALLS
+
+
+## TIPS, TRICKS, USEFUL CMDs
 
 ### autocomplete using TAB
 - start typing path or directory and hit `TAB` to autcomplete
@@ -82,53 +116,44 @@
 
 ### general linux commands
 - get help for any command
-  - ```
-    [your command] -h
-    ```
-    **OR**
-    ```
-    [your command] --help
-    ```
+  ```
+  [your command] -h
+  ```
+  **OR**
+  ```
+  [your command] --help
+  ```
 - check to see if an application or package is install
-  - ```
-    which [app or package name]
-    ```
+  ```
+  which [app or package name]
+  ```
 - check version of application or package
-  - ```
-    [app or package name] -v
-    ```
-    **OR**
-    ```
-    [app or package name] --version
-    ```
-- use this to pause (and resume) large outputs
+  ```
+  [app or package name] -v
+  ```
+  **OR**
+  ```
+  [app or package name] --version
+  ```
+- to pause (and resume) large outputs
   - pausing
-    - ```
-      CTRL + S
-      ```
+    ```
+    CTRL + S
+    ```
   - resume
-    - ```
-      CTRL + Q
-      ```
+    ```
+    CTRL + Q
+    ```
 - update or upgrade system and applications
-  - ```
-    sudo apt uodate
-    ```
-  - THEN
-  - ```
-    sudo apt upgrade
-    ```
+  ```
+  sudo apt update
+  ```
+  **then**
+  ```
+  sudo apt upgrade
+  ```
 
-### inline file editor
-- this is for nano
-  - ```
-    which nano
-    ```
-  - **IF NOT OUTPUT**
-    ```
-    sudo apt install nano
-    ```
-- VIM is another inline editor
+
 
 ### networking
 - check if any `connection` is active
@@ -247,7 +272,6 @@
       https://medium.com/@dominikgacek/how-to-move-linux-root-partition-to-another-drive-quickly-31e54fdc9c19
       ```     
 
-
 ---
 
 ## NON-NODE SYSTEM INSTALL (MONITORING SYS)
@@ -255,12 +279,12 @@
 
 ---
 
-## DOCKER
+## DOCKER NOTES & COMMANDS
 - docker uses project name as folder name
 - possible to run multiple pre-prod instances with different variables being entered into `.env` in global variable
   - must not conflict; cannot have two that are both 0, 0; must be 0, 1 **OR** 0, 2
 
-### stop & resume docker processes
+### stop, resume, monitor docker processes
 - navigate to docker directory
   - ```
     cd /home/[username]/.../[directory with docker container] 
@@ -273,17 +297,38 @@
   - ```
     docker compose up
     ```
-         
+- show and follow docker logs
+  - ```
+    docker compose logs -f
+    ```
+- detach command
+  - at the end of any docker command above type `space` then `-d` 
+
 ---
 
 ## DRIVERS
 - Linux Kernel Driver Database
-  - ```
-    https://cateee.net/lkddb/
+  ```
+  - https://cateee.net/lkddb/
+  - https://github.com/torvalds/linux/blob/master/drivers/
+  ```
+
+- NIC(s) drivers for `Aorus 870E Elite Wifi 7`
+  - Device-1: `Realtek RTW89_8922AE`
+    ```
+    - Type: wireless (aka wi-fi)
+    - Actions: automatically recognized by Linux Desktop 24.04 LTS
+    - Drivers Needed: none
+    - Issues: none
+    ```
+  - Device-2: `Realtek RTL8125 2.5GbE`
+    ```
+    - Type: hardware; 2.5 GbE
+    - Actions: NOT automatically usable
+    - Drivers Needed: NONE RECOMMENDED
+    - Issues: UNSTABLE (see internet)
     ```
 <!--
-- Realtek Driver For Onboard NIC for `Aorus 870E Elite Wifi 7`
-  - Device Name: `Realtek RTL8125 2.5GbE`
   - realtek driver website
     - ```
       https://www.realtek.com/Download/Index?cate_id=194&menu_id=297
@@ -325,3 +370,114 @@
 - [Ceph](https://ceph.com/en)
   - Ceph is an open-source, distributed storage system
   - [documentation](https://docs.ceph.com/en/latest/releases/)
+
+
+---------------- ORGANIZE THE BELOW ------------------------
+
+cd ..
+
+
+cd into drive to to be copied
+sudo mv [target location] ../../[target-drive]
+	- use tab to insure correct path
+sudo nano etc/fstab
+	- remove old directory path down to just /home
+reboot
+once logged delete old directory
+
+
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+wlp13s0          UP             192.168.4.60/22 fd88:e13f:b2bf1️⃣8901:5907:f1db:5610/64 fd88:e13f:b2bf1️⃣bfb3:8f78:afc6:df0/64 fe80::edd8:d0c1:56a6:dc93/64
+
+————————————————————————————
+
+network: Device-1: Realtek driver: rtw89_8922ae v: kernel port: e000 bus-ID: 0d:00.0 IF: wlp13s0 state: up mac: <filter> Device-2: Realtek RTL8125 2.5GbE vendor: Gigabyte driver: N/A port: d000 bus-ID: 0e:00.0
+- Realtek RTL8125 2.5GbE
+
+Driver: https://linux-hardware.org/?id=pci:10ec-8125-1019-8125
+
+—————————————	
+
+**generate random chars**
+
+sudo apt install gpw
+gpw
+
+disk usage
+
+MAINNNET - 1.06TB
+
+PREPROD - 303GB
+￼
+
+
+
+BACKUP PATH
+- Mainnet - /media/piza/bkup/svc/ada-main-bkup  —> /media/piza/bkup/svc/ada-main-bkup
+- Preprod - /media/piza/bkup/svc/ada-pp-bkup —>   /media/piza/bkup/svc/ada-pp-bkup
+
+———————— DURING BACKUP STEPS —————————
+
+￼
+
+————————— AUTOSTART AS A SERVICE ————————
+
+You should set 'KillUserProcesses=no' on '/etc/systemd/logind.conf' and run 'systemctl restart systemd-logind'
+
+—————————————————————————
+
+Docker Shutdown
+
+sudo systemctl stop dandolite-preprod.service —> maybe dandelion-lite-preprod or whatever your container name is
+
+sudo systemctl status dandolite-preprod.service
+
+
+
+CSnapshot - Image Creation, minimize install
+Duck DNS alternative
+Test Failover
+Update notes for Dandelion install
+Governance around maintenance
+
+——————————————————————————
+
+lspci -vnn | grep Wireless
+
+————————————————————————————————————
+
+correct output for:
+
+docker inspect --format "{{json .State.Health }}" dandolite-preprod-cardano-node-ogmios-1 | jq
+docker inspect --format "{{json .State.Health }}" dandolite-preprod-cardano-db-sync-1 | jq
+
+￼
+
+—————— PREPROD BACKUP ———————————————
+
+Start 303GB, end 320GB = 17GB backup
+First run, no location or some other path error; corrected per below
+Preprod backup start @ 1015hrs, end @ 1018:30
+
+correction: removed space from “ /media/piza/bkup/svc/ada-pp-bkup” to “/media/piza/bkup/svc/ada-pp-bkup”
+
+—————— MAINNET BACKUP ————————
+
+303GB backup
+
+—————— SERVICES————————————————
+
+- [Haproxy Stats](https://github.com/unixsurfer/haproxystats)
+- [Duck DNS](https://www.duckdns.org/)
+
+-———————————————————————————
+
+TECH PARTS
+- Weastlinks Micro SD TF Card to 22pin SATA adapter card 2.5" hdd enclosure TF cards to 7+15 SATA converter
+- 7.9"x4.7"x2.9"ABS Waterproof Junction Box Project Enclosure w PC Cover Gray
+- https://www.newegg.com/p/0VN-004E-00025?Item=9SIA61HKCF0811
+- https://www.newegg.com/ssk-he-c327-enclosure/p/0VN-004N-00005?Item=9SIAZS4ERW7243
+- https://www.newegg.com/cooler-master-oracle-air-enclosure/p/N82E16817171237?Item=9SIA4REJXF5596
+- https://www.newegg.com/p/3C6-01A5-004X5?Item=9SIBTSNKBB0845
+- https://www.newegg.com/sabrent-ec-wpne-enclosure/p/0VN-0036-000D8?Item=9SIBK19K2E7435
+- 
