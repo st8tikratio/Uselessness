@@ -15,21 +15,21 @@ This section will contain all things Linux. From requirements, to utilities, to 
 | **LINUX TYPE**   |  **VERSION**  |  **LINK** | **DATE**  |
 | ----             |    ------     |  -------- | -------   |
 | Server [LTS]     | 24.04         | [click here](https://ubuntu.com/download/server/thank-you?version=24.04.2&architecture=amd64&lts=true)  | 12 April 2025 |
-| Desktop [LTS]  | 24.04         | [click here](https://ubuntu.com/download/desktop/thank-you?version=24.04.2&architecture=amd64&lts=true) | 12 April 2025 |
+| Desktop [LTS]    | 24.04         | [click here](https://ubuntu.com/download/desktop/thank-you?version=24.04.2&architecture=amd64&lts=true) | 12 April 2025 |
 
 ---
 
 ## UTILITIES
-| **NAME**                    | **REQUIRED**   | **USE**  | **INSTALL** | **COMMANDS**  |
-| --------                              | :---------:      | :-------:  |  ---------------    | -------------  |
-| `git`                                 | YES            | git <br> functionality  | ``` sudo apt install git ``` | [see here]()  |
-| `nano`                                | SUGGESTED      | inline <br> terminal <br> editor | ```sudo apt install nano```| [see here]()  |
-| `vim`                                 | ALT            | inline <br> terminal <br> editor | ```sudo apt install vim```| [see here]()  |
-| `nmap`				| YES		 | network mapping utility	     | ```sudo apt install nmap``` | [see here]	|
-| `glances`                             | SUGGESTED      | complete <br> system <br> monitor  | ```sudo apt install glances``` | [see here]()  |
-| `sensors` <br> `fka: lm-sensors`      | ALT            | system <br> sensor <br> monitoring  | ```sudo apt install sensors``` | [see here]()  |
-| `gpw`                                 | SUGGESTED      | random <br> character <br> generator | ```sudo apt install gpw```  | [see here]()  |
-| `inxi`                                | SUGGESTED      | pretty <br> system <br> information  | ```sudo apt install inxi``` | [see here]()  |
+| **NAME**                    | **REQUIRED**   | **USE**  | **INSTALL** | **COMMANDS**  | **WEB/DOC** |
+| --------                              | :---------:      | :-------:  |  ---------------    | -------------  | ----- |
+| `git`                                 | YES            | git <br> functionality  | ``` sudo apt install git ``` | [see here]()  | [documentation](https://git-scm.com/doc) |
+| `nano`                                | SUGGESTED      | inline <br> terminal <br> editor | ```sudo apt install nano```| [see here]()  | cli - `man nano` |
+| `vim`                                 | ALT            | inline <br> terminal <br> editor | ```sudo apt install vim```| [see here]()  | [website](https://www.vim.org/) |
+| `nmap`				| YES		 | network mapping utility	     | ```sudo apt install nmap``` | [see here]	| [website](https://nmap.org/download) |
+| `glances`                             | SUGGESTED      | complete <br> system <br> monitor  | ```sudo apt install glances``` | [see here]()  | [github](https://github.com/nicolargo/glances) |
+| `sensors` <br> `fka: lm-sensors`      | ALT            | system <br> sensor <br> monitoring  | ```sudo apt install sensors``` | [see here]()  | [github](https://github.com/lm-sensors/lm-sensors) |
+| `gpw`                                 | SUGGESTED      | random <br> character <br> generator | ```sudo apt install gpw```  | [see here]()  | [linux pkg](https://packages.ubuntu.com/oracular/gpw) |
+| `inxi`                                | SUGGESTED      | pretty <br> system <br> information  | ```sudo apt install inxi``` | [see here]()  | [documentation](https://smxi.org/docs/inxi.htm) |
 
 ---
 
@@ -78,31 +78,55 @@ NOTE: For python use `--version`
 | `-help` <br> `-h`		| help					 | `python3 -h`		| provides usage and options	|
 | `-version` <br> `-v`		| version				 | `python3 --version`  | `Python 3.12.3`	|
 
----
 
+## OTHER LINUX WEBSITES
 
+| **Usage**		       | **Website** 			 |
+| ---------		       | -------			 |
+| Linux Ubuntu Package Search  | https://packages.ubuntu.com/    |
+| Linux Hardware Drivers       | https://linux-hardware.org/     |
+|
 
 ---
 
 ## M2TEC MODS
-### in progress
-- Cardano GraphQL without metadata
-  ```
-  https://github.com/M2tec/cardano-graphql/tree/feat/no_Meta)
-  ```
-  - Discord discussion
-    ```
-    https://discord.com/channels/912354788795109396/1359910909459566814)
-    ```
+```
+List of ongoing modifications that may be rolled into Dandelion Lite Node package
 
-### completed
-- typically rolled into the most up-to-date dandelion node container and instructions
+Completed modifications/updates are rolled into the Dandelion Lite Package
+```
+| **Mod & Updates**			| **Related Links**								| **Discussions**	|
+| --------------			| :---------------:								| :-------------:		|
+| Cardano GraphQL without metadata 	| [Github](https://github.com/M2tec/cardano-graphql/tree/feat/no_Meta)		| [Discord](https://discord.com/channels/912354788795109396/1359910909459566814)  |
 
 ---
 
 ## DANDELION
 
-### general dandelion syncing specs
+### GENERAL SPECS & MEASURMENTS
+
+#### SYSTEM BUILD
+```
+-this is my actual build
+- purchased from NewEgg
+- total cost: $
+```
+
+| **PART**	| **MAKE** | **MODEL NUMBER** 	| **CAPACITY**	| **COST** 	|
+| ----------	| -------  | --------------   	| ------------	| ----------	|
+| CASE		| PHANTEKS | ETHOO PH-ES614PC_BK| Full	  	      |			|		|
+| CPU		| AMD	   | 		      	| 		|		|
+|		|	   | 	  	      |			|		|
+|		|	   | 	  	      |			|		|
+|		|	   | 	  	      |			|		|
+|		|	   | 	  	      |			|		|
+|		|	   | 	  	      |			|		|
+|		|	   | 	  	      |			|		|
+|		|	   | 	  	      |			|		|
+
+
+
+
 - **Uptime: 2 days, 0:41:56**
   ```  
   27.4% swap space; of 40G swap space
@@ -453,11 +477,6 @@ sudo nano etc/fstab
 reboot
 once logged delete old directory
 
-
-
-
-Driver: https://linux-hardware.org/?id=pci:10ec-8125-1019-8125
-
 —————————————	
 
 **generate random chars**
@@ -527,8 +546,6 @@ Preprod backup start @ 1015hrs, end @ 1018:30
 
 —————— SERVICES————————————————
 
-- [Haproxy Stats](https://github.com/unixsurfer/haproxystats)
-- [Duck DNS](https://www.duckdns.org/)
 
 -———————————————————————————
 
@@ -540,4 +557,3 @@ TECH PARTS
 - https://www.newegg.com/cooler-master-oracle-air-enclosure/p/N82E16817171237?Item=9SIA4REJXF5596
 - https://www.newegg.com/p/3C6-01A5-004X5?Item=9SIBTSNKBB0845
 - https://www.newegg.com/sabrent-ec-wpne-enclosure/p/0VN-0036-000D8?Item=9SIBK19K2E7435
-- 
