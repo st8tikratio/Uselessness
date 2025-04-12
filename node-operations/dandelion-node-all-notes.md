@@ -1,7 +1,8 @@
 # ALL DANDO BUILD NOTES
 ##### Starting 04 April 2025
 ###### Includes hardware specific notes
-
+- The below are a compilation of notes that were taken while installing the preprod <br> and mainnet dandeklion nodes. Some are basic, some not so much. If there was <br> and issue it was noted. In the future I will play around with the formatting so that <br> it is more user friendly. Tables will be inserted where it makes sense.
+- These notes are as much for me as they are for YOU.
 ---
 
 ## LINUX ISOs
