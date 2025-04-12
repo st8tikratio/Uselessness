@@ -20,7 +20,7 @@ This section will contain all things Linux. From requirements, to utilities, to 
 ---
 
 ## UTILITIES
-| **APP or SERVICE**                    | **REQUIRED**   | **USE**  | **INSTALL** | **COMMANDS**  |
+| **NAME**                    | **REQUIRED**   | **USE**  | **INSTALL** | **COMMANDS**  |
 | --------                              | :---------:      | :-------:  |  ---------------    | -------------  |
 | `git`                                 | YES            | git <br> functionality  | ``` sudo apt install git ``` | [see here]()  |
 | `nano`                                | SUGGESTED      | inline <br> terminal <br> editor | ```sudo apt install nano```| [see here]()  |
