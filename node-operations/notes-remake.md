@@ -74,8 +74,8 @@ NOTE: For python use `--version`
 ```
 | **FLAG**			| **ACTION**				 | **EXAMPLES**		| **OUTPUT**	|
 | ---------			| --------				 | --------  		| -------	|
-| `--help` <br> `-h`		| help					 | `python3 -h`		| provides usage and options	|
-| `--version` <br> `-v`		| version				 | `python3 --version`  | `Python 3.12.3`	|
+| `-help` <br> `-h`		| help					 | `python3 -h`		| provides usage and options	|
+| `-version` <br> `-v`		| version				 | `python3 --version`  | `Python 3.12.3`	|
 
 ---
 
