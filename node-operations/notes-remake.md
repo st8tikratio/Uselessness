@@ -25,6 +25,7 @@ This section will contain all things Linux. From requirements, to utilities, to 
 | `git`                                 | YES            | git <br> functionality  | ``` sudo apt install git ``` | [see here]()  |
 | `nano`                                | SUGGESTED      | inline <br> terminal <br> editor | ```sudo apt install nano```| [see here]()  |
 | `vim`                                 | ALT            | inline <br> terminal <br> editor | ```sudo apt install vim```| [see here]()  |
+| `nmap`				| YES		 | network mapping utility	     | ```sudo apt install nmap``` | [see here]	|
 | `glances`                             | SUGGESTED      | complete <br> system <br> monitor  | ```sudo apt install glances``` | [see here]()  |
 | `sensors` <br> `fka: lm-sensors`      | ALT            | system <br> sensor <br> monitoring  | ```sudo apt install sensors``` | [see here]()  |
 | `gpw`                                 | SUGGESTED      | random <br> character <br> generator | ```sudo apt install gpw```  | [see here]()  |
