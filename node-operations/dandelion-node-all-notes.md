@@ -386,13 +386,7 @@ reboot
 once logged delete old directory
 
 
-lo               UNKNOWN        127.0.0.1/8 ::1/128 
-wlp13s0          UP             192.168.4.60/22 fd88:e13f:b2bf1️⃣8901:5907:f1db:5610/64 fd88:e13f:b2bf1️⃣bfb3:8f78:afc6:df0/64 fe80::edd8:d0c1:56a6:dc93/64
 
-————————————————————————————
-
-network: Device-1: Realtek driver: rtw89_8922ae v: kernel port: e000 bus-ID: 0d:00.0 IF: wlp13s0 state: up mac: <filter> Device-2: Realtek RTL8125 2.5GbE vendor: Gigabyte driver: N/A port: d000 bus-ID: 0e:00.0
-- Realtek RTL8125 2.5GbE
 
 Driver: https://linux-hardware.org/?id=pci:10ec-8125-1019-8125
 
@@ -458,8 +452,6 @@ docker inspect --format "{{json .State.Health }}" dandolite-preprod-cardano-db-s
 Start 303GB, end 320GB = 17GB backup
 First run, no location or some other path error; corrected per below
 Preprod backup start @ 1015hrs, end @ 1018:30
-
-correction: removed space from “ /media/piza/bkup/svc/ada-pp-bkup” to “/media/piza/bkup/svc/ada-pp-bkup”
 
 —————— MAINNET BACKUP ————————
 
