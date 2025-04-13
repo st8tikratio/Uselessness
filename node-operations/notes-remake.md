@@ -20,16 +20,16 @@ This section will contain all things Linux. From requirements, to utilities, to 
 ---
 
 ## UTILITIES
-| **NAME**                    | **REQUIRED**   | **USE**  | **INSTALL** | **COMMANDS**  | **WEB/DOC** |
-| --------                              | :---------:      | :-------:  |  ---------------    | -------------  | ----- |
-| `git`                                 | YES            | git <br> functionality  | ``` sudo apt install git ``` | [see here]()  | [documentation](https://git-scm.com/doc) |
-| `nano`                                | SUGGESTED      | inline <br> terminal <br> editor | ```sudo apt install nano```| [see here]()  | cli - `man nano` |
-| `vim`                                 | ALT            | inline <br> terminal <br> editor | ```sudo apt install vim```| [see here]()  | [website](https://www.vim.org/) |
-| `nmap`				| YES		 | network mapping utility	     | ```sudo apt install nmap``` | [see here]	| [website](https://nmap.org/download) |
-| `glances`                             | SUGGESTED      | complete <br> system <br> monitor  | ```sudo apt install glances``` | [see here]()  | [github](https://github.com/nicolargo/glances) |
-| `sensors` <br> `fka: lm-sensors`      | ALT            | system <br> sensor <br> monitoring  | ```sudo apt install sensors``` | [see here]()  | [github](https://github.com/lm-sensors/lm-sensors) |
-| `gpw`                                 | SUGGESTED      | random <br> character <br> generator | ```sudo apt install gpw```  | [see here]()  | [linux pkg](https://packages.ubuntu.com/oracular/gpw) |
-| `inxi`                                | SUGGESTED      | pretty <br> system <br> information  | ```sudo apt install inxi``` | [see here]()  | [documentation](https://smxi.org/docs/inxi.htm) |
+| **NAME**                    		| **REQUIRED**   | **USE**  				 | **INSTALL** 				| **COMMANDS**  | **WEB/DOC** |
+| --------                              | :---------:    | :-------:  				 |  ---------------    			| ------------- | ----- |
+| `git`                                 | YES            | git <br> functionality  		 | ``` sudo apt install git ``` 	| [see here]()  | [documentation](https://git-scm.com/doc) |
+| `nano`                                | SUGGESTED      | inline <br> terminal <br> editor 	 | ```sudo apt install nano```		| [see here]()  | cli - `man nano` |
+| `vim`                                 | ALT            | inline <br> terminal <br> editor	 | ```sudo apt install vim```		| [see here]()  | [website](https://www.vim.org/) |
+| `nmap`				| YES		 | network mapping utility	    	 | ```sudo apt install nmap``` 		| [see here]	| [website](https://nmap.org/download) |
+| `glances`                             | SUGGESTED      | complete <br> system <br> monitor  	 | ```sudo apt install glances``` 	| [see here]()  | [github](https://github.com/nicolargo/glances) |
+| `sensors` <br> `fka: lm-sensors`      | ALT            | system <br> sensor <br> monitoring	 | ```sudo apt install sensors``` 	| [see here]()  | [github](https://github.com/lm-sensors/lm-sensors) |
+| `gpw`                                 | SUGGESTED      | random <br> character <br> generator  | ```sudo apt install gpw``` 		| [see here]()  | [linux pkg](https://packages.ubuntu.com/oracular/gpw) |
+| `inxi`                                | SUGGESTED      | pretty <br> system <br> information   | ```sudo apt install inxi``` 		| [see here]()  | [documentation](https://smxi.org/docs/inxi.htm) |
 
 ---
 
@@ -37,7 +37,7 @@ This section will contain all things Linux. From requirements, to utilities, to 
 ```
 Useful commands to help navigate the Linux operating system and Dandelion node directories
 ```
-1. [Updates and Package Search]()
+1. [Updates and Package Management]()
 2. [General]()
 3. [Command Flags]()
 
@@ -48,13 +48,13 @@ Requires root privilege - `sudo` - for full usage
 EXAMPLE: sudo apt search sensors
 ```
 
-| **COMMAND**	| **ACTION**							| **OUTPUT**	|
-| ---------	| --------							| -------	|
-| ```apt update```	| see which systems & apps need updating 		| provides list of updateable items |
-| ```apt upgrade``` | upgrades upgradeable systems & apps			| **note:** may need to press 'Y' <br> shows upgrade progress |
-| ```apt search [pkg name]``` | search apt packages for specific app by text	| provides list of matches if found	|
-| ```apt info [pkg name]``` | get information on a package			| limited output, 10-20 lines of info	|
-|```apt remove [pkg name]```	| remove packages				| may request input <br> returns to prompt	|
+| **COMMAND**			| **ACTION**						| **OUTPUT**	|
+| ---------			| --------						| -------	|
+| ```apt update```		| see which systems & apps need updating 		| provides list of updateable items |
+| ```apt upgrade``` 		| upgrades upgradeable systems & apps			| **note:** may need to press 'Y' <br> shows upgrade progress |
+| ```apt search [pkg name]```   | search apt packages for specific app by text		| provides list of matches if found	|
+| ```apt info [pkg name]``` 	| get information on a package				| limited output, 10-20 lines of info	|
+| ```apt remove [pkg name]```	| remove packages					| may request input <br> returns to prompt	|
 
 ### GENERAL
 | **COMMAND**	| **ACTION**				 | **EXAMPLES**		| **OUTPUT**	|
@@ -65,7 +65,7 @@ EXAMPLE: sudo apt search sensors
 | ```cd ..```	| go back one directory level		 |	  	        ||
 | ```cd```	| go back to home directory	         |		        ||
 | ```lshw```	| list hardware			      	 | ```lshw --short``` 	||
-| ```which```	| which [app name]			 | ```which nano```	| shows path	|
+| ```which```	| which [package name]			 | ```which nano```	| shows path	|
 
 ### COMMAND FLAGS
 ```
@@ -85,7 +85,7 @@ NOTE: For python use `--version`
 | ---------		       | -------			 |
 | Linux Ubuntu Package Search  | https://packages.ubuntu.com/    |
 | Linux Hardware Drivers       | https://linux-hardware.org/     |
-|
+|			       | 				 |
 
 ---
 
@@ -103,42 +103,82 @@ Completed modifications/updates are rolled into the Dandelion Lite Package
 
 ## DANDELION
 
-### GENERAL SPECS & MEASURMENTS
+1. General specs, measurements, errors
+  - [`Server/Node build`]()
+  - [`Usage after n days up-time`]()
+  - [`Common errors and resource hogs`]()
+2. Requirements
+  - [`Swap file resize`]()
+  - 
+4. 
+5. 
 
-#### SYSTEM BUILD
+### GENERAL SPECS, MEASURMENTS, ERRORS
+
+
+
+
+
+#### SERVER/NODE BUILD
 ```
--this is my actual build
-- purchased from NewEgg
-- total cost: $
+- actual system build
+- purchased from NewEgg + Amazon
+- total cost: USD $2371.72 + tax + shipping ~ $2600.00
 ```
 
-| **PART**	| **MAKE** | **MODEL NUMBER** 	| **CAPACITY**	| **COST** 	|
-| ----------	| -------  | --------------   	| ------------	| ----------	|
-| CASE		| PHANTEKS | ETHOO PH-ES614PC_BK| Full	  	      |			|		|
-| CPU		| AMD	   | 		      	| 		|		|
-|		|	   | 	  	      |			|		|
-|		|	   | 	  	      |			|		|
-|		|	   | 	  	      |			|		|
-|		|	   | 	  	      |			|		|
-|		|	   | 	  	      |			|		|
-|		|	   | 	  	      |			|		|
-|		|	   | 	  	      |			|		|
+| **PART**																		| **MAKE**  		| **MODEL** 		 		| **P/N** 			| **CAPACITY**				 		| **COST (USD)** 	|
+| ----------																		| -------   		| ----------		 		| ----   			| ------------				 		| ----------		|
+| [case](https://www.newegg.com/black-phanteks-enthoo-pro-atx-full-tower/p/N82E16811854004?Item=N82E16811854004)					| PHANTEKS  		| ETHOO     	  	 		| PH-ES614PC_BK  		| Full ATX Tower					| 120.99		|		
+| [power supply](https://www.amazon.com/dp/B0BWKT2JRV?ref_=ppx_hzod_title_dt_b_fed_asin_title_0_0)							| Thermaltake		| Toughpower				| PS-TPD-1200FNFAPU-L		| PF3, ATX-3.0, 1200W 80+ <br> Platinum Full Modular	| 226.59		|
+| [memory](https://www.newegg.com/nemix-ram-128gb/p/1X5-003Z-01FR6?Item=9SIA7S6K3T3025)								        | Nemix     		| DDR5 ECC Unbuffered UDIMM Memory	| ME38400-328K4			| DDR5, 4800MHz, 4x32GB			 		| 519.29		|	
+| [cpu](https://www.newegg.com/amd-ryzen-9-9950x-4-3-ghz-16-core-am5-170w-processor-100-100001277wof/p/N82E16819113841?Item=N82E16819113841)		| AMD	    		| Ryzen 9 - 9950X	  	  	| 100-100001277WOF    		| 16-Core; 4.3 GHz			 		| 538.99		|
+| [cpu cooler](https://www.newegg.com/be-quiet-liquid-cooling-system-black/p/N82E16835269032?Item=N82E16835269032)					| Be quiet! 		| Silent Loop 3     	  		| ---				| 420mm AIO				 		| 174.90		|
+| [motherboard](https://www.newegg.com/p/N82E16813145517?Item=N82E16813145517)										| Gigabyte  		| Aorus	         	  		| X870E AORUS ELITE WIFI7	| AM5, DDR5, 4xM.2, PCI-5		 		| 309.99		|
+| [nvme](https://www.newegg.com/pny-2tb-cs2150-nvme-2-0/p/N82E16820177170?Item=N82E16820177170) 							| PNY	   		| CS2150	  	     		| M280CS2150-2TB-TB		| 2TB, PCI-Express 5.0 x4		 		| 179.99		|
+| [nvme](https://www.newegg.com/pny-2tb-cs2150-nvme-2-0/p/N82E16820177170?Item=N82E16820177170) 							| PNY	    		| CS2150	  	     		| M280CS2150-2TB-TB		| 2TB, PCI-Express 5.0 x4		 		| 179.99		|
+| [nvme](https://www.newegg.com/western-digital-1tb-black-sn850x-nvme/p/N82E16820250243?Item=N82E16820250243)						| Western Digital	| BLACK SN850X NVMe			| WDS100T2X0E			| 1TB, PCI-Express 4.0 x4		 		| 0.00			|
+| [nic](https://www.newegg.com/intel-x550-t2/p/N82E16833106292?Item=9SIA4A0K9D5713)									| Lenovo/Intel		| X550-T2 	  	      		| ---				| 2 x RJ-45, 10GbE/5GbE/2.5GbE/1GbE/100Mb		| 120.99		|
+|																			| 			|					|				|			       **`TOTAL`** 		| `2371.72`		|
+
+#### USAGE BASED ON UPTIME
+```
+** NOTE: Reference Only **
+This is only for the above system at the specified time. YOur system metrics may vary based on applied efficiencies
+```  
+
+| **UPTIME**			| **RESOURCE**	| **USAGE**  	| **MAX**			| **NOTES**				|
+| ---------			| -------	| --------	| -------			| --------------------			|
+| `2 days, 0:41:5`		| swap space	| 27.4%		| 40GB				| [`resized from 8GB to 40GB`]()	|
+| 				| memory	| 45.3% 	| 128GB				| --					|
+| 				| cpu		| 25.3% 	| 16-Core			| --					|
+| 				| drive space	| 682G 		| 1 TB				| [`changed root drive to 2tb`]()	|
+| ``
 
 
-
-
-- **Uptime: 2 days, 0:41:56**
-  ```  
-  27.4% swap space; of 40G swap space
-  45.3% of memory: of 128G
-  25.3% CPU; 16-Core
-  682G of drive space; of 1 TB
-  22.8ms max CPU_IOWAIT by postgres, postgres, postgres
+#### COMMON ERRORS & RESOURCE HOGS
+- CPU_IOWAIT
   ```
-### swap file resizing
-- change swap file size from 8G to 40G
-  - use `docker compose down` if applicable
+  Examples:
+  2025-04-08 09:01:10 (0:00:12) - CRITICAL on CPU_IOWAIT (Min:3.3 Mean:4.9 Max:7.4): cardano-node, java, conmon
+  2025-04-08 09:01:10 (0:00:12) - CRITICAL on CPU_IOWAIT (Min:3.3 Mean:4.9 Max:7.4): postgres, postgres, postgres
+  ```
+- PATCH_APPLIED
+  ```
+  Examples:
+  Name                    Status    Uptime  CPU%    MEM/MAX      IOR/s IOW/s     Rx/s Tx/ Command
+  dandolite-mainnet-ca   running  yesterday 132.6    _/_           _ _            _ _     /bin/sh -c  echo "Applying patch to provide env vars due to hardcoded values:" ; echo "   OGMIOS_HOST='cardano-node-ogmios'" ; echo " >
+  dandolite-mainnet-ca   running yesterday   0.1     _/_           _ _            _ _     /bin/sh -c  echo "Applying patch to provide env vars due to hardcoded values:" ; echo "   OGMIOS_HOST='cardano-node-ogmios'" ; ech>
+  dandolite-preprod-ca   running  just now   0.0     _/_           _ _            _ _     /bin/sh -c  echo "Applying patch to provide env vars due to hardcoded values:" ; echo "   OGMIOS_HOST='cardano-node-ogmios'" ; ech>
+  dandolite-preprod-ca   running     a min   0.9     _/_           _ _            _ _     /bin/sh -c  echo "Applying patch to provide env vars due to hardcoded values:" ; echo "   OGMIOS_HOST='cardano-node-ogmios'" ; ech>
+  ```
+
+### REQUIREMENTS
+
+#### SWAP FILE RESIZE
+- from default (8GB) to 40G
     ```
+    cd into [docker directory]
+    docker compose down
     swapon --show
     sudo swapoff -v /swap.img 
     sudo rm -rf /swap.img
@@ -148,16 +188,9 @@ Completed modifications/updates are rolled into the Dandelion Lite Package
     sudo swapon 
     sudo reboot now
     ```
-### common errors when syncing Cardano
-- CPU_IOWAIT
-  ```
-  2025-04-08 09:01:10 (0:00:12) - CRITICAL on CPU_IOWAIT (Min:3.3 Mean:4.9 Max:7.4): cardano-node, java, conmon
-  ```
 
----
-
-## REQUIRED LINUX INSTALLS
-
+#### REQUIRED LINUX INSTALLS
+- see [table above]()
 ### install git
 - install git
   ```
