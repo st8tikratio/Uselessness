@@ -4,15 +4,56 @@
 - The below are a compilation of notes that were taken while installing the preprod <br> and mainnet dandeklion nodes. Some are basic, some not so much. If there was <br> and issue it was noted. In the future I will play around with the formatting so that <br> it is more user friendly. Tables will be inserted where it makes sense.
 - These notes are as much for me as they are for YOU.
 - All links were current at time of writing
+
+
+<!--
+---
+
+1. [Install Linux]()
+  
+	  - [Download Linux ISO]()
+	
+	  - [Create a bootable drive]()
+	
+	  - [Utilities]()
+	  
+	  - [Terminal Commands]()
+		- [Updates & Package Management]()
+		- [General]()
+		- [Command Flags]()
+	  
+	  - [Other Linux websites]()
+
+2. [M2Tec Mods]()
+
+3. [Dandelion Lite]()
+  
+	  - General specs, measurements, errors
+	      - [Server/Node build]()
+	      - [Usage after n days up-time]()
+	      - [Common errors and resource hogs]()
+	  
+	  - Requirements
+	      - [Swap file resize]()
+
+-->
+
 ---
 
 # INSTALL LINUX
 ```
 This section will contain all things Linux. From requirements, to utilities, to general and useful commands
 ```
-1. Download Linux ISO
-2. Create a bootable drive
-3. 
+<!--
+1. [Download Linux ISO]()
+2. [Create a bootable drive]()
+3. [Utilities]()
+4. [Terminal commands]()
+	- [Updates & package management]()
+	- [General]()
+	- [Command flags]()
+5. [Other Linux websites]()
+-->
 
 ## DOWNLOAD LINUX ISO
 | **LINUX TYPE**   |  **VERSION**  |  **LINK** | **DATE**  |
@@ -29,8 +70,6 @@ This section will contain all things Linux. From requirements, to utilities, to 
   - `Windows:` install [UNetbootin](https://unetbootin.github.io/) and follow instructions
   - `Linux:` install [UNetbootin](https://unetbootin.github.io/) and follow instructions
 
----
-
 ## UTILITIES
 | **NAME**                    		| **REQUIRED**   | **USE**  				 | **INSTALL** 				| **COMMANDS**  | **WEB/DOC** |
 | --------                              | :---------:    | :-------:  				 |  ---------------    			| ------------- | ----- |
@@ -44,16 +83,16 @@ This section will contain all things Linux. From requirements, to utilities, to 
 | `gpw`                                 | SUGGESTED      | random <br> character <br> generator  | ```sudo apt install gpw``` 		| [see here]()  | [linux pkg](https://packages.ubuntu.com/oracular/gpw) |
 | `inxi`                                | SUGGESTED      | pretty <br> system <br> information   | ```sudo apt install inxi``` 		| [see here]()  | [documentation](https://smxi.org/docs/inxi.htm) |
 
----
-
 ## TERMINAL COMMANDS (CLI)
 ```
 Useful commands to help navigate the Linux operating system and Dandelion node directories
 ```
+
+<!--
 1. [Updates and Package Management]()
 2. [General]()
 3. [Command Flags]()
-
+-->
 ### UPDATES & PACKAGE MANAGEMENT
 ```
 Requires root privilege - `sudo` - for full usage
@@ -114,24 +153,25 @@ Completed modifications/updates are rolled into the Dandelion Lite Package
 
 ---
 
-# DANDELION
-
+# DANDELION LITE
+<!--
 1. General specs, measurements, errors
   - [`Server/Node build`]()
   - [`Usage after n days up-time`]()
   - [`Common errors and resource hogs`]()
-2. Requirements
+2. System Requirements
+  - [`Firewall`]()
   - [`Swap file resize`]()
   - 
 4. 
 5. 
-
+-->
 ### GENERAL SPECS, MEASURMENTS, ERRORS
-
-
-
-
-
+<!--
+1. [Server/node build]()
+2. [Resource Usage]()
+3. [Common errors & resource hogs]()
+-->
 #### SERVER/NODE BUILD
 ```
 - actual system build
@@ -153,19 +193,21 @@ Completed modifications/updates are rolled into the Dandelion Lite Package
 | [nic](https://www.newegg.com/intel-x550-t2/p/N82E16833106292?Item=9SIA4A0K9D5713)									| Lenovo/Intel		| X550-T2 	  	      		| ---				| 2 x RJ-45, 10GbE/5GbE/2.5GbE/1GbE/100Mb		| 120.99		|
 |																			| 			|					|				|			       **`TOTAL`** 		| `2371.72`		|
 
-#### USAGE BASED ON UPTIME
+#### RESOURCE USAGE
 ```
 ** NOTE: Reference Only **
 This is only for the above system at the specified time. YOur system metrics may vary based on applied efficiencies
 ```  
 
 | **UPTIME or DATE**			| **RESOURCE**	| **USAGE**  	| **MAX**			| **NOTES**				|
-| ---------			| -------	| --------	| -------			| --------------------			|
-| `2 days, 0:41:5`		| swap space	| 27.4%		| 40GB				| [`resized from 8GB to 40GB`]()	|
-| 				| memory	| 45.3% 	| 128GB				| --					|
-| 				| cpu		| 25.3% 	| 16-Core			| --					|
-| 				| disk usage	| 682G 		| 1 TB				| [`changed root drive to 2tb`]()	|
-| `12 April`			| disk usage	| 1.06TB	| 2.0TB				| `includes both preprod and mainnet`	|
+| ---------			| -------	| --------	| -------				| --------------------			|
+| `2 days, 0:41:5`		| swap space	| 27.4%		| 40GB					| [`resized from 8GB to 40GB`]()	|
+| 				| memory	| 45.3% 	| 128GB					| --					|
+| 				| cpu		| 25.3% 	| 16-Core				| --					|
+| 				| disk usage	| 682G 		| 1.0 TB				| [`changed root drive to 2tb`]()	|
+| `11 April 2025`		| backup - mainnet | 		| 2.0 TB				|					|
+|				| backup - preprod |		| 2.0 TB				|					|
+| `12 April`			| disk usage	| 1.06TB	| 2.0 TB				| `includes both preprod and mainnet`	|
 |
 
 
@@ -176,7 +218,7 @@ This is only for the above system at the specified time. YOur system metrics may
   2025-04-08 09:01:10 (0:00:12) - CRITICAL on CPU_IOWAIT (Min:3.3 Mean:4.9 Max:7.4): cardano-node, java, conmon
   2025-04-08 09:01:10 (0:00:12) - CRITICAL on CPU_IOWAIT (Min:3.3 Mean:4.9 Max:7.4): postgres, postgres, postgres
   ```
-- PATCH_APPLIED
+- "Applying patch..."
   ```
   Examples:
   Name                    Status    Uptime  CPU%    MEM/MAX      IOR/s IOW/s     Rx/s Tx/ Command
@@ -188,17 +230,25 @@ This is only for the above system at the specified time. YOur system metrics may
 
 ### DANDELION & SYSTEM REQUIREMENTS
 
-#### UFW (FIREWALL)
+#### FIREWALL (UFW)
 - install GUFW
   ```
   sudo apt install gufw
   ```
-- settings
-  - there should be a shield icon in programs or on desktop menu when using Ubuntu Desktop
-  ```
-  Double-click UFW icon (shield with diagnol stripe)
+- open ports for communicating
+- there should be a shield icon in programs or on desktop menu (Ubuntu Desktop only)
+	1. Double-click UFW icon (shield with diagnol stripe)
+	2. Turn firewall on, click slider
+	3. Click on Rules
+	4. Click on Simople
+	5. Name: create a name for this rule, i.e. c-node
+	6. Policy: Allow
+	7. Direction: In
+	8. Protocol: TCP
+	9. Port or Service: 3001
+	10. Click on Add
+- REPEAT ABOVE for Haproxy on port 8053
   
-
 #### SWAP FILE RESIZE
 - from default (8GB) to 40G
     ```
@@ -216,42 +266,6 @@ This is only for the above system at the specified time. YOur system metrics may
 
 #### REQUIRED LINUX INSTALLS
 - see [table above]()
-### install git
-- install git
-  ```
-  sudo apt install git
-  ```
-
-### inline file editor
-- for `nano`
-  ```
-  which nano
-  ```
-  **IF NOT OUTPUT**
-  ```
-  sudo apt install nano
-  ```
-- to edit file inline
-  ```
-  nano [filneame]
-  ```
-  **example**
-  ```
-  nano .env
-  ```
-- save changes to file and exit
-  ```
-  CTRL + S
-  CTRL + X
-  ```
-- exit **without** saving
-  ```
-  CTRL + X
-  n(o)
-  ```
-- `VIM` is another inline editor; just replace `vim` for `nano`
-
-## SUGGESTED LINUX INSTALLS
 
 
 ## TIPS, TRICKS, USEFUL CMDs
@@ -263,28 +277,6 @@ This is only for the above system at the specified time. YOur system metrics may
     ```
     ./scripts/dand   -> TAB key  —> ENTER
     ```
-
-### general linux commands
-- get help for any command
-  ```
-  [your command] -h
-  ```
-  **OR**
-  ```
-  [your command] --help
-  ```
-- check to see if an application or package is install
-  ```
-  which [app or package name]
-  ```
-- check version of application or package
-  ```
-  [app or package name] -v
-  ```
-  **OR**
-  ```
-  [app or package name] --version
-  ```
 - to pause (and resume) large outputs
   - pausing
     ```
@@ -294,16 +286,6 @@ This is only for the above system at the specified time. YOur system metrics may
     ```
     CTRL + Q
     ```
-- update or upgrade system and applications
-  ```
-  sudo apt update
-  ```
-  **then**
-  ```
-  sudo apt upgrade
-  ```
-
-
 
 ### networking
 - check if any `connection` is active
