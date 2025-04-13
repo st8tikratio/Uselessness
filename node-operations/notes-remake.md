@@ -6,16 +6,28 @@
 - All links were current at time of writing
 ---
 
-# LINUX
+# INSTALL LINUX
 ```
 This section will contain all things Linux. From requirements, to utilities, to general and useful commands
 ```
+1. Download Linux ISO
+2. Create a bootable drive
+3. 
 
-## ISOs
+## DOWNLOAD LINUX ISO
 | **LINUX TYPE**   |  **VERSION**  |  **LINK** | **DATE**  |
 | ----             |    ------     |  -------- | -------   |
 | Server [LTS]     | 24.04         | [click here](https://ubuntu.com/download/server/thank-you?version=24.04.2&architecture=amd64&lts=true)  | 12 April 2025 |
 | Desktop [LTS]    | 24.04         | [click here](https://ubuntu.com/download/desktop/thank-you?version=24.04.2&architecture=amd64&lts=true) | 12 April 2025 |
+
+## CREATE A BOOTABLE DRIVE
+- you can use a thumb-drive, usb-drive, external harddrive, SD-card or even a disc if your server and support system both have disc drives.
+  ```
+  ***NOTE*** Any data on the media being used for this process will be wiped of data
+  ```
+  - `MacOS:` install [balenaEtcher](https://etcher.balena.io/) and follow instructions
+  - `Windows:` install [UNetbootin](https://unetbootin.github.io/) and follow instructions
+  - `Linux:` install [UNetbootin](https://unetbootin.github.io/) and follow instructions
 
 ---
 
@@ -23,6 +35,7 @@ This section will contain all things Linux. From requirements, to utilities, to 
 | **NAME**                    		| **REQUIRED**   | **USE**  				 | **INSTALL** 				| **COMMANDS**  | **WEB/DOC** |
 | --------                              | :---------:    | :-------:  				 |  ---------------    			| ------------- | ----- |
 | `git`                                 | YES            | git <br> functionality  		 | ``` sudo apt install git ``` 	| [see here]()  | [documentation](https://git-scm.com/doc) |
+| `gufw`				| YES		 | firewall				 | ```sudo apt install gufw```		| [see here]()	| [linux pkg](https://help.ubuntu.com/community/Gufw)
 | `nano`                                | SUGGESTED      | inline <br> terminal <br> editor 	 | ```sudo apt install nano```		| [see here]()  | cli - `man nano` |
 | `vim`                                 | ALT            | inline <br> terminal <br> editor	 | ```sudo apt install vim```		| [see here]()  | [website](https://www.vim.org/) |
 | `nmap`				| YES		 | network mapping utility	    	 | ```sudo apt install nmap``` 		| [see here]	| [website](https://nmap.org/download) |
@@ -89,7 +102,7 @@ NOTE: For python use `--version`
 
 ---
 
-## M2TEC MODS
+# M2TEC MODS
 ```
 List of ongoing modifications that may be rolled into Dandelion Lite Node package
 
@@ -101,7 +114,7 @@ Completed modifications/updates are rolled into the Dandelion Lite Package
 
 ---
 
-## DANDELION
+# DANDELION
 
 1. General specs, measurements, errors
   - [`Server/Node build`]()
@@ -146,13 +159,14 @@ Completed modifications/updates are rolled into the Dandelion Lite Package
 This is only for the above system at the specified time. YOur system metrics may vary based on applied efficiencies
 ```  
 
-| **UPTIME**			| **RESOURCE**	| **USAGE**  	| **MAX**			| **NOTES**				|
+| **UPTIME or DATE**			| **RESOURCE**	| **USAGE**  	| **MAX**			| **NOTES**				|
 | ---------			| -------	| --------	| -------			| --------------------			|
 | `2 days, 0:41:5`		| swap space	| 27.4%		| 40GB				| [`resized from 8GB to 40GB`]()	|
 | 				| memory	| 45.3% 	| 128GB				| --					|
 | 				| cpu		| 25.3% 	| 16-Core			| --					|
-| 				| drive space	| 682G 		| 1 TB				| [`changed root drive to 2tb`]()	|
-| ``
+| 				| disk usage	| 682G 		| 1 TB				| [`changed root drive to 2tb`]()	|
+| `12 April`			| disk usage	| 1.06TB	| 2.0TB				| `includes both preprod and mainnet`	|
+|
 
 
 #### COMMON ERRORS & RESOURCE HOGS
@@ -172,7 +186,18 @@ This is only for the above system at the specified time. YOur system metrics may
   dandolite-preprod-ca   running     a min   0.9     _/_           _ _            _ _     /bin/sh -c  echo "Applying patch to provide env vars due to hardcoded values:" ; echo "   OGMIOS_HOST='cardano-node-ogmios'" ; ech>
   ```
 
-### REQUIREMENTS
+### DANDELION & SYSTEM REQUIREMENTS
+
+#### UFW (FIREWALL)
+- install GUFW
+  ```
+  sudo apt install gufw
+  ```
+- settings
+  - there should be a shield icon in programs or on desktop menu when using Ubuntu Desktop
+  ```
+  Double-click UFW icon (shield with diagnol stripe)
+  
 
 #### SWAP FILE RESIZE
 - from default (8GB) to 40G
@@ -580,6 +605,56 @@ Preprod backup start @ 1015hrs, end @ 1018:30
 —————— SERVICES————————————————
 
 
+lsblk
+
+
+-------- DOCKER NOTES -------------
+
+remove volumes docker
+docker volume ls
+
+For Mainnet Only
+docker down -v   ---> purges volumes not containers
+docker down -->
+- will reinstantiate
+
+---------- POSSIBLE CONTAINER ISSUES -------------
+
+Container deployment issue
+- option to select a volumes (option 1 = , option 2 = )
+- change in Docker configuration file
+- FIXED
+
+----
+--------------------- ENV FILE ---------------------
+
+#Dandelion Network Information
+NODE_NAME="sunkiller-13"
+NODE_TICKER="sunk13"
+
+POST_GRES_PASSWORD= "create new password"
+epleci-teckerski-nsssini-zeionneste
+
+UNIMATRIX_VERSION=1.0.3
+
+----------------------
+
+----
+haproxy default port 8053
+cardano node port comms --> 3ls
+001
+
+sudo ufw allow <port>/tcp
+
+
+docker compose up -- in appropriate directory
+
+docker compose logs -f
+
+-------------- Create Bootable Linux Live-USB -----------------
+
+Use Unetbootn on Windows systems
+Use balenaEtcher on MacOS
 -———————————————————————————
 
 TECH PARTS
