@@ -56,6 +56,10 @@ This section will contain all things Linux. From requirements, to utilities, to 
 -->
 
 ## DOWNLOAD LINUX ISO
+```
+It is recommended to only use LTS versions of Linux.
+LTS means Long Term Support
+```
 | **LINUX TYPE**   |  **VERSION**  |  **LINK** | **DATE**  |
 | ----             |    ------     |  -------- | -------   |
 | Server [LTS]     | 24.04         | [click here](https://ubuntu.com/download/server/thank-you?version=24.04.2&architecture=amd64&lts=true)  | 12 April 2025 |
