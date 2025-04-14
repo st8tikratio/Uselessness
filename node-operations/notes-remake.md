@@ -158,6 +158,12 @@ Completed modifications/updates are rolled into the Dandelion Lite Package
 ---
 
 # DANDELION LITE
+```
+This section will provide:
+Dandelion build specs, setup and operation notes
+Docker commands and related instructions
+```
+
 <!--
 1. General specs, measurements, errors
   - [`Server/Node build`]()
@@ -170,6 +176,7 @@ Completed modifications/updates are rolled into the Dandelion Lite Package
 4. 
 5. 
 -->
+
 ## GENERAL SPECS, MEASURMENTS, ERRORS
 <!--
 1. [Server/node build]()
@@ -247,7 +254,7 @@ This install uses UFW, uncomplicated firewall
 You may use any firewall you are comfortable with. 
 
 *** NOTE ***
-You system could possibly become a target for hackers. It is important that you take all seurity precautions.
+Your system could possibly become a target for hackers. It is important that you take all seurity precautions.
 The guides within these pages are just that, guides, with no warranty implied or written.
 Use at your own risk.
 ```
@@ -287,40 +294,26 @@ Use at your own risk.
 - see [table above]()
 
 
+--------------
+
 ## TIPS, TRICKS, USEFUL CMDs
+```
+*** NOTE ***
+May require sudo for optimal output
+```
 
-### autocomplete using TAB
-- start typing path or directory and hit `TAB` to autcomplete
-  - if not autocomplete, hit `TAB` twice for list of 'paths'
-  - example
-    ```
-    ./scripts/dand   -> TAB key  —> ENTER
-    ```
-- to pause (and resume) large outputs
-  - pausing
-    ```
-    CTRL + S
-    ```
-  - resume
-    ```
-    CTRL + Q
-    ```
+| **FUNCTION**  				| **CMD or ACTION** 				| 	**EXAMPLE** <br> **OUTPUT**			|
+| --------------				 	| ----------				| -----------------					|
+| autocomplete <br> list options	|  when typing in the CLI use `TAB` to autocomplete	| `./scripts/dand`   -> `TAB` key  —> `ENTER`		|
+| pause large outputs			| `CTRL + S`						| may/may-not work on your particular output		|
+| resume large outputs			| `CTRL + Q`						| if `CTRL + S` worked, this will resume the output	|
+| check network connectivity		| `ip -br a`						| will show network device, ip address, and state	|
+| map a devices IP Address		| `nmap` [your ip address from **ip -br a**]/24		| the `/24` may be different, see `ip -br a` output	|
+| show hardware devices			| `lshw`						| shows list of all hardware				|
+| show harddrives and usage		| `df -h`						| shows every mounted drive and their respective values	|
+| show 
 
-### networking
-- check if any `connection` is active
-  - ```
-    ip -br a
-    ```
-- check `network map`
-  - ```
-    namp [your IP addess from (ip -br a)]/24
-    ```   
 
-### filesysten information
-- to see drive info including usage
-  - ```
-    df -h
-    ```
 
 ### adding another drive to node build
 - open fstab
@@ -522,6 +515,7 @@ Use at your own risk.
   - Ceph is an open-source, distributed storage system
   - [documentation](https://docs.ceph.com/en/latest/releases/)
 
+<!--
 
 ---------------- ORGANIZE THE BELOW ------------------------
 
@@ -538,22 +532,7 @@ once logged delete old directory
 
 —————————————	
 
-**generate random chars**
 
-sudo apt install gpw
-gpw
-
-disk usage
-
-MAINNNET - 1.06TB
-
-PREPROD - 303GB
-￼
-
-
-
-BACKUP PATH
-- Mainnet - /media/piza/bkup/svc/ada-main-bkup  —> /media/piza/bkup/svc/ada-main-bkup
 - Preprod - /media/piza/bkup/svc/ada-pp-bkup —>   /media/piza/bkup/svc/ada-pp-bkup
 
 ———————— DURING BACKUP STEPS —————————
@@ -615,9 +594,9 @@ remove volumes docker
 docker volume ls
 
 For Mainnet Only
-docker down -v   ---> purges volumes not containers
-docker down -->
-- will reinstantiate
+docker down -v   > purges volumes not containers
+
+docker down > - will reinstantiate
 
 ---------- POSSIBLE CONTAINER ISSUES -------------
 
@@ -642,8 +621,9 @@ UNIMATRIX_VERSION=1.0.3
 
 ----
 haproxy default port 8053
-cardano node port comms --> 3ls
-001
+cardano node port comms -> 3ls
+
+3001
 
 sudo ufw allow <port>/tcp
 
@@ -651,8 +631,6 @@ sudo ufw allow <port>/tcp
 docker compose up -- in appropriate directory
 
 docker compose logs -f
-
-<!--
 
 -———————————————————————————
 
@@ -665,4 +643,55 @@ TECH PARTS
 - https://www.newegg.com/p/3C6-01A5-004X5?Item=9SIBTSNKBB0845
 - https://www.newegg.com/sabrent-ec-wpne-enclosure/p/0VN-0036-000D8?Item=9SIBK19K2E7435
 
+------VVVV----- ADDED ALREADY ------VVVV-----------
+
+### autocomplete using TAB
+- start typing path or directory and hit `TAB` to autcomplete
+  - if not autocomplete, hit `TAB` twice for list of 'paths'
+  - example
+    ```
+    ./scripts/dand   -> TAB key  —> ENTER
+    ```
+- to pause (and resume) large outputs
+  - pausing
+    ```
+    CTRL + S
+    ```
+  - resume
+    ```
+    CTRL + Q
+    ```
+
+### networking
+- check if any `connection` is active
+  - ```
+    ip -br a
+    ```
+- check `network map`
+  - ```
+    namp [your IP addess from (ip -br a)]/24
+    ```   
+
+### filesysten information
+- to see drive info including usage
+  - ```
+    df -h
+    ```
+
+**generate random chars**
+
+sudo apt install gpw
+gpw
+
+disk usage
+
+MAINNNET - 1.06TB
+
+PREPROD - 303GB
+￼
+
+--VVV----- MY SYS RELATED DETAILS ----VVV--
+
+BACKUP PATH
+- Mainnet - /media/piza/bkup/svc/ada-main-bkup  —> /media/piza/bkup/svc/ada-main-bkup
 -->
