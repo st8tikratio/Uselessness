@@ -166,13 +166,13 @@ Completed modifications/updates are rolled into the Dandelion Lite Package
 4. 
 5. 
 -->
-### GENERAL SPECS, MEASURMENTS, ERRORS
+## GENERAL SPECS, MEASURMENTS, ERRORS
 <!--
 1. [Server/node build]()
 2. [Resource Usage]()
 3. [Common errors & resource hogs]()
 -->
-#### SERVER/NODE BUILD
+### SERVER/NODE BUILD
 ```
 - actual system build
 - purchased from NewEgg + Amazon
@@ -193,25 +193,26 @@ Completed modifications/updates are rolled into the Dandelion Lite Package
 | [nic](https://www.newegg.com/intel-x550-t2/p/N82E16833106292?Item=9SIA4A0K9D5713)									| Lenovo/Intel		| X550-T2 	  	      		| ---				| 2 x RJ-45, 10GbE/5GbE/2.5GbE/1GbE/100Mb		| 120.99		|
 |																			| 			|					|				|			       **`TOTAL`** 		| `2371.72`		|
 
-#### RESOURCE USAGE
+### RESOURCE USAGE
 ```
-** NOTE: Reference Only **
-This is only for the above system at the specified time. YOur system metrics may vary based on applied efficiencies
+*** NOTE ***
+This section is for REFERENCE ONLY and is system-specific
+Your dashboards may look different
 ```  
 
-| **UPTIME or DATE**			| **RESOURCE**	| **USAGE**  	| **MAX**			| **NOTES**				|
-| ---------			| -------	| --------	| -------				| --------------------			|
-| `2 days, 0:41:5`		| swap space	| 27.4%		| 40GB					| [`resized from 8GB to 40GB`]()	|
-| 				| memory	| 45.3% 	| 128GB					| --					|
-| 				| cpu		| 25.3% 	| 16-Core				| --					|
-| 				| disk usage	| 682G 		| 1.0 TB				| [`changed root drive to 2tb`]()	|
-| `11 April 2025`		| backup - mainnet | 		| 2.0 TB				|					|
-|				| backup - preprod |		| 2.0 TB				|					|
-| `12 April`			| disk usage	| 1.06TB	| 2.0 TB				| `includes both preprod and mainnet`	|
-|
+| **UPTIME or DATE**			| **RESOURCE**		| **USAGE**  	| **MAX**				| **NOTES**				|
+| ---------				| -------		| --------	| -------				| --------------------			|
+| `2 days, 0:41:5`			| swap space		| 27.4%		| 40GB					| [`resized from 8GB to 40GB`]()	|
+| 					| memory		| 45.3% 	| 128GB					| --					|
+| 					| cpu			| 25.3% 	| 16-Core				| --					|
+| 					| disk usage		| 682G 		| 1.0 TB				| [`changed root drive to 2tb`]()	|
+| `11 April 2025`			| backup - mainnet 	| 		| 2.0 TB				|					|
+|					| backup - preprod 	|		| 2.0 TB				|					|
+| `12 April`				| disk usage		| 1.06TB	| 2.0 TB				| `includes both preprod and mainnet`	|
 
 
-#### COMMON ERRORS & RESOURCE HOGS
+
+### COMMON ERRORS & RESOURCE HOGS
 - CPU_IOWAIT
   ```
   Examples:
@@ -228,14 +229,28 @@ This is only for the above system at the specified time. YOur system metrics may
   dandolite-preprod-ca   running     a min   0.9     _/_           _ _            _ _     /bin/sh -c  echo "Applying patch to provide env vars due to hardcoded values:" ; echo "   OGMIOS_HOST='cardano-node-ogmios'" ; ech>
   ```
 
-### DANDELION & SYSTEM REQUIREMENTS
+## NETWORK & FIREWALL
+### COMMUNICATION PORT REQUIREMENTS
+  
+| **SERVICE**		|  **PORT**	| **STANDARD** 	| **DIRECTION**	|
+| ------------	| ----------	| ----------	| ----------	|
+| Cardano Node	| 3001		| TCP		| Inbound	|
+| Haproxy		| 8053		| TCP		| Inbound	|
 
-#### FIREWALL (UFW)
-- install GUFW
+### SETUP FIREWALL
+```
+This install uses UFW, uncomplicated firewall
+You may use any firewall you are comfortable with. 
+
+*** NOTE ***
+You system could possibly become a target for hackers. It is important that you take all seurity precautions.
+The guides within these pages are just that, guides, with no warranty implied or written.
+Use at your own risk.
+```
+#### install GUFW
   ```
   sudo apt install gufw
   ```
-- open ports for communicating
 - there should be a shield icon in programs or on desktop menu (Ubuntu Desktop only)
 	1. Double-click UFW icon (shield with diagnol stripe)
 	2. Turn firewall on, click slider
@@ -633,10 +648,8 @@ docker compose up -- in appropriate directory
 
 docker compose logs -f
 
--------------- Create Bootable Linux Live-USB -----------------
+<!--
 
-Use Unetbootn on Windows systems
-Use balenaEtcher on MacOS
 -———————————————————————————
 
 TECH PARTS
@@ -647,3 +660,5 @@ TECH PARTS
 - https://www.newegg.com/cooler-master-oracle-air-enclosure/p/N82E16817171237?Item=9SIA4REJXF5596
 - https://www.newegg.com/p/3C6-01A5-004X5?Item=9SIBTSNKBB0845
 - https://www.newegg.com/sabrent-ec-wpne-enclosure/p/0VN-0036-000D8?Item=9SIBK19K2E7435
+
+-->
