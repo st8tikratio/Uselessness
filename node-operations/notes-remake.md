@@ -613,7 +613,6 @@ NODE_NAME="sunkiller-13"
 NODE_TICKER="sunk13"
 
 POST_GRES_PASSWORD= "create new password"
-epleci-teckerski-nsssini-zeionneste
 
 UNIMATRIX_VERSION=1.0.3
 
