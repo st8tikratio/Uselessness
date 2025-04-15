@@ -204,6 +204,22 @@ Docker commands and related instructions
 | [nic](https://www.newegg.com/intel-x550-t2/p/N82E16833106292?Item=9SIA4A0K9D5713)									| Lenovo/Intel		| X550-T2 	  	      		| ---				| 2 x RJ-45, 10GbE/5GbE/2.5GbE/1GbE/100Mb		| 120.99		|
 |																			| 			|					|				|			       **`TOTAL`** 		| `2371.72`		|
 
+### OBSERVED POWER USAGE
+```
+Measurements taken with both MAINNET and PREPROD running
+
+Measured from a Cyberpower 1500W Battery Backup
+```
+| **TYPE**   | **UNIT**    | **MEASUREMENT 1** | **MEASUREMENT 2** |
+| ---------         | ---------   | ---------------    |  -------------    |
+| **FIXED OBSERVATION**  | | | |
+| `input voltage`   | volts (V)   | 122                |     --            |
+| `output voltage`   | volts (V)   | 122                |     --           |
+| `output frequency` | hertz (Hz)  | 60                 |   --             |
+| **RANGED OBSERVATIONS** | | | |
+| power usage        | watts (W)    | 210  | 283  |
+| power draw         | volts (V)    | 204  | 218  |
+
 ### RESOURCE USAGE
 ```
 *** NOTE ***
