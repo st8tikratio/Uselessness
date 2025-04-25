@@ -4,6 +4,21 @@
 - [**AMD DASH**](https://deviceon.gitbook.io/docs/out-of-band/amd-dash) - administration tool
 - 
 
+### REALTEK DRIVER
+- for Realtek RTL8125 2.5GbE
+  ```
+  As of 25 April 2025 it is recommended to not use Realtek drivers for the hardwired (non-wireless) on Linux nodes having this hardware 
+  ```
+- realtek driver website
+    ```
+    https://www.realtek.com/Download/Index?cate_id=194&menu_id=297
+    ```
+- linux github repo for realtek wireless driver (good)    
+    ```
+    https://github.com/torvalds/linux/blob/master/drivers/net/wireless/realtek/rtw89/rtw8922ae.c
+    ```
+
+---
 
 ### HARDWARE FIREWALL & NETWORK MONITORING
 ```
