@@ -1,7 +1,7 @@
 # ALL DANDO BUILD NOTES
 ### LINKS
 - [Dandelion Node Operators meeting link - `JitSi`](https://meet.jit.si/moderated/d2b4d761960b5ead162c5f3e522166be2eef812bffd500a35b28f79885b18ffc)
-- 
+- [Node Runner Logs - Directory](https://github.com/st8tikratio/Uselessness/tree/main/node-operations/monthly-logs)
 ##### Starting 04 April 2025
 ###### Includes hardware specific notes
 - The below are a compilation of notes that were taken while installing the preprod <br> and mainnet dandeklion nodes. Some are basic, some not so much. If there was <br> and issue it was noted. In the future I will play around with the formatting so that <br> it is more user friendly. Tables will be inserted where it makes sense.
