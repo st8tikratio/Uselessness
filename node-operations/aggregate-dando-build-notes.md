@@ -353,6 +353,10 @@ You will need to install using:
 - copy primary drive information on newline and replace info with new drive info
 	- last two digits on line should be 0 and 2
 	- find UUID in `Drive Manager` (Linux Desktop 24.04 LTS)
+ 		- alternatively run:
+		```
+		ls -l /dev/disk/by-uuid/
+		``` 	 
 
 ### change root (main) drive to another drive of equal or greater size
 - ***USE AT OWN RISK***
