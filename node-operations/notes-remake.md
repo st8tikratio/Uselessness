@@ -38,7 +38,8 @@ LTS means Long Term Support
 ## CREATE A BOOTABLE DRIVE
 - you can use a thumb-drive, usb-drive, external harddrive, SD-card or even a disc if your server and support system both have disc drives.
   ```
-  ***NOTE*** Any data on the media being used for this process will be wiped of data
+  ***NOTE*** 
+  Any data on the media being used for this process will be wiped of data
   ```
   - `MacOS:` install [balenaEtcher](https://etcher.balena.io/) and follow instructions
   - `Windows:` install [UNetbootin](https://unetbootin.github.io/) and follow instructions
