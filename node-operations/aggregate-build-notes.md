@@ -1,5 +1,5 @@
 ###### UPDATED: 25 APRIL 2025
-# ALL DANDO BUILD NOTES
+# AGGREGATE DANDO BUILD NOTES
 #### 🛑 NO WARRANTIES EXPRESSED OR IMPLIED! USE AT OWN RISK! 🛑
 ### LINKS
 - [Official Dando-Lite Node Installation Repo](https://github.com/GameChangerFinance/dandelion-lite)
