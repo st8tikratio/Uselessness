@@ -1,42 +1,12 @@
 # ALL DANDO BUILD NOTES
+### LINKS
+- [Dandelion Node Operators meeting link - `JitSi`](https://meet.jit.si/moderated/d2b4d761960b5ead162c5f3e522166be2eef812bffd500a35b28f79885b18ffc)
+- 
 ##### Starting 04 April 2025
 ###### Includes hardware specific notes
 - The below are a compilation of notes that were taken while installing the preprod <br> and mainnet dandeklion nodes. Some are basic, some not so much. If there was <br> and issue it was noted. In the future I will play around with the formatting so that <br> it is more user friendly. Tables will be inserted where it makes sense.
 - These notes are as much for me as they are for YOU.
 - All links were current at time of writing
-
-
-<!--
----
-
-1. [Install Linux]()
-  
-	  - [Download Linux ISO]()
-	
-	  - [Create a bootable drive]()
-	
-	  - [Utilities]()
-	  
-	  - [Terminal Commands]()
-		- [Updates & Package Management]()
-		- [General]()
-		- [Command Flags]()
-	  
-	  - [Other Linux websites]()
-
-2. [M2Tec Mods]()
-
-3. [Dandelion Lite]()
-  
-	  - General specs, measurements, errors
-	      - [Server/Node build]()
-	      - [Usage after n days up-time]()
-	      - [Common errors and resource hogs]()
-	  
-	  - Requirements
-	      - [Swap file resize]()
-
--->
 
 ---
 
@@ -74,7 +44,74 @@ LTS means Long Term Support
   - `Windows:` install [UNetbootin](https://unetbootin.github.io/) and follow instructions
   - `Linux:` install [UNetbootin](https://unetbootin.github.io/) and follow instructions
 
+## INSTALLING LINUX
+```
+THIS SECTION can be expanded upon
+```
+- boot to bootable disk from [above]()
+- click disc image in upper left-hand corner
+  - follow instructions
+  - when rebooting remove installation media
+- initial boot may take some time depending on your system and specs
+
+## FIRST THINGS FIRST
+
+### CHANGE SWAP FILE RESIZE
+- from default (8GB) to 40G
+    ```
+    swapon --show
+    sudo swapoff -v /swap.img 
+    sudo rm -rf /swap.img
+    sudo fallocate -l 40G /swap.img 
+    sudo chmod 0600 /swap.img 
+    sudo mkswap /swap.img 
+    sudo swapon 
+    sudo reboot now
+    ```
+### NETWORK & FIREWALL
+- This section is mostly for Desktop variants of Linux
+- For Server variant commands and setup [SEE HERE](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/pdfs/Ubuntu-Server-CLI_cheat-sheet-2024-v6.pdf)
+
+#### setup firewall
+```
+This install uses UFW, uncomplicated firewall
+You may use any firewall you are comfortable with. 
+
+*** NOTE ***
+Your system could possibly become a target for hackers. It is important that you take all seurity precautions.
+The guides within these pages are just that, guides, with no warranty implied or written.
+Use at your own risk.
+```
+
+##### install GUFW
+  ```
+  sudo apt install gufw
+  ```
+- there should be a shield icon in programs or on desktop menu (Ubuntu Desktop only)
+	1. Double-click UFW icon (shield with diagnol stripe)
+	2. Turn firewall on, click slider
+	3. Click on Rules
+	4. Click on Simople
+	5. Name: create a name for this rule, i.e. c-node
+	6. Policy: Allow
+	7. Direction: In
+	8. Protocol: TCP
+	9. Port or Service: 3001
+	10. Click on Add
+- REPEAT ABOVE for Haproxy on port 8053
+
+#### communication ports
+  
+| **SERVICE**		|  **PORT**	| **STANDARD** 	| **DIRECTION**	|
+| ------------	| ----------	| ----------	| ----------	|
+| Cardano Node	| 3001		| TCP		| Inbound	|
+| Haproxy	| 8053		| TCP		| Inbound	|
+| Mainnet	| 3080		| TCP		| Inbound	|
+| Preprod	| 3081		| TCP		| Inbound	|
+
+
 ## UTILITIES
+
 | **NAME**                    		| **REQUIRED**   | **USE**  				 | **INSTALL** 				| **COMMANDS**  | **WEB/DOC** |
 | --------                              | :---------:    | :-------:  				 |  ---------------    			| ------------- | ----- |
 | `git`                                 | YES            | git <br> functionality  		 | ``` sudo apt install git ``` 	| [see here]()  | [documentation](https://git-scm.com/doc) |
@@ -88,15 +125,7 @@ LTS means Long Term Support
 | `inxi`                                | SUGGESTED      | pretty <br> system <br> information   | ```sudo apt install inxi``` 		| [see here]()  | [documentation](https://smxi.org/docs/inxi.htm) |
 
 ## TERMINAL COMMANDS (CLI)
-```
-Useful commands to help navigate the Linux operating system and Dandelion node directories
-```
 
-<!--
-1. [Updates and Package Management]()
-2. [General]()
-3. [Command Flags]()
--->
 ### UPDATES & PACKAGE MANAGEMENT
 ```
 Requires root privilege - `sudo` - for full usage
@@ -113,6 +142,7 @@ EXAMPLE: sudo apt search sensors
 | ```apt remove [pkg name]```	| remove packages					| may request input <br> returns to prompt	|
 
 ### GENERAL
+
 | **COMMAND**	| **ACTION**				 | **EXAMPLES**		| **OUTPUT**	|
 | ---------	| --------				 | --------  		| -------	|
 | ```pwd```	| see present working directory (folder) | 			||
@@ -129,10 +159,11 @@ Flags can be different between the operating system (Linux) and applications. Th
 
 NOTE: For python use `--version`
 ```
-| **FLAG**			| **ACTION**				 | **EXAMPLES**		| **OUTPUT**	|
-| ---------			| --------				 | --------  		| -------	|
-| `-help` <br> `-h`		| help					 | `python3 -h`		| provides usage and options	|
-| `-version` <br> `-v`		| version				 | `python3 --version`  | `Python 3.12.3`	|
+| **FLAG**			| **ACTION**				 | **EXAMPLES**				| **OUTPUT** <br> **EXPLANATION**	|
+| ---------			| --------				 | --------  				| -------				|
+| `-help` <br> `-h`		| help					 | `python3 -h`				| provides usage and options		|
+| `-version` <br> `-v`		| version				 | `python3 --version`  		| `Python 3.12.3`			|
+| `-p`				| permissions				 | cp -p [filename] [destination]	| copy file & permissions to destination|	
 
 
 ## OTHER LINUX WEBSITES
@@ -163,19 +194,6 @@ This section will provide:
 Dandelion build specs, setup and operation notes
 Docker commands and related instructions
 ```
-
-<!--
-1. General specs, measurements, errors
-  - [`Server/Node build`]()
-  - [`Usage after n days up-time`]()
-  - [`Common errors and resource hogs`]()
-2. System Requirements
-  - [`Firewall`]()
-  - [`Swap file resize`]()
-  - 
-4. 
-5. 
--->
 
 ## GENERAL SPECS, MEASURMENTS, ERRORS
 <!--
@@ -256,57 +274,7 @@ Your dashboards may look different
   dandolite-preprod-ca   running     a min   0.9     _/_           _ _            _ _     /bin/sh -c  echo "Applying patch to provide env vars due to hardcoded values:" ; echo "   OGMIOS_HOST='cardano-node-ogmios'" ; ech>
   ```
 
-## NETWORK & FIREWALL
-### COMMUNICATION PORT REQUIREMENTS
-  
-| **SERVICE**		|  **PORT**	| **STANDARD** 	| **DIRECTION**	|
-| ------------	| ----------	| ----------	| ----------	|
-| Cardano Node	| 3001		| TCP		| Inbound	|
-| Haproxy		| 8053		| TCP		| Inbound	|
-
-### SETUP FIREWALL
-```
-This install uses UFW, uncomplicated firewall
-You may use any firewall you are comfortable with. 
-
-*** NOTE ***
-Your system could possibly become a target for hackers. It is important that you take all seurity precautions.
-The guides within these pages are just that, guides, with no warranty implied or written.
-Use at your own risk.
-```
-#### install GUFW
-  ```
-  sudo apt install gufw
-  ```
-- there should be a shield icon in programs or on desktop menu (Ubuntu Desktop only)
-	1. Double-click UFW icon (shield with diagnol stripe)
-	2. Turn firewall on, click slider
-	3. Click on Rules
-	4. Click on Simople
-	5. Name: create a name for this rule, i.e. c-node
-	6. Policy: Allow
-	7. Direction: In
-	8. Protocol: TCP
-	9. Port or Service: 3001
-	10. Click on Add
-- REPEAT ABOVE for Haproxy on port 8053
-  
-#### SWAP FILE RESIZE
-- from default (8GB) to 40G
-    ```
-    cd into [docker directory]
-    docker compose down
-    swapon --show
-    sudo swapoff -v /swap.img 
-    sudo rm -rf /swap.img
-    sudo fallocate -l 40G /swap.img 
-    sudo chmod 0600 /swap.img 
-    sudo mkswap /swap.img 
-    sudo swapon 
-    sudo reboot now
-    ```
-
-#### REQUIRED LINUX INSTALLS
+## REQUIRED LINUX INSTALLS
 - see [table above]()
 
 
@@ -314,56 +282,32 @@ Use at your own risk.
 
 ## TIPS, TRICKS, USEFUL CMDs
 ```
-*** NOTE ***
-May require sudo for optimal output
+Some of these may require SUDO for full effectiveness
+
+If output reads:
+    - Command 'ipconfig' not found, did you mean:
+You will need to install using:
+    - sudo apt install [pkg name]
+
 ```
 
-| **FUNCTION**  				| **CMD or ACTION** 				| 	**EXAMPLE** <br> **OUTPUT**			|
-| --------------				 	| ----------				| -----------------					|
-| autocomplete <br> list options	|  when typing in the CLI use `TAB` to autocomplete	| `./scripts/dand`   -> `TAB` key  —> `ENTER`		|
-| pause large outputs			| `CTRL + S`						| may/may-not work on your particular output		|
-| resume large outputs			| `CTRL + Q`						| if `CTRL + S` worked, this will resume the output	|
-| check network connectivity		| `ip -br a`						| will show network device, ip address, and state	|
-| map a devices IP Address		| `nmap` [your ip address from **ip -br a**]/24		| the `/24` may be different, see `ip -br a` output	|
-| show hardware devices			| `lshw`						| shows list of all hardware				|
-| show harddrives and usage		| `df -h`						| shows every mounted drive and their respective values	|
-| show 
+| **FUNCTION**  				| **CMD or ACTION** 				| 	**NOTES**										|
+| --------------				 	| ----------				| -----------------										|
+|   when typing in the CLI use `TAB` to autocomplete	| autocomplete <br> list options	| `./scripts/dand`   -> `TAB` key  —> `ENTER`							|
+| `CTRL + S`						|pause large outputs			| may/may-not work on your particular output							|
+| `CTRL + Q`						| resume large outputs			| if `CTRL + S` worked, this will resume the output						|
+| `ip -br a`						| check network connectivity		| will show network device, ip address, and state						|
+| `nmap` [your ip address from **ip -br a**]/24		| map a devices IP Address		| the `/24` may be different, see `ip -br a` output						|
+|  `sudo lshw -short` <br> `sudo lshw -h`		| show hardware devices			| shows list of all hardware <br> use CTRL+F to search within output				|
+| `sudo lshw -json`					| shows hardware list in json format	| may want to save to file instead of screen output	|
+|  `df -h`						| show harddrives and usage		| shows every mounted drive and their respective values						|
+| `sudo watch -n 1 -d sensors`				| show sensors, [x] seconds internval	| change `1` to whatever seconds for output refresh 						|
+| `inxi -Fxz`						| shows system info in pretty output	| requires installation			|
+| `sudo glances`					| shows realtime system ovrerview	| requires install <br> use `sudo` to see more details	|
 
 
 
-### adding another drive to node build
-- open fstab
-  - ```
-    sudo nano /etc/fstab
-    ```
-- copy primary drive information on newline and replace info with new drive info
-	- last two digits on line should be 0 and 2
-	- find UUID in `Drive Manager` (Linux Desktop 24.04 LTS)
-
-### copy permissions when copying/swapping data across directories or disk
-- add this to the larger cli entry
-  - ```
-    cp -p
-    ```
-
-### onboard sensors
-- provides insight into system specific temperatures and resource usage
-- check if sensors is install
-  - ```
-    which lm-sensors
-    ```
-- if nothing returned
-  - ```
-    sudo apt install lm-sensors
-    ```
-- to monitor, display and update sensors at 1 second intervals
-  - ```
-    sudo watch -n 1 -d sensors
-    ```
-  - change the `1` to any number to monitor for that interval period
-    - ```
-      i.e. changing `1` to a `5` will change refresh interval to 5 seconds
-      ```
+### sensors
 - more sensor information
   - **may/may-not** be applicable to dandelion node
   - ```
@@ -383,46 +327,28 @@ May require sudo for optimal output
     https://www.linux.com/topic/desktop/advanced-lm-sensors-tips-and-tricks-linux-0/
     ```
 
-    
-### get hardware identifiers
-- LSHW
-  - check identifiers for driver updates or other troubleshooting
-    - ```
-      sudo lshw -short
-      ```
-  - output should provide information needed
-    - use `CTRL + F` toi perform a keyword search on the output
-  - can use `-json` or `-html` to get info in particular formats
- 
-### system overview
-
-- INXI
-  - overall system view, neatly organized, more user friendly
-    - ```
-      which inxi
-      ```
-	- if no output
-    - ```
-      sudo apt install inxi
-      ```
-  - to see system specs, hw names, drivers (user-friendly view)
-    - ```
-      sudo inxi -Fxz
-      ```
-- GLANCES
-  - system overview with active processes
-  - great for monitoring remotely
-  - install Glances
-    - ```
-      sudo apt install glances
-      ```
-  - THEN
-    - ```
-      sudo glances
-      ```
+### adding another drive to node build
+- open fstab
+  - ```
+    sudo nano /etc/fstab
+    ```
+- copy primary drive information on newline and replace info with new drive info
+	- last two digits on line should be 0 and 2
+	- find UUID in `Drive Manager` (Linux Desktop 24.04 LTS)
 
 ### change root (main) drive to another drive of equal or greater size
-- ***use at own risk***
+- ***USE AT OWN RISK***
+  ```
+  THIS PROCESS NEEDS VERIFICATION
+  
+  	cd into drive to to be copied
+	sudo mv [target location] ../../[target-drive]
+		- use tab to insure correct path
+	sudo nano etc/fstab
+		- remove old directory path down to just /home
+	reboot
+	once logged delete old directory
+  ```
   - swapping/reinstalling linux due to drive size
     - ```
       https://ubuntuforums.org/showthread.php?t=2471454&p=14078689#post14078689
@@ -439,30 +365,134 @@ May require sudo for optimal output
 
 ---
 
-## DOCKER NOTES & COMMANDS
+## DOCKER INFOS
+```
+*** NOTE ***
+You must navigate to the docker directory before executing the commands below
+	- cd [path to docker container]
+```
 - docker uses project name as folder name
 - possible to run multiple pre-prod instances with different variables being entered into `.env` in global variable
   - must not conflict; cannot have two that are both 0, 0; must be 0, 1 **OR** 0, 2
 
-### stop, resume, monitor docker processes
-- navigate to docker directory
-  - ```
-    cd /home/[username]/.../[directory with docker container] 
-    ```
-- stop docker process
-  - ```
-    docker compose down
-    ```
-- resume docker process
-  - ```
-    docker compose up
-    ```
-- show and follow docker logs
-  - ```
-    docker compose logs -f
-    ```
-- detach command
-  - at the end of any docker command above type `space` then `-d` 
+### commands
+
+| **COMMAND**			| **USE**					| **NOTES**												|
+| ---------			| ------------					| ----------												|
+| `docker compose down`		| spin down docker container			| may take some time											|
+| `docker compose up -d`	| bring docker container back up 		| **MUST USE** `-d` of on-screen processes will run as long as container is up <br> `-d` means detached	|
+| `docker compose logs -f`	| shows process logs for **that** container	| continuously shows log entries <br> `CTRL + C` to stop						|
+| `docker volume ls`		| lists all docker volumes			| docker does not us `-` for ls										| 
+| `docker ps`			| lists all ports used by docker		| none													|
+| `docker down -v`		| purges volumes but `NOT containers`		| use carefully												|
+| `docker down`			| reinstantiates the containers ??		| not sure if the use-case is correct <br> use carefully						|
+| `docker compose logs haproxy`	| show logs related to `haproxy`		| can replace `haproxy` with another service running within the container				|
+| 
+
+### container & koios tip checks
+```
+must navigate to the appropriate container:
+	- cd [container path]
+```
+#### cardano-node-ogmios check
+Use:
+```
+docker inspect --format "{{json .State.Health }}" dandolite-preprod-cardano-node-ogmios-1 | jq
+```
+Output (or similar):
+```
+{
+  "Status": "healthy",
+  "FailingStreak": 0,
+  "Log": [
+    {
+      "Start": "2025-04-25T06:20:51.765056388-04:00",
+      "End": "2025-04-25T06:20:55.973940869-04:00",
+      "ExitCode": 0,
+      "Output": "NETWORK=preprod\nOK - Node sync progress: 100.00 %"
+    },
+    {
+      "Start": "2025-04-25T06:21:26.048605012-04:00",
+      "End": "2025-04-25T06:21:28.420051814-04:00",
+      "ExitCode": 0,
+      "Output": "NETWORK=preprod\nOK - Node sync progress: 100.00 %"
+    },
+    {
+      "Start": "2025-04-25T06:22:00.277662882-04:00",
+      "End": "2025-04-25T06:22:05.784163753-04:00",
+      "ExitCode": 0,
+      "Output": "NETWORK=preprod\nOK - Node sync progress: 100.00 %"
+    },
+    {
+      "Start": "2025-04-25T06:22:36.23304327-04:00",
+      "End": "2025-04-25T06:22:36.325506032-04:00",
+      "ExitCode": 0,
+      "Output": "NETWORK=preprod\nOK - Node sync progress: 100.00 %"
+    },
+    {
+      "Start": "2025-04-25T06:23:06.59659955-04:00",
+      "End": "2025-04-25T06:23:09.09397988-04:00",
+      "ExitCode": 0,
+      "Output": "NETWORK=preprod\nOK - Node sync progress: 100.00 %"
+    }
+  ]
+}
+```
+#### cardano-db-sync check
+Use:
+```
+docker inspect --format "{{json .State.Health }}" dandolite-preprod-cardano-db-sync-1 | jq
+```
+Ouput (or similar):
+```
+{
+  "Status": "healthy",
+  "FailingStreak": 0,
+  "Log": [
+    {
+      "Start": "2025-04-25T06:18:36.872086509-04:00",
+      "End": "2025-04-25T06:18:42.41664094-04:00",
+      "ExitCode": 0,
+      "Output": "Block table available\nOK 43 < 3600"
+    },
+    {
+      "Start": "2025-04-25T06:19:42.729241288-04:00",
+      "End": "2025-04-25T06:19:45.114280353-04:00",
+      "ExitCode": 0,
+      "Output": "Block table available\nOK 109 < 3600"
+    },
+    {
+      "Start": "2025-04-25T06:20:45.236456103-04:00",
+      "End": "2025-04-25T06:20:45.727457649-04:00",
+      "ExitCode": 0,
+      "Output": "Block table available\nOK 171 < 3600"
+    },
+    {
+      "Start": "2025-04-25T06:21:46.324527501-04:00",
+      "End": "2025-04-25T06:21:47.71038067-04:00",
+      "ExitCode": 0,
+      "Output": "Block table available\nOK 22 < 3600"
+    },
+    {
+      "Start": "2025-04-25T06:22:48.235770233-04:00",
+      "End": "2025-04-25T06:22:48.405765326-04:00",
+      "ExitCode": 0,
+      "Output": "Block table available\nOK 47 < 3600"
+    }
+  ]
+}
+```
+
+#### koios tip check
+Use:
+```
+curl http://127.0.0.1:8050/koios/v1/tip
+```
+Ouput:
+```
+{ }
+```
+
 
 ---
 
@@ -474,13 +504,9 @@ May require sudo for optimal output
   ```
 
 - NIC(s) drivers for `Aorus 870E Elite Wifi 7`
-  - Device-1: `Realtek RTW89_8922AE`
-    ```
-    - Type: wireless (aka wi-fi)
-    - Actions: automatically recognized by Linux Desktop 24.04 LTS
-    - Drivers Needed: none
-    - Issues: none
-    ```
+  ```
+  DO NOT INSTALL DRIVERS FOR THE NIC BELOW
+  ```
   - Device-2: `Realtek RTL8125 2.5GbE`
     ```
     - Type: hardware; 2.5 GbE
@@ -488,30 +514,8 @@ May require sudo for optimal output
     - Drivers Needed: NONE RECOMMENDED
     - Issues: UNSTABLE (see internet)
     ```
-<!--
-  - realtek driver website
-    - ```
-      https://www.realtek.com/Download/Index?cate_id=194&menu_id=297
-      ```
-  - device
-    - ```
-      wlp14s0
-      ```
-  - linux kernel driver
-    - ```
-      rtl8125
-      ```
-      - internet claims this is the wifi NIC
-	- specific linux github directory
-    - ```
-      https://github.com/torvalds/linux/blob/master/drivers/net/wireless/realtek/rtw89/rtw8922ae.c
-      ```
-  - PID (???)
-    - ```
-      10EC:8922
-      ```
-  - might need to `re-ENABLE` onboard NIC in BIOS to see in `lshw`
--->
+
+
 ---
 
 ## NAS, RAID and OTHERs
@@ -580,13 +584,6 @@ Governance around maintenance
 lspci -vnn | grep Wireless
 
 ————————————————————————————————————
-
-correct output for:
-
-docker inspect --format "{{json .State.Health }}" dandolite-preprod-cardano-node-ogmios-1 | jq
-docker inspect --format "{{json .State.Health }}" dandolite-preprod-cardano-db-sync-1 | jq
-
-￼
 
 —————— PREPROD BACKUP ———————————————
 
@@ -660,38 +657,6 @@ TECH PARTS
 
 ------VVVV----- ADDED ALREADY ------VVVV-----------
 
-### autocomplete using TAB
-- start typing path or directory and hit `TAB` to autcomplete
-  - if not autocomplete, hit `TAB` twice for list of 'paths'
-  - example
-    ```
-    ./scripts/dand   -> TAB key  —> ENTER
-    ```
-- to pause (and resume) large outputs
-  - pausing
-    ```
-    CTRL + S
-    ```
-  - resume
-    ```
-    CTRL + Q
-    ```
-
-### networking
-- check if any `connection` is active
-  - ```
-    ip -br a
-    ```
-- check `network map`
-  - ```
-    namp [your IP addess from (ip -br a)]/24
-    ```   
-
-### filesysten information
-- to see drive info including usage
-  - ```
-    df -h
-    ```
 
 **generate random chars**
 
