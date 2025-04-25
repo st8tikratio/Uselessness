@@ -22,16 +22,6 @@
 ```
 This section will contain all things Linux. From requirements, to utilities, to general and useful commands
 ```
-<!--
-1. [Download Linux ISO]()
-2. [Create a bootable drive]()
-3. [Utilities]()
-4. [Terminal commands]()
-	- [Updates & package management]()
-	- [General]()
-	- [Command flags]()
-5. [Other Linux websites]()
--->
 
 ## DOWNLOAD LINUX ISO
 ```
@@ -316,7 +306,6 @@ If output reads:
     - Command 'ipconfig' not found, did you mean:
 You will need to install using:
     - sudo apt install [pkg name]
-
 ```
 
 | **FUNCTION**  				| **CMD or ACTION** 				| 	**NOTES**										|
@@ -335,9 +324,6 @@ You will need to install using:
 | `lspci -vnn | grep Wireless`				| shows in-use wireless device information	| immediately returns cmd prompt if no wireless adapter installed |
 | `lspci -vnn | grep Wireless`				| shows in-use ethernet device information	| immediately returns cmd prompt if no wireless adapter installed |
 | `lsblk`						| shows physical and virtual drives	| using `sudo` makes no difference	| 
-
-
-
 
 ### sensors
 - more sensor information
@@ -426,9 +412,7 @@ You should set 'KillUserProcesses=no' on '/etc/systemd/logind.conf' and run 'sys
 | `docker down`			| reinstantiates the containers ??		| not sure if the use-case is correct <br> use carefully						|
 | `docker compose logs haproxy`	| show logs related to `haproxy`		| can replace `haproxy` with another service running within the container				|
 | `sudo systemctl status [container name].service`| provides status on all volumes within container	| must be in container directory 						|
-| `sudo systemctl stop [contianer name].service ` | shutdown a docker service				| must be in container directory									|
-
-
+| `sudo systemctl stop [contianer name].service ` | shutdown a docker service				| must be in container directory						|
 
 
 ### container & koios tip checks
@@ -534,8 +518,6 @@ Ouput:
 ```
 { }
 ```
-
-### other 
 
 ---
 
