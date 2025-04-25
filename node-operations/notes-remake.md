@@ -49,15 +49,26 @@ LTS means Long Term Support
 ```
 THIS SECTION can be expanded upon
 ```
-- boot to bootable disk from [above]()
+- boot to [bootable disk](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/notes-remake.md#create-a-bootable-drive)
+  ```
+  you may need to hit one of the following at node-system boot in order to change the boot sequence or boot to the Linux media:
+  - ESC
+  - F2
+  - F12
+  - or similar
+  there is typically a splash screen providing a BIOS/UEFI, Boot Order option
+  ```
 - click disc image in upper left-hand corner
   - follow instructions
   - when rebooting remove installation media
 - initial boot may take some time depending on your system and specs
 
 ## FIRST THINGS FIRST
-
-### CHANGE SWAP FILE RESIZE
+```
+If node is already installed spin-down the docker containers:
+  - docker compose down
+```
+### change swap file size
 - from default (8GB) to 40G
     ```
     swapon --show
@@ -69,9 +80,10 @@ THIS SECTION can be expanded upon
     sudo swapon 
     sudo reboot now
     ```
-### NETWORK & FIREWALL
+### network & firewall
+
 - This section is mostly for Desktop variants of Linux
-- For Server variant commands and setup [SEE HERE](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/pdfs/Ubuntu-Server-CLI_cheat-sheet-2024-v6.pdf)
+- For Server variant commands and setup see pg.2 [HERE](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/pdfs/Ubuntu-Server-CLI_cheat-sheet-2024-v6.pdf)
 
 #### setup firewall
 ```
@@ -84,10 +96,10 @@ The guides within these pages are just that, guides, with no warranty implied or
 Use at your own risk.
 ```
 
-##### install GUFW
-  ```
-  sudo apt install gufw
-  ```
+##### install GUFW - `graphical uncomplicated forewall`
+```
+sudo apt install gufw
+```
 - there should be a shield icon in programs or on desktop menu (Ubuntu Desktop only)
 	1. Double-click UFW icon (shield with diagnol stripe)
 	2. Turn firewall on, click slider
@@ -101,14 +113,21 @@ Use at your own risk.
 	10. Click on Add
 - REPEAT ABOVE for Haproxy on port 8053
 
+#### terminal commands
+- allows [port] for TCP
+	```
+	sudo ufw allow <port>/tcp
+	```
+- for more UFW commands go [HERE](https://manpages.ubuntu.com/manpages/xenial/man8/gufw.8.html)
+
 #### communication ports
   
-| **SERVICE**		|  **PORT**	| **STANDARD** 	| **DIRECTION**	|
-| ------------	| ----------	| ----------	| ----------	|
-| Cardano Node	| 3001		| TCP		| Inbound	|
-| Haproxy	| 8053		| TCP		| Inbound	|
-| Mainnet	| 3080		| TCP		| Inbound	|
-| Preprod	| 3081		| TCP		| Inbound	|
+| **SERVICE**	|  **PORT**	| **STANDARD** 	| **DIRECTION**	| **SETTING LOCATION**	|
+| ------------	| ----------	| ----------	| ----------	| -------------		|
+| Cardano Node	| 3001		| TCP		| Inbound	| Dandelion System	|
+| Haproxy	| 8053		| TCP		| Inbound	| Dandelion System	|
+| Mainnet	| 3080		| TCP		| Inbound	| Router/Gateway	|
+| Preprod	| 3081		| TCP		| Inbound	| Router/Gateway	|
 
 
 ## UTILITIES
@@ -127,7 +146,7 @@ Use at your own risk.
 
 ## TERMINAL COMMANDS (CLI)
 
-### UPDATES & PACKAGE MANAGEMENT
+### updates & package management
 ```
 Requires root privilege - `sudo` - for full usage
 
@@ -142,7 +161,7 @@ EXAMPLE: sudo apt search sensors
 | ```apt info [pkg name]``` 	| get information on a package				| limited output, 10-20 lines of info	|
 | ```apt remove [pkg name]```	| remove packages					| may request input <br> returns to prompt	|
 
-### GENERAL
+### general
 
 | **COMMAND**	| **ACTION**				 | **EXAMPLES**		| **OUTPUT**	|
 | ---------	| --------				 | --------  		| -------	|
@@ -154,7 +173,7 @@ EXAMPLE: sudo apt search sensors
 | ```lshw```	| list hardware			      	 | ```lshw --short``` 	||
 | ```which```	| which [package name]			 | ```which nano```	| shows path	|
 
-### COMMAND FLAGS
+### command flags
 ```
 Flags can be different between the operating system (Linux) and applications. The flags below are general Linux flags
 
@@ -202,7 +221,7 @@ Docker commands and related instructions
 2. [Resource Usage]()
 3. [Common errors & resource hogs]()
 -->
-### SERVER/NODE BUILD
+### server/node build
 ```
 - actual system build
 - purchased from NewEgg + Amazon
@@ -223,7 +242,7 @@ Docker commands and related instructions
 | [nic](https://www.newegg.com/intel-x550-t2/p/N82E16833106292?Item=9SIA4A0K9D5713)									| Lenovo/Intel		| X550-T2 	  	      		| ---				| 2 x RJ-45, 10GbE/5GbE/2.5GbE/1GbE/100Mb		| 120.99		|
 |																			| 			|					|				|			       **`TOTAL`** 		| `2371.72`		|
 
-### OBSERVED POWER USAGE
+### observed power usage
 ```
 Measurements taken with both MAINNET and PREPROD running
 
@@ -236,10 +255,10 @@ Measured from a Cyberpower 1500W Battery Backup
 | `output voltage`   | volts (V)   | 122                |     --           |
 | `output frequency` | hertz (Hz)  | 60                 |   --             |
 | **RANGED OBSERVATIONS** | | | |
-| power usage        | watts (W)    | 210  | 283  |
-| power draw         | volts (V)    | 204  | 218  |
+| `power usage`        | watts (W)    | 210  | 283  |
+| `power draw`         | volts (V)    | 204  | 218  |
 
-### RESOURCE USAGE
+### resource usage
 ```
 *** NOTE ***
 This section is for REFERENCE ONLY and is system-specific
@@ -258,7 +277,7 @@ Your dashboards may look different
 
 
 
-### COMMON ERRORS & RESOURCE HOGS
+### common errors & resource hogs
 - CPU_IOWAIT
   ```
   Examples:
@@ -299,12 +318,16 @@ You will need to install using:
 | `CTRL + Q`						| resume large outputs			| if `CTRL + S` worked, this will resume the output						|
 | `ip -br a`						| check network connectivity		| will show network device, ip address, and state						|
 | `nmap` [your ip address from **ip -br a**]/24		| map a devices IP Address		| the `/24` may be different, see `ip -br a` output						|
-|  `sudo lshw -short` <br> `sudo lshw -h`		| show hardware devices			| shows list of all hardware <br> use CTRL+F to search within output				|
+| `sudo lshw -short` <br> `sudo lshw -h`		| show hardware devices			| shows list of all hardware <br> use CTRL+F to search within output				|
 | `sudo lshw -json`					| shows hardware list in json format	| may want to save to file instead of screen output	|
-|  `df -h`						| show harddrives and usage		| shows every mounted drive and their respective values						|
+| `df -h`						| show harddrives and usage		| shows every mounted drive and their respective values						|
 | `sudo watch -n 1 -d sensors`				| show sensors, [x] seconds internval	| change `1` to whatever seconds for output refresh 						|
 | `inxi -Fxz`						| shows system info in pretty output	| requires installation			|
 | `sudo glances`					| shows realtime system ovrerview	| requires install <br> use `sudo` to see more details	|
+| `lspci -vnn | grep Wireless`				| shows in-use wireless device information	| immediately returns cmd prompt if no wireless adapter installed |
+| `lspci -vnn | grep Wireless`				| shows in-use ethernet device information	| immediately returns cmd prompt if no wireless adapter installed |
+| `lsblk`						| shows physical and virtual drives	| using `sudo` makes no difference	| 
+
 
 
 
@@ -376,6 +399,12 @@ You must navigate to the docker directory before executing the commands below
 - possible to run multiple pre-prod instances with different variables being entered into `.env` in global variable
   - must not conflict; cannot have two that are both 0, 0; must be 0, 1 **OR** 0, 2
 
+### autostart
+```
+VALIDITY ???
+You should set 'KillUserProcesses=no' on '/etc/systemd/logind.conf' and run 'systemctl restart systemd-logind'
+```
+
 ### commands
 
 | **COMMAND**			| **USE**					| **NOTES**												|
@@ -388,7 +417,11 @@ You must navigate to the docker directory before executing the commands below
 | `docker down -v`		| purges volumes but `NOT containers`		| use carefully												|
 | `docker down`			| reinstantiates the containers ??		| not sure if the use-case is correct <br> use carefully						|
 | `docker compose logs haproxy`	| show logs related to `haproxy`		| can replace `haproxy` with another service running within the container				|
-| 
+| `sudo systemctl status [container name].service`| provides status on all volumes within container	| must be in container directory 						|
+| `sudo systemctl stop [contianer name].service ` | shutdown a docker service				| must be in container directory									|
+
+
+
 
 ### container & koios tip checks
 ```
@@ -494,6 +527,7 @@ Ouput:
 { }
 ```
 
+### other 
 
 ---
 
@@ -536,143 +570,4 @@ Ouput:
   - Ceph is an open-source, distributed storage system
   - [documentation](https://docs.ceph.com/en/latest/releases/)
 
-<!--
 
----------------- ORGANIZE THE BELOW ------------------------
-
-cd ..
-
-
-cd into drive to to be copied
-sudo mv [target location] ../../[target-drive]
-	- use tab to insure correct path
-sudo nano etc/fstab
-	- remove old directory path down to just /home
-reboot
-once logged delete old directory
-
-—————————————	
-
-
-- Preprod - /media/piza/bkup/svc/ada-pp-bkup —>   /media/piza/bkup/svc/ada-pp-bkup
-
-———————— DURING BACKUP STEPS —————————
-
-￼
-
-————————— AUTOSTART AS A SERVICE ————————
-
-You should set 'KillUserProcesses=no' on '/etc/systemd/logind.conf' and run 'systemctl restart systemd-logind'
-
-—————————————————————————
-
-Docker Shutdown
-
-sudo systemctl stop dandolite-preprod.service —> maybe dandelion-lite-preprod or whatever your container name is
-
-sudo systemctl status dandolite-preprod.service
-
-
-
-CSnapshot - Image Creation, minimize install
-Duck DNS alternative
-Test Failover
-Update notes for Dandelion install
-Governance around maintenance
-
-——————————————————————————
-
-lspci -vnn | grep Wireless
-
-————————————————————————————————————
-
-—————— PREPROD BACKUP ———————————————
-
-Start 303GB, end 320GB = 17GB backup
-First run, no location or some other path error; corrected per below
-Preprod backup start @ 1015hrs, end @ 1018:30
-
-—————— MAINNET BACKUP ————————
-
-303GB backup
-
-—————— SERVICES————————————————
-
-
-lsblk
-
-
--------- DOCKER NOTES -------------
-
-remove volumes docker
-docker volume ls
-
-For Mainnet Only
-docker down -v   > purges volumes not containers
-
-docker down > - will reinstantiate
-
----------- POSSIBLE CONTAINER ISSUES -------------
-
-Container deployment issue
-- option to select a volumes (option 1 = , option 2 = )
-- change in Docker configuration file
-- FIXED
-
-----
---------------------- ENV FILE ---------------------
-
-#Dandelion Network Information
-NODE_NAME="sunkiller-13"
-NODE_TICKER="sunk13"
-
-POST_GRES_PASSWORD= "create new password"
-
-UNIMATRIX_VERSION=1.0.3
-
-----------------------
-
-----
-haproxy default port 8053
-cardano node port comms -> 3ls
-
-3001
-
-sudo ufw allow <port>/tcp
-
-
-docker compose up -- in appropriate directory
-
-docker compose logs -f
-
--———————————————————————————
-
-TECH PARTS
-- Weastlinks Micro SD TF Card to 22pin SATA adapter card 2.5" hdd enclosure TF cards to 7+15 SATA converter
-- 7.9"x4.7"x2.9"ABS Waterproof Junction Box Project Enclosure w PC Cover Gray
-- https://www.newegg.com/p/0VN-004E-00025?Item=9SIA61HKCF0811
-- https://www.newegg.com/ssk-he-c327-enclosure/p/0VN-004N-00005?Item=9SIAZS4ERW7243
-- https://www.newegg.com/cooler-master-oracle-air-enclosure/p/N82E16817171237?Item=9SIA4REJXF5596
-- https://www.newegg.com/p/3C6-01A5-004X5?Item=9SIBTSNKBB0845
-- https://www.newegg.com/sabrent-ec-wpne-enclosure/p/0VN-0036-000D8?Item=9SIBK19K2E7435
-
-------VVVV----- ADDED ALREADY ------VVVV-----------
-
-
-**generate random chars**
-
-sudo apt install gpw
-gpw
-
-disk usage
-
-MAINNNET - 1.06TB
-
-PREPROD - 303GB
-￼
-
---VVV----- MY SYS RELATED DETAILS ----VVV--
-
-BACKUP PATH
-- Mainnet - /media/piza/bkup/svc/ada-main-bkup  —> /media/piza/bkup/svc/ada-main-bkup
--->
