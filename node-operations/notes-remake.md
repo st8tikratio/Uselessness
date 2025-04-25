@@ -1,5 +1,6 @@
 # ALL DANDO BUILD NOTES
 ### LINKS
+- [Official Dando-Lite Node Installation Repo](https://github.com/GameChangerFinance/dandelion-lite)
 - [Dandelion Node Operators meeting link - `JitSi`](https://meet.jit.si/moderated/d2b4d761960b5ead162c5f3e522166be2eef812bffd500a35b28f79885b18ffc)
 - [Node Runner Logs - Directory](https://github.com/st8tikratio/Uselessness/tree/main/node-operations/monthly-logs)
 ##### Starting 04 April 2025
