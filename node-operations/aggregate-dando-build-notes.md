@@ -119,7 +119,7 @@ sudo apt install gufw
 	```
 	sudo ufw allow <port>/tcp
 	```
-- for more UFW commands go [HERE](https://manpages.ubuntu.com/manpages/xenial/man8/gufw.8.html)
+- for more UFW commands go to the manual [HERE](https://manpages.ubuntu.com/manpages/xenial/man8/ufw.8.html)
 
 #### communication ports
   
