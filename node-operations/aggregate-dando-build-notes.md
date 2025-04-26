@@ -311,6 +311,8 @@ You will need to install using:
     - sudo apt install [pkg name]
 ```
 
+**NOTE:** `[pipe]` is `|`, same key as `\` or possibly above it
+
 | **FUNCTION**  				| **CMD or ACTION** 				| 	**NOTES**										|
 | --------------				 	| ----------				| -----------------										|
 |   when typing in the CLI use `TAB` to autocomplete	| autocomplete <br> list options	| `./scripts/dand`   -> `TAB` key  —> `ENTER`							|
@@ -324,8 +326,8 @@ You will need to install using:
 | `sudo watch -n 1 -d sensors`				| show sensors, [x] seconds internval	| change `1` to whatever seconds for output refresh 						|
 | `inxi -Fxz`						| shows system info in pretty output	| requires installation			|
 | `sudo glances`					| shows realtime system ovrerview	| requires install <br> use `sudo` to see more details	|
-| `lspci -vnn` `|grep` `Wireless`				| shows in-use wireless device information	| immediately returns cmd prompt if no wireless adapter installed |
-| `lspci -vnn |grep Wireless`				| shows in-use ethernet device information	| immediately returns cmd prompt if no wireless adapter installed |
+| `lspci -vnn [pipe] grep Wireless`			| shows in-use wireless device information	| immediately returns cmd prompt if no wireless adapter installed |
+| `lspci -vnn [pipe] grep Wireless`			| shows in-use ethernet device information	| immediately returns cmd prompt if no wireless adapter installed |
 | `lsblk`						| shows physical and virtual drives	| using `sudo` makes no difference	| 
 
 ### sensors
