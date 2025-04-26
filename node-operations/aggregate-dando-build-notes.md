@@ -260,6 +260,9 @@ Measured from a Cyberpower 1500W Battery Backup
 | `power draw`         | volts (V)    | 204  | 218  |
 
 ### resource usage
+
+For a more up to date usage see [Node Runner Logs - Directory](https://github.com/st8tikratio/Uselessness/tree/main/node-operations/monthly-logs)
+
 ```
 *** NOTE ***
 This section is for REFERENCE ONLY and is system-specific
