@@ -423,8 +423,8 @@ You should set 'KillUserProcesses=no' on '/etc/systemd/logind.conf' and run 'sys
 | `docker down -v`		| purges volumes but `NOT containers`		| use carefully												|
 | `docker down`			| reinstantiates the containers ??		| not sure if the use-case is correct <br> use carefully						|
 | `docker compose logs haproxy`	| show logs related to `haproxy`		| can replace `haproxy` with another service running within the container				|
-| `sudo systemctl status [container name].service`| provides status on all volumes within container	| must be in container directory 						|
-| `sudo systemctl stop [contianer name].service ` | shutdown a docker service				| must be in container directory						|
+| `sudo systemctl status [service name].service`| provides status on all volumes within container	| must be in container directory 						|
+| `sudo systemctl stop [service name].service ` | shutdown a docker service				| must be in container directory						|
 
 
 ### container & koios tip checks
