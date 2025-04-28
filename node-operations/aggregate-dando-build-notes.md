@@ -8,9 +8,6 @@
 - [Node Runner Logs - Directory](https://github.com/st8tikratio/Uselessness/tree/main/node-operations/monthly-logs)
 - [Ubuntu Manpage Repository - all manuals](https://manpages.ubuntu.com/)
 - [Linux Handbook](https://linuxhandbook.com/)
-- [Native RAID on Ubuntu Linux](https://www.digitalocean.com/community/tutorials/how-to-create-raid-arrays-with-mdadm-on-ubuntu)
-- [Manage RAID arrays on Ubuntu Linux](https://www.digitalocean.com/community/tutorials/how-to-manage-raid-arrays-with-mdadm-on-ubuntu-22-04)
-- [Cache'ing Linux RAID](https://www.kernel.org/doc/Documentation/md/raid5-cache.txt)
 
 ### ABOUT
 ```
