@@ -236,7 +236,7 @@ Docker commands and related instructions
 | [memory](https://www.newegg.com/nemix-ram-128gb/p/1X5-003Z-01FR6?Item=9SIA7S6K3T3025)								        | Nemix     		| DDR5 ECC Unbuffered UDIMM Memory	| ME38400-328K4			| DDR5, 4800MHz, 4x32GB			 		| 519.29		|	
 | [cpu](https://www.newegg.com/amd-ryzen-9-9950x-4-3-ghz-16-core-am5-170w-processor-100-100001277wof/p/N82E16819113841?Item=N82E16819113841)		| AMD	    		| Ryzen 9 - 9950X	  	  	| 100-100001277WOF    		| 16-Core; 4.3 GHz			 		| 538.99		|
 | [cpu cooler](https://www.newegg.com/be-quiet-liquid-cooling-system-black/p/N82E16835269032?Item=N82E16835269032)					| Be quiet! 		| Silent Loop 3     	  		| ---				| 420mm AIO				 		| 174.90		|
-| [motherboard](https://www.newegg.com/p/N82E16813145517?Item=N82E16813145517)										| Gigabyte  		| Aorus	         	  		| X870E AORUS ELITE WIFI7	| AM5, DDR5, 4xM.2, PCI-5		 		| 309.99		|
+| [motherboard](https://www.newegg.com/p/N82E16813145517?Item=N82E16813145517)										| Gigabyte  		| Aorus	         	  		| X870E AORUS ELITE WIFI7	| AM5, DDR5, 4xM.2, PCI-5 <br> `RAID 5 is only available on AMD Ryzen™ 9000 Series Processors`		 		| 309.99		|
 | [nvme](https://www.newegg.com/pny-2tb-cs2150-nvme-2-0/p/N82E16820177170?Item=N82E16820177170) 							| PNY	   		| CS2150	  	     		| M280CS2150-2TB-TB		| 2TB, PCI-Express 5.0 x4		 		| 179.99		|
 | [nvme](https://www.newegg.com/pny-2tb-cs2150-nvme-2-0/p/N82E16820177170?Item=N82E16820177170) 							| PNY	    		| CS2150	  	     		| M280CS2150-2TB-TB		| 2TB, PCI-Express 5.0 x4		 		| 179.99		|
 | [nvme](https://www.newegg.com/western-digital-1tb-black-sn850x-nvme/p/N82E16820250243?Item=N82E16820250243)						| Western Digital	| BLACK SN850X NVMe			| WDS100T2X0E			| 1TB, PCI-Express 4.0 x4		 		| 0.00			|
