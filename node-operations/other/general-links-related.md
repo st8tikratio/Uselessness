@@ -2,12 +2,12 @@
 1. [SYS ADMIN](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#sys-admin)
 2. [REALTEK DRIVERS](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#realtek-driver)
 3. [HARDWARE FIREWALL & NETWORK MONITORING](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#hardware-firewall--network-monitoring)
-- [Open-Source Software Firewall](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#open-source-softtware-firewall)
-- [Micro-PCs With Dual-LAN](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#micro-pcs-with-dual-lan)
+  - [Open-Source Software Firewall](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#open-source-softtware-firewall)
+  - [Micro-PCs With Dual-LAN](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#micro-pcs-with-dual-lan)
 4. [RAID](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#raid)
-- [mdadm - Linux built-in](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#mdadm-linux-built-in)
-- [RAID Controllers](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#raid-controllers)
-- [Non-RAID Expansion](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#non-raid-expansion)
+  - [mdadm - Linux built-in](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#mdadm-linux-built-in)
+  - [RAID Controllers](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#raid-controllers)
+  - [Non-RAID Expansion](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#non-raid-expansion)
 
 ### SYS ADMIN
 - [**AMD DASH**](https://deviceon.gitbook.io/docs/out-of-band/amd-dash) - administration tool
