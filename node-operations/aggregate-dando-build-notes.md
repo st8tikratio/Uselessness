@@ -8,6 +8,7 @@
 - [Node Runner Logs - Directory](https://github.com/st8tikratio/Uselessness/tree/main/node-operations/monthly-logs)
 - [Ubuntu Manpage Repository - all manuals](https://manpages.ubuntu.com/)
 - [Linux Handbook](https://linuxhandbook.com/)
+- [Native RAID on Ubuntu Linux](https://www.digitalocean.com/community/tutorials/how-to-create-raid-arrays-with-mdadm-on-ubuntu)
 
 ### ABOUT
 ```
