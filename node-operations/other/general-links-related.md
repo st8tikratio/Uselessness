@@ -70,4 +70,5 @@ The idea with these is to create a PFSense/HW-Firewall/Traffic-Monitoring applia
 
 #### GUIDES
 - [Distributed file storage with a Ceph cluster on Raspberry Pi](https://www.hackster.io/shahizat/distributed-file-storage-with-a-ceph-cluster-on-raspberry-pi-f8158e)
+- [Tutorial: Using Ceph Distributed Storage Cluster on Bare Metal Cloud Services](https://blogs.oracle.com/cloud-infrastructure/post/tutorial-using-ceph-distributed-storage-cluster-on-bare-metal-cloud-services)
 
