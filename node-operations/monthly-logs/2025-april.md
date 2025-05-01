@@ -13,15 +13,15 @@ These notes will morph as times goes on while attempts are made at making them m
 ```
 ---
 ## INDEX
-- [30 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#30-april-2025)
+- [30 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#30-april-2025)
   ```
   1156 UTC -- Container/Volume check
   ``` 
-- [29 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#29-april-2025)
+- [29 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#29-april-2025)
   ```
   2256 UTC -- Container/Volume check
   ``` 
-- [28 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#28-april-2025)
+- [28 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#28-april-2025)
   ```
   1839 UTC -- NOTE: Took 19 minutes for Hasura to come online
   1833 UTC -- Container/Volume check
@@ -30,7 +30,7 @@ These notes will morph as times goes on while attempts are made at making them m
   1747 UTC -- 100% Mainnet sync
   1330 UTC -- Container/volumes size check
   ```
-- [27 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#27-april-2025)
+- [27 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#27-april-2025)
   ```
   1331 UTC - Local sync check - 89.13%
   1258 - 1227 UTC -- Network usage
@@ -41,7 +41,7 @@ These notes will morph as times goes on while attempts are made at making them m
   1208 UTC -- Check TBW of container drive - nvme0n1
   1155 UTC -- Container/Volume size check
   ``` 
-- [26 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#26-april-2025)
+- [26 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#26-april-2025)
   ```
   2102 UTC -- Sync check at ~84%
   2100 UTC -- Brought down and back up both nodes
@@ -50,7 +50,7 @@ These notes will morph as times goes on while attempts are made at making them m
   1246 UTC -- Uptime: 00:003:22:48 (yy:ddd:hh:mm)
   1237 UTC -- Container size check -> significant changes over 21:56 (hh:mm)
   ```
-- [25 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#25-april-2025)
+- [25 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#25-april-2025)
   ```
   1431 UTC -- Container size check
   1035 UTC -- System temps
@@ -61,13 +61,13 @@ These notes will morph as times goes on while attempts are made at making them m
             - curl http://127.0.0.1:8050/koios/v1/tip
   1000 UTC -- Container size checks
   ```
-- [24 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#24-april-2025)
+- [24 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#24-april-2025)
   ```
   Error -- Cardano dbSync error persisted; see below; fixed as of 25 April 2025
   Spun down both nodes and brought them back up; reinitialized postgres on both nodes
   Containers size checks
   ```
-- [23 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#23-april-2025)
+- [23 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#23-april-2025)
   ```
   Performed final container/volume checks
   Checked port availability for both nodes using both traceroute (MacOS) & nmap (Linux)
@@ -76,41 +76,41 @@ These notes will morph as times goes on while attempts are made at making them m
   ERROR - Cardano db-sync
   Executed multiple checks: volume size, disk usage, container size, etc.
   ```
-- [22 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#22-april-2025)
+- [22 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#22-april-2025)
   ```
   Finalized setup
   Created server.pem
   Removed & re-initialized both mainnet_postgresdb & preprod_postgresdb
   ```
-- [21 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#21-april-2025)
+- [21 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#21-april-2025)
   ```
   Spun down both nodes
   Rebuilt home network
   ```
-- [20 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#20-april-2025)
+- [20 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#20-april-2025)
   ```
   TBW (terabytes written) on nvme1n1 & container size checks on both nodes
   ```
-- [19 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#19-april-2025)
+- [19 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#19-april-2025)
   ```
   Container checks on both nodes
   ```
-- [18 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#18-april-2025)
+- [18 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#18-april-2025)
   ```
   TBW on nvme1n1 & container check on both nodes
   ```
-- [17 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#17-april-2025)
+- [17 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md.md#17-april-2025)
   ```
   Drive health check using Smartmontools
   Container size check on both nodes
   ```
-- [16 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#16-april-2025)
+- [16 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md.md#16-april-2025)
   ```
   Multiple container size checks on both nodes
   New tools installed: smartmontools, iotop, htop
   Checked container stats using scripts for both nodes
   ```
-- [15 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#15-april-2025)
+- [15 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#15-april-2025)
   ```
   Changed max_wal_size to 2GB, later to 8GB
   Check postgres version
@@ -121,12 +121,12 @@ These notes will morph as times goes on while attempts are made at making them m
   Potential flase positive from dandoman.sh -> Docker Status
   Glances screen grab
   ```
-- [13 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#13-april-2025)
+- [13 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#13-april-2025)
   ```
   Glances pre-shutdown screen grab
   Glances post shutdown screen grab
   ```
-- [11 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#11-apr-2025)
+- [11 April](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#11-apr-2025)
   ```
   Issues with Glances and docker compose logs -f
   Error, process terminated, in logs above
@@ -161,8 +161,8 @@ Using:
 ---
 
 ##### 30 APRIL 2025
-- [CONTAINER CHECK - `1156 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#container-check---1156-utc)
-  - [MAINNET](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#mainnet) • [PREPROD](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#preprod)
+- [CONTAINER CHECK - `1156 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#container-check---1156-utc)
+  - [MAINNET](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#mainnet) • [PREPROD](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#preprod)
 
 ## CONTAINER CHECK - `1156 UTC`
 Changes:
@@ -201,8 +201,8 @@ Using:
 
 
 ##### 29 APRIL 2025
-- [CONTAINER CHECK - `2256 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#container-check---2256-utc)
-  - [MAINNET](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#mainnet-1) • [PREPROD](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#preprod-1)
+- [CONTAINER CHECK - `2256 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#container-check---2256-utc)
+  - [MAINNET](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#mainnet-1) • [PREPROD](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#preprod-1)
 
 ## CONTAINER CHECK - `2256 UTC`
 Changes:
@@ -240,13 +240,13 @@ Using:
 ---
 
 ##### 28 APRIL 2025
-- [CONTAINER CHECK -- `1833 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#container-check---1833-utc)
-  - [MAINNET](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#mainnet) • [PREPROD](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#preprod)
-- [ALLOW DANDOLITE-PREPROD TO START ON SYS STARTUP - `1824 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#allow-dandolite-preprod-to-start-on-sys-startup---1824-utc)
-- [CREATE BACKUP OF PREPROD & MAINNET NODE - `1810 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#create-backup-of-preprod--mainnet-node---1810-utc)
-- [MONITORED MAINNET NODE SYNC - `1747 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#monitored-mainnet-node-sync---1747-utc)
-- [CONTAINER SiZE CHECK - `1330 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#containervolume-size-check---1330-utc)
-  - [MAINNET](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#mainnet) • [PREPROD](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#preprod)
+- [CONTAINER CHECK -- `1833 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#container-check---1833-utc)
+  - [MAINNET](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#mainnet) • [PREPROD](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/a2025-apr.md#preprod)
+- [ALLOW DANDOLITE-PREPROD TO START ON SYS STARTUP - `1824 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#allow-dandolite-preprod-to-start-on-sys-startup---1824-utc)
+- [CREATE BACKUP OF PREPROD & MAINNET NODE - `1810 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#create-backup-of-preprod--mainnet-node---1810-utc)
+- [MONITORED MAINNET NODE SYNC - `1747 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#monitored-mainnet-node-sync---1747-utc)
+- [CONTAINER SiZE CHECK - `1330 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#containervolume-size-check---1330-utc)
+  - [MAINNET](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#mainnet) • [PREPROD](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#preprod)
  
 ## CONTAINER CHECK - `1833 UTC`
 Changes:
@@ -418,21 +418,21 @@ Using:
 ---
 
 ##### 27 APRIL 2025
-- [OBSERVATIONS](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#observations)
-  - [SYNC - `1331 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#sync---1331-utc)
-    - [graphql](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#graphql)
-  - [RESOURCE USAGE - `1329 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#resource-usage---1329-utc)
-  - [NETWORK USAGE - `1258-1327 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#network-usage---1258-1327-utc)
-    - [mainnet](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#mainnet) • [preprod](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#preprod)
-  - [NODE STATS - `1255 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#node-stats---1255-utc)
-    - [mainnet](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#mainnet-1) • [preprod](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#preprod-1)
-  - [MAINNET - DOCKER DOWN - `1246 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#mainnet---docker-down---1246-utc)
-    - [observations](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#observations-1)
-  - [PREPROD - DOCKER DOWN - `1246 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#preprod---docker---1246-utc)
-    - [observations](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#observations-2) 
-- [TBW CHECK - `NVME0N1` - `1208 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#tbw-check-nvme0n1---1208-utc)
-- [CONTAINER/VOLUME SIZE CHECK - `1155 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#containervolume-size-check---1155-utc)
-  - [MAINNET](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#mainnet) • [PREPROD](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#preprod)
+- [OBSERVATIONS](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#observations)
+  - [SYNC - `1331 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#sync---1331-utc)
+    - [graphql](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#graphql)
+  - [RESOURCE USAGE - `1329 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#resource-usage---1329-utc)
+  - [NETWORK USAGE - `1258-1327 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#network-usage---1258-1327-utc)
+    - [mainnet](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#mainnet) • [preprod](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#preprod)
+  - [NODE STATS - `1255 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#node-stats---1255-utc)
+    - [mainnet](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#mainnet-1) • [preprod](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#preprod-1)
+  - [MAINNET - DOCKER DOWN - `1246 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#mainnet---docker-down---1246-utc)
+    - [observations](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#observations-1)
+  - [PREPROD - DOCKER DOWN - `1246 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#preprod---docker---1246-utc)
+    - [observations](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#observations-2) 
+- [TBW CHECK - `NVME0N1` - `1208 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#tbw-check-nvme0n1---1208-utc)
+- [CONTAINER/VOLUME SIZE CHECK - `1155 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#containervolume-size-check---1155-utc)
+  - [MAINNET](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#mainnet) • [PREPROD](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#preprod)
 
 ## OBSERVATIONS
 ### SYNC - `1331 UTC`
@@ -592,29 +592,29 @@ Using:
 ---
 
 ##### 26 APRIL 2025
-- [CHECK TBW OF NVMEs - 1445 UTC](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#check-tbw-of-nvmes---1445-utc)
-  - [NVME0N1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#nvme0n1---container-disk) • [NVME1N1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#nvme1n1---boot---disk) • [NVME2N1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#nvme2n1---backup-disk) 
-- [STATUS CHECK - INDIVIDUAL CONTAINERS - `1350 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#status-check---individual-volumes---1350-utc)
-  - [RUNNING FROM `SERVICES` - container drive](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#running-from-services-directory)
-    - [dandolite-mainnet-cardano-db-sync-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#dandolite-mainnet-cardano-db-sync-1)
-    - [dandolite-mainnet-cardano-token-registry-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#dandolite-mainnet-cardano-token-registry-1)
-    - [dandolite-mainnet-cardano-graphql-background-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#dandolite-mainnet-cardano-graphql-background-1)
-    - [dandolite-preprod-haproxy-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#dandolite-preprod-haproxy-1)
-    - [dandolite-preprod-cron-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#dandolite-preprod-cron-1)
-    - [dandolite-preprod-unimatrix-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#dandolite-preprod-unimatrix-1)
-    - [dandolite-preprod-cardano-node-ogmios-1 ](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#dandolite-preprod-cardano-node-ogmios-1)
-    - [dandolite-preprod-postgress-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#dandolite-preprod-postgress-1)
-    - [dandolite-preprod-cardano-sql-postgrest-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#dandolite-preprod-cardano-sql-postgrest-1)
-    - [dandolite-preprod-dandelion-postgrest-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#dandolite-preprod-dandelion-postgrest-1)
-    - [dandolite-preprod-postgrest-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#dandolite-preprod-postgrest-1)
-    - [dandolite-preprod-cardano-db-sync-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#dandolite-preprod-cardano-db-sync-1)
-    - [dandolite-preprod-cardano-graphql-server-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#dandolite-preprod-cardano-graphql-server-1)
-    - [dandolite-preprod-cardano-token-registry-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#dandolite-preprod-cardano-token-registry-1)
-    - [dandolite-preprod-cardano-graphql-hasura-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#dandolite-preprod-cardano-graphql-hasura-1)
-    - [dandolite-preprod-cardano-graphql-background-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#dandolite-preprod-cardano-graphql-background-1)
-- [UPTIME - `1246 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#uptime---1246-utc)
-- [CONTAINER CHECK - `1237 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#container-check---1237-utc)
-  - [MAINNET](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#mainnet) • [PREPROD](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/apr-2025.md#preprod) 
+- [CHECK TBW OF NVMEs - 1445 UTC](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#check-tbw-of-nvmes---1445-utc)
+  - [NVME0N1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#nvme0n1---container-disk) • [NVME1N1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#nvme1n1---boot---disk) • [NVME2N1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#nvme2n1---backup-disk) 
+- [STATUS CHECK - INDIVIDUAL CONTAINERS - `1350 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#status-check---individual-volumes---1350-utc)
+  - [RUNNING FROM `SERVICES` - container drive](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#running-from-services-directory)
+    - [dandolite-mainnet-cardano-db-sync-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#dandolite-mainnet-cardano-db-sync-1)
+    - [dandolite-mainnet-cardano-token-registry-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#dandolite-mainnet-cardano-token-registry-1)
+    - [dandolite-mainnet-cardano-graphql-background-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#dandolite-mainnet-cardano-graphql-background-1)
+    - [dandolite-preprod-haproxy-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#dandolite-preprod-haproxy-1)
+    - [dandolite-preprod-cron-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#dandolite-preprod-cron-1)
+    - [dandolite-preprod-unimatrix-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#dandolite-preprod-unimatrix-1)
+    - [dandolite-preprod-cardano-node-ogmios-1 ](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#dandolite-preprod-cardano-node-ogmios-1)
+    - [dandolite-preprod-postgress-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#dandolite-preprod-postgress-1)
+    - [dandolite-preprod-cardano-sql-postgrest-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#dandolite-preprod-cardano-sql-postgrest-1)
+    - [dandolite-preprod-dandelion-postgrest-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#dandolite-preprod-dandelion-postgrest-1)
+    - [dandolite-preprod-postgrest-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#dandolite-preprod-postgrest-1)
+    - [dandolite-preprod-cardano-db-sync-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#dandolite-preprod-cardano-db-sync-1)
+    - [dandolite-preprod-cardano-graphql-server-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#dandolite-preprod-cardano-graphql-server-1)
+    - [dandolite-preprod-cardano-token-registry-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#dandolite-preprod-cardano-token-registry-1)
+    - [dandolite-preprod-cardano-graphql-hasura-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#dandolite-preprod-cardano-graphql-hasura-1)
+    - [dandolite-preprod-cardano-graphql-background-1](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#dandolite-preprod-cardano-graphql-background-1)
+- [UPTIME - `1246 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#uptime---1246-utc)
+- [CONTAINER CHECK - `1237 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#container-check---1237-utc)
+  - [MAINNET](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#mainnet) • [PREPROD](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/monthly-logs/2025-apr.md#preprod) 
 
 ## CHECK TBW OF NVMEs - `1445 UTC`
 ### NVME0N1 - Container Disk
@@ -1059,17 +1059,17 @@ Using:
 ---
 
 ##### 25 APRIL 2025
-- [CONTAINER CHECK - `1431 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#contatiner-check---1431-utc)
-  - [MAINNET](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#mainnet) • [PREPROD](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#preprod)
-- [SYSTEM TEMPS - `1035 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#system-temps-1035-utc)
-- [UP TIME](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#uptime)
-- [VOLUME SCRIPT CHECKS & KOIOS TIP - `1020 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#volume-script-checks--koios-tip)
-  - [MAINNET](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#mainnet)
-    - [cardano-dbsync check](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#cardano-dbsync-check) • [ogmios check](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#ogmios-check) • [koios tip](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#koios-tip-check)
-  - [PREPROD](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#preprod)
-    - [cardano-dbsync check](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#cardano-dbsync-check-1) • [ogmios check](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#ogmios-check-1) • [koios tip](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#koios-tip-check-1)
-- [CONTAINER CHECK - `1000 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#contatiner-check---1000-utc)
-  - [MAINNET](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#mainnet) • [PREPROD](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#preprod)
+- [CONTAINER CHECK - `1431 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#contatiner-check---1431-utc)
+  - [MAINNET](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#mainnet) • [PREPROD](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#preprod)
+- [SYSTEM TEMPS - `1035 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#system-temps-1035-utc)
+- [UP TIME](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#uptime)
+- [VOLUME SCRIPT CHECKS & KOIOS TIP - `1020 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#volume-script-checks--koios-tip)
+  - [MAINNET](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#mainnet)
+    - [cardano-dbsync check](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#cardano-dbsync-check) • [ogmios check](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#ogmios-check) • [koios tip](https://github.com/st8tikratio/Uselessness/blob/main/node-operations2025-apr.md#koios-tip-check)
+  - [PREPROD](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#preprod)
+    - [cardano-dbsync check](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#cardano-dbsync-check-1) • [ogmios check](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#ogmios-check-1) • [koios tip](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#koios-tip-check-1)
+- [CONTAINER CHECK - `1000 UTC`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#contatiner-check---1000-utc)
+  - [MAINNET](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#mainnet) • [PREPROD](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#preprod)
 
 ## CONTATINER CHECK - `1431 UTC`
 Changes:
@@ -1393,10 +1393,10 @@ Using:
 ---
 
 ##### 24 APRIL 2025
-- [NOTES](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#notes)
-- [CONTAINER CEHCK](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#container-check---1303-utc)
-  - [MAINNET](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#mainnet)
-  - [PREPROD](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#preprod)
+- [NOTES](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#notes)
+- [CONTAINER CEHCK](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#container-check---1303-utc)
+  - [MAINNET](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#mainnet)
+  - [PREPROD](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#preprod)
  
 ## NOTES
 ```
@@ -1429,21 +1429,21 @@ Using:
 ---
 
 ##### 23 APRIL 2025
-- [FINAL VOLUMES CHECK](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#final-volume-check)
-  - [Mainnet](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#mainnet) • [Preprod](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#preprod)
-- [CHECK PORT AVAILABILITY](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#check-port-availability)
-  - [TRACEROUTE ON `MacOS`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#traceroute---macos)
-    - [mainnet](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#mainnet) • [preprod](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#preprod)
-  - [NMAP ON `Linux`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#nmap---linux)
-    - [mainnet](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#mainnet-1) • [preprod](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#preprod-1)
-- [SYSTEM UP TIME](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#system-up-time)
-- [MAINNET CHECKS](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#mainnet-checks)
-  - [Koios Tip Check](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#koios-tip-check) • [Cardano Db-Sync Check - `ERROR`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#cardano-dbsync---error) • [Ogmios Check](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#ogmios-check)
-- [GENERAL SYSTEM CHECKS](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#general-system-checks)
-  - [Check Drive Useage](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#check-drive-usage)
-  - [Check Volume Size, Sorted By Size](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#check-volume-size-sorted-by-size)
-- [CHECK CONTAINER SIZE](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#container-check---1428-utc)
-  - [Mainnet](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#mainnet) • [Preprod](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#preprod)
+- [FINAL VOLUMES CHECK](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#final-volume-check)
+  - [Mainnet](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#mainnet) • [Preprod](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#preprod)
+- [CHECK PORT AVAILABILITY](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#check-port-availability)
+  - [TRACEROUTE ON `MacOS`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#traceroute---macos)
+    - [mainnet](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#mainnet) • [preprod](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#preprod)
+  - [NMAP ON `Linux`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#nmap---linux)
+    - [mainnet](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#mainnet-1) • [preprod](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#preprod-1)
+- [SYSTEM UP TIME](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#system-up-time)
+- [MAINNET CHECKS](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#mainnet-checks)
+  - [Koios Tip Check](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#koios-tip-check) • [Cardano Db-Sync Check - `ERROR`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#cardano-dbsync---error) • [Ogmios Check](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/a2025-apr.md#ogmios-check)
+- [GENERAL SYSTEM CHECKS](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#general-system-checks)
+  - [Check Drive Useage](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#check-drive-usage)
+  - [Check Volume Size, Sorted By Size](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#check-volume-size-sorted-by-size)
+- [CHECK CONTAINER SIZE](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#container-check---1428-utc)
+  - [Mainnet](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#mainnet) • [Preprod](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#preprod)
 
 
 ## FINAL VOLUME CHECK
@@ -1696,11 +1696,11 @@ Finsihed the final setup processes - PEM & SSL & Dashboard updates
 ---
 
 ##### 21 APRIL 2025
-- [DANDELION NODE STATUSES](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#dandelion-node-status)
-- [GET DOMAIN AND SSL](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#get-domain-and-ssl)
-  - [Get Domain Using `No-IP`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#get-domain-using-no-ip) • [Setup Router](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#set-up-router)
-- [USEFUL LINKS & INFOS](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#useful-links--infos)
-  - [IP Infos](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#ip-infos) • [DDNS](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#ddns) • [Starlink](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#starlink)
+- [DANDELION NODE STATUSES](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#dandelion-node-status)
+- [GET DOMAIN AND SSL](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#get-domain-and-ssl)
+  - [Get Domain Using `No-IP`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#get-domain-using-no-ip) • [Setup Router](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#set-up-router)
+- [USEFUL LINKS & INFOS](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#useful-links--infos)
+  - [IP Infos](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#ip-infos) • [DDNS](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#ddns) • [Starlink](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#starlink)
 
 ## DANDELION NODE STATUS
 - brought down both Dando `Mainnet` and `Preprod`
@@ -1760,10 +1760,10 @@ The below are based on local router capabiltiies and settings
 ---
 
 ##### 20 APRIL 2025
-- [SYSTEM UP TIME](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#system-up-time)
-- [CONTAINER CHECK](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#container-check---1428-utc-1)
-  - [Mainnet](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#mainnet-1) • [Preprod](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#preprod-1)
-- [TBW CHECK ON `NVME1N1`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#tbw-check-on-nvme1n1---1431-utc)
+- [SYSTEM UP TIME](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#system-up-time)
+- [CONTAINER CHECK](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#container-check---1428-utc-1)
+  - [Mainnet](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#mainnet-1) • [Preprod](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#preprod-1)
+- [TBW CHECK ON `NVME1N1`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#tbw-check-on-nvme1n1---1431-utc)
 
 
 
@@ -1821,8 +1821,8 @@ Data Units Written:                 203,137,225 [104 TB]
 ---
 
 ##### 19 APRIL 2025
-- [CONTAINER CHECK](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#container-check---2017-utc)
-  - [Mainnet](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#mainnet-2) • [Preprod](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#preprod-2)
+- [CONTAINER CHECK](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#container-check---2017-utc)
+  - [Mainnet](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#mainnet-2) • [Preprod](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#preprod-2)
 
 ### CONTAINER CHECK - 2017 UTC
 Using:
@@ -1859,9 +1859,9 @@ dandolite-mainnet_postgresdb increased 96GB
 ---
 
 ##### 18 APRIL 2025
-- [CHECK TBW `nvme1n1`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#check-tbw-nvme1n1)
-- [CONTAINER SIZE CHECK](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#container-size-check-1146-utc)
-  - [Mainnet](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#mainnet-3) • [Preprod](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#preprod-3)
+- [CHECK TBW `nvme1n1`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#check-tbw-nvme1n1)
+- [CONTAINER SIZE CHECK](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#container-size-check-1146-utc)
+  - [Mainnet](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#mainnet-3) • [Preprod](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#preprod-3)
 
 ### CHECK TBW [nvme1n1]
 ```
@@ -1910,9 +1910,9 @@ Mainnet has increase 44GB since last check
 
 ##### 17 APRIL 2025
 
-- [PRIMARY NODE `DRIVE HEALTH` CHECK](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#primary-node-drive-health---from-smartmontools)
-- [CONTAINER SIZE CHECK](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#container-size-check-1303-utc)
-  - [mainnet](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#mainnet) • [preprod](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#preprod) 
+- [PRIMARY NODE `DRIVE HEALTH` CHECK](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#primary-node-drive-health---from-smartmontools)
+- [CONTAINER SIZE CHECK](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#container-size-check-1303-utc)
+  - [mainnet](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#mainnet) • [preprod](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#preprod) 
 
 ### PRIMARY NODE DRIVE HEALTH - `from smartmontools`
 Date/Time:
@@ -2019,17 +2019,17 @@ NONE
 
 
 ###### 16 APRIL 2025
-- [CONTAINER SIZE CHECK - EARLY AM](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#drive-stabilityusage)
-  - [mainnet](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#mainnet-2) • [preprod](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#preprod-2)
-- [CONTAINER SIZE CHECK - LATER PM](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#another-size-check-1835-utc)
-    - [mainnet](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#mainnet) • [preprod](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#preprod)
-- [TOOLS INSTALLED](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#other-tools)
-  - [Smartmontools](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#smartmontools) • [IOTOP](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#iotop) • [HTOP](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#htop)
-- [CONTAINER STATUSES via `dandoman.sh`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#statuses)
-  - [Mainnet](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#mainnet-1)
-    - [dandelion status](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#dandelion-status) • [ogmios check](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#ogmios-check) • [cardano dbsync check](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#cardano-dbsync-check) • [koios tip check](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#koios-tip)
-  - [Preprod](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#preprod-1)
-    - [dandelion status](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#dandelion-status-1) • [ogmios check](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#ogmios-check-1) • [cardano dbsync check](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#cardano-dbsync-check-1) • [koios tip check](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#koios-tip-1)
+- [CONTAINER SIZE CHECK - EARLY AM](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#drive-stabilityusage)
+  - [mainnet](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#mainnet-2) • [preprod](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#preprod-2)
+- [CONTAINER SIZE CHECK - LATER PM](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#another-size-check-1835-utc)
+    - [mainnet](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#mainnet) • [preprod](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#preprod)
+- [TOOLS INSTALLED](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#other-tools)
+  - [Smartmontools](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#smartmontools) • [IOTOP](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#iotop) • [HTOP](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#htop)
+- [CONTAINER STATUSES via `dandoman.sh`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#statuses)
+  - [Mainnet](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#mainnet-1)
+    - [dandelion status](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#dandelion-status) • [ogmios check](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#ogmios-check) • [cardano dbsync check](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#cardano-dbsync-check) • [koios tip check](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#koios-tip)
+  - [Preprod](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#preprod-1)
+    - [dandelion status](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#dandelion-status-1) • [ogmios check](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#ogmios-check-1) • [cardano dbsync check](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#cardano-dbsync-check-1) • [koios tip check](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#koios-tip-1)
    
 ### ANOTHER SIZE CHECK (1835 UTC)
 - Mainnet has increased by 32GB since this AM
@@ -2306,16 +2306,16 @@ you will notice { } - empty brackets before [username]bash, indicating you are o
 ```
 ---
 ###### 15 APRIL 2025
-- [CHANGE `wal_value` IN POSTGRES](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#change-wal-value-in-postgres)
-    - [Navigate to the correct directory and check `wal_value`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#navigate-into-the-correct-directory)
-    - [Change the `max_wal_size` value](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#changing-the-max_wal_size)
-- [CHECK POSTGRES VERSION](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#check-postgres-version)
-- [OBSERVED POWER USAGE](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#observed-power-usage)
-- [ROGUE PROCESS](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#rogue-process-postgresdb)
-- [REMOVING `postgresdb` CONTAINER & RE-INITIALIZING](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#removing-existing-container-and-re-implementing)
-- [DOCKER VOLUME SIZES](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#docker-volume-sizes)
-- [~~DOCKER'S FALSE POSITIVE~~ - `possibly inaccurate`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#dockers-false-positive)
-- [GLANCES SCREEN GRAB](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#glances-sys-overview)
+- [CHANGE `wal_value` IN POSTGRES](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#change-wal-value-in-postgres)
+    - [Navigate to the correct directory and check `wal_value`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#navigate-into-the-correct-directory)
+    - [Change the `max_wal_size` value](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#changing-the-max_wal_size)
+- [CHECK POSTGRES VERSION](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#check-postgres-version)
+- [OBSERVED POWER USAGE](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#observed-power-usage)
+- [ROGUE PROCESS](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#rogue-process-postgresdb)
+- [REMOVING `postgresdb` CONTAINER & RE-INITIALIZING](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#removing-existing-container-and-re-implementing)
+- [DOCKER VOLUME SIZES](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#docker-volume-sizes)
+- [~~DOCKER'S FALSE POSITIVE~~ - `possibly inaccurate`](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#dockers-false-positive)
+- [GLANCES SCREEN GRAB](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#glances-sys-overview)
 
 ### CHANGE `WAL VALUE` IN POSTGRES
 
@@ -2475,8 +2475,8 @@ and executed
 
 
 ###### 13 APRIL 2025
-- [PRE SHUTDOWN - GLANCES OVERVIEW](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#pre-shutdown)
-- [POST SHUTDOWN - GLANCES OVERVIEW](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#post-shutdown)
+- [PRE SHUTDOWN - GLANCES OVERVIEW](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#pre-shutdown)
+- [POST SHUTDOWN - GLANCES OVERVIEW](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#post-shutdown)
 
 ### Pre-shutdown
 - Primary drive sitting at `1.33 TB`
@@ -2505,8 +2505,8 @@ and executed
   ![galnces-postShutdown-13-apr-2025](https://github.com/user-attachments/assets/e2fd133a-5d6c-405b-b8c2-bc95f0b5431b)
 
 ##### 11 APR 2025
-- [ISSUES WITH GLANCES](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#issues-with-glances)
-- [DOCKER COMPOSE LOGS -F -- TERMINATION](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/apr-2025.md#shortly-after-the-above-the-log-terminated-with-the-following)
+- [ISSUES WITH GLANCES](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#issues-with-glances)
+- [DOCKER COMPOSE LOGS -F -- TERMINATION](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/2025-apr.md#shortly-after-the-above-the-log-terminated-with-the-following)
 
 ### Issues With Glances & `docker compose logs -f`
 ```
