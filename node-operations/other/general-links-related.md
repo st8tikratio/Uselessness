@@ -66,9 +66,9 @@ The idea with these is to create a PFSense/HW-Firewall/Traffic-Monitoring applia
 
 ### CEPH
 #### LINKS
-- https://forum.proxmox.com/threads/ceph-osd-creation-using-a-partition.58170/
-- https://pve.proxmox.com/pve-docs/pve-admin-guide.html#chapter_pveceph
-- https://docs.ceph.com/docs/nautilus/start/hardware-recommendations/
+- [ceph OSD creation using a partition](https://forum.proxmox.com/threads/ceph-osd-creation-using-a-partition.58170/)
+- [8. Deploy Hyper-Converged Ceph Cluster - `ProxMox`](https://pve.proxmox.com/pve-docs/pve-admin-guide.html#chapter_pveceph)
+- [Ceph - Hardware Recommendations](https://docs.ceph.com/docs/nautilus/start/hardware-recommendations/)
 
 #### GUIDES
 - [Distributed file storage with a Ceph cluster on Raspberry Pi](https://www.hackster.io/shahizat/distributed-file-storage-with-a-ceph-cluster-on-raspberry-pi-f8158e)
