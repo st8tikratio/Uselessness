@@ -9,7 +9,7 @@
     - [RAID Controllers](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#raid-controllers)
     - [Non-RAID Expansion](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#non-raid-expansion)
 5. [CEPH](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#ceph)
-    - [installs](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#installs)
+    - [links](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#links)
     - [guides](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#guides)
   
 
