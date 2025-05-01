@@ -8,6 +8,10 @@
     - [mdadm - Linux built-in](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#mdadm-linux-built-in)
     - [RAID Controllers](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#raid-controllers)
     - [Non-RAID Expansion](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#non-raid-expansion)
+5. [CEPH](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#ceph)
+    - [installs](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#installs)
+    - [guides](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#guides)
+  
 
 ### SYS ADMIN
 - [**AMD DASH**](https://deviceon.gitbook.io/docs/out-of-band/amd-dash) - administration tool
@@ -56,5 +60,11 @@ The idea with these is to create a PFSense/HW-Firewall/Traffic-Monitoring applia
 
 #### NON-RAID EXPANSION
 - [M2 slot SATA expansion controller - PCIe 3.0](https://www.amazon.com/SilverStone-Technology-ECS07-Expansion-SST-ECS07/dp/B0B8TV1QRG?crid=1ZZKVH5MM31Q0&dib=eyJ2IjoiMSJ9.O2X4ymdodbBMJGiHD4Psuocthj1rLj4ZUZH3fTlaL9dvyugduZ2zhceWN9zUEQBD4eanIQEWkZZb-AjLvaFyckB4acwxlotzo-n0bDV42ReBZXdmSb2mX1_NIj07HP_Tk2EnDLyR9CkicGl46yIQLunMhd76m_-bifvwz3TLE0I7QSYMCGkV80PhO17s8nuEOt2gLhxVgc9lK-2CMzIFAkoly4aIN5YdP41o3FYDgro.YNdgCApM2nS6_wEs8R4has1r-uXnDAZq-NNbTE51e34&dib_tag=se&keywords=%22raid+6%22+SAS+SATA+NVME+controller+%22gen+5%22&qid=1744920779&sprefix=raid+6+sas+sata+nvme+controller+gen+5+%2Caps%2C543&sr=8-6&ufe=app_do%3Aamzn1.fos.9fe8cbfa-bf43-43d1-a707-3f4e65a4b666)
-- 
+
+### CEPH
+#### LINKS
+- []()
+
+#### GUIDES
+- [Distributed file storage with a Ceph cluster on Raspberry Pi](https://www.hackster.io/shahizat/distributed-file-storage-with-a-ceph-cluster-on-raspberry-pi-f8158e)
 
