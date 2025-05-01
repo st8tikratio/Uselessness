@@ -11,6 +11,7 @@
 5. [CEPH](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#ceph)
     - [links](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#links)
     - [guides](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#guides)
+6. [UNRAID](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#unraid)
   
 
 ### SYS ADMIN
@@ -75,3 +76,7 @@ The idea with these is to create a PFSense/HW-Firewall/Traffic-Monitoring applia
 - [Tutorial: Using Ceph Distributed Storage Cluster on Bare Metal Cloud Services](https://blogs.oracle.com/cloud-infrastructure/post/tutorial-using-ceph-distributed-storage-cluster-on-bare-metal-cloud-services)
 - [Distributed Storage with CEPH](https://blog.miguens.one/posts/2021/06/distributed-storage-with-ceph/)
 
+---
+
+### UNRAID
+- [FAQ](https://forums.unraid.net/topic/46802-faq-for-unraid-v6/#findComment-511923)
