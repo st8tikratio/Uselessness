@@ -12,7 +12,7 @@
     - [links](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#links)
     - [guides](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#guides)
 6. [UNRAID](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#unraid)
-7. [Intrustion Detection, Packet Sniffers, pen-testing, OSINT](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#intrustion-detection--packet-sniffer--pen-testing--osint)
+7. [Intrustion Detection, Packet Sniffers, pen-testing, OSINT](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#itrusion-detection-packet-sniffer-pen-testing-osint)
 
 ### SYS ADMIN
 - [**AMD DASH**](https://deviceon.gitbook.io/docs/out-of-band/amd-dash) - administration tool
