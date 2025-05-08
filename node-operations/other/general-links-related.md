@@ -1,7 +1,7 @@
 # General Links Related To Node Operations/System Admin
 1. [SYS ADMIN](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#sys-admin)
 2. [REALTEK DRIVERS](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#realtek-driver)
-3. [HARDWARE FIREWALL & NETWORK MONITORING](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#hardware-firewall--network-monitoring)
+3. [FIREWALL](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#firewall)
     - [Open-Source Software Firewall](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#open-source-softtware-firewall)
     - [Micro-PCs With Dual-LAN](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#micro-pcs-with-dual-lan)
 4. [RAID](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#raid)
@@ -12,7 +12,7 @@
     - [links](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#links)
     - [guides](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#guides)
 6. [UNRAID](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#unraid)
-  
+7. [Intrustion Detection, Packet Sniffers, pen-testing, OSINT](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#intrustion-detection--packet-sniffer--pen-testing--osint)
 
 ### SYS ADMIN
 - [**AMD DASH**](https://deviceon.gitbook.io/docs/out-of-band/amd-dash) - administration tool
@@ -33,12 +33,17 @@
 
 ---
 
-### HARDWARE FIREWALL & NETWORK MONITORING
+### FIREWALL
 ```
 The idea with these is to create a PFSense/HW-Firewall/Traffic-Monitoring appliance that all service devices (servers, nodes, web-hosting, etc.) must pass through
 ```
 #### OPEN-SOURCE SOFTTWARE FIREWALL
-- [Pfsense](https://www.pfsense.org/)
+- [OPNsense v. PfSense: Which one? via `XDA-Developers`](https://www.xda-developers.com/should-you-use-opnsense-or-pfsense-in-your-home-lab/)
+- [pfsense Repo](https://github.com/pfsense/pfsense)
+  - [Download - reqs account registration](https://www.pfsense.org/download/)
+- Installation Links & Tutorials
+    - [`pfsense` - Budget 10gbe Install](https://drakeor.com/2021/04/14/setting-up-pfsense-as-a-router/)
+- []
 
 #### MICRO PCs WITH DUAL LAN
 - [ASRock - #1 -- website](https://www.asrockind.com/en-gb/4X4%20BOX-7640U)
@@ -80,3 +85,10 @@ The idea with these is to create a PFSense/HW-Firewall/Traffic-Monitoring applia
 
 ### UNRAID
 - [FAQ](https://forums.unraid.net/topic/46802-faq-for-unraid-v6/#findComment-511923)
+
+---
+
+### ITRUSION DETECTION, PACKET SNIFFER, PEN-TESTING, OSINT
+- [Snort - `owned by Cisco`](https://www.snort.org/downloads/#rule-downloads) • [Documentation](https://www.snort.org/documents)
+- [Wireshark - `by Wireshark Foundation`](https://www.wireshark.org/download.html)
+- [2025's Top OSINT Tools](https://hackread.com/2025-top-osint-tools-take-on-open-source-intel/)
