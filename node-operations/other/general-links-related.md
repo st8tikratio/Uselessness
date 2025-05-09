@@ -1,4 +1,6 @@
 # General Links Related To Node Operations/System Admin
+##### [freeBSD download](https://download.freebsd.org/releases/amd64/amd64/ISO-IMAGES/14.2/)
+
 1. [SYS ADMIN](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#sys-admin)
 2. [NICs](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#nics)
 2. [REALTEK DRIVERS](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#realtek-driver)
