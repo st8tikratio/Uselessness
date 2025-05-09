@@ -20,6 +20,9 @@
 ### LIST OF INTERFACE SPEEDS
 - [wiki](https://en.wikipedia.org/wiki/List_of_interface_bit_rates)
 
+### CABLING
+- [Blue Jeans Cables](https://www.bluejeanscable.com/index.htm)
+
 ### SYS ADMIN
 - [**AMD DASH**](https://deviceon.gitbook.io/docs/out-of-band/amd-dash) - administration tool
 
