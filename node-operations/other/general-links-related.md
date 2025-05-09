@@ -39,6 +39,12 @@
 ### NICs
 - [list#1](https://forums.servethehome.com/index.php?threads/list-of-nics-and-their-equivalent-oem-parts.20974)
 - [counterfeit](https://forums.servethehome.com/index.php?threads/comparison-intel-i350-t4-genuine-vs-fake.6917/)
+- [Intel i225/226 Issues](https://www.techpowerup.com/forums/threads/quad-port-802-3bz-2-5g-5g-nic-recommendation.336544/)
+
+#### standards ([802.3](https://en.wikipedia.org/wiki/IEEE_802.3))
+- 802.3ab - 1G BASE-T over twisted-pair
+- 802.3bz - 2.5/5G BASE-T over twisted-pair
+- 802.3an - 10G BASE-T over UTP
 
 #### old board available ports
 - 1x pci-e 2.0 x16
