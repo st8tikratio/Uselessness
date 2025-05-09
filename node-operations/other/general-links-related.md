@@ -37,6 +37,18 @@
 - [list#1](https://forums.servethehome.com/index.php?threads/list-of-nics-and-their-equivalent-oem-parts.20974)
 - [counterfeit](https://forums.servethehome.com/index.php?threads/comparison-intel-i350-t4-genuine-vs-fake.6917/)
 
+#### old board available ports
+- 1x pci-e 2.0 x16
+- 1x pci-e x1
+- 2x pci 2.2
+- 6x SATA-2
+
+#### new board available ports
+- 1x pci-e 4.0 x8 (with NVME m2B, m2C filled, otherwwise x16) - CPU
+- 0x pci-e 4.0 x4 (with NVME m2d, otherwise x4) - chipset
+- 1x pci-e 3.0 x2 - chipset
+- 4x SATA-3 - chipset
+
 #### pci 2.2
 - [wiki article](https://en.wikipedia.org/wiki/Peripheral_Component_Interconnect)
 
@@ -51,6 +63,7 @@
   - ends at 32
 - [Intel Pro - 4-port](https://www.amazon.com/Intel-1000-Quad-Adapter-EXPI9404PTL/dp/B00GS0RFUY?crid=8KE88EJ3AO15&dib=eyJ2IjoiMSJ9.mCXEUzQ5oQdkMQicUEk5SWSy3CuWr2cS77OPW6sZ1f2Ra3uh7Ug69autGaTveamEXIzOMo1joIi6lmWBUNA1bzUJatQ4Ae-KEcluHBid4DjbsZ8L_CwprrGRRXx0CgABiwi2FIqpuLULEg7kChGWN4ZiI9pIJlwjbRB_pqsE1iaPhC0Egdqtqmv20AA6dzqfoJEErFWfILCh_rv3NY8goQ0BEHY2OTcnLKHNZXwZREbppaLRfW4IHqla3hb8Zr1lz0ZP4NIAJnU3mlkBPvlSZkvHTj1mVoc7-iliyaXQKUg.piB4QBX8j23xeWRpyCsrZR68PaUU4rrTUwW1w72dSlA&dib_tag=se&keywords=%22pcie+x1%22+network+dell&qid=1746797294&s=electronics&sprefix=pcie+x1+network+dell%2Celectronics%2C81&sr=1-12)
 - [Dell YGCV4 Broadcom 5719 Quad Port 1Gbe Network PCI-E Ethernet Adapter - TMGR6](https://www.amazon.com/Dell-Broadcom-Network-Ethernet-Adapter/dp/B07SZ26NKR?crid=8KE88EJ3AO15&dib=eyJ2IjoiMSJ9.mCXEUzQ5oQdkMQicUEk5SWSy3CuWr2cS77OPW6sZ1f2Ra3uh7Ug69autGaTveamEXIzOMo1joIi6lmWBUNA1bzUJatQ4Ae-KEcluHBid4DjbsZ8L_CwprrGRRXx0CgABiwi2FIqpuLULEg7kChGWN4ZiI9pIJlwjbRB_pqsE1iaPhC0Egdqtqmv20AA6dzqfoJEErFWfILCh_rv3NY8goQ0BEHY2OTcnLKHNZXwZREbppaLRfW4IHqla3hb8Zr1lz0ZP4NIAJnU3mlkBPvlSZkvHTj1mVoc7-iliyaXQKUg.piB4QBX8j23xeWRpyCsrZR68PaUU4rrTUwW1w72dSlA&dib_tag=se&keywords=%22pcie+x1%22+network+dell&qid=1746797294&s=electronics&sprefix=pcie+x1+network+dell%2Celectronics%2C81&sr=1-10#averageCustomerReviewsAnchor)
+- [Intel PRO/1000 PT Quad Port Server Adapter](https://www.amazon.com/Intel-1000-Quad-Server-Adapter/dp/B000JLF4FG?crid=LP2XMYKVH71V&dib=eyJ2IjoiMSJ9.zG7ccp_K3iC46DwYqyRmv2JleLxn5ReSasg8dXkyXQavp08mASvmrFiA0Mjm7WpgBqxPWDPJrM17MRBASb1C2_qW_nJ3SG99vgYueNEUz1I.bNKIxZqM6fCoMm6wSHKE0N_wknZhX0AKjw9xvCuL-R8&dib_tag=se&keywords=EXPI9404PT&qid=1746713375&s=electronics&sprefix=expi9404pt%2Celectronics%2C297&sr=1-1#averageCustomerReviewsAnchor)    
 
 #### pci-e 2.x x4
 - pin out: `11 + 21`
@@ -103,6 +116,11 @@ The idea with these is to create a PFSense/HW-Firewall/Traffic-Monitoring applia
 #### NON-RAID EXPANSION
 - [M2 slot SATA expansion controller - PCIe 3.0](https://www.amazon.com/SilverStone-Technology-ECS07-Expansion-SST-ECS07/dp/B0B8TV1QRG?crid=1ZZKVH5MM31Q0&dib=eyJ2IjoiMSJ9.O2X4ymdodbBMJGiHD4Psuocthj1rLj4ZUZH3fTlaL9dvyugduZ2zhceWN9zUEQBD4eanIQEWkZZb-AjLvaFyckB4acwxlotzo-n0bDV42ReBZXdmSb2mX1_NIj07HP_Tk2EnDLyR9CkicGl46yIQLunMhd76m_-bifvwz3TLE0I7QSYMCGkV80PhO17s8nuEOt2gLhxVgc9lK-2CMzIFAkoly4aIN5YdP41o3FYDgro.YNdgCApM2nS6_wEs8R4has1r-uXnDAZq-NNbTE51e34&dib_tag=se&keywords=%22raid+6%22+SAS+SATA+NVME+controller+%22gen+5%22&qid=1744920779&sprefix=raid+6+sas+sata+nvme+controller+gen+5+%2Caps%2C543&sr=8-6&ufe=app_do%3Aamzn1.fos.9fe8cbfa-bf43-43d1-a707-3f4e65a4b666)
 
+
+#### DRIVES
+- nvme - PNY, Samsung
+- ssd - Samsung
+- hdd - seagate exos x18+ & iron wolf pro
 
 ---
 
