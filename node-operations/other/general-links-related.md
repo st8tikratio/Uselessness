@@ -22,6 +22,8 @@
 
 ### CABLING
 - [Blue Jeans Cables](https://www.bluejeanscable.com/index.htm)
+- [10G Horizontal Cabling Choices](https://web.archive.org/web/20150221082358/http://www.siemon.com/us/white_papers/06-01-10_10G-horizontal-cabling-choices.asp)
+
 
 ### SYS ADMIN
 - [**AMD DASH**](https://deviceon.gitbook.io/docs/out-of-band/amd-dash) - administration tool
