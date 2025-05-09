@@ -1,5 +1,6 @@
 # General Links Related To Node Operations/System Admin
 1. [SYS ADMIN](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#sys-admin)
+2. [NICs](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#nics)
 2. [REALTEK DRIVERS](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#realtek-driver)
 3. [FIREWALL](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#firewall)
     - [Open-Source Software Firewall](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#open-source-softtware-firewall)
@@ -30,6 +31,41 @@
     ```
     https://github.com/torvalds/linux/blob/master/drivers/net/wireless/realtek/rtw89/rtw8922ae.c
     ```
+---
+
+### NICs
+- [list#1](https://forums.servethehome.com/index.php?threads/list-of-nics-and-their-equivalent-oem-parts.20974)
+- [counterfeit](https://forums.servethehome.com/index.php?threads/comparison-intel-i350-t4-genuine-vs-fake.6917/)
+
+#### pci 2.2
+- [wiki article](https://en.wikipedia.org/wiki/Peripheral_Component_Interconnect)
+
+#### pci-e x1
+- pin out: `11 + 7`
+  - ends at 18
+- **one full-duplex transmit lane - lane 0** 
+- [wiki article](https://en.wikipedia.org/wiki/PCI_Express#Comparison_table)
+
+#### pci-e x4
+- pin out: `11 + 21`
+  - ends at 32
+- [Intel Pro - 4-port](https://www.amazon.com/Intel-1000-Quad-Adapter-EXPI9404PTL/dp/B00GS0RFUY?crid=8KE88EJ3AO15&dib=eyJ2IjoiMSJ9.mCXEUzQ5oQdkMQicUEk5SWSy3CuWr2cS77OPW6sZ1f2Ra3uh7Ug69autGaTveamEXIzOMo1joIi6lmWBUNA1bzUJatQ4Ae-KEcluHBid4DjbsZ8L_CwprrGRRXx0CgABiwi2FIqpuLULEg7kChGWN4ZiI9pIJlwjbRB_pqsE1iaPhC0Egdqtqmv20AA6dzqfoJEErFWfILCh_rv3NY8goQ0BEHY2OTcnLKHNZXwZREbppaLRfW4IHqla3hb8Zr1lz0ZP4NIAJnU3mlkBPvlSZkvHTj1mVoc7-iliyaXQKUg.piB4QBX8j23xeWRpyCsrZR68PaUU4rrTUwW1w72dSlA&dib_tag=se&keywords=%22pcie+x1%22+network+dell&qid=1746797294&s=electronics&sprefix=pcie+x1+network+dell%2Celectronics%2C81&sr=1-12)
+- [Dell YGCV4 Broadcom 5719 Quad Port 1Gbe Network PCI-E Ethernet Adapter - TMGR6](https://www.amazon.com/Dell-Broadcom-Network-Ethernet-Adapter/dp/B07SZ26NKR?crid=8KE88EJ3AO15&dib=eyJ2IjoiMSJ9.mCXEUzQ5oQdkMQicUEk5SWSy3CuWr2cS77OPW6sZ1f2Ra3uh7Ug69autGaTveamEXIzOMo1joIi6lmWBUNA1bzUJatQ4Ae-KEcluHBid4DjbsZ8L_CwprrGRRXx0CgABiwi2FIqpuLULEg7kChGWN4ZiI9pIJlwjbRB_pqsE1iaPhC0Egdqtqmv20AA6dzqfoJEErFWfILCh_rv3NY8goQ0BEHY2OTcnLKHNZXwZREbppaLRfW4IHqla3hb8Zr1lz0ZP4NIAJnU3mlkBPvlSZkvHTj1mVoc7-iliyaXQKUg.piB4QBX8j23xeWRpyCsrZR68PaUU4rrTUwW1w72dSlA&dib_tag=se&keywords=%22pcie+x1%22+network+dell&qid=1746797294&s=electronics&sprefix=pcie+x1+network+dell%2Celectronics%2C81&sr=1-10#averageCustomerReviewsAnchor)
+
+#### pci-e 2.x x4
+- pin out: `11 + 21`
+  - ends at 32
+- [4-port Intel - i350-t4](https://www.cdw.com/product/intel-ethernet-server-adapter-i350-t4-network-adapter-pcie-2.1-x4-gig/3522854)
+- [broadcom bcm5719 - 4-port](https://www.cdw.com/product/broadcom-bcm5719-network-adapter-pcie-2.0-x4-gigabit-ethernet-x-4/7071661?pfm=srh)
+- 
+
+#### pci-e 4.0 x8
+- pin out: `11 + 38`
+  - ends at 49
+
+#### pci-e x16
+- - pin out: `11 + 71`
+  - ends at 82
 
 ---
 
