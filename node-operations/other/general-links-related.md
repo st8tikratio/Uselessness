@@ -17,6 +17,8 @@
 6. [UNRAID](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#unraid)
 7. [Intrustion Detection, Packet Sniffers, pen-testing, OSINT](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/other/general-links-related.md#itrusion-detection-packet-sniffer-pen-testing-osint)
 
+---
+
 ### LIST OF INTERFACE SPEEDS
 - [wiki](https://en.wikipedia.org/wiki/List_of_interface_bit_rates)
 
@@ -24,6 +26,9 @@
 - [Blue Jeans Cables](https://www.bluejeanscable.com/index.htm)
 - [10G Horizontal Cabling Choices](https://web.archive.org/web/20150221082358/http://www.siemon.com/us/white_papers/06-01-10_10G-horizontal-cabling-choices.asp)
 
+### CONNECTORS
+- [SFP+ to 10Gbase-T Adapter Module Buyers Guide](https://www.servethehome.com/sfp-to-10gbase-t-adapter-module-buyers-guide/)
+- [Wiitek SFP-10G-T Review 10Gbase-T Adapter](https://www.servethehome.com/wiitek-sfp-10g-t-review-10gbase-t-adapter/)
 
 ### SYS ADMIN
 - [**AMD DASH**](https://deviceon.gitbook.io/docs/out-of-band/amd-dash) - administration tool
