@@ -109,7 +109,19 @@
   - ends at 49
 - throughput: `80 Gbit/s` - ??
 
-
+##### 4-port nics (rj45)
+- [SFP Transceiver Module 10G - RJ45](https://www.cdw.com/product/axiom-uf-rj45-10g-ax-sfp-transceiver-module-10gbe/5877296?pfm=srh)
+- [Intel Ethernet Network Adapter E810-XXVDA2 - network adapter - PCIe 4.0 x8 - 10/25 Gigabit SFP28 x 2](https://www.cdw.com/product/intel-ethernet-network-adapter-e810-xxvda2-network-adapter-pcie-4.0-x8/6398905?pfm=srh)
+- [Intel Ethernet Network Adapter E810-XXVDA4 - network adapter - PCIe 4.0 x16 - 10/25 Gigabit SFP28 x 4](https://www.cdw.com/product/intel-ethernet-network-adapter-e810-xxvda4-network-adapter-pcie-4.0-x16/6236477?pfm=srh)
+- [Intel Ethernet Server Adapter I350-T4 - network adapter - PCIe 2.1 x4 - Gigabit Ethernet x 4](https://www.cdw.com/product/intel-ethernet-server-adapter-i350-t4-network-adapter-pcie-2.1-x4-gig/3522854?pfm=srh)
+- [Intel Ethernet Server Adapter I350-T4 - network adapter - PCIe 2.1 x4 - 1000Base-T x 4](https://www.cdw.com/product/intel-ethernet-server-adapter-i350-t4-network-adapter-pcie-2.1-x4-100/3533620?pfm=srh)
+- [Lenovo ThinkSystem NetXtreme By Broadcom - network adapter - PCIe 2.0 x4 - Gigabit Ethernet x 4](https://www.cdw.com/product/lenovo-thinksystem-netxtreme-by-broadcom-network-adapter-pcie-2.0-x4/4851903?pfm=srh)
+- [Broadcom 5719 - network adapter - Gigabit Ethernet x 4](https://www.cdw.com/product/broadcom-5719-network-adapter-gigabit-ethernet-x-4/4068748?pfm=srh)
+- [Broadcom BCM5719 - network adapter - PCIe 2.0 x4 - Gigabit Ethernet x 4](https://www.cdw.com/product/broadcom-bcm5719-network-adapter-pcie-2.0-x4-gigabit-ethernet-x-4/7071661)
+- [StarTech.com 4-Port 2.5Gbps PCIe Network Card, Computer Network Card, Intel I225, Multi-Gigabit Ethernet Interface Card](https://www.cdw.com/product/startech.com-4-port-2.5gbps-pcie-network-card-computer-network-card-intel/7598644?pfm=srh)
+- [StarTech.com 3 Port PCI Express USB 3.0 Card + Gigabit Ethernet - Fits Standard & Low-Profile PCs - UASP Supported TAA](https://www.cdw.com/product/startech.com-3-port-pci-express-usb-3.0-card-gigabit-ethernet-fits-stan/3681273?pfm=srh)
+- [Intel Ethernet Server Adapter I350-T4 - network adapter - PCIe 2.1 x4 - 1000Base-T x 4](https://www.cdw.com/product/intel-ethernet-server-adapter-i350-t4-network-adapter-pcie-2.1-x4-100/3533620?pfm=srh)
+- []()
 
 ---
 
