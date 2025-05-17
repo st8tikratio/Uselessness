@@ -555,7 +555,8 @@ Ouput:
 
 ---
 
-## POSTGRESS TUNING OUTPUT/SUGGESTIONS:
+# POSTGRESS 
+## TUNING OUTPUT/SUGGESTIONS:
 Using:
 ```
 https://pgtune.leopard.in.ua/
@@ -591,5 +592,36 @@ max_parallel_workers_per_gather = 4
 max_parallel_workers = 32
 max_parallel_maintenance_workers = 4
 ```
+Secondary Output @ 200 Connections:
+```
+# WARNING
+# this tool not being optimal
+# for very high memory systems
 
+# DB Version: 16
+# OS Type: linux
+# DB Type: mixed
+# Total Memory (RAM): 128 GB
+# CPUs num: 32
+# Connections num: 200
+# Data Storage: ssd
+
+max_connections = 200
+shared_buffers = 32GB
+effective_cache_size = 96GB
+maintenance_work_mem = 2GB
+checkpoint_completion_target = 0.9
+wal_buffers = 16MB
+default_statistics_target = 100
+random_page_cost = 1.1
+effective_io_concurrency = 200
+work_mem = 72315kB
+huge_pages = try
+min_wal_size = 1GB
+max_wal_size = 4GB
+max_worker_processes = 32
+max_parallel_workers_per_gather = 4
+max_parallel_workers = 32
+max_parallel_maintenance_workers = 4
+```
 ###### created by Ratio for the Broader Cardano Community
