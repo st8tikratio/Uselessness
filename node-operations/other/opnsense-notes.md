@@ -12,15 +12,23 @@
 - [Let's Encrypt - Getting Started](https://letsencrypt.org/getting-started/)
 - [With IPv6 do we need to use NAT anymore?](https://security.stackexchange.com/questions/44065/with-ipv6-do-we-need-to-use-nat-anymore)
 
-## DANDELION
+## CONSIDERATIONS
+
+### DDNS/SSL
+- maybe use NGINX
+
+### DANDELION
 - [NGINX](https://github.com/GameChangerFinance/dandelion-lite/blob/feat/nginx/scripts/ssl/setup_nginx.sh)
 
-## HARDWARE
+
+## FIREWALL SYSTEM
+
+### HARDWARE
 - Mobo - [`ASUS E4937_M4A785-M`](https://www.asus.com/supportonly/m4a785-m/helpdesk_manual/)
 - CPU - [`AM2, AMD Athlon X4 965, 4-Core`](https://www.cpu-world.com/CPUs/K10/AMD-Phenom%20II%20X4%20965%20Black%20Edition%20-%20HDZ965FBK4DGM%20(HDZ965FBGMBOX).html)
 - Memory - [`Mushkin Silverline, DDR2, 16GB`](https://www.newegg.com/mushkin-enhanced-4gb-240-pin-ddr2-sdram/p/N82E16820226089)
 - NIC - [`PCI-e 3.0 x8, 4-port Silicom PE310G4I40EU-T, 10G-Server-Adapter`](https://www.silicom-usa.com/pr/eol/pe310g4i40-t-ethernet-card/)
 
-## SOFTWARE
+### SOFTWARE
 - [OPNsense](https://docs.opnsense.org/index.html)
-- 
+ 
