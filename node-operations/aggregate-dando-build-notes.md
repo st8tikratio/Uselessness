@@ -19,6 +19,15 @@
 - These notes are as much for me as they are for YOU.
 - All links were current at time of writing
 ```
+---
+
+### QUICK CHECK:
+use for both Mainnet and Preprod
+```
+docker compose logs cardano-graphql-server -f
+&
+docker compose logs cardano-db-sync -f
+```
 
 ---
 
