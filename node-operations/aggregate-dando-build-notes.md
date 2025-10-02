@@ -115,7 +115,7 @@ sudo apt install gufw
 	1. Double-click UFW icon (shield with diagnol stripe)
 	2. Turn firewall on, click slider
 	3. Click on Rules
-	4. Click on Simople
+	4. Click on Simple
 	5. Name: create a name for this rule, i.e. c-node
 	6. Policy: Allow
 	7. Direction: In
