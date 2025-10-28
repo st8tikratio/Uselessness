@@ -1,5 +1,8 @@
 # TESTS FOR SYNC
-> you will need to know your node's IP address for the following processes
+```
+1. These tests can be ran on any Dando nodes
+2. You will need to know your node's IP address, or use localhost, for the following processes
+```
 ## with BLOCKFROST
 Command
 ```
