@@ -1,6 +1,8 @@
 # CHECK NODE PROCESSES
-1. Mainnet
-2. Preprod
+1. [Mainnet](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/mk2/check-node-processes.md#mainnet-mk2---commands--sample-outputs)
+2. [Preprod](https://github.com/st8tikratio/Uselessness/blob/main/node-operations/mk2/check-node-processes.md#preprod-mk2---commands--sample-outputs)
+
+
 ---
 
 ## MAINNET-MK2 - Commands & Sample Outputs
