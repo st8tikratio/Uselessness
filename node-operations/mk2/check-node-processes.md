@@ -2,7 +2,7 @@
 
 ---
 
-## MAINNET-MK2 - COMMANDS & SAMPLE OUTPUTS
+## MAINNET-MK2 - Commands & Sample Outputs
 
 #### HAPROXY
 Command
@@ -234,7 +234,7 @@ Output
 ```
 ---
 
-## PREPROD-MK2 - Commands & Outputs
+## PREPROD-MK2 - Commands & Sample Outputs
 #### HAPROXY
 Command
 ```
