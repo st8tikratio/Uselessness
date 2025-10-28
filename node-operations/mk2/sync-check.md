@@ -1,6 +1,6 @@
 # TESTS FOR SYNC
 > you will need to know your node's IP address for the following processes
-## with Blockfrost
+## with BLOCKFROST
 Command
 ```
 <node url>/blockfrost/api/v0/blocks/latest
@@ -47,3 +47,48 @@ Query
 
 ```
 Output
+
+## with TERMINAL/CONSOLE
+Command
+```
+docker inspect --format "{{json .State.Health }}" dandolite-mk2-mainnet-cardano-node-ogmios-1 | jq
+```
+Sample Output
+```
+{
+  "Status": "healthy",
+  "FailingStreak": 0,
+  "Log": [
+    {
+      "Start": "2025-10-28T11:04:56.877907116-04:00",
+      "End": "2025-10-28T11:04:57.101347254-04:00",
+      "ExitCode": 0,
+      "Output": "NETWORK=mainnet\nOK - Node sync progress: 88.99 %"
+    },
+    {
+      "Start": "2025-10-28T11:05:27.868486023-04:00",
+      "End": "2025-10-28T11:05:28.177965408-04:00",
+      "ExitCode": 0,
+      "Output": "NETWORK=mainnet\nOK - Node sync progress: 89.00 %"
+    },
+    {
+      "Start": "2025-10-28T11:05:58.87212335-04:00",
+      "End": "2025-10-28T11:05:59.056193591-04:00",
+      "ExitCode": 0,
+      "Output": "NETWORK=mainnet\nOK - Node sync progress: 89.00 %"
+    },
+    {
+      "Start": "2025-10-28T11:06:29.875364115-04:00",
+      "End": "2025-10-28T11:06:30.345131439-04:00",
+      "ExitCode": 0,
+      "Output": "NETWORK=mainnet\nOK - Node sync progress: 89.01 %"
+    },
+    {
+      "Start": "2025-10-28T11:07:00.891750808-04:00",
+      "End": "2025-10-28T11:07:01.014232924-04:00",
+      "ExitCode": 0,
+      "Output": "NETWORK=mainnet\nOK - Node sync progress: 89.02 %"
+    }
+  ]
+}
+```
