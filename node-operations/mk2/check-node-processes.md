@@ -1,5 +1,6 @@
 # CHECK NODE PROCESSES
-
+1. Mainnet
+2. Preprod
 ---
 
 ## MAINNET-MK2 - Commands & Sample Outputs
