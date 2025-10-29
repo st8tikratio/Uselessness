@@ -47,10 +47,24 @@ network	"mainnet"
 > this is on your node's main page
 Query
 ```
-
+query {
+  cardanoDbMeta {
+    syncPercentage
+    initialized
+  }
+}
 ```
-Output
-
+Sample Output
+```
+{
+  "data": {
+    "cardanoDbMeta": {
+      "syncPercentage": 35.046416274509625,
+      "initialized": false
+    }
+  }
+}
+```
 ## with TERMINAL/CONSOLE
 Command
 ```
