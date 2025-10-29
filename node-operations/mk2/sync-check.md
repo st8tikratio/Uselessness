@@ -4,6 +4,7 @@
 2. You will need to know your node's IP address, or use localhost, for the following processes
 ```
 ## with BLOCKFROST
+> You must have a Blockfrost API on your node
 Command
 ```
 <node url>/blockfrost/api/v0/blocks/latest
@@ -65,7 +66,7 @@ Sample Output
   }
 }
 ```
-## with TERMINAL/CONSOLE
+## with OGMIOS on   TERMINAL/CONSOLE
 Command
 ```
 docker inspect --format "{{json .State.Health }}" dandolite-mk2-mainnet-cardano-node-ogmios-1 | jq
